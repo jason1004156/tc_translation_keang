@@ -1,0 +1,118 @@
+{
+   "ai": {
+      "actions": {
+         "status_text": {
+            "running_to_light": "跑向光源",
+            "staying_near_light": "擁抱光源",
+            "consume_light": "吸收光源",
+            "spawning_whisper": "加深陰影"
+         }
+      }
+   },
+   "jobs": {
+      "lamplighter": {
+         "lamplighter_description": {
+            "display_name": "點燈師",
+            "description": "點燈師可以點亮光源，驅離黑暗，並確保光源不會熄滅",
+            "requirements": "由木匠製作"
+         },
+         "lamplighter_workbench": {
+            "lamplighter_workbench_ghost": {
+               "display_name": "點燈師的工作台",
+               "description": "需要來點光嗎？"
+            }
+         },
+         "lamplighter_staff": {
+            "display_name": "點燈師的光之杖",
+            "description": "轉職為點燈師的必要物品",
+            "flavor": "當黑暗靠近時，一雙穩定的手是保持光源的要件",
+            "lamplighter_staff_iconic": {
+               "display_name": "點燈師的光之杖",
+               "description": "轉職為點燈師的必要物品"
+            },
+            "lamplighter_staff_talisman": {
+               "display_name": "點燈師的光之杖",
+               "description": "轉職為點燈師的必要物品"
+            },
+            "lamplighter_outfit": {
+               "display_name": "點燈師的工作服",
+               "description": "看起來很明亮！"
+            }
+         },
+         "recipes": {
+            "workbench_recipe": {
+               "display_name": "點燈師的工作台",
+               "description": "讓燈籠點亮夜晚"
+            }
+         }
+      }
+   },
+   "entities": {
+      "resources": {
+         "biolumin_essence": {
+            "essence": {
+               "display_name": "光明精華",
+               "description": "微弱的光芒擊退了黑暗。閃耀著光芒。"
+            }
+         },
+         "essence_biolumin": {
+            "essence_biolumin_ghost": {
+               "display_name": "光明精華",
+               "description": "微弱的光芒擊退了黑暗。閃耀著光芒。"
+            }
+         }
+      },
+      "plants": {
+         "nightdew": {
+            "nightdew_ghost": {
+               "display_name": "夜光蘑菇",
+               "description": "會發光的蘑菇"
+            }
+         }
+      },
+      "monsters" : {
+         "hush" : {
+             "display_name" : "靜默者",
+             "description" : "不要跑"
+         },
+         "whisper" : {
+             "display_name" : "耳語者",
+             "description" : "具有利牙的陰影"
+         }
+     }
+   },
+    "data" : {
+        "biome" : {
+            "silent_woods": {
+                "display_name": "寂靜森林",
+                "description": "茂密的森林，深不見底的湖泊，狹長的谷地。傳聞是靜默者的出生地。",
+                "random_location_names": {
+                   "000": "幽暗深林"
+                }
+            }
+         },
+      "buffs": {
+         "spooked": {
+            "spooked_buff": {
+               "display_name": "畏怯",
+               "description": "我們可以讓這個地方亮一點嗎？"
+            }
+         }
+        }
+    },
+    "ui": {
+     "game": {
+       "menu": {
+         "crafter_menu": {
+           "items": {
+             "lamplighter": {
+               "display_name": "點燈師",
+               "description": "來點燈吧！",
+               "required_job_text": "需要來些燈嗎？"
+             }
+           }
+         }
+       }
+     }
+   }
+}

@@ -1,0 +1,134 @@
+{
+	"recipes" : {
+		"fence_10piece_recipe" : {
+			"recipe_name" : "柵欄x10",
+			"description" : "10個柵欄一次搞定！",
+			"flavor" : "請小心搬運"
+		},
+		"fence_cornerpiece_recipe" : {
+			"recipe_name" : "轉角柵欄",
+			"description" : "你知道要放在轉彎的地方對吧？",
+			"flavor" : "小心碰撞"
+		},
+		"fence_endpiece_recipe" : {
+			"recipe_name" : "端點柵欄",
+			"description" : "放在你想要結束的地方",
+			"flavor" : "凡事都有走到盡頭的一天"
+		},
+		"fence_extenderpiece_recipe" : {
+			"recipe_name" : "延伸柵欄",
+			"description" : "伸縮自如的柵欄",
+			"flavor" : "不是愈長就會愈好"
+		},
+		"fence_postpiece_recipe" : {
+			"recipe_name" : "單根柵欄",
+			"description" : "就是...一根木頭",
+			"flavor" : "不然呢？"
+		},
+		"fence_stairpiece_recipe" : {
+			"recipe_name" : "樓梯柵欄",
+			"description" : "符合樓梯角度的柵欄",
+			"flavor" : "步步高升"
+		},
+		"fence_tjunctionpiece_recipe" : {
+			"recipe_name" : "T字柵欄",
+			"description" : "三個方向一次滿足",
+			"flavor" : "T_T"
+		},
+		"fence_crosspiece_recipe" : {
+			"recipe_name" : "十字柵欄",
+			"description" : "四個方向一次滿足",
+			"flavor" : "你有聽過十字路口嗎？"
+		},
+		"wall_10piece_recipe" : {
+			"recipe_name" : "圍牆x10",
+			"description" : "10個圍牆一次搞定！",
+			"flavor" : "懶人專用"
+		},
+		"wall_cornerpiece_recipe" : {
+			"recipe_name" : "轉角圍牆",
+			"description" : "你知道要放在轉彎的地方對吧？",
+			"flavor" : "小心碰撞"
+		},
+		"wall_endpiece_recipe" : {
+			"recipe_name" : "端點圍牆",
+			"description" : "放在你想要結束的地方",
+			"flavor" : "覺得寂寞"
+		},
+		"wall_postpiece_recipe" : {
+			"recipe_name" : "單根圍牆",
+			"description" : "我不知道為什麼我要做這個",
+			"flavor" : "就...順便做的"
+		},
+		"wall_tjunctionpiece_recipe" : {
+			"recipe_name" : "T字圍牆",
+			"description" : "三個方向一次滿足",
+			"flavor" : "T_T"
+		},
+		"wall_crosspiece_recipe" : {
+			"recipe_name" : "十字圍牆",
+			"description" : "四個方向一次滿足",
+			"flavor" : "X在地圖上通常代表藏寶處"
+		}
+	},
+	"entities" : {
+		"construction" : {
+			"fence_10piece_ghost" : {
+				"description" : "他到底怎麼搬起來的？",
+				"name" : "柵欄x10"
+			},
+			"fence_cornerpiece_ghost" : {
+				"description" : "該轉彎囉",
+				"name" : "轉角柵欄"
+			},
+			"fence_endpiece_ghost" : {
+				"description" : "終點到囉！",
+				"name" : "端點柵欄"
+			},
+			"fence_extenderpiece_ghost" : {
+				"description" : "伸縮自如的柵欄",
+				"name" : "延伸柵欄"
+			},
+			"fence_postpiece_ghost" : {
+				"description" : "一根木頭",
+				"name" : "單根柵欄"
+			},
+			"fence_stairpiece_ghost" : {
+				"description" : "步步高升",
+				"name" : "樓梯柵欄"
+			},
+			"fence_tjunctionpiece_ghost" : {
+				"description" : "三個方向一次滿足",
+				"name" : "T字柵欄"
+			},
+			"fence_crosspiece_ghost" : {
+				"description" : "四個方向一次滿足",
+				"name" : "十字柵欄"
+			},
+			"wall_10piece_ghost" : {
+				"description" : "搬得動才有鬼",
+				"name" : "圍牆x10"
+			},
+			"wall_cornerpiece_ghost" : {
+				"description" : "該轉彎囉",
+				"name" : "轉角圍牆"
+			},
+			"wall_endpiece_ghost" : {
+				"description" : "終點到囉！",
+				"name" : "端點圍牆"
+			},
+			"wall_postpiece_ghost" : {
+				"description" : "不知道做來幹嘛",
+				"name" : "單根圍牆"
+			},
+			"wall_tjunctionpiece_ghost" : {
+				"description" : "三個方向一次滿足",
+				"name" : "T字圍牆"
+			},
+			"wall_crosspiece_ghost" : {
+				"description" : "四個方向一次滿足",
+				"name" : "十字圍牆"
+			}
+		}
+	}
+}

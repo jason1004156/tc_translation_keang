@@ -1,0 +1,256 @@
+{
+	"entities": {
+		"armor":	{
+			"leather_camo_armor":	{
+				"display_name": "迷彩皮革外衣",
+				"description": "在迷彩的作用下提供更好的保護"
+			},
+			"leather_camo_helmet":	{
+				"display_name": "迷彩皮革頭盔",
+				"description": "很適合用在叢林作戰"
+			}
+		},
+		"containers":	{
+			"crate_with_parts": {
+				"crate_with_parts_ghost":	{
+					"display_name": "部件儲存箱",
+					"description": "可以存放 32 個物品"
+				}
+			}
+		},
+		"decoration":	{
+			"wolf_rug":	{
+				"wolf_rug_ghost":	{
+					"display_name": "狼皮地毯",
+					"description": "由一隻巨狼的毛皮所製成的地毯"
+				}
+			},
+			"welcome_mat":	{
+				"welcome_mat_ghost":	{
+					"display_name": "歡迎踏墊",
+					"description": "進門前記得先踩一踩"
+				}
+			},
+			"heros_horn":	{
+				"heros_horn_ghost":	{
+					"display_name":	"英雄號角",
+					"description": "一名老英雄的戰鬥號角"
+				}
+			},
+			"woodstove":	{
+				"woodstove_ghost":	{
+					"display_name": "柴爐",
+					"description": "燒柴的火爐"
+				}
+			},
+			"woodstove_chimney":	{
+				"woodstove_chimney_ghost":	{
+					"display_name": "柴爐煙囪",
+					"description": "可以將燒柴的廢氣排放出去"
+				}
+			},
+			"tails_play_castle":	{
+				"tails_play_castle_ghost":	{
+					"display_name": "木製城堡模型",
+					"description": "很好看的裝飾品"
+				}
+			},
+			"cultist_table_shrine":	{
+				"cultist_table_shrine_ghost":	{
+					"display_name": "異教徒神桌",
+					"description": "在冥想中穿越到另一個世界..."
+				}
+			}
+		},
+		"furniture":	{
+			"toolboard": {
+				"toolboard_ghost":	{
+					"display_name": "工具掛板",
+					"description":"掛滿了工匠的各種工具"
+				}
+			},
+			"dresser_with_saw": {
+				"dresser_with_saw_ghost":	{
+					"display_name":"鋸子衣櫃",
+					"description":"衣櫃上放了一把鋸子"
+				}
+			},
+			"comfy_fox_bed":	{
+				"comfy_fox_bed_ghost": {
+					"display_name": "狐皮舒適睡床",
+					"description": "覆蓋著狐狸毛皮的床"
+				}
+			},
+			"comfy_fox_chair":	{
+				"comfy_fox_chair_ghost":	{
+					"display_name": "狐皮舒適座椅",
+					"description": "覆蓋著狐狸毛皮的座椅"
+				}
+			},
+			"wooden_fox_chair":	{
+				"wooden_fox_chair_ghost":	{
+					"display_name": "木製狐皮椅",
+					"description": "獵人的椅子"
+				}
+			},
+			"dresser_with_bonsai":	{
+				"dresser_with_bonsai_ghost":	{
+					"display_name": "盆栽衣櫃",
+					"description": "上頭的盆栽已經種了十年了"
+				}
+			},
+			"acacia_bonsai":	{
+				"acacia_bonsai_ghost":	{
+					"display_name": "刺槐盆栽",
+					"description": "一株迷你的刺槐盆栽"
+				}
+			},
+			"cabinet_for_scholar":	{
+				"cabinet_for_scholar_ghost":	{
+					"display_name": "學者櫥櫃",
+					"description": "放滿了學者工具的櫥櫃"
+				}
+			},
+			"carpenter_cabinet":	{
+				"carpenter_cabinet_ghost":	{
+					"display_name": "木匠櫥櫃",
+					"description": "放滿了木匠工具的櫥櫃"
+				}
+			},
+			"squirrel_baldakin":	{
+				"squirrel_baldakin_ghost":	{
+					"display_name": "松鼠棚架",
+					"description": "用木頭與松鼠皮製成的棚架"
+				}
+			}
+		},
+		"plants": {
+			"fern_plant": {
+				"fern_plant_ghost":	{
+					"display_name": "蕨草",
+					"description": "蕨草",
+					"unripe_description": "蕨草 (生長中)"
+				}
+			}
+		}
+	},
+	"jobs":	{
+		"blacksmith":	{
+			"recipes":	{
+				"woodstove_recipe":	{
+					"recipe_name": "柴爐",
+					"description": "燒柴的火爐",
+					"flavor": "驅趕冬天的寒冷"
+				},
+				"woodstove_chimney_recipe":	{
+					"recipe_name": "柴爐煙囪",
+					"description": "可以將燒柴的廢氣排放出去",
+					"flavor": "煙囪可不是隨隨便便就能做出來的"
+				}
+			}
+		},
+		"carpenter":	{
+			"recipes":	{
+				"dresser_with_saw_recipe": {
+					"recipe_name": "鋸子衣櫃",
+					"description": "任何工匠都需要一個可以放工具的平台",
+					"flavor": "等等，我的鋸子放哪去了？"
+				},
+				"toolboard_recipe":	{
+					"recipe_name": "工具掛板",
+					"description": "井井有條是成功的關鍵",
+					"flavor": "工具創造藝術，那...工具也是藝術嗎？"
+				},
+				"crate_with_parts_recipe":	{
+					"recipe_name": "部件儲存箱",
+					"description": "專門用來儲存各種家具部件的儲存箱，可以存放 32 個物品",
+					"flavor": "不知道這箱子裡可以塞進多少張椅子？"
+				},
+				"comfy_fox_bed_recipe":	{
+					"recipe_name": "狐皮舒適睡床",
+					"description": "覆蓋著狐狸毛皮的床",
+					"flavor": "好軟...好舒服..."
+				},
+				"comfy_fox_chair_recipe":	{
+					"recipe_name": "狐皮舒適座椅",
+					"description": "覆蓋著狐狸毛皮的座椅",
+					"flavor": "軟呼呼的椅子"
+				},
+				"wooden_fox_chair_recipe":	{
+					"recipe_name": "木製狐皮椅",
+					"description": "獵人的椅子",
+					"flavor": "漫長狩獵後的最佳休息處"
+				},
+				"dresser_with_bonsai_recipe":	{
+					"recipe_name": "盆栽衣櫃",
+					"description": "上頭的盆栽已經種了十年了",
+					"flavor": "似乎有種平靜的光環"
+				},
+				"acacia_bonsai_recipe":	{
+					"recipe_name": "刺槐盆栽",
+					"description": "一株迷你的刺槐盆栽",
+					"flavor": "盆景大師的精心之作"
+				},
+				"cabinet_for_scholar_recipe":	{
+					"recipe_name": "學者櫥櫃",
+					"deacription": "放滿了學者工具的櫥櫃",
+					"flavor": "呃...我的筆呢？啊，在這兒呢"
+				},
+				"carpenter_cabinet_recipe":	{
+					"recipe_name": "木匠櫥櫃",
+					"description": "放滿了木匠工具的櫥櫃",
+					"flavor": "一個簡單好用的櫥櫃"
+				},
+				"squirrel_baldakin_recipe":	{
+					"recipe_name": "松鼠棚架",
+					"description": "用木頭與松鼠皮製成的棚架",
+					"flavor": "遮陽必備用品"
+				},
+				"decoration_name": "裝飾品",
+				"heros_horn_recipe":	{
+					"recipe_name":	"英雄號角",
+					"description": "一名老英雄的戰鬥號角",
+					"flavor": "這支號角所傳出的聲音可以達到數千里遠"
+				},
+				"tails_play_castle_recipe":	{
+					"recipe_name": "木製城堡模型",
+					"description": "很好看的裝飾品",
+					"flavor": "木匠需要好幾天才能一一呈現所有細節"
+				}
+			}
+		},
+		"herbalist":	{
+			"recipes":	{
+				"cultist_table_shrine_recipe":	{
+					"recipe_name": "異教徒神桌",
+					"description": "在冥想中穿越到另一個世界...",
+					"flavor": "只要有心，人人都可以做到"
+				}
+			}
+		},
+		"weaver":	{
+			"recipes":	{
+				"wolf_rug_recipe":	{
+					"recipe_name": "狼皮地毯",
+					"description": "由一隻巨狼的毛皮所製成的地毯",
+					"flavor": "一名獵人偉大的戰利品"
+				},
+				"leather_camo_armor_recipe":	{
+					"recipe_name": "迷彩皮革外衣",
+					"description": "在迷彩的作用下提供更好的保護",
+					"flavor": "潛行，隱藏，埋伏"
+				},
+				"leather_camo_helmet_recipe":	{
+					"recipe_name": "迷彩皮革頭盔",
+					"description": "很適合用在叢林作戰",
+					"flavor": "那是我的頭！"
+				},
+				"welcome_mat_recipe":	{
+					"recipe_name": "歡迎踏墊",
+					"description": "進門前記得先踩一踩",
+					"flavor": "光腳踩起來有點癢癢的"
+				}
+			}
+		}
+	}
+}

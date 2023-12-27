@@ -1,0 +1,45 @@
+{
+	"data": {
+		"commands": {
+			"autoharvest_on": {
+				"display_name": "自動採收：開",
+				"description": "點擊以關閉自動採收",
+				"disabled_description": "目前無法關閉自動採收，請稍後再試"
+			},
+			"autoharvest_off": {
+				"display_name": "自動採收：關",
+				"description": "點擊以開啟自動採收",
+				"disabled_description": "目前無法開啟自動採收，請稍後再試"
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"harvest_menu": {
+					"items": {
+						"box_autoharvest": {
+							"display_name": "自動採收",
+							"description": "自動採收選擇的再生資源",
+							"tip_title": "點擊並拖移以框選要自動採收的資源",
+							"tip_description": "右鍵取消"
+						},
+						"harvest_and_replant": {
+							"tip_description": "右鍵取消"
+						}
+					}
+				}
+			}
+		},
+		"shell": {
+			"settings": {
+				"controls_tab": {
+					"key_binding_names": {
+						"harvest_autoharvest": "開關自動採收",
+						"harvest_box_autoharvest": "範圍選擇自動採收"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+   "ui": {
+      "customize_hearthling": {
+         "title": "爐民外觀調整器"
+      },
+      "data": {
+         "tooltips": {
+            "nextButton": {
+               "description": "選擇下一個"
+            },
+            "previousButton": {
+               "description": "選擇上一個"
+            },
+            "maleButton": {
+               "description": "變更為男性，同時會打亂目前設定"
+            },
+            "femaleButton": {
+               "description": "變更為女，同時會打亂目前設定"
+            },
+            "randomButton": {
+               "description": "隨機選擇未上鎖的部位"
+            },
+            "lock": {
+               "description": "鎖定這個部位"
+            }
+         }
+      }
+   }
+}

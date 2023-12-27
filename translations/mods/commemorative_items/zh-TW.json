@@ -1,0 +1,53 @@
+{
+   "entities": {
+      "decoration": {
+	     "statues": {
+		    "stone_statue_poyo_ghost": {
+			   "display_name": "波波雞雕像",
+			   "description":  "紀念那隻英勇的波波雞！"
+			}
+         }
+      },
+      "furniture": {
+	     "tombstones": {
+		    "tombstone_ghost": {
+			   "display_name_ambiguous":  "墓碑",
+			   "display_name_archer":     "弓箭手墓碑",
+			   "display_name_blacksmith": "鐵匠墓碑",
+			   "display_name_carpenter":  "木匠墓碑",
+			   "display_name_cleric":     "牧師墓碑",
+			   "display_name_cook":       "廚師墓碑",
+			   "display_name_engineer":   "工程師墓碑",
+			   "display_name_farmer":     "農民墓碑",
+			   "display_name_footman":    "步兵墓碑",
+			   "display_name_herbalist":  "草藥師墓碑",
+			   "display_name_knight":     "騎士墓碑",
+			   "display_name_mason":      "石匠墓碑",
+			   "display_name_potter":     "陶藝師墓碑",
+			   "display_name_shepherd":   "牧人墓碑",
+			   "display_name_trapper":    "獵人墓碑",
+			   "display_name_weaver":     "裁縫師墓碑",
+			   "display_name_worker":     "工人墓碑",
+			   "description_ambiguous":   "爐民 [str(self.stonehearth:unit_info.custom_name)]",
+               "description_archer":      "弓箭手 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_blacksmith":  "鐵匠 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_carpenter":   "木匠 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_cleric":      "牧師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_cook":        "廚師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_engineer":    "工程師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_farmer":      "農民 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_footman":     "步兵 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_herbalist":   "草藥師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_knight":      "騎士 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_mason":       "石匠 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_potter":      "陶藝師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_shepherd":    "牧人 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_trapper":     "獵人 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_weaver":      "裁縫師 [str(self.stonehearth:unit_info.custom_name)]",
+			   "description_worker":      "工人 [str(self.stonehearth:unit_info.custom_name)]",
+               "description":             "紀念那些逝去的人們"
+            }
+		 }
+      }
+   }
+}

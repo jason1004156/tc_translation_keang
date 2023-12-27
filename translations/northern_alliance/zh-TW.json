@@ -1,0 +1,934 @@
+{
+  "kingdom": {
+    "kingdom_name": "北境聯盟",
+    "quote": "我的先祖們追隨著那些星辰已然上千輪迴",
+    "long_description": "勇敢且堅強，居住在北方未探索之地，為了看到每日的黎明堅毅的生存著。他們帶著指南針與斧頭，以其頑強的適應性感到自豪。",
+    "post_selection_description": "，以頑強著稱的探險者們。",
+    "initial_town_name": "船隊 [str(town_number)]"
+  },
+  "data": {
+    "northern_alliance_population": {
+      "display_name": "北境聯盟"
+    },
+    "saved_objects": {
+      "building_templates_index": {
+        "template_tabs": {
+          "northern_alliance": {
+            "display_name": "聯盟",
+            "categories": {
+              "outpost": "探險者模板",
+              "settlement": "堡壘模板"
+            }
+          }
+        }
+      },
+      "building_templates": {
+        "pottery_studio": {
+          "display_name": "陶藝工作室"
+        },
+        "weavers_hut": {
+          "display_name": "紡織小屋"
+        }
+      } 
+    },
+    "buffs": {
+      "valor_town_bonus_strength_buff": {
+        "display_name": "希芙的恩典",
+        "description": "體格 +2"
+      }
+    },
+    "gm": {
+      "campaigns": {
+        "hunting": {
+          "wild_game": "獵物出現了！",
+          "hungry_caribou_raid": "一群馴鹿正朝著你的農田跑去！",
+          "hungry_deer_raid": "一群鹿正朝著你的農田跑去！",
+          "hungry_racoon_raid": "一群浣熊正朝著你的農田跑去！",
+          "hungry_rabbit_raid": "一群兔子正朝著你的農田跑去！"
+        },
+        "trader": {
+          "arcs": {
+            "encounters": {
+              "tier_1_shops": {
+                "food_shop": {
+                  "shop_info": {
+                    "name": "格爾・萊恩霍姆的食物攤販",
+                    "title": "格爾・萊恩霍姆推著裝滿食物的貨車來到了鎮上"
+                  }
+                },
+                "woodcutter_shop": {
+                  "shop_info": {
+                    "name": "亞克・海蘭德的的木匠工坊",
+                    "title": "亞克・海蘭德帶著他的商品來到了鎮上"
+                  }
+                },
+                "stonecutter_shop": {
+                  "shop_info": {
+                    "name": "約恩・迅石的石匠工坊",
+                    "title": "約恩・迅石帶著他的商品來到了鎮上"
+                  }
+                },
+                "tannery_shop": {
+                  "shop_info": {
+                    "name": "葛瑞丁・弗萊爾的皮革與野外資源",
+                    "title": "一名野外求生專家帶著他的商品來到你的城鎮"
+                  }
+                }
+              },
+              "tier_2_shops": {
+                "door_shop": {
+                  "shop_info": {
+                    "name": "尼爾克・歐肯瑞的大門專賣店",
+                    "title": "尼爾克帶著門窗來到了鎮上"
+                  }
+                },
+                "container_shop": {
+                  "shop_info": {
+                    "name": "歐夫塔・漢柏格的收納用品",
+                    "title": "歐夫塔帶著各種收納幫手來到了鎮上"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "town_progression": {
+          "banner_upgrade": {
+            "title": "晉升前哨基地",
+            "dialog_title": "晉升前哨基地！",
+            "tier_title": "前哨基地",
+            "reward_message": "透過爐民一致公認，我們宣布其升格核可：",
+            "reward_message_ctd": "願這座前哨基地能與環境共存。"
+          },
+          "town_founding_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "read_letter3": {
+                  "bulletin_message": {
+                    "00": "她的聲音聽起來就像是練習了千萬遍般的沉穩。＂瓦林創建了我們的聯盟，有樂同享，有難同當，並一同探求地平線的那一端。隨著萬物的生生不息與火爐中的星點，北境聯盟也將合而為一。＂<p>她微微斜頃著頭問道：＂我們的哲學中哪個是你們最渴望體現的？＂</p> "
+                  },
+                  "bulletin_title": "羅妮亞・歐拉克森",
+                  "dialog_title": "羅妮亞・歐拉克森",
+                  "choice_000": "我們該選擇什麼呢..."
+                },
+                "open_letter": {
+                  "bulletin_message": {
+                    "00": "一位女性站在營地的邊緣，身穿大圖書館的藍色斥侯裝。<br><br><p align='right'><font size=3 color='#cccccc'>沒有人注意到她是什麼時候來的，但是顯然她已經在那觀察一段時間了。</font></p>"
+                  },
+                  "bulletin_title": "出現了一個人影",
+                  "dialog_title": "堅忍不拔的斥侯",
+                  "choice_000": "歡迎你，旅者",
+                  "choice_001": "[跳過] 我們已經知道該選擇什麼旗幟了"
+                },
+                "read_letter": {
+                  "bulletin_message": {
+                    "00": "＂羅妮亞＂她說，並指著自己。她的聲音聽起來像是脖子被勒住了。就像是要為自己解釋一般，她拉下了領子，露出了佈滿疤痕的脖子。她秀出了她的刀，並說＂我前來偵查＂然後她敲了敲斗篷上的星形胸針，說道＂代表瓦林的大圖書館。＂"
+                  },
+                  "bulletin_title": "羅妮亞・歐拉克森",
+                  "dialog_title": "羅妮亞・歐拉克森",
+                  "choice_000": "啊～"
+                },
+                "read_letter2": {
+                  "bulletin_message": {
+                    "00": "她在說話的同時，雙手和雙眼都如同她的聲音一般傳遞著訊息：＂我很高興你們能夠前來學習並定居於此。既然我知道你們在這裡，我會將你們的學習歷程傳達給家園中的學者。＂<p>她走到旗幟前摸了摸它空無一物的中心。＂首先，你必須選擇你的徽記。當你開始這次的航行時，你預見了什麼樣的未來？＂</p>"
+                  },
+                  "bulletin_title": "這位女士用力地比劃著",
+                  "dialog_title": "這位女士用力地比劃著",
+                  "choice_000": "旗幟...恩..."
+                }
+              }
+            }
+          },
+          "bird_departs": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "羅妮亞站在火爐邊。她在樺樹白色的樹皮上寫下了城鎮的名稱，以及其居民的簡要說明。接下來她將樹皮有條不紊地丟進了火焰裡。<p>＂[str(i18n_data.town_name)]＂她念道。＂透過瓦林的智慧與繁星的注視，將其記錄於大圖書館。＂</p>"
+                  },
+                  "bulletin_title": "羅妮亞起身",
+                  "dialog_title": "火焰閃耀著",
+                  "choice_000": "這樣...行的通？"
+                },
+                "msg2": {
+                  "bulletin_title": "她的雙眼露出了微笑",
+                  "dialog_title": "她的雙眼露出了微笑",
+                  "choice_000": "願繁星伴你左右",
+                  "bulletin_message": {
+                    "00": "＂聽者恆聽，那些重要之事定會傳達到的。＂她鞠躬，並褪去曠野的邊緣。＂再會＂她做了個手勢。＂我會為了你的故事再回來的。＂"
+                  }
+                }
+              }
+            }
+          },
+          "town_founding_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "00": "＂謝謝你＂羅妮亞帶著手勢輕聲說道，很明顯她的意思是＂謝謝你的熱情好客以及你的到來。＂<p>她在旗幟旁放了一個小袋子，上面標有附近最大城鎮的徽記，距離這裡有幾天的路程。＂我們的城鎮對人民來說就是星座中的星星，＂她說，＂對你們來說，有一天你們也會加入這個星座的。＂</p><p>袋子裡面放著：</p>"
+                  },
+                  "bulletin_title": "禮物",
+                  "dialog_title": "羅妮亞拿出了小袋子",
+                  "choice_000": "看起來很美味！"
+                }
+              }
+            }
+          },
+          "hearth_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg4": {
+                  "bulletin_message": {
+                    "00": "＂你們在這裡肯定獲得了不少智慧，有什麼是你們希望能夠傳遞給其他人的呢？財富的共享？建立堡壘抵抗寒冷的技術？狩獵的技巧？＂<br><br>她斜著她的頭。＂我期待著你們的智慧。於此同時...給你一個讓你記住春天的小禮物。＂她在旗幟旁放了一個小包裹。"
+                  },
+                  "bulletin_title": "羅妮亞指著火爐",
+                  "dialog_title": "羅妮亞指著火爐",
+                  "choice_000": "光鈴花種子！謝謝！"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "羅妮亞比了比營地，微笑著表示讚賞。＂我再次到來是為了將你們的故事傳達給大圖書館。＂她表示。她坐在營火旁，削著樺木條，並等待。"
+                  },
+                  "bulletin_title": "羅妮亞・歐拉克森",
+                  "dialog_title": "羅妮亞・歐拉克森",
+                  "choice_000": "那麼，既然你在這裡..."
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "羅妮亞謹慎地將每個人的冒險以符文記錄在樺樹皮上，並如往常般丟進火焰中。＂你們的光芒正逐漸壯大。很快的，你們的火爐會吸引他人前來，而總有一天，這裡也將成為眾民星座中的一顆明星。＂"
+                  },
+                  "bulletin_title": "羅妮亞站了起來",
+                  "dialog_title": "羅妮亞站了起來",
+                  "choice_000": "是時候了嗎？"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "羅妮亞再次出現在營地的邊緣。<br><br><p align='right'><font size=3 color='#cccccc'>她站在那裡觀察多久了？</font></p>"
+                  },
+                  "bulletin_title": "羅妮亞回來了",
+                  "dialog_title": "哲學斥侯",
+                  "choice_000": "你回來了！"
+                }
+              }
+            }
+          },
+          "hearth_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "makers": {
+                  "bulletin_message": {
+                    "00": "＂造者之爐，是給那些相信家園是屬於學習與創造之地者，致力於打造頂尖的技藝。＂"
+                  },
+                  "bulletin_title": "做中學，學中做",
+                  "dialog_title": "做中學，學中做",
+                  "choice_000": "在創造中誕生智慧"
+                },
+                "final": {
+                  "bulletin_message": {
+                    "00": "羅妮亞做出總結：＂歡呼，造者，榮耀，你所選擇的道路將為所有追隨你的人點亮未來的方向。在瓦林的智慧以及弗恩，努特，與希芙的看顧下...＂"
+                  },
+                  "bulletin_title": "做出抉擇",
+                  "dialog_title": "做出抉擇",
+                  "choice_000": "我們選擇..."
+                },
+                "intro2": {
+                  "bulletin_message": {
+                    "00": "她輕拍她的胸針。＂大圖書館很滿意你目前的進展。＂她彎身觸碰圍繞在火爐旁的石頭。＂現在是時候選擇能夠代表這裡的烽火了。＂"
+                  },
+                  "bulletin_title": "羅妮亞・歐拉克森",
+                  "dialog_title": "羅妮亞・歐拉克森",
+                  "choice_000": "就如傳統一般"
+                },
+                "cheer": {
+                  "bulletin_message": {
+                    "00": "＂瓦林教導我們，家園是一座抵禦外敵的堡壘，也是尋求救助與友誼的地方。歡呼之爐，將所有在暴風雪下尋求溫暖之人聚集在一起。＂"
+                  },
+                  "bulletin_title": "寒風中的溫暖",
+                  "dialog_title": "寒風中的溫暖",
+                  "choice_000": "團結力量大"
+                },
+                "intro3": {
+                  "bulletin_message": {
+                    "00": "她的聲音帶著嚴肅的語調：＂導師希德視爐火如地面上的星辰，點亮我們對於這個世界的知識。自從我們離開鳳凰帝國的那一刻起，他們燃燒的火焰便告知著我們，天與地正如同火爐的焰火般輪轉不息。＂<br><br>她等待著適當的回應。"
+                  },
+                  "bulletin_title": " 羅妮亞・歐拉克森",
+                  "dialog_title": " 羅妮亞・歐拉克森",
+                  "choice_000": "願智慧導引我們"
+                },
+                "glory": {
+                  "bulletin_message": {
+                    "00": "＂最後，榮耀之爐提醒著我們，為了在遙遠的極地生存下去，我們必須盡一切之力鍛鍊我們的身心，以做好抵禦酷寒的準備。＂"
+                  },
+                  "bulletin_title": "所到之處，便是獵場",
+                  "dialog_title": "所到之處，便是獵場",
+                  "choice_000": "抵禦酷寒的韌性"
+                },
+                "intro": {
+                  "bulletin_message": {
+                    "00": "羅妮亞出現在營地邊緣，微笑著，雙手張開彷彿環抱著這裡的一切。＂願繁星祝福你的學習之路，＂她輕聲低語。＂我可以聽聽你的故事嗎？＂"
+                  },
+                  "bulletin_title": "羅妮亞再次到來",
+                  "dialog_title": "故事時間",
+                  "choice_000": "那當然",
+                  "choice_001": "[跳過] 我們已經知道該選擇什麼火爐了"
+                }
+              }
+            }
+          },
+          "hearth_upgrade": {
+            "title": "晉升村莊",
+            "dialog_title": "晉升村莊！",
+            "tier_title": "晉升",
+            "reward_message": "透過爐民一致公認，我們宣布其升格核可：",
+            "reward_message_ctd": "願其無與倫比的工藝帶來繁榮。"
+          },
+          "shrine_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "clergy": {
+                  "bulletin_message": {
+                    "00": "羅妮亞再次沉浸於詩意的語調中：＂雄鹿弗恩，凡落蹄之處皆為盛夏：其祝福可以為此地帶來繁榮，以及與這片大地生息循環和諧共處的智慧。＂<br><i>（侍奉盛夏印記將賦予爐民心智、體格、精神 +1）</i>"
+                  },
+                  "bulletin_title": "盛夏印記",
+                  "dialog_title": "盛夏印記",
+                  "choice_000": "弗恩的祝福"
+                },
+                "makers": {
+                  "bulletin_message": {
+                    "00": "羅妮亞繼續說道：＂捷兔努特，其迅捷帶動著財富之輪：其祝福可以為此地帶來富庶，並賦予你對抗未來逆境的能力。<br><i>（侍奉財富印記將賦予爐民創造大師品質物品的能力，比卓越品質的物品更上一層樓）</i>"
+                  },
+                  "bulletin_title": "財富印記",
+                  "dialog_title": "財富印記",
+                  "choice_000": "努特的狡黠"
+                },
+                "summary": {
+                  "bulletin_message": {
+                    "00": "＂透過瓦林的智慧以及大圖書館的指引，現在是時候請求最能夠反映你內心的星座了，並通過其哲理引導我們的人民。＂她拿出了三卷卷軸，並分發給圍繞在她身邊的人們。＂謹慎思考後再建造最適合你的聖壇，讓獸靈們聽見你力行的智慧。＂"
+                  },
+                  "bulletin_title": "羅妮亞做了個總結",
+                  "dialog_title": "羅妮亞做了個總結",
+                  "choice_000": "謝謝你"
+                },
+                "military": {
+                  "bulletin_message": {
+                    "00": "羅妮亞最後說道：＂孤狼希芙，其追獵之息甚可融化寒冬：其祝福可以賦予爐民堅忍不拔的韌性，賦予我們在酷寒中生存的力量，並在寒冬之後迎接我們的歸來。＂<br><i>（侍奉狼焰印記將提升爐民戰鬥時的力量，並賦予爐民體格 +2）</i> "
+                  },
+                  "bulletin_title": "狼焰印記",
+                  "dialog_title": "狼焰印記",
+                  "choice_000": "希芙的恩典"
+                },
+                "intro": {
+                  "bulletin_message": {
+                    "00": "羅妮亞微微的搖著頭。＂你以為那些天上的星星會下凡來到這裡？他們是獸靈，不是野獸。他們是瓦林的寓言，高掛於天空，時時刻刻提醒著我們不要忘記他的教誨。＂"
+                  },
+                  "bulletin_title": "羅妮亞再一次出現",
+                  "dialog_title": "羅妮亞獨自現身",
+                  "choice_000": "我曾聽過那些故事..."
+                },
+                "intro2": {
+                  "bulletin_title": "羅妮亞看向火爐",
+                  "dialog_title": "羅妮亞看向火爐",
+                  "choice_000": "有哪些選擇？",
+                  "choice_001": "[跳過] 我們已經做出決定了",
+                  "bulletin_message": {
+                    "00": "＂是時候建造一座聖壇了，並向獸靈尋求祝福。之後，我會將這座村莊紀錄為北境聯盟星座中的一顆明星，而你們的故事也會安然的保存在大圖書館中流傳後世。你們做出選擇了嗎？＂"
+                  }
+                }
+              }
+            }
+          },
+          "unlock_shrine_recipes": {
+            "bulletin_title": "石匠配方解鎖：聖壇"
+          },
+          "shrine_quest_valor": {
+            "title": "城鎮任務：狼焰印記",
+            "dialog_title": "城鎮任務：狼焰印記"
+          },
+          "shrine_quest_guildmaster": {
+            "title": "城鎮任務：財富印記",
+            "dialog_title": "城鎮任務：財富印記"
+          },
+          "shrine_quest_deity": {
+            "title": "城鎮任務：盛夏印記",
+            "dialog_title": "城鎮任務：盛夏印記"
+          },
+          "shrine_upgrade": {
+            "title": "晉升城鎮",
+            "dialog_title": "晉升城鎮！",
+            "tier_title": "城鎮",
+            "reward_message": "遵囑天地之靈的意志，我們特此頒布升格令予：",
+            "reward_message_ctd": "為表彰其探索世界奧秘的決心，在此特別頒予："
+          },
+          "shrine_upgrade_valor": {
+            "recipe_bulletins": {
+              "recipe_unlock_mason": "石匠配方解鎖：新儲藏容器",
+              "recipe_unlock_weaver": "裁縫師配方解鎖：新狼皮裝飾品"
+            },
+            "achievements": {
+              "001": "石匠儲藏容器配方",
+              "000": "爐民體格 +2",
+              "002": "裁縫師狼皮裝飾品配方"
+            },
+            "reward_message_ctd": "為表彰其在戰鬥中的英勇表現，在此特別頒予："
+          },
+          "shrine_upgrade_guildmaster": {
+            "recipe_bulletins": {
+              "recipe_unlock_blacksmith": "鐵匠配方解鎖：新家具",
+              "recipe_unlock_mason": "石匠配方解鎖：新雕像"
+            },
+            "achievements": {
+              "001": "石匠雕像配方",
+              "002": "鐵匠家具配方"
+            },
+            "reward_message_ctd": "為表彰其探索世界奧秘的決心，在此特別頒予："
+          },
+          "shrine_upgrade_deity": {
+            "recipe_bulletins": {
+              "recipe_unlock_mason": "石匠配方解鎖：新窗戶",
+              "recipe_unlock_weaver": "裁縫師配方解鎖：新裝飾品"
+            },
+            "achievements": {
+              "001": "石匠窗戶配方",
+              "002": "裁縫師裝飾品配方"
+            }
+          },
+          "valor_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "羅妮亞以獵人的姿態蹲伏了下來，並露出了她的牙齒，那隻狼也露出了牠的獠牙。兩者如同一體，同時抬起下巴，露出了喉嚨。羅妮亞用手摸了摸狼的下頸，而狼也嗅了嗅她脖子上的傷疤。"
+                  },
+                  "bulletin_title": "狩獵之靈，希芙",
+                  "dialog_title": "狩獵之靈，希芙",
+                  "choice_000": "這是...希芙？"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "狼慢慢的轉過頭來，周圍的人也都暫停了動作，隨即被一個意象佔據了身心：牠們奔躍著穿過雪原，臉上閃過一絲寒風，獵物的氣味就像是絲線般將牠們緊緊連繫在一起。每個獵人不是進食，就是面對死亡，而牠們的軀體終將回歸大地。這簡單的道理，讓每個人都豎起了脊背。今晚，所有人都明白了他們在這個世界上的位置。片刻之後，狼消失了。"
+                  },
+                  "bulletin_title": "狩獵之靈，希芙",
+                  "dialog_title": "狩獵之靈，希芙",
+                  "choice_000": "謝謝你，希芙"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "低聲的咆嘯充斥在火爐周圍的空氣。隨著火花的跳動，空氣中出現了一隻狼的形體，雪白如冬，雙眼透著燦爛的黃光。"
+                  },
+                  "bulletin_title": "一隻身纏烈焰的狼",
+                  "dialog_title": "雙眼如同餘燼的狼",
+                  "choice_000": "（你的心撲通作響）"
+                }
+              }
+            }
+          },
+          "guild_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "羅妮亞在兔子面前跪下，伸出了雙手，好讓兔子可以跳上去。她帶著兔子緩慢的走向慶典。兔子的耳朵朝著各個方向轉動，一起加入了這場盛宴。"
+                  },
+                  "bulletin_title": "財富之靈，努特",
+                  "dialog_title": "財富之靈，努特",
+                  "choice_000": "這是...努特？"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "兔子轉往火爐的方向嗅了嗅，驀然之間在餘燼中出現了一副光景：遍佈地圖如星點般的城鎮，在無止盡的學習中誕生了成千上萬的故事。煙霧飄渺中浮現了各式各樣作工精細的工藝品，如同血脈一般流傳於各代工匠手中。隨後兔子從羅妮亞的雙手跳下，消失在人群中。"
+                  },
+                  "bulletin_title": "財富之靈，努特",
+                  "dialog_title": "財富之靈，努特",
+                  "choice_000": "謝謝你，努特"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "在聖壇的邊緣出現了一隻兔子，身披如斗篷一般的紫色陰影。牠的雙耳有如星空的顏色，還有一對銳利如雪上昇陽的雙眼。"
+                  },
+                  "bulletin_title": "一隻神秘的兔子",
+                  "dialog_title": "毛色如夜空的兔子",
+                  "choice_000": "（你無法動彈）"
+                }
+              }
+            }
+          },
+          "deity_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "羅妮亞躬身慢慢靠近雄鹿，彎著身體甚至連頭髮都觸碰到了地上。羅尼亞接著做出了手勢，引導牠走向火爐，慶典的音樂似乎也吸引著牠。"
+                  },
+                  "bulletin_title": "盛夏之靈，弗恩",
+                  "dialog_title": "盛夏之靈，弗恩",
+                  "choice_000": "這是...弗恩？"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "雄鹿轉過身，其光芒灑落站在周圍的人身上，每個人都覺得充滿了活力：更強健，更聰敏，更勇敢。接著雄鹿從火焰中別開了頭，融進了空氣中，彷彿與慶典融為一體，一同慶祝這個城鎮成為聯盟的一份子。"
+                  },
+                  "bulletin_title": "盛夏之靈，弗恩",
+                  "dialog_title": "盛夏之靈，弗恩",
+                  "choice_000": "謝謝你，弗恩"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "在慶典的邊緣，一隻謎樣的生物從陰影中浮現。牠看起來就像是一頭格外健壯的雄鹿，但是牠的雙角在月光下如水晶般閃耀，身上的斑點則有如星光般閃亮，脖子的一圈鬃毛也散發著光芒。"
+                  },
+                  "bulletin_title": "一隻發光的雄鹿",
+                  "dialog_title": "身披星光的雄鹿",
+                  "choice_000": "（你目瞪口呆）"
+                }
+              }
+            }
+          },
+          "post_shrine_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "羅妮亞打量著聖壇。＂接下來你們會去追尋什麼知識呢？在旁邊擺上其他聖壇應該也不錯，不過就沒辦法透過它們獲得獸靈的祝福了。＂她微笑著。＂但是你的城鎮擁有所需要的一切資源，不是嗎？＂"
+                  },
+                  "bulletin_title": "智者斥侯，羅妮亞",
+                  "dialog_title": "智者斥侯，羅妮亞",
+                  "choice_000": "確實"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "羅妮亞輕撫著胸膛。＂你們溫暖了我的心。＂她向後退了一步，做出了環抱城鎮的告別姿勢。她的雙眼炯炯有神，彷彿訴說著她準備展開新的旅程，瓦林的斥侯永遠都在旅途中，前往那些更加野蠻危險的地方。<br><br>＂正如瓦林所教導，面對未來的無常，每一個寶貴的時刻都必須珍重以待。＂"
+                  },
+                  "bulletin_title": "智者斥侯，羅妮亞",
+                  "dialog_title": "智者斥侯，羅妮亞",
+                  "choice_000": "再見，羅妮亞！願眾星指引你！"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "羅妮亞看著慶典逐漸安靜下來。＂你們真的做得很好。＂她輕聲說道。＂這座城鎮已經正式紀錄在大圖書館的編年史中了，你們的每一步也都將伴隨著獸靈的恩典。＂"
+                  },
+                  "bulletin_title": "羅妮亞準備要離開了",
+                  "dialog_title": "智者斥侯，羅妮亞",
+                  "choice_000": "瓦林的祝福"
+                }
+              }
+            }
+          },
+          "reembark_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "當羅妮亞最後一次出現時，手裡拿著一面與我們的旗幟成對的金色旗幟，那是當初與我們一同出發的船隊所擁有的另一面旗幟。她歪著頭指著地平線的另一端。她不需要說話，火爐已經在等待著她了。</p><p><font size=3><i>重新出發建立一座新的城鎮可以讓你帶走最多 3 位爐民與 10 個物品，且所有已解鎖的配方將會保留。</i></font></p>"
+                  },
+                  "bulletin_title": "羅妮亞再次到來",
+                  "dialog_title": "最後一件事",
+                  "choice_000": "真令人興奮！"
+                }
+              }
+            }
+          },
+          "shrine_choice": {
+            "guildmaster": {
+              "description": "<i>這座城鎮必須展現他們對工匠技藝的磨練與奉獻，以及對周遭資源的善用。</i><ul><li>賦予工匠創造大師品質物品的能力</li></ul>"
+            },
+            "deity": {
+              "description": "<i>這座城鎮必須展現他們的慷慨與仁慈，願意與受寒冬所苦之人分享大地的恩惠。</i><ul><li>賦予所有爐民心智、體格、精神 +1</li></ul>"
+            },
+            "valor": {
+              "description": "<i>這座城鎮必須展現堅不可摧的戰力，並將勇於挑戰那些試圖撲滅狼焰之敵。</i><ul><li>賦予所有爐民體格 +2</li></ul>"
+            }
+          },
+          "shrine_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_title": "羅妮亞逐漸現形",
+                  "dialog_title": "斥侯的行動真的悄然無聲！",
+                  "choice_000": "很高興再見到你",
+                  "bulletin_message": {
+                    "00": "她歪著頭微了微笑。＂驚喜嗎？＂她的表情一覽無遺。她用兩根手指模仿一個人踮著腳尖走過草地的身影。她的斗篷似乎也映照出周圍天空的顏色。"
+                  }
+                },
+                "msg2": {
+                  "bulletin_title": "羅妮亞欣賞著這座城鎮",
+                  "dialog_title": "羅妮亞欣賞著這座城鎮",
+                  "choice_000": "我們自那之後成長了不少...",
+                  "bulletin_message": {
+                    "00": "她對著最近新添的事物點頭表示讚許。她的斗篷被風吹了開來，可以很明顯地看到纏繞在她脖子上的疤痕，伸展著如同野狼咬痕一般的形狀。那些疤痕今天看起來有點發炎。<br><br>她在火爐邊坐定，並再次拿出了樺樹皮和炭筆。她點了點頭，邀請身邊的人講述他們最近的冒險經歷。"
+                  }
+                },
+                "msg3": {
+                  "bulletin_title": "羅妮亞寫道",
+                  "dialog_title": "羅妮亞寫道",
+                  "choice_000": "瓦林寓言中的野獸？",
+                  "bulletin_message": {
+                    "00": "隨著羅妮亞不斷地記述那些故事並丟入火中，她也變得更加了解。最後，她點點頭，從她的小袋子裡拿出三塊光滑的石頭。<br><br>它們每個都刻有令人熟悉的印記：一個是雄鹿弗恩的星座，往往與慷慨以及盛夏有所關聯。一個是孤狼希芙的星座，確保每一次的狩獵都對世界的循環做出貢獻。最後一個是代表捷兔努特的三顆星星，讓財富輪轉不息。"
+                  }
+                },
+                "msg4": {
+                  "bulletin_title": "羅妮亞跪了下來",
+                  "dialog_title": "羅妮亞跪了下來",
+                  "choice_000": "我們會準備好的",
+                  "bulletin_message": {
+                    "00": "當她跪下時，她將那些石頭擺在火爐旁，並鞠躬禱告。＂是時候了，＂她輕聲說道。＂下次我會帶著獸靈們一起回來，讓我們一起建立聖壇，以祈求他們的祝福。＂"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "entities": {
+    "gizmos": {
+      "na_camp_standard": {
+        "na_camp_standard_ghost": {
+          "display_name": "營地旗幟",
+          "description": "看到這面旗幟你就知道你回到家了"
+        }
+      },
+      "na_town_banner_guardian": {
+        "na_town_banner_guardian_ghost": {
+          "display_name": "旗幟 - 崇尚財富",
+          "description": "看到這面旗幟你就知道你回到家了.",
+          "town_bonus_description": "<i>這個據點將會成為繁忙的交易中心。</i><ul><li>道路會給予爐民 3 倍的移動速度</li><li>出售的物品可以獲得額外的 50% 利潤</li><li>貿易商人會帶來 2 倍的商品與可用金額</li></ul>"
+        },
+        "na_town_banner_guardian_token": {
+          "display_name": "財富小旗",
+          "description": "來自財富旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      },
+      "na_town_banner_might": {
+        "na_town_banner_might_ghost": {
+          "display_name": "旗幟 - 崇尚力量",
+          "description": "看到這面旗幟你就知道你回到家了",
+          "town_bonus_description": "<i>這個據點將與大地及鋼鐵一同茁壯。</i><ul><li>挖掘將給予額外 50% 的礦石、石頭、陶土</li><li>爐民們不再介意擁擠的空間</li></ul>"
+        },
+        "na_town_banner_might_token": {
+          "display_name": "力量小旗",
+          "description": "來自力量旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      },
+      "na_town_banner_nature": {
+        "na_town_banner_nature_ghost": {
+          "display_name": "旗幟 - 崇尚自然",
+          "description": "看到這面旗幟你就知道你回到家了",
+          "town_bonus_description": "<i>這個據點將與大自然共同成長。</i><ul><li>每棵樹將提供額外 25% 的木頭</li><li>植物、作物的生長速度提高 25%</li><li>植物所提升的喜好程度將是平常的 2 倍</li></ul>"
+        },
+        "na_town_banner_nature_token": {
+          "display_name": "自然小旗",
+          "description": "來自自然旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      }
+    },
+    "decoration": {
+      "hearth_wolf": {
+        "hearth_wolf": {
+          "display_name": "造者之爐",
+          "description": "證明你的工匠技藝能夠產出不負眾望的作品"
+        }
+      },
+      "hearth_magma": {
+        "hearth_magma": {
+          "display_name": "榮耀之爐",
+          "description": "證明你的軍事實力能夠應付所有來犯的敵人"
+        }
+      },
+      "hearth_ice": {
+        "hearth_ice": {
+          "display_name": "歡呼之爐",
+          "description": "提供溫暖和煦的照明，以及每日增益"
+        }
+      },
+      "shrine_wolf": {
+        "shrine_wolf": {
+          "display_name": "狼焰印記",
+          "description": "侍奉狩獵之靈，孤狼希芙"
+        }
+      },
+      "shrine_stag": {
+        "shrine_stag": {
+          "display_name": "盛夏印記",
+          "description": "侍奉大地之靈，雄鹿弗恩"
+        }
+      },
+      "shrine_hare": {
+        "shrine_hare": {
+          "display_name": "財富印記",
+          "description": "侍奉轉輪之靈，捷兔努特"
+        }
+      },
+      "banner_wall_small_stag": {
+        "banner_wall_small_stag_ghost": {
+          "display_name": "小雄鹿壁掛旗幟",
+          "description": "用這面旗幟展現你對雄鹿弗恩的忠誠"
+        }
+      },
+      "banner_wall_big_stag": {
+        "banner_wall_big_stag_ghost": {
+          "display_name": "雄鹿壁掛旗幟",
+          "description": "用這面旗幟展現你對雄鹿弗恩的忠誠"
+        }
+      },
+      "window_box_stone_snow_poppy": {
+        "window_box_stone_snow_poppy_ghost": {
+          "display_name": "雪罌花盆",
+          "description": "一個雪罌花的小花盆"
+        }
+      },
+      "rug_moss": {
+        "rug_moss_ghost": {
+          "display_name": "綠苔地毯",
+          "description": "用以紀念雄鹿弗恩，以植物編織而成的地毯"
+        }
+      },
+      "wall_mounted_candle": {
+        "wall_mounted_candle_ghost": {
+          "display_name": "黃金燭台壁飾",
+          "description": "可以彰顯捷兔努特榮耀的裝飾品"
+        }
+      },
+      "rug_pelt_wolf": {
+        "rug_pelt_wolf_ghost": {
+          "display_name": "狼皮地毯",
+          "description": "以孤狼希芙之名，不存在無謂的殺戮"
+        }
+      },
+      "wall_mounted_paw": {
+        "wall_mounted_paw_ghost": {
+          "display_name": "希芙之爪",
+          "description": "獵人的標記。悄無聲息...等你看見的時候已經為時已晚了"
+        }
+      },
+      "wall_mounted_antlers": {
+        "wall_mounted_antlers_ghost": {
+          "display_name": "鹿角壁飾",
+          "description": "雄鹿弗恩以其近親之雙角為我們帶來祝福"
+        }
+      },
+      "statue_hare": {
+        "statue_hare_ghost": {
+          "display_name": "努特雕像",
+          "description": "捷兔努特的雕像，就如同古老傳說中的那樣"
+        }
+      },
+      "window_box_stone_violet": {
+        "window_box_stone_violet_ghost": {
+          "display_name": "紫羅蘭花盆",
+          "description": "一個紫羅蘭的小花盆"
+        }
+      }
+    },
+    "npc": {
+      "herald": {
+        "female": {
+          "herald_siv": {
+            "display_name": "希芙",
+            "description": "狩獵之靈"
+          },
+          "herald_ronia": {
+            "display_name": "羅妮亞・歐拉克森",
+            "description": "大圖書館的斥侯"
+          }
+        },
+        "male": {
+          "herald_knut": {
+            "display_name": "努特",
+            "description": "轉輪之靈"
+          },
+          "herald_firnn": {
+            "display_name": "弗恩",
+            "description": "大地之靈"
+          }
+        }
+      }
+    },
+    "furniture": {
+      "chair_golden": {
+        "chair_golden_ghost": {
+          "display_name": "金邊椅",
+          "description": "捷兔努特的寶座，但是他樂於分享"
+        }
+      },
+      "table_stone_gold": {
+        "table_stone_gold_ghost": {
+          "display_name": "金邊石桌",
+          "description": "一張可以讓努特自豪地在下面吃東西的桌子"
+        }
+      }
+    },
+    "container": {
+      "input_shelf_wall_stone_gold": {
+        "input_shelf_wall_stone_gold_ghost": {
+          "display_name": "金邊供應壁架",
+          "description": "一套可以榮耀努特的壁掛供應架"
+        }
+      },
+      "input_bin_stone_wolf": {
+        "input_bin_stone_wolf_ghost": {
+          "display_name": "希芙的石碗",
+          "description": "一種供應箱，如同希芙為我們供應食物一般"
+        }
+      },
+      "output_box_stone_wolf": {
+        "output_box_stone_wolf_ghost": {
+          "display_name": "希芙的成品放置櫃",
+          "description": "作為剛製作完成的物品的暫存處，如同希芙狩獵前的準備"
+        }
+      },
+      "chest_stone_wolf": {
+        "chest_stone_wolf_ghost": {
+          "display_name": "希芙的儲存箱",
+          "description": "可以儲存 128 個物品，如同希芙為了寒冬儲存資源"
+        }
+      }
+    },
+    "weapons": {
+      "spear_horn": {
+        "spear_horn_iconic": {
+          "display_name": "鹿角長矛",
+          "description": "為持有者注入弗恩的回復之力，讓他們的傷口可以癒合地更快"
+        }
+      }
+    },
+    "armor": {
+      "shield_hare": {
+        "display_name": "野兔之盾",
+        "description": "為持有者注入努特的回復之力，讓他們在戰鬥中更持久"
+      },
+      "helmet_wolf": {
+        "helmet_wolf_iconic": {
+          "display_name": "狼皮頭盔",
+          "description": "在希芙的祝福之下打造而成，以保衛我們的城鎮"
+        },
+        "display_name": "狼皮頭盔",
+        "description": "為持有者注入希芙的回復之力，讓他們需要較少睡眠"
+      }
+    }
+  },
+  "jobs": {
+    "mason": {
+      "recipes": {
+        "shrine_stag": {
+          "recipe_name": "盛夏印記",
+          "description": "侍奉大地之靈，雄鹿弗恩"
+        },
+        "shrine_hare": {
+          "description": "侍奉轉輪之靈，捷兔努特",
+          "recipe_name": "財富印記"
+        },
+        "shrine_wolf": {
+          "description": "侍奉狩獵之靈，孤狼希芙",
+          "recipe_name": "狼焰印記"
+        },
+        "crude_weaver_spindle_recipe": {
+          "recipe_name": "裁縫師的紡錘"
+        },
+        "stone_sword_recipe": {
+          "recipe_name": "步兵的石劍"
+        },
+        "window_box_stone_snow_poppy_recipe": {
+          "description": "種滿了雪櫻花的小盆栽，最適合放在窗戶下緣",
+          "recipe_name": "雪罌花盆",
+          "flavor": "一朵雪罌花可以為陰暗極地的早晨帶來曙光"
+        },
+        "statue_hare": {
+          "description": "用以向轉輪之靈，捷兔努特致敬",
+          "recipe_name": "努特雕像"
+        },
+        "chair_golden": {
+          "description": "捷兔努特的寶座，但是他樂於分享",
+          "recipe_name": "金邊椅"
+        },
+        "wall_mounted_antlers_recipe": {
+          "description": "雄鹿弗恩以其近親之雙角為我們帶來祝福",
+          "recipe_name": "鹿角壁飾"
+        },
+        "wall_mounted_paw_recipe": {
+          "description": "獵人的標記。悄無聲息...等你看見的時候已經為時已晚了",
+          "recipe_name": "希芙之爪"
+        },
+        "output_box_stone_wolf_recipe": {
+          "description": "作為剛製作完成的物品的暫存處，如同希芙狩獵前的準備",
+          "recipe_name": "希芙的成品放置櫃"
+        },
+        "input_bin_stone_wolf_recipe": {
+          "description": "一種供應箱，如同希芙為我們供應食物一般",
+          "recipe_name": "希芙的石碗"
+        },
+        "chest_stone_wolf_recipe": {
+          "description": "可以儲存 128 個物品，如同希芙為了寒冬儲存資源",
+          "recipe_name": "希芙的儲存箱"
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "banner_wall_big_stag_recipe": {
+          "description": "用這面旗幟展現你對雄鹿弗恩的忠誠",
+          "recipe_name": "雄鹿壁掛旗幟",
+          "flavor": "同時也是大自然愛好者的象徵"
+        },
+        "banner_wall_small_stag_recipe": {
+          "description": "用這面旗幟展現你對雄鹿弗恩的忠誠",
+          "recipe_name": "小雄鹿壁掛旗幟",
+          "flavor": "同時也是大自然愛好者的象徵"
+        },
+        "rug_moss_recipe": {
+          "description": "用以紀念雄鹿弗恩，以植物編織而成的地毯",
+          "recipe_name": "綠苔地毯"
+        },
+        "rug_pelt_wolf_recipe": {
+          "description": "以孤狼希芙之名，不存在無謂的殺戮",
+          "recipe_name": "狼皮地毯"
+        },
+        "spear_horn_recipe": {
+          "description": "為持有者注入弗恩的回復之力，讓他們的傷口可以癒合地更快",
+          "recipe_name": "鹿角長矛",
+          "flavor": "在弗恩的祝福之下打造而成，以保衛我們的城鎮"
+        },
+        "helmet_wolf_recipe": {
+          "description": "為持有者注入希芙的回復之力，讓他們需要較少睡眠",
+          "recipe_name": "狼皮頭盔",
+          "flavor": "在希芙的祝福之下打造而成，以保衛我們的城鎮"
+        },
+        "shield_hare_recipe": {
+          "description": "為持有者注入努特的回復之力，讓他們在戰鬥中更持久",
+          "recipe_name": "野兔之盾",
+          "flavor": "在努特的祝福之下打造而成，以保衛我們的城鎮"
+        }
+      }
+    },
+    "blacksmith": {
+      "recipes": {
+        "chair_golden": {
+          "description": "捷兔努特的寶座，但是他樂於分享",
+          "recipe_name": "金邊椅"
+        },
+        "input_shelf_wall_stone_gold": {
+          "description": "跟它華麗外觀一樣有用的供應壁架",
+          "recipe_name": "金邊供應壁架"
+        },
+        "table_stone_gold": {
+          "description": "一張可以讓努特自豪地在下面吃東西的桌子",
+          "recipe_name": "金邊石桌"
+        },
+        "wall_mounted_candle": {
+          "description": "可以彰顯捷兔努特榮耀的裝飾品",
+          "recipe_name": "黃金燭台壁飾"
+        }
+      }
+    }
+  },
+  "loadouts": {
+    "hunting_party": {
+      "display_name": "狩獵派對",
+      "description": "這片大地生機盎然，充滿了美味的動物。弓箭手可以前去狩獵，廚師則可以燉煮佳餚。",
+      "tooltip": "雖然狩獵是一種不太可靠的食物來源，但是弓箭手同時也可以擔當城鎮的守衛"
+    }
+  },
+  "kingdoms": {
+    "northern_alliance": "北境聯盟"
+  }
+}

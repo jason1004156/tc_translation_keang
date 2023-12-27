@@ -1,0 +1,242 @@
+{
+	"recipes" : {
+		"cook_shelf_recipe" : {
+			"recipe_name" : "烹飪架",
+			"description" : "專門用來儲存食物的架子，可以存放 48 個物品",
+			"flavor" : "我喜歡香蕉，香蕉最棒了！"
+		},
+		"armor_shelf_recipe" : {
+			"recipe_name" : "裝甲架",
+			"description" : "專門用來擺放裝甲，可以存放 32 個物品",
+			"flavor" : "大容量衣櫃"
+		},
+		"apothecary_cabinet_recipe" : {
+			"recipe_name" : "藥劑櫃",
+			"description" : "專門用來存放各種藥劑，可以存放 48 個物品",
+			"flavor" : "瘋狂科學家！"
+		},
+		"chest_recipe" : {
+			"recipe_name" : "寶箱",
+			"description" : "就像海盜用的那種，可以存放 48 個物品",
+			"flavor" : "呀！"
+		},
+		"clay_barrel_recipe" : {
+			"recipe_name" : "木製陶土儲存桶",
+			"description" : "專門用來存放陶土，可以存放 48 個物品",
+			"flavor" : "比一桶猴子好"
+		},
+		"clay_bucket_recipe" : {
+			"recipe_name" : "陶製陶土儲存桶",
+			"description" : "專門用來存放陶土，可以存放 48 個物品",
+			"flavor" : "不要用這個來進行'冰桶挑戰'"
+		},
+		"drying_rack_recipe" : {
+			"recipe_name" : "乾燥架",
+			"description" : "專門用來風乾物品，可以存放 48 個物品",
+			"flavor" : "我喜歡我的皮革帶有一點濕潤的感覺"
+		},
+		"fur_frame_recipe" : {
+			"recipe_name" : "毛皮架",
+			"description" : "專門用來存放毛皮，可以存放 48 個物品",
+			"flavor" : "請愛護毛茸茸的動物"
+		},
+		"hayball_recipe" : {
+			"recipe_name" : "乾草捆",
+			"description" : "專門用來存放乾燥穀物，可以存放 48 個物品",
+			"flavor" : "最好綑緊一點"
+		},
+		"ingot_shelf_recipe" : {
+			"recipe_name" : "金屬錠架",
+			"description" : "希望它承受得住這些重量，可以存放 48 個物品",
+			"flavor" : "閃亮亮"
+		},
+		"market_baker_recipe" : {
+			"recipe_name" : "麵包攤",
+			"description" : "新鮮的麵包和點心，可以存放 100 個物品",
+			"flavor" : "聞起來就像...麵包"
+		},
+		"market_farmer_recipe" : {
+			"recipe_name" : "蔬果攤",
+			"description" : "各種有機蔬食，可以存放 100 個物品",
+			"flavor" : "不含生長激素"
+		},
+		"market_weaver_recipe" : {
+			"recipe_name" : "紡織攤",
+			"description" : "各種織物，可以存放 48 個物品",
+			"flavor" : "抱歉，沒有Prada"
+		},
+		"ore_shelf_recipe" : {
+			"recipe_name" : "礦石架",
+			"description" : "專門用來存放各種礦石，可以存放 72 個物品",
+			"flavor" : "好...重..."
+		},
+		"stonepile_recipe" : {
+			"recipe_name" : "石頭堆",
+			"description" : "一堆石頭，可以存放 100 個物品",
+			"flavor" : "想被石頭砸嗎？"
+		},
+		"weaver_basket_recipe" : {
+			"recipe_name" : "織物籃",
+			"description" : "專門用來存放織品，可以存放 48 個物品",
+			"flavor" : "不是洗衣籃"
+		},
+		"weaver_clay_shelf_recipe" : {
+			"recipe_name" : "陶製衣物架",
+			"description" : "用陶土製成的衣物架，可以存放 48 個物品",
+			"flavor" : "我們需要一個衣櫃"
+		},
+		"weaver_shelf_recipe" : {
+			"recipe_name" : "衣物架",
+			"description" : "衣服的家，可以存放 48 個物品",
+			"flavor" : "我們需要一個衣櫃"
+		},
+		"woodpile_recipe" : {
+			"recipe_name" : "木頭堆",
+			"description" : "一堆木頭，可以存放 100 個物品",
+			"flavor" : "想來根木頭嗎？"
+		},
+		"herb_garden_recipe" : {
+			"recipe_name" : "藥草花園",
+			"description" : "專門用來存放藥草，可以存放 72 個物品",
+			"flavor" : "不要種植任何違法植物"
+		},
+		"treasure_hoard_sm_recipe" : {
+			"recipe_name" : "小寶藏堆",
+			"description" : "一堆閃亮亮的東西，可以存放 16 個物品",
+			"flavor" : "小心飛龍"
+		},
+		"treasure_hoard_m_recipe" : {
+			"recipe_name" : "寶藏堆",
+			"description" : "一大堆閃亮亮的東西，可以存放 64 個物品",
+			"flavor" : "小心大一點的飛龍"
+		},
+		"treasure_vault_recipe" : {
+			"recipe_name" : "寶庫",
+			"description" : "炫耀你的財寶，可以存放 256 個物品",
+			"flavor" : "小心史矛革"
+		},
+		"store_table_wood_recipe" :{
+			"recipe_name" : "木製家具展示桌",
+			"description" : "儲存空間不大，但可以展示你的家具，可以存放 8 個物品",
+			"flavor" : "以家具來說其實還蠻大的"
+		},
+		"store_table_stone_recipe" :{
+			"recipe_name" : "石製家具展示桌",
+			"description" : "儲存空間不大，但可以展示你的家具，可以存放 8 個物品",
+			"flavor" : "以家具來說其實還蠻大的"
+		},
+		"store_table_clay_recipe" :{
+			"recipe_name" : "陶製家具展示桌",
+			"description" : "儲存空間不大，但可以展示你的家具，可以存放 8 個物品",
+			"flavor" : "以家具來說其實還蠻大的"
+		}
+	},
+	"entities" : {
+		"containers" : {
+			"cook_shelf_ghost" : {
+				"description" : "專門用來儲存食物的架子，可以存放 48 個物品",
+				"name": "烹飪架"
+			},
+			"armor_shelf_ghost" : {
+				"description" : "專門用來擺放裝甲，可以存放 32 個物品",
+				"name" : "裝甲架"
+			},
+			"apothecary_cabinet_ghost" : {
+				"description" : "專門用來存放各種藥劑，可以存放 48 個物品",
+				"name": "藥劑櫃"
+			},
+			"chest_ghost" : {
+				"description" : "就像海盜用的那種，可以存放 48 個物品",
+				"name": "寶箱"
+			},
+			"clay_barrel_ghost" : {
+				"description" : "專門用來存放陶土，可以存放 48 個物品",
+				"name": "木製陶土儲存桶"
+			},
+			"clay_bucket_ghost" : {
+				"description" : "專門用來存放陶土，可以存放 48 個物品",
+				"name": "陶製陶土儲存桶"
+			},
+			"drying_rack_ghost" : {
+				"description" : "專門用來風乾物品，可以存放 48 個物品",
+				"name": "乾燥架"
+			},
+			"fur_frame_ghost" : {
+				"description" : "專門用來存放毛皮，可以存放 48 個物品",
+				"name": "毛皮架"
+			},
+			"hayball_ghost" : {
+				"description" : "專門用來存放乾燥穀物，可以存放 48 個物品",
+				"name": "乾草捆"
+			},
+			"ingot_shelf_ghost" : {
+				"description" : "希望它承受得住這些重量，可以存放 48 個物品",
+				"name": "金屬錠架"
+			},
+			"market_baker_ghost" : {
+				"description" : "新鮮的麵包和點心，可以存放 100 個物品",
+				"name": "麵包攤"
+			},
+			"market_farmer_ghost" : {
+				"description" : "各種有機蔬食，可以存放 100 個物品",
+				"name": "蔬果攤"
+			},
+			"market_weaver_ghost" : {
+				"description" : "各種織物，可以存放 48 個物品",
+				"name": "紡織攤"
+			},
+			"ore_shelf_ghost" : {
+				"description" : "專門用來存放各種礦石，可以存放 72 個物品",
+				"name": "礦石架"
+			},
+			"stonepile_ghost" : {
+				"description" : "一堆石頭，可以存放 100 個物品",
+				"name": "石頭堆"
+			},
+			"weaver_basket_ghost" : {
+				"description" : "專門用來存放織品，可以存放 48 個物品",
+				"name": "織物籃"
+			},
+			"weaver_clay_shelf_ghost" : {
+				"description" : "用陶土製成的衣物架，可以存放 48 個物品",
+				"name": "陶製衣物架"
+			},
+			"weaver_shelf_ghost" : {
+				"description" : "衣服的家，可以存放 48 個物品",
+				"name": "衣物架"
+			},
+			"woodpile_ghost" : {
+				"description" : "一堆木頭，可以存放 100 個物品",
+				"name": "木頭堆"
+			},
+			"herb_garden_ghost" : {
+				"description" : "專門用來存放藥草，可以存放 72 個物品",
+				"name": "藥草花園"
+			},
+			"treasure_hoard_sm_ghost" : {
+				"description" : "一堆閃亮亮的東西，可以存放 16 個物品",
+				"name" : "小寶藏堆"
+			},
+			"treasure_hoard_m_ghost" : {
+				"description" : "一大堆閃亮亮的東西，可以存放 64 個物品",
+				"name" : "寶藏堆"
+			},
+			"treasure_vault_ghost" : {
+				"description" : "炫耀你的財寶，可以存放 256 個物品",
+				"name": "寶庫"
+			},
+			"store_table_wood_ghost" : {
+				"description" : "可以展示你的家具，可以存放 8 個物品",
+				"name" : "木製家具展示桌"
+			},
+			"store_table_stone_ghost" : {
+				"description" : "可以展示你的家具，可以存放 8 個物品",
+				"name" : "石製家具展示桌"
+			},
+			"store_table_clay_ghost" : {
+				"description" : "可以展示你的家具，可以存放 8 個物品",
+				"name" : "陶製家具展示桌"
+			}
+		}
+	}
+}

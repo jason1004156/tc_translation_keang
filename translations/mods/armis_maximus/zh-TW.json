@@ -1,0 +1,840 @@
+{
+	"ui": {
+
+	},
+	"data": {
+		"buffs": {
+			"blessed":{
+				"description": "受祝福的武器可以提高同情心",
+				"display_name": "加祝",
+			},
+			"clip":{
+				"description": "緩速一名敵人",
+				"display_name": "夾夾",
+			},
+			"consecrated":{
+				"description": "受祝福的護甲可以提高同情心",
+				"display_name": "奉獻",
+			},
+			"mighty":{
+				"description": "強大的護甲",
+				"display_name": "威武",
+			},
+			"veteran":{
+				"description": "歷經無數戰役的護甲",
+				"display_name": "歷戰",
+			},
+		}
+	},
+	"entities": {
+		"armor": {
+			"archer_leather_hood_black": {
+				"description": "黑色的弓手兜帽",
+				"display_name": "黑色弓手皮革兜帽",
+				"recipe_name": "黑色弓手皮革兜帽",
+				"flavor": "比夜晚更加深沉黑暗"
+			},
+			"archer_leather_vest_black": {
+				"description": "黑色的弓手護甲",
+				"display_name": "黑色弓手皮革護甲",
+				"recipe_name": "黑色弓手皮革套裝",
+				"flavor": "比夜晚更加深沉黑暗"
+			},
+			"archer_leather_hood_blue": {
+				"description": "深藍色的弓手兜帽",
+				"display_name": "藍色弓手皮革兜帽",
+				"recipe_name": "藍色弓手皮革兜帽",
+				"flavor": "有如夜晚一般"
+			},
+			"archer_leather_vest_blue": {
+				"description": "深藍色的弓手護甲",
+				"display_name": "藍色弓手皮革護甲",
+				"recipe_name": "藍色弓手皮革套裝",
+				"flavor": "有如夜晚一般"
+			},
+			"archer_leather_hood_green": {
+				"description": "深綠色的弓手兜帽",
+				"display_name": "綠色弓手皮革兜帽",
+				"recipe_name": "綠色弓手皮革兜帽",
+				"flavor": "讓你隱身於密林"
+			},
+			"archer_leather_vest_green": {
+				"description": "深綠色的弓手護甲",
+				"display_name": "綠色弓手皮革護甲",
+				"recipe_name": "綠色弓手皮革套裝",
+				"flavor": "讓你隱身於密林"
+			},
+			"archer_leather_hood_red": {
+				"description": "深紅色的弓手兜帽",
+				"display_name": "紅色弓手皮革兜帽",
+				"recipe_name": "紅色弓手皮革兜帽",
+				"flavor": "可能不是很隱密，但是很酷！"
+			},
+			"archer_leather_vest_red": {
+				"description": "深紅色的弓手護甲",
+				"display_name": "紅色弓手皮革護甲",
+				"recipe_name": "紅色弓手皮革套裝",
+				"flavor": "可能不是很隱密，但是很酷！"
+			},
+			"archer_leather_hood_white": {
+				"description": "白色的弓手兜帽",
+				"display_name": "白色弓手皮革兜帽",
+				"recipe_name": "白色弓手皮革兜帽",
+				"flavor": "讓你在太陽下保持涼爽"
+			},
+			"archer_leather_vest_white": {
+				"description": "白色的弓手護甲",
+				"display_name": "白色弓手皮革護甲",
+				"recipe_name": "白色弓手皮革套裝",
+				"flavor": "讓你在太陽下保持涼爽"
+			},
+			"blade_offhand": {
+				"description": "轉職為刀鋒戰士的必要物品",
+				"display_name": "刀鋒戰士的副手武器",
+				"recipe_name": "刀鋒戰士的副手武器",
+				"flavor": "戳，戳，戳"
+			},
+			"blade_talisman": {
+				"description": "轉職為刀鋒戰士的必要物品",
+				"display_name": "刀鋒戰士的副手武器",
+				"recipe_name": "刀鋒戰士的副手武器",
+				"flavor": "戳，戳，戳"
+			},
+			"bronze_breastplate_black": {
+				"description": "黑色的青銅戰甲",
+				"display_name": "黑色青銅戰甲",
+				"recipe_name": "黑色青銅戰甲",
+				"flavor": "在面對野外的考驗時提供堅固的防護"
+			},
+			"bronze_breastplate_green": {
+				"description": "綠色的青銅戰甲",
+				"display_name": "綠色青銅戰甲",
+				"recipe_name": "綠色青銅戰甲",
+				"flavor": "在面對野外的考驗時提供堅固的防護"
+			},
+			"bronze_breastplate_red": {
+				"description": "紅色的青銅戰甲",
+				"display_name": "紅色青銅戰甲",
+				"recipe_name": "紅色青銅戰甲",
+				"flavor": "在面對野外的考驗時提供堅固的防護"
+			},
+			"bronze_breastplate_white": {
+				"description": "白色的青銅戰甲",
+				"display_name": "白色青銅戰甲",
+				"recipe_name": "白色青銅戰甲",
+				"flavor": "在面對野外的考驗時提供堅固的防護"
+			},
+			"bronze_helm_black": {
+				"description": "黑色的青銅頭盔",
+				"display_name": "黑色青銅頭盔",
+				"recipe_name": "黑色青銅頭盔",
+				"flavor": "在面對野外的考驗時提供頭部堅固的防護"
+			},
+			"bronze_helm_green": {
+				"description": "綠色的青銅頭盔",
+				"display_name": "綠色青銅頭盔",
+				"recipe_name": "綠色青銅頭盔",
+				"flavor": "在面對野外的考驗時提供頭部堅固的防護"
+			},
+			"bronze_helm_red": {
+				"description": "紅色的青銅頭盔",
+				"display_name": "紅色青銅頭盔",
+				"recipe_name": "紅色青銅頭盔",
+				"flavor": "在面對野外的考驗時提供頭部堅固的防護"
+			},
+			"bronze_helm_white": {
+				"description": "白色的青銅頭盔",
+				"display_name": "白色青銅頭盔",
+				"recipe_name": "白色青銅頭盔",
+				"flavor": "在面對野外的考驗時提供頭部堅固的防護"
+			},
+			"cleric_outfit_black": {
+				"description": "黑色的牧師長袍",
+				"display_name": "黑色牧師長袍",
+				"recipe_name": "黑色牧師長袍",
+				"flavor": "治癒聖光！"
+			},
+			"cleric_outfit_blue": {
+				"description": "藍色的牧師長袍",
+				"display_name": "藍色牧師長袍",
+				"recipe_name": "藍色牧師長袍",
+				"flavor": "治癒聖光！"
+			},
+			"cleric_outfit_green": {
+				"description": "綠色的牧師長袍",
+				"display_name": "綠色牧師長袍",
+				"recipe_name": "綠色牧師長袍",
+				"flavor": "治癒聖光！"
+			},
+			"cleric_outfit_red": {
+				"description": "紅色的牧師長袍",
+				"display_name": "紅色牧師長袍",
+				"recipe_name": "紅色牧師長袍",
+				"flavor": "治癒聖光！"
+			},
+			"cleric_outfit_white": {
+				"description": "白色的牧師長袍",
+				"display_name": "白色牧師長袍",
+				"recipe_name": "白色牧師長袍",
+				"flavor": "治癒聖光！"
+			},
+			"cleric_padded_vest_black": {
+				"description": "黑色的牧師戰袍",
+				"display_name": "黑色牧師戰袍",
+				"recipe_name": "黑色牧師戰袍",
+				"flavor": "黑色的祝福"
+			},
+			"cleric_padded_vest_blue": {
+				"description": "藍色的牧師戰袍",
+				"display_name": "藍色牧師戰袍",
+				"recipe_name": "藍色牧師戰袍",
+				"flavor": "藍色的祝福"
+			},
+			"cleric_padded_vest_green": {
+				"description": "綠色的牧師戰袍",
+				"display_name": "綠色牧師戰袍",
+				"recipe_name": "綠色牧師戰袍",
+				"flavor": "綠色的祝福"
+			},
+			"cleric_padded_vest_red": {
+				"description": "紅色的牧師戰袍",
+				"display_name": "紅色牧師戰袍",
+				"recipe_name": "紅色牧師戰袍",
+				"flavor": "紅色的祝福"
+			},
+			"cleric_padded_vest_white": {
+				"description": "白色牧師戰袍",
+				"display_name": "白色牧師戰袍",
+				"recipe_name": "白色牧師戰袍",
+				"flavor": "白色的祝福"
+			},
+			"cloth_padded_helmet_black": {
+				"description": "黑色的加厚防護帽",
+				"display_name": "黑色加厚防護帽",
+				"recipe_name": "黑色加厚防護帽",
+				"flavor": "為你的頭部添加一點保護"
+			},
+			"cloth_padded_helmet_green": {
+				"description": "綠色的加厚防護帽",
+				"display_name": "綠色加厚防護帽",
+				"recipe_name": "綠色加厚防護帽",
+				"flavor": "為你的頭部添加一點保護"
+			},
+			"cloth_padded_helmet_red": {
+				"description": "紅色的加厚防護帽",
+				"display_name": "紅色加厚防護帽",
+				"recipe_name": "紅色加厚防護帽",
+				"flavor": "為你的頭部添加一點保護"
+			},
+			"cloth_padded_helmet_white": {
+				"description": "白色的加厚防護帽",
+				"display_name": "白色加厚防護帽",
+				"recipe_name": "白色加厚防護帽",
+				"flavor": "為你的頭部添加一點保護"
+			},
+			"cloth_padded_vest_black": {
+				"description": "黑色的加厚外衣",
+				"display_name": "黑色加厚外衣",
+				"recipe_name": "黑色加厚外衣",
+				"flavor": "為你添加一點點保護"
+			},
+			"cloth_padded_vest_green": {
+				"description": "綠色的加厚外衣",
+				"display_name": "綠色加厚外衣",
+				"recipe_name": "綠色加厚外衣",
+				"flavor": "為你添加一點點保護"
+			},
+			"cloth_padded_vest_red": {
+				"description": "紅色的加厚外衣",
+				"display_name": "紅色加厚外衣",
+				"recipe_name": "紅色加厚外衣",
+				"flavor": "為你添加一點點保護"
+			},
+			"cloth_padded_vest_white": {
+				"description": "白色的加厚外衣",
+				"display_name": "白色加厚外衣",
+				"recipe_name": "白色加厚外衣",
+				"flavor": "為你添加一點點保護"
+			},
+			"iron_helm_black": {
+				"description": "黑色的鐵製頭盔",
+				"display_name": "黑色鐵製頭盔",
+				"recipe_name": "黑色鐵製頭盔",
+				"flavor": "緊急情況下可以當作鍋子來使用"
+			},
+			"iron_helm_green": {
+				"description": "綠色的鐵製頭盔",
+				"display_name": "綠色鐵製頭盔",
+				"recipe_name": "綠色鐵製頭盔",
+				"flavor": "緊急情況下可以當作鍋子來使用"
+			},
+			"iron_helm_red": {
+				"description": "紅色的鐵製頭盔",
+				"display_name": "紅色鐵製頭盔",
+				"recipe_name": "紅色鐵製頭盔",
+				"flavor": "緊急情況下可以當作鍋子來使用"
+			},
+			"iron_helm_white": {
+				"description": "白色的鐵製頭盔",
+				"display_name": "白色鐵製頭盔",
+				"recipe_name": "白色鐵製頭盔",
+				"flavor": "緊急情況下可以當作鍋子來使用"
+			},
+			"iron_mail_black": {
+				"description": "黑色的鐵製盔甲",
+				"display_name": "黑色鐵製盔甲",
+				"recipe_name": "黑色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_mail_black_fine": {
+				"description": "精良的黑色鐵製盔甲",
+				"display_name": "精良的黑色鐵製盔甲",
+				"recipe_name": "精良的黑色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_mail_green": {
+				"description": "綠色的鐵製盔甲",
+				"display_name": "綠色鐵製盔甲",
+				"recipe_name": "綠色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_mail_red": {
+				"description": "紅色的鐵製盔甲",
+				"display_name": "紅色鐵製盔甲",
+				"recipe_name": "紅色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_mail_white": {
+				"description": "白色的鐵製盔甲",
+				"display_name": "白色鐵製盔甲",
+				"recipe_name": "白色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_mail_white_fine": {
+				"description": "精良的白色鐵製盔甲",
+				"display_name": "精良的白色鐵製盔甲",
+				"recipe_name": "精良的白色鐵製盔甲",
+				"flavor": "又重又吵"
+			},
+			"iron_shield_black": {
+				"description": "黑色的重裝鐵盾",
+				"display_name": "黑色重裝鐵盾",
+				"recipe_name": "黑色重裝鐵盾",
+				"flavor": "具有紋飾的鐵盾"
+			},
+			"iron_shield_blue": {
+				"description": "藍色的重裝鐵盾",
+				"display_name": "藍色重裝鐵盾",
+				"recipe_name": "藍色重裝鐵盾",
+				"flavor": "具有紋飾的鐵盾"
+			},
+			"iron_shield_green": {
+				"description": "綠色的重裝鐵盾",
+				"display_name": "綠色重裝鐵盾",
+				"recipe_name": "綠色重裝鐵盾",
+				"flavor": "具有紋飾的鐵盾"
+			},
+			"iron_shield_red": {
+				"description": "紅色的重裝鐵盾",
+				"display_name": "紅色重裝鐵盾",
+				"recipe_name": "紅色重裝鐵盾",
+				"flavor": "具有紋飾的鐵盾"
+			},
+			"iron_shield_white": {
+				"description": "白色的重裝鐵盾",
+				"display_name": "白色重裝鐵盾",
+				"recipe_name": "白色重裝鐵盾",
+				"flavor": "具有紋飾的鐵盾"
+			},
+			"leather_helmet_black": {
+				"description": "黑色的皮革頭盔",
+				"display_name": "黑色皮革頭盔",
+				"recipe_name": "黑色皮革頭盔",
+				"flavor": "聞起來有舊靴子的味道"
+			},
+			"leather_helmet_green": {
+				"description": "綠色的皮革頭盔",
+				"display_name": "綠色皮革頭盔",
+				"recipe_name": "綠色皮革頭盔",
+				"flavor": "聞起來有舊靴子的味道"
+			},
+			"leather_helmet_red": {
+				"description": "紅色的皮革頭盔",
+				"display_name": "紅色皮革頭盔",
+				"recipe_name": "紅色皮革頭盔",
+				"flavor": "聞起來有舊靴子的味道"
+			},
+			"leather_helmet_white": {
+				"description": "白色的皮革頭盔",
+				"display_name": "白色皮革頭盔",
+				"recipe_name": "白色皮革頭盔",
+				"flavor": "聞起來有舊靴子的味道"
+			},
+			"leather_vest_black": {
+				"description": "黑色的皮革外衣",
+				"display_name": "黑色皮革外衣",
+				"recipe_name": "黑色皮革外衣",
+				"flavor": "有穿總比沒穿好"
+			},
+			"leather_vest_green": {
+				"description": "綠色的皮革外衣",
+				"display_name": "綠色皮革外衣",
+				"recipe_name": "綠色皮革外衣",
+				"flavor": "有穿總比沒穿好"
+			},
+			"leather_vest_red": {
+				"description": "紅色的皮革外衣",
+				"display_name": "紅色皮革外衣",
+				"recipe_name": "紅色皮革外衣",
+				"flavor": "有穿總比沒穿好"
+			},
+			"leather_vest_white": {
+				"description": "白色的皮革外衣",
+				"display_name": "白色皮革外衣",
+				"recipe_name": "白色皮革外衣",
+				"flavor": "有穿總比沒穿好"
+			},
+			"main_gauche": {
+				"description": "更加堅固的防禦用短劍",
+				"display_name": "左手短劍",
+				"recipe_name": "左手短劍",
+				"flavor": "顧名思義，是拿在左手的短劍"
+			},
+			"silver_helmet_black": {
+				"description": "黑色的銀製頭盔",
+				"display_name": "黑色銀製頭盔",
+				"recipe_name": "黑色銀製頭盔",
+				"flavor": "既滑順又...酷炫？"
+			},
+			"silver_helmet_blue": {
+				"description": "藍色的銀製頭盔",
+				"display_name": "藍色銀製頭盔",
+				"recipe_name": "藍色銀製頭盔",
+				"flavor": "等等，所以到底是銀色還是藍色？"
+			},
+			"silver_helmet_green": {
+				"description": "綠色的銀製頭盔",
+				"display_name": "綠色銀製頭盔",
+				"recipe_name": "綠色銀製頭盔t",
+				"flavor": "等等，所以到底是銀色還是綠色？"
+			},
+			"silver_helmet_white": {
+				"description": "白色的銀製頭盔t",
+				"display_name": "白色銀製頭盔t",
+				"recipe_name": "白色銀製頭盔t",
+				"flavor": "等等，所以到底是銀色還是白色？"
+			},
+			"silver_mail_black": {
+				"description": "黑色的銀製盔甲",
+				"display_name": "黑色銀製盔甲",
+				"recipe_name": "黑色銀製盔甲",
+				"flavor": "最時尚的防禦外裝。黑色的。"
+			},
+			"silver_mail_black_fine": {
+				"description": "精良的黑色銀製盔甲",
+				"display_name": "精良的黑色銀製盔甲",
+				"recipe_name": "精良的黑色銀製盔甲",
+				"flavor": "最精良時尚的防禦外裝。黑色的。"
+			},
+			"silver_mail_blue": {
+				"description": "藍色的銀製盔甲",
+				"display_name": "藍色銀製盔甲",
+				"recipe_name": "藍色銀製盔甲",
+				"flavor": "最時尚的防禦外裝。藍色的。"
+			},
+			"silver_mail_green": {
+				"description": "綠色的銀製盔甲",
+				"display_name": "綠色銀製盔甲",
+				"recipe_name": "綠色銀製盔甲",
+				"flavor": "最時尚的防禦外裝。綠色的。"
+			},
+			"silver_mail_white": {
+				"description": "白色的銀製盔甲",
+				"display_name": "白色銀製盔甲",
+				"recipe_name": "白色銀製盔甲",
+				"flavor": "最時尚的防禦外裝。白色的。"
+			},
+			"silver_mail_white_fine": {
+				"description": "精良的白色銀製盔甲",
+				"display_name": "精良的白色銀製盔甲",
+				"recipe_name": "精良的白色銀製盔甲",
+				"flavor": "最精良時尚的防禦外裝。白色的。"
+			},
+			"steel_helmet_black": {
+				"description": "黑色的鋼鐵頭盔",
+				"display_name": "黑色鋼鐵頭盔",
+				"recipe_name": "黑色鋼鐵頭盔",
+				"flavor": "非常重而且非常貴的頭盔"
+			},
+			"steel_helmet_blue": {
+				"description": "藍色的鋼鐵頭盔",
+				"display_name": "藍色鋼鐵頭盔",
+				"recipe_name": "藍色鋼鐵頭盔",
+				"flavor": "非常重而且非常貴的頭盔"
+			},
+			"steel_helmet_green": {
+				"description": "綠色的鋼鐵頭盔",
+				"display_name": "綠色鋼鐵頭盔",
+				"recipe_name": "綠色鋼鐵頭盔",
+				"flavor": "非常重而且非常貴的頭盔"
+			},
+			"steel_helmet_white": {
+				"description": "白色的鋼鐵頭盔",
+				"display_name": "白色鋼鐵頭盔",
+				"recipe_name": "白色鋼鐵頭盔",
+				"flavor": "非常重而且非常貴的頭盔"
+			},
+			"steel_mail_black": {
+				"description": "黑色的鋼鐵盔甲",
+				"display_name": "黑色鋼鐵盔甲",
+				"recipe_name": "黑色鋼鐵盔甲",
+				"flavor": "超級耐用，超級重"
+			},
+			"steel_mail_blue": {
+				"description": "藍色的鋼鐵盔甲",
+				"display_name": "藍色鋼鐵盔甲",
+				"recipe_name": "藍色鋼鐵盔甲",
+				"flavor": "超級耐用，超級重"
+			},
+			"steel_mail_green": {
+				"description": "綠色的鋼鐵盔甲",
+				"display_name": "綠色鋼鐵盔甲",
+				"recipe_name": "綠色鋼鐵盔甲",
+				"flavor": "超級耐用，超級重"
+			},
+			"steel_mail_white": {
+				"description": "白色的鋼鐵盔甲",
+				"display_name": "白色鋼鐵盔甲",
+				"recipe_name": "白色鋼鐵盔甲",
+				"flavor": "超級耐用，超級重"
+			},
+			"steel_shield_black": {
+				"description": "黑色的鋼盾",
+				"display_name": "黑色鋼盾",
+				"recipe_name": "黑色鋼盾",
+				"flavor": "具有紋飾的鋼盾"
+			},
+			"steel_shield_blue": {
+				"description": "藍色的鋼盾",
+				"display_name": "藍色鋼盾",
+				"recipe_name": "藍色鋼盾",
+				"flavor": "具有紋飾的鋼盾"
+			},
+			"steel_shield_green": {
+				"description": "綠色的鋼盾",
+				"display_name": "綠色鋼盾",
+				"recipe_name": "綠色鋼盾",
+				"flavor": "具有紋飾的鋼盾"
+			},
+			"steel_shield_red": {
+				"description": "紅色的鋼盾",
+				"display_name": "紅色鋼盾",
+				"recipe_name": "紅色鋼盾",
+				"flavor": "具有紋飾的鋼盾"
+			},
+			"steel_shield_white": {
+				"description": "白色的鋼盾",
+				"display_name": "白色鋼盾",
+				"recipe_name": "白色鋼盾",
+				"flavor": "具有紋飾的鋼盾"
+			},
+			"wooden_shield_black": {
+				"description": "黑色的木盾",
+				"display_name": "黑色木盾",
+				"recipe_name": "黑色木盾",
+				"flavor": "具有紋飾的木盾"
+			},
+			"wooden_shield_blue": {
+				"description": "藍色的木盾",
+				"display_name": "藍色木盾",
+				"recipe_name": "藍色木盾",
+				"flavor": "具有紋飾的木盾"
+			},
+			"wooden_shield_green": {
+				"description": "綠色的木盾",
+				"display_name": "綠色木盾",
+				"recipe_name": "綠色木盾",
+				"flavor": "具有紋飾的木盾"
+			},
+			"wooden_shield_red": {
+				"description": "紅色的木盾",
+				"display_name": "紅色木盾",
+				"recipe_name": "紅色木盾",
+				"flavor": "具有紋飾的木盾"
+			},
+			"wooden_shield_white": {
+				"description": "白色的木盾",
+				"display_name": "白色木盾",
+				"recipe_name": "白色木盾",
+				"flavor": "具有紋飾的木盾"
+			}
+		},
+		"refined": {
+			"tonic_bonding": {
+				"description": "用來強化陶土黏合能力的藥劑",
+				"display_name": "黏合藥劑",
+				"recipe_name": "黏合藥劑",
+				"flavor": "嘔，聞起來好可怕",
+				"bulletin_title": ""
+			},
+			"tonic_hardening": {
+				"description": "用來強化陶土硬度的藥劑",
+				"display_name": "硬化藥劑",
+				"recipe_name": "硬化藥劑",
+				"flavor": "雖然不是很酸，但是不要喝！"
+			},
+			"tonic_imbuing": {
+				"description": "讓陶土能夠附加特殊性能的藥劑",
+				"display_name": "灌注藥劑",
+				"recipe_name": "灌注藥劑",
+				"flavor": "看著它讓人莫名地感到快樂"
+			}
+		},
+		"weapons": {
+			"ahlspiess": {
+				"description": "圓錐狀的槍尖能夠輕易的刺穿盔甲",
+				"display_name": "錐槍",
+				"recipe_name": "錐槍",
+				"flavor": "噢，好尖銳"
+			},
+			"bronze_axe": {
+				"description": "用青銅打造而成的戰斧",
+				"display_name": "青銅戰斧",
+				"recipe_name": "青銅戰斧",
+				"flavor": "這可不是拿來砍樹用的"
+			},
+			"ghameh": {
+				"description": "源自高加索的一種短劍",
+				"display_name": "高加索短劍",
+				"recipe_name": "高加索短劍",
+				"flavor": "短小精悍，具有致命的雙刃"
+			},
+			"iron_axe": {
+				"description": "用鐵打造而成的戰斧",
+				"display_name": "鐵製戰斧",
+				"recipe_name": "鐵製戰斧",
+				"flavor": "砍倒敵人專用"
+			},
+			"iron_hammer": {
+				"description": "用鐵打造而成的戰錘.",
+				"display_name": "鐵製戰錘",
+				"recipe_name": "鐵製戰錘",
+				"flavor": "浩劫降臨"
+			},
+			"khopesh": {
+				"description": "用青銅打造而成的弧形刀",
+				"display_name": "青銅弧形刀",
+				"recipe_name": "青銅弧形刀",
+				"flavor": "對敵人與小麥來說都很可怕"
+			},
+			"kilij": {
+				"description": "源自土耳其的一種彎刀",
+				"display_name": "土耳其彎刀",
+				"recipe_name": "土耳其彎刀",
+				"flavor": "長得像迴旋鏢，但是不是真的要拿來丟的"
+			},
+			"kriegsmesser": {
+				"description": "源自德國的一種戰刀（雙手武器）",
+				"display_name": "德國戰刀",
+				"recipe_name": "德國戰刀",
+				"flavor": "所有信念都會臣服於它令人畏懼的刀刃下"
+			},
+			"kriegsmesser_fine": {
+				"description": "源自德國的一種戰刀（雙手武器）",
+				"display_name": "精良的德國戰刀",
+				"recipe_name": "精良的德國戰刀",
+				"flavor": "更加令人恐懼"
+			},
+			"macuahuitl": {
+				"description": "木棍的邊緣上有許多陶製的利刃",
+				"display_name": "陶刃鋸劍",
+				"recipe_name": "陶刃鋸劍",
+				"flavor": "用硬化黏土作為利刃的砍擊類重武器，有一定機率減緩敵人的速度"
+			},
+			"naue": {
+				"description": "源自古代歐洲的一種短劍",
+				"display_name": "歐洲青銅短劍",
+				"recipe_name": "歐洲青銅短劍",
+				"flavor": "韜光養晦的刺殺武器"
+			},
+			"prismatic_blade": {
+				"description": "陶製片刃刀",
+				"display_name": "陶製片刃刀",
+				"recipe_name": "陶製片刃刀",
+				"flavor": "讓陶土附加如鋼鐵般的鋒利，有一定機率減緩敵人的速度"
+			},
+			"prismatic_claymore": {
+				"description": "陶製大砍刀",
+				"display_name": "陶製大砍刀",
+				"recipe_name": "陶製大砍刀",
+				"flavor": "灌注更多的鋼鐵之力，有一定機率減緩敵人的速度"
+			},
+			"ringspatha": {
+				"description": "源自羅馬的一種長劍",
+				"display_name": "羅馬長劍",
+				"recipe_name": "羅馬長劍",
+				"flavor": "尾端有一個小圈圈，可以讓你掛在其他東西上面"
+			},
+			"scimitar": {
+				"description": "源自於阿拉伯的一種彎刀（雙手武器）",
+				"display_name": "阿拉伯大彎刀",
+				"recipe_name": "阿拉伯大彎刀",
+				"flavor": "既美麗又致命"
+			},
+			"scimitar_fine": {
+				"description": "源自於阿拉伯的一種彎刀（雙手武器）",
+				"display_name": "精良的阿拉伯大彎刀",
+				"recipe_name": "精良的阿拉伯大彎刀",
+				"flavor": "更加美麗，更加致命"
+			},
+			"seax": {
+				"description": "源自於撒克遜人的一種短刀",
+				"display_name": "撒克遜戰刀",
+				"recipe_name": "撒克遜戰刀",
+				"flavor": "像剁刀一般的刺劍"
+			},
+			"sovnya": {
+				"description": "源自於俄羅斯的一種長矛.",
+				"display_name": "俄羅斯長矛",
+				"recipe_name": "俄羅斯長矛",
+				"flavor": "很適合用來趕跑哥布林"
+			},
+			"steel_axe": {
+				"description": "用鋼鐵所打造的雙手戰斧（雙手武器）",
+				"display_name": "鋼鐵雙刃戰斧",
+				"recipe_name": "鋼鐵雙刃戰斧",
+				"flavor": "想砍什麼都可以"
+			},
+			"turk_bow": {
+				"display_name": "棕色反曲弓",
+        "description": "能提高箭矢飛行的速度與強度",
+				"recipe_name": "棕色反曲弓",
+				"flavor": "非常適合將哥布林阻擋在一定的距離之外"
+			},
+			"warclub": {
+				"description": "用陶土所製成的戰棍",
+				"display_name": "陶製戰棍",
+				"recipe_name": "陶製戰棍",
+				"flavor": "陶土緊密結合而成的戰棍，有一定機率減緩敵人的速度"
+			},
+			"warmace": {
+				"description": "用陶土所製成的戰槌",
+				"display_name": "陶製戰槌",
+				"recipe_name": "陶製戰槌",
+				"flavor": "用硬化陶土所製成的戰槌，有一定機率減緩敵人的速度"
+			},
+			"war_bow": {
+				"display_name": "灰色反曲弓",
+            	"description": "能提高箭矢飛行的速度與強度",
+				"recipe_name": "灰色反曲弓",
+				"flavor": "非常適合將哥布林阻擋在一定的距離之外"
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"black_name": "黑色裝甲",
+				"blue_name": "藍色裝甲",
+				"green_name": "綠色裝甲",
+				"red_name": "紅色裝甲",
+				"white_name": "白色裝甲",
+				"yellow_name": "黃色裝甲"
+			}
+		},
+		"blade": {
+         	"blade_outfit": {
+            	"display_name": "刀鋒戰士的裝甲",
+            	"description": "刀鋒戰士專屬的硬化盔甲"
+         	},
+         	"blade_description": {
+            	"display_name": "刀鋒戰士",
+	            "description": "刀鋒戰士屬於防禦性的戰鬥單位，可以用一對雙刀保護同伴不受傷害",
+	            "requirements": "由陶藝師所製作",
+	            "level_1_data": {
+	               "perk_000_name": "自我強化",
+	               "perk_001_name": "傷害減免",
+	               "perk_000_description": "提升刀鋒戰士的體力與勇氣，並吸引附近敵人的注意力",
+	               "perk_001_description": "提高刀鋒戰士從裝備獲得的防禦力 5%"
+	            },
+	            "level_4_data": {
+	               "perk_000_name": "傷害減免 II",
+	               "perk_000_description": "提高刀鋒戰士從裝備獲得的防禦力 10%"
+	            },
+	            "level_3_data": {
+	               "perk_000_name": "自我強化 II",
+	               "perk_000_description": "大幅提升刀鋒戰士的體力與勇氣"
+	            },
+	            "level_5_data": {
+	               "perk_000_name": "一世之雄",
+	               "perk_000_description": "提升刀鋒戰士附近爐民的勇氣"
+	            },
+	            "level_2_data": {
+	               "perk_000_name": "戰吼",
+	               "perk_000_description": "刀鋒戰士對著目標發出戰吼，吸引附近敵人的注意力",
+	               "perk_001_name": "衝鋒陷陣",
+	               "perk_001_description": "刀鋒戰士加快腳步衝入敵陣"
+	            },
+	            "level_6_data": {
+	               "perk_000_name": "英雄號角",
+	               "perk_000_description": "刀鋒戰士吹響號角，吸引近距離與遠處敵人的注意力"
+	            }
+	        },
+	        "blade_buffs": {
+	            "defense_1_buff": {
+	               "display_name": "防禦提升 5%",
+	               "description": "從裝備獲得的防禦力提升 5%"
+	            },
+	            "defense_2_buff": {
+	               "display_name": "防禦提升 10%",
+	               "description": "從裝備獲得的防禦力提升 10%"
+	            },
+	            "health_1_buff": {
+	               "display_name": "自我強化",
+	               "description": "刀鋒戰士對敵人更具威脅性，能夠吸引敵人的注意力，並提升耐力與勇氣"
+	            },
+	            "health_2_buff": {
+	               "display_name": "自我強化 II",
+	               "description": "更快，更猛，大幅提升刀鋒戰士的耐力與勇氣"
+	            },
+	            "courage_aura_buff": {
+	               "display_name": "一世之雄",
+	               "description": "提升刀鋒戰士附近爐民的勇氣"
+	            },
+	            "courage_aura_effect_buff": {
+	               "display_name": "鼓舞",
+	               "description": "受到刀鋒戰士的鼓舞，提升勇氣"
+	            }
+	        },
+	        "blade_helm": {
+	            "display_name": "刀鋒戰士的頭盔",
+	            "description": "刀鋒戰士的標準配備"
+         	}
+        },
+		"herbalist": {
+			"recipes": {
+				"mixes_name": "調配"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"weapons_name": "武器",
+				"offhands_name": "副手武器",
+				"blade_offhand_recipe": {
+					"recipe_name": "刀鋒戰士的副手武器",
+               		"description": "轉職為刀鋒戰士的必要物品"
+               	}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"black_name": "黑色護甲",
+				"blue_name": "藍色護甲",
+				"green_name": "綠色護甲",
+				"red_name": "紅色護甲",
+				"white_name": "白色護甲",
+				"yellow_name": "黃色護甲"
+			}
+		}
+	}
+}

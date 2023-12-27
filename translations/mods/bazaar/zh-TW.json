@@ -1,0 +1,318 @@
+{
+	"jobs": {
+		"carpenter": {
+			"recipes": {
+				"shop_name": "工作室裝飾品",
+
+				"pantry_wood_recipe" : {
+					"recipe_name" : "木製置物架",
+					"description" : "可以擺放 12 個物品的置物架",
+					"flavor" : "有條有理"
+				},
+
+				"vitrine_small_box_wood_recipe": {
+					"recipe_name": "小型木製展示窗 - 箱子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_plate_wood_recipe": {
+					"recipe_name": "小型木製展示窗 - 平板",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_table_wood_recipe": {
+					"recipe_name": "小型木製展示窗 - 桌子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+
+				"vitrine_medium_box_wood_recipe": {
+					"recipe_name": "中型木製展示窗 - 箱子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_plate_wood_recipe": {
+					"recipe_name": "中型木製展示窗 - 平板",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_table_wood_recipe": {
+					"recipe_name": "中型木製展示窗 - 桌子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+
+				"vitrine_large_box_wood_recipe": {
+					"recipe_name": "大型木製展示窗 - 箱子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_plate_wood_recipe": {
+					"recipe_name": "大型木製展示窗 - 平板",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_table_wood_recipe": {
+					"recipe_name": "大型木製展示窗 - 桌子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"shop_name": "工作室裝飾品",
+
+				"vitrine_small_box_stone_recipe": {
+					"recipe_name": "小型石製展示窗 - 箱子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_plate_stone_recipe": {
+					"recipe_name": "小型石製展示窗 - 平板",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_table_stone_recipe": {
+					"recipe_name": "小型石製展示窗 - 桌子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+
+				"vitrine_medium_box_stone_recipe": {
+					"recipe_name": "中型石製展示窗 - 箱子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_plate_stone_recipe": {
+					"recipe_name": "中型石製展示窗 - 平板",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_table_stone_recipe": {
+					"recipe_name": "中型石製展示窗 - 桌子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+
+				"vitrine_large_box_stone_recipe": {
+					"recipe_name": "大型石製展示窗 - 箱子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_plate_stone_recipe": {
+					"recipe_name": "大型石製展示窗 - 平板",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_table_stone_recipe": {
+					"recipe_name": "大型石製展示窗 - 桌子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"shop_name": "工作室裝飾品",
+
+				"vitrine_small_box_clay_blue_recipe" : {
+					"recipe_name" : "小型藍陶展示窗 - 箱子",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+				"vitrine_small_plate_clay_blue_recipe" : {
+					"recipe_name" : "小型藍陶展示窗 - 平板",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+				"vitrine_small_table_clay_blue_recipe" : {
+					"recipe_name" : "小型藍陶展示窗 - 桌子",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+
+				"vitrine_medium_box_clay_blue_recipe" : {
+					"recipe_name" : "中型藍陶展示窗 - 箱子",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_plate_clay_blue_recipe" : {
+					"recipe_name" : "中型藍陶展示窗 - 平板",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_table_clay_blue_recipe" : {
+					"recipe_name" : "中型藍陶展示窗 - 桌子",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+
+				"vitrine_large_box_clay_blue_recipe" : {
+					"recipe_name" : "大型藍陶展示窗 - 箱子",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+				"vitrine_large_plate_clay_blue_recipe" : {
+					"recipe_name" : "大型藍陶展示窗 - 平板",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+				"vitrine_large_table_clay_blue_recipe" : {
+					"recipe_name" : "大型藍陶展示窗 - 桌子",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+
+
+				"vitrine_small_box_clay_green_recipe" : {
+					"recipe_name" : "小型綠陶展示窗 - 箱子",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+				"vitrine_small_plate_clay_green_recipe" : {
+					"recipe_name" : "小型綠陶展示窗 - 平板",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+				"vitrine_small_table_clay_green_recipe" : {
+					"recipe_name" : "小型綠陶展示窗 - 桌子",
+					"description" : "可以擺放 6 個物品的展示窗",
+					"flavor" : "對每個小商店來說都很適合"
+				},
+
+				"vitrine_medium_box_clay_green_recipe" : {
+					"recipe_name" : "中型綠陶展示窗 - 箱子",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_plate_clay_green_recipe" : {
+					"recipe_name" : "中型綠陶展示窗 - 平板",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_table_clay_green_recipe" : {
+					"recipe_name" : "中型綠陶展示窗 - 桌子",
+					"description" : "可以擺放 12 個物品的展示窗",
+					"flavor" : "一名好的工匠總是需要更多的展示空間"
+				},
+
+				"vitrine_large_box_clay_green_recipe" : {
+					"recipe_name" : "大型綠陶展示窗 - 箱子",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+				"vitrine_large_plate_clay_green_recipe" : {
+					"recipe_name" : "大型綠陶展示窗 - 平板",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+				"vitrine_large_table_clay_green_recipe" : {
+					"recipe_name" : "大型綠陶展示窗 - 桌子",
+					"description" : "可以擺放 18 個物品的展示窗",
+					"flavor" : "精品櫥窗"
+				},
+
+				"vitrine_small_box_clay_red_recipe": {
+					"recipe_name": "小型紅陶展示窗 - 箱子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_plate_clay_red_recipe": {
+					"recipe_name": "小型紅陶展示窗 - 平板",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+				"vitrine_small_table_clay_red_recipe": {
+					"recipe_name": "小型紅陶展示窗 - 桌子",
+					"description": "可以擺放 6 個物品的展示窗",
+					"flavor": "對每個小商店來說都很適合"
+				},
+
+				"vitrine_medium_box_clay_red_recipe": {
+					"recipe_name": "中型紅陶展示窗 - 箱子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_plate_clay_red_recipe": {
+					"recipe_name": "中型紅陶展示窗 - 平板",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+				"vitrine_medium_table_clay_red_recipe": {
+					"recipe_name": "中型紅陶展示窗 - 桌子",
+					"description": "可以擺放 12 個物品的展示窗",
+					"flavor": "一名好的工匠總是需要更多的展示空間"
+				},
+
+				"vitrine_large_box_clay_red_recipe": {
+					"recipe_name": "大型紅陶展示窗 - 箱子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_plate_clay_red_recipe": {
+					"recipe_name": "大型紅陶展示窗 - 平板",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				},
+				"vitrine_large_table_clay_red_recipe": {
+					"recipe_name": "大型紅陶展示窗 - 桌子",
+					"description": "可以擺放 18 個物品的展示窗",
+					"flavor": "精品櫥窗"
+				}
+
+			}
+		}
+	},
+
+	"entities": {
+
+		"containers" : {
+			"pantry_wood_ghost" : {
+				"display_name" : "木製置物架",
+				"description" : "可以擺放 12 個物品的置物架"
+			}
+		},
+
+		"construction": {
+			"vitrine_small_box_ghost": {
+				"display_name": "小型展示窗 - 箱子",
+				"description": "可以擺放 6 個物品的展示窗"
+			},
+			"vitrine_small_plate_ghost": {
+				"display_name": "小型展示窗 - 平板",
+				"description": "可以擺放 6 個物品的展示窗"
+			},
+			"vitrine_small_table_ghost": {
+				"display_name": "小型展示窗 - 桌子",
+				"description": "可以擺放 6 個物品的展示窗"
+			},
+
+			"vitrine_medium_box_ghost": {
+				"display_name": "中型展示窗 - 箱子",
+				"description": "可以擺放 12 個物品的展示窗"
+			},
+			"vitrine_medium_plate_ghost": {
+				"display_name": "中型展示窗 - 平板",
+				"description": "可以擺放 12 個物品的展示窗"
+			},
+			"vitrine_medium_table_ghost": {
+				"display_name": "中型展示窗 - 桌子",
+				"description": "可以擺放 12 個物品的展示窗"
+			},
+
+			"vitrine_large_box_ghost": {
+				"display_name": "大型展示窗 - 箱子",
+				"description": "可以擺放 18 個物品的展示窗"
+			},
+			"vitrine_large_plate_ghost": {
+				"display_name": "大型展示窗 - 平板",
+				"description": "可以擺放 18 個物品的展示窗"
+			},
+			"vitrine_large_table_ghost": {
+				"display_name": "大型展示窗 - 桌子",
+				"description": "可以擺放 18 個物品的展示窗"
+			}
+		}
+	}
+}

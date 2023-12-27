@@ -1,0 +1,1300 @@
+{
+   "entities": {
+      "decoration": {
+         "banner_wall_big_fine": {
+            "banner_wall_big_fine_ghost": {
+               "display_name": "精良的大型壁掛旗幟",
+               "description": "用這旗幟展現城鎮的榮耀"
+            }
+         },
+         "banner_wall_small_fine": {
+            "banner_wall_small_fine_ghost": {
+               "display_name": "精良的小型壁掛旗幟",
+               "description": "用這旗幟展現城鎮的榮耀"
+            }
+         },
+         "bird_bath_fine": {
+            "bird_bath_fine_ghost": {
+               "display_name": "精良的鳥盆",
+               "description": "供小鳥戲水或飲水的盆形裝飾物"
+            }
+         },
+         "blown_glass_vase_fine": {
+            "blown_glass_vase_fine_ghost": {
+               "display_name": "精良的吹製玻璃花瓶",
+               "description": "不可思議的技藝"
+            }
+         },
+         "clay_lamp_fine": {
+            "clay_lamp_fine_ghost": {
+               "display_name": "精良的陶製油燈",
+               "description": "可以帶來溫暖的光輝"
+            }
+         },
+         "clay_wall_lamp_fine": {
+            "clay_wall_lamp_fine_ghost": {
+               "display_name": "精良的壁掛油燈",
+               "description": "可以提供溫暖的照明"
+            }
+         },
+         "curtains_fine": {
+            "curtains_fine_ghost": {
+               "display_name": "精良的窗簾",
+               "description": "用來裝飾窗戶"
+            }
+         },
+         "decorative_teapot_fine": {
+            "decorative_teapot_fine_ghost": {
+               "display_name": "精良的茶壺",
+               "description": "要喝茶嗎？"
+            }
+         },
+         "decorative_tray_fine": {
+            "decorative_tray_fine_ghost": {
+               "display_name": "精良的裝飾陶盤",
+               "description": "可以展現你的熱情"
+            }
+         },
+         "decorative_vase_fine": {
+            "decorative_vase_fine_ghost": {
+               "display_name": "精良的裝飾花瓶",
+               "description": "把金屬與陶土化為藝術品"
+            }
+         },
+         "fur_rug_fine": {
+            "fur_rug_fine_ghost": {
+               "display_name": "精良的毛皮地毯",
+               "description": "溫暖蓬鬆的地毯，由動物的毛皮製成"
+            }
+         },
+         "gargoyle_fine": {
+            "gargoyle_fine_ghost": {
+               "display_name": "精良的石像鬼",
+               "description": "哥德式的雕像，可以用來裝飾牆面"
+            }
+         },
+         "golden_clay_wall_planter_fine": {
+            "golden_clay_wall_planter_fine_ghost": {
+               "display_name": "精良的金色陶製花盆",
+               "description": "可以點綴牆面"
+            }
+         },
+         "potted_cactus_fine": {
+            "potted_cactus_fine_ghost": {
+               "display_name": "精良的仙人掌盆栽",
+               "description": "小心！它可是有刺的"
+            }
+         },
+         "stone_brazier_fine": {
+            "stone_brazier_fine_ghost": {
+               "display_name": "精良的石製火盆",
+               "description": "提供舒適溫暖的照明"
+            }
+         },
+         "stone_garden_lantern_fine": {
+            "stone_garden_lantern_fine_ghost": {
+               "display_name": "精良的石製花園燈",
+               "description": "可以提供照明的復古造型的石燈"
+            }
+         },
+         "stone_wall_lantern_fine": {
+            "stone_wall_lantern_fine_ghost": {
+               "display_name": "精良的石製牆燈",
+               "description": "可以安裝在牆上"
+            }
+         },
+         "tapestry_wall_fine": {
+            "tapestry_wall_fine_ghost": {
+               "display_name": "精良的掛毯",
+               "description": "由彩色的絲線編織而成"
+            }
+         },
+         "throw_rug_fine": {
+            "throw_rug_fine_ghost": {
+               "display_name": "精良的地毯",
+               "description": "讓地板看起來不會髒髒的"
+            }
+         },
+         "tile_floor_mosaic_fine": {
+            "tile_floor_mosaic_fine_ghost": {
+               "display_name": "精良的馬賽克地磚",
+               "description": "光腳踩在上面很涼爽"
+            }
+         },
+         "tile_wall_mosaic_fine": {
+            "tile_wall_mosaic_fine_ghost": {
+               "display_name": "精良的馬賽克牆磚",
+               "description": "賞心悅目"
+            }
+         },
+         "tower_brazier_fine": {
+            "tower_brazier_fine_ghost": {
+               "display_name": "精良的高塔火盆",
+               "description": "參照城堡塔樓的設計，可以在夜晚提供一盞明燈"
+            }
+         },
+         "banner_wall_standard": {
+            "banner_wall_standard_ghost": {
+               "display_name": "壁掛旗幟",
+               "description": "用這旗幟展現城鎮的榮耀"
+            }
+         },
+         "banner_wall_standard_fine": {
+            "banner_wall_standard_fine_ghost": {
+               "display_name": "精良的壁掛旗幟",
+               "description": "用這旗幟展現城鎮的榮耀"
+            }
+         },
+         "pond": {
+            "pond_ghost": {
+               "display_name": "小水塘",
+               "description": "淺到不會讓人溺水"
+            }
+         }
+      },
+      "furniture": {
+         "stone_bench_fine": {
+            "stone_bench_fine_ghost": {
+               "display_name": "精良的石製長凳",
+               "description": "在戶外的時候可以坐下休息"
+            }
+         },
+         "stone_chair_fine": {
+            "stone_chair_fine_ghost": {
+               "display_name": "精良的石椅",
+               "description": "可以坐著"
+            }
+         },
+         "stone_table_fine": {
+            "stone_table_fine_ghost": {
+               "display_name": "精良的石桌",
+               "description": "它的厚實讓人感到莊重"
+            }
+         },
+         "clothed_dining_table": {
+            "clothed_dining_table_ghost": {
+               "display_name": "桌巾餐桌",
+               "description": "為文明添加一些優雅氣息"
+            }
+         },
+         "clothed_dining_table_fine": {
+            "clothed_dining_table_fine_ghost": {
+               "display_name": "精良的桌巾餐桌",
+               "description": "為文明添加一些優雅氣息"
+            }
+         },
+         "clothed_stone_table": {
+            "clothed_stone_table_ghost": {
+               "display_name": "桌巾石桌",
+               "description": "希望桌巾不會跟桌子一樣重"
+            }
+         },
+         "clothed_stone_table_fine": {
+            "clothed_stone_table_fine_ghost": {
+               "display_name": "精良的桌巾石桌",
+               "description": "希望桌巾不會跟桌子一樣重"
+            }
+         },
+         "comfy_arch_backed_chair": {
+            "comfy_arch_backed_chair_ghost": {
+               "display_name": "舒適教堂拱椅",
+               "description": "讓你在跪拜時有地方可以休息"
+            }
+         },
+         "comfy_arch_backed_chair_fine": {
+            "comfy_arch_backed_chair_fine_ghost": {
+               "display_name": "精良的舒適教堂拱椅",
+               "description": "讓你在跪拜時有地方可以休息"
+            }
+         },
+         "comfy_stone_chair": {
+            "comfy_stone_chair_ghost": {
+               "display_name": "舒適石椅",
+               "description": "其實坐起來不太舒服"
+            }
+         },
+         "comfy_stone_chair_fine": {
+            "comfy_stone_chair_fine_ghost": {
+               "display_name": "精良的舒適石椅",
+               "description": "其實坐起來不太舒服"
+            }
+         },
+         "hardly_a_bed": {
+            "hardly_a_bed_ghost": {
+               "display_name": "石床",
+               "description": "對於石頭做的東西來說算軟了"
+            }
+         },
+         "comfy_stone_bed": {
+            "comfy_stone_bed_ghost": {
+               "display_name": "舒適石床",
+               "description": "睡在舒適的床上總是讓人心情愉悅"
+            }
+         },
+         "comfy_stone_bed_fine": {
+            "comfy_stone_bed_fine_ghost": {
+               "display_name": "精良的舒適石床",
+               "description": "睡在舒適的床上總是讓人心情愉悅"
+            }
+         },
+         "comfy_clay_bed": {
+            "comfy_clay_bed_ghost": {
+               "display_name": "舒適陶土床",
+               "description": "睡在舒適的床上總是讓人心情愉悅"
+            }
+         },
+         "comfy_clay_bed_fine": {
+            "comfy_clay_bed_fine_ghost": {
+               "display_name": "精良的舒適陶土床",
+               "description": "睡在舒適的床上總是讓人心情愉悅"
+            }
+         },
+         "bookcase": {
+            "bookcase_ghost": {
+               "display_name": "木製書櫃",
+               "description": "不過裡面沒有書"
+            }
+         },
+         "bookcase_fine": {
+            "bookcase_fine_ghost": {
+               "display_name": "精良的木製書櫃",
+               "description": "不過裡面沒有書"
+            }
+         },
+         "comfy_stool": {
+            "comfy_stool_ghost": {
+               "display_name": "舒適木凳",
+               "description": "翹得太高可能會跌倒"
+            }
+         },
+         "comfy_stool_fine": {
+            "comfy_stool_fine_ghost": {
+               "display_name": "精良的舒適木凳",
+               "description": "翹得太高可能會跌倒"
+            }
+         },
+         "dresser_narrow": {
+            "dresser_narrow_ghost": {
+               "display_name": "小五斗櫃",
+               "description": "比一般的五斗櫃再小一點"
+            }
+         },
+         "dresser_narrow_fine": {
+            "dresser_narrow_fine_ghost": {
+               "display_name": "精良的小五斗櫃",
+               "description": "比一般的五斗櫃再小一點"
+            }
+         },
+         "shelf": {
+            "shelf_ghost": {
+               "display_name": "木製置物架",
+               "description": "雖然空空的，但是可以讓房間看起來更豐富"
+            }
+         },
+         "shelf_fine": {
+            "shelf_fine_ghost": {
+               "display_name": "精良的木製置物架",
+               "description": "雖然空空的，但是可以讓房間看起來更豐富"
+            }
+         },
+         "simple_wooden_stool": {
+            "simple_wooden_stool_ghost": {
+               "display_name": "木凳",
+               "description": "坐著吃東西可以獲得 120% 的飽足感"
+            }
+         },
+         "simple_wooden_stool_fine": {
+            "simple_wooden_stool_fine_ghost": {
+               "display_name": "精良的木凳",
+               "description": "坐著吃東西可以獲得 120% 的飽足感"
+            }
+         },
+         "wardrobe": {
+            "wardrobe_ghost": {
+               "display_name": "木製衣櫃",
+               "description": "可以蓋住牆上的裂縫或是你藏在牆裡的東西"
+            }
+         },
+         "wardrobe_fine": {
+            "wardrobe_fine_ghost": {
+               "display_name": "精良的木製衣櫃",
+               "description": "可以蓋住牆上的裂縫或是你藏在牆裡的東西"
+            }
+         }
+      },
+      "construction": {
+        "iron_double_door": {
+            "iron_double_door_ghost": {
+               "display_name": "雙開鐵甲門",
+               "description": "比木製或石製的門更加堅固"
+            }
+         },
+         "iron_double_doorway": {
+            "iron_double_doorway_ghost": {
+               "display_name": "加寬鐵製門框",
+               "description": "好像也沒有比木製或石製的好到哪裡去"
+            }
+         },
+         "picket_fence_narrow": {
+            "picket_fence_narrow_ghost": {
+               "display_name": "密集柵欄",
+               "description": "可以把入侵者擋在外面"
+            }
+         },
+         "picket_fence_narrow_fine": {
+            "picket_fence_narrow_fine_ghost": {
+               "display_name": "精良的密集柵欄",
+               "description": "可以把入侵者擋在外面"
+            }
+         },
+         "cobblestone_fence_narrow": {
+            "cobblestone_fence_narrow_ghost": {
+               "display_name": "密集鵝卵石圍牆",
+               "description": "質樸堅固的圍牆"
+            }
+         },
+         "latticed_clay_window_frame": {
+            "latticed_clay_window_frame_ghost": {
+               "display_name": "紅色菱格陶土窗",
+               "mixintypes": {"display_name": "override"}
+            }
+         },
+         "tall_clay_window": {
+            "tall_clay_window_ghost": {
+               "display_name": "加高陶土窗",
+               "mixintypes": {"display_name": "override"}
+            }
+         },
+         "tan_tall_latticed_window": {
+            "tan_tall_latticed_window_ghost": {
+               "display_name": "加高菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子"
+            }
+         },
+         "blue_tall_clay_window": {
+            "blue_tall_clay_window_ghost": {
+               "display_name": "加高藍色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣"
+            }
+         },
+         "blue_tall_latticed_window": {
+            "blue_tall_latticed_window_ghost": {
+               "display_name": "加高藍色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子"
+            }
+         },
+         "green_tall_clay_window": {
+            "green_tall_clay_window_ghost": {
+               "display_name": "加高綠色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣"
+            }
+         },
+         "green_tall_latticed_window": {
+            "green_tall_latticed_window_ghost": {
+               "display_name": "加高綠色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子"
+            }
+         },
+         "red_tall_clay_window": {
+            "red_tall_clay_window_ghost": {
+               "display_name": "加高紅色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣"
+            }
+         },
+         "red_tall_latticed_window": {
+            "red_tall_latticed_window_ghost": {
+               "display_name": "加高紅色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子"
+            }
+         },
+         "wooden_latticed_window": {
+            "wooden_latticed_window_ghost": {
+               "display_name": "菱格木窗",
+               "description": "說好的隱私呢..."
+            }
+         },
+         "wooden_latticed_window_fine": {
+            "wooden_latticed_window_fine_ghost": {
+               "display_name": "精良的菱格木窗",
+               "description": "說好的隱私呢..."
+            }
+         },
+         "wooden_latticed_window_tall": {
+            "wooden_latticed_window_tall_ghost": {
+               "display_name": "加高菱格木窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "wooden_latticed_window_tall_fine": {
+            "wooden_latticed_window_tall_fine_ghost": {
+               "display_name": "精良的加高菱格木窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "wooden_latticed_window_wide": {
+            "wooden_latticed_window_wide_ghost": {
+               "display_name": "加寬菱格木窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "wooden_latticed_window_wide_fine": {
+            "wooden_latticed_window_wide_fine_ghost": {
+               "display_name": "精良的加寬菱格木窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "stone_window_frame": {
+            "stone_window_frame_ghost": {
+               "display_name": "石窗",
+               "description": "這有隱私可言嗎..."
+            }
+         },
+         "stone_window_frame_fine": {
+            "stone_window_frame_fine_ghost": {
+               "display_name": "精良的石窗",
+               "description": "這有隱私可言嗎..."
+            }
+         },
+         "stone_window_frame_tall": {
+            "stone_window_frame_tall_ghost": {
+               "display_name": "加高石窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "stone_window_frame_tall_fine": {
+            "stone_window_frame_tall_fine_ghost": {
+               "display_name": "精良的加高石窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "stone_window_frame_wide": {
+            "stone_window_frame_wide_ghost": {
+               "display_name": "加寬石窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "stone_window_frame_wide_fine": {
+            "stone_window_frame_wide_fine_ghost": {
+               "display_name": "精良的加寬石窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "stone_latticed_window": {
+            "stone_latticed_window_ghost": {
+               "display_name": "菱格石窗",
+               "description": "說好的隱私呢..."
+            }
+         },
+         "stone_latticed_window_fine": {
+            "stone_latticed_window_fine_ghost": {
+               "display_name": "精良的菱格石窗",
+               "description": "說好的隱私呢..."
+            }
+         },
+         "stone_latticed_window_tall": {
+            "stone_latticed_window_tall_ghost": {
+               "display_name": "加高菱格石窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "stone_latticed_window_tall_fine": {
+            "stone_latticed_window_tall_fine_ghost": {
+               "display_name": "精良的加高菱格石窗",
+               "description": "額外的高度增添優雅的氣息"
+            }
+         },
+         "stone_latticed_window_wide": {
+            "stone_latticed_window_wide_ghost": {
+               "display_name": "加寬菱格石窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "stone_latticed_window_wide_fine": {
+            "stone_latticed_window_wide_fine_ghost": {
+               "display_name": "精良的加寬菱格石窗",
+               "description": "美景盡收眼底！"
+            }
+         },
+         "wooden_arch_window": {
+            "wooden_arch_window_ghost": {
+               "display_name": "木製拱窗",
+               "description": "復古風潮"
+            }
+         },
+         "wooden_arch_window_fine": {
+            "wooden_arch_window_fine_ghost": {
+               "display_name": "精良的木製拱窗",
+               "description": "復古風潮"
+            }
+         },
+         "wooden_arch_window_tall": {
+            "wooden_arch_window_tall_ghost": {
+               "display_name": "加高木製拱窗",
+               "description": "看起來蠻漂亮的，但是又好像有點陰森"
+            }
+         },
+         "wooden_arch_window_tall_fine": {
+            "wooden_arch_window_tall_fine_ghost": {
+               "display_name": "精良的加高木製拱窗",
+               "description": "看起來蠻漂亮的，但是又好像有點陰森"
+            }
+         },
+         "stone_arch_window": {
+            "stone_arch_window_ghost": {
+               "display_name": "石製拱窗",
+               "description": "復古風潮"
+            }
+         },
+         "stone_arch_window_fine": {
+            "stone_arch_window_fine_ghost": {
+               "display_name": "精良的石製拱窗",
+               "description": "復古風潮"
+            }
+         },
+         "stone_arch_window_tall": {
+            "stone_arch_window_tall_ghost": {
+               "display_name": "加高石製拱窗",
+               "description": "看起來蠻漂亮的，但是又好像有點陰森"
+            }
+         },
+         "stone_arch_window_tall_fine": {
+            "stone_arch_window_tall_fine_ghost": {
+               "display_name": "精良的加高石製拱窗",
+               "description": "看起來蠻漂亮的，但是又好像有點陰森"
+            }
+         },
+         "wooden_diamond_window_tall": {
+            "wooden_diamond_window_tall_ghost": {
+               "display_name": "加高菱形木窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "wooden_diamond_window_tall_fine": {
+            "wooden_diamond_window_tall_fine_ghost": {
+               "display_name": "精良的加高菱形木窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "wooden_diamond_window_wide": {
+            "wooden_diamond_window_wide_ghost": {
+               "display_name": "加寬菱形木窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "wooden_diamond_window_wide_fine": {
+            "wooden_diamond_window_wide_fine_ghost": {
+               "display_name": "精良的加寬菱形木窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "stone_diamond_window": {
+            "stone_diamond_window_ghost": {
+               "display_name": "菱形石窗",
+               "description": "這有隱私可言嗎..."
+            }
+         },
+         "stone_diamond_window_fine": {
+            "stone_diamond_window_fine_ghost": {
+               "display_name": "精良的菱形石窗",
+               "description": "這有隱私可言嗎..."
+            }
+         },
+         "stone_diamond_window_tall": {
+            "stone_diamond_window_tall_ghost": {
+               "display_name": "加高菱形石窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "stone_diamond_window_tall_fine": {
+            "stone_diamond_window_tall_fine_ghost": {
+               "display_name": "精良的加高菱形石窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "stone_diamond_window_wide": {
+            "stone_diamond_window_wide_ghost": {
+               "display_name": "加寬菱形石窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "stone_diamond_window_wide_fine": {
+            "stone_diamond_window_wide_fine_ghost": {
+               "display_name": "精良的加寬菱形石窗",
+               "description": "為了時尚我願意犧牲一點隱私"
+            }
+         },
+         "wooden_double_door_2": {
+            "wooden_double_door_2_ghost": {
+               "display_name": "強化雙開木門",
+               "description": "比一般木門更加堅固沉重"
+            }
+         },
+         "wooden_double_door_2_fine": {
+            "wooden_double_door_2_fine_ghost": {
+               "display_name": "精良的強化雙開木門",
+               "description": "比一般木門更加時尚堅固沉重"
+            }
+         },
+         "wooden_tunnel_door_2": {
+            "display_name": "強化木製隧道門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "wooden_tunnel_door_2_fine": {
+            "display_name": "精良的強化木製隧道門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "stone_doorway": {
+            "stone_doorway_ghost": {
+               "display_name": "石製門框",
+               "description": "至少看起來是個門"
+            }
+         },
+         "stone_doorway_fine": {
+            "stone_doorway_fine_ghost": {
+               "display_name": "精良的石製門框",
+               "description": "至少看起來是個門"
+            }
+         },
+         "stone_double_doorway": {
+            "stone_double_doorway_ghost": {
+               "display_name": "加寬石製門框",
+               "description": "更大的門框，讓人印象深刻"
+            }
+         },
+         "stone_double_doorway_fine": {
+            "stone_double_doorway_fine_ghost": {
+               "display_name": "精良的加寬石製門框",
+               "description": "更大的門框，讓人印象深刻"
+            }
+         },
+         "stone_tunnel_doorway": {
+            "display_name": "石製隧道門框",
+            "description": "很適合用來裝飾隧道"
+         },
+         "stone_tunnel_doorway_fine": {
+            "display_name": "精良的石製隧道門框",
+            "description": "很適合用來裝飾隧道"
+         },
+         "stone_wooden_door": {
+            "stone_wooden_door_ghost": {
+               "display_name": "石框木門",
+               "description": "終於有點隱私了！"
+            }
+         },
+         "stone_wooden_door_fine": {
+            "stone_wooden_door_fine_ghost": {
+               "display_name": "精良的石框木門",
+               "description": "終於有點隱私了！"
+            }
+         },
+         "stone_wooden_door_2": {
+            "stone_wooden_door_2_ghost": {
+               "display_name": "強化石框木門",
+               "description": "比一般的門更加堅固"
+            }
+         },
+         "stone_wooden_door_2_fine": {
+            "stone_wooden_door_2_fine_ghost": {
+               "display_name": "精良的強化石框木門",
+               "description": "比一般的門更加堅固"
+            }
+         },
+         "stone_wooden_double_door": {
+            "stone_wooden_double_door_ghost": {
+               "display_name": "雙開石框木門",
+               "description": "讓人印象深刻的一扇大門"
+            }
+         },
+         "stone_wooden_double_door_fine": {
+            "stone_wooden_double_door_fine_ghost": {
+               "display_name": "精良的雙開石框木門",
+               "description": "讓人印象深刻的一扇大門"
+            }
+         },
+         "stone_wooden_double_door_2": {
+            "stone_wooden_double_door_2_ghost": {
+               "display_name": "強化雙開石框木門",
+               "description": "比一般木門更加堅固沉重"
+            }
+         },
+         "stone_wooden_double_door_2_fine": {
+            "stone_wooden_double_door_2_fine_ghost": {
+               "display_name": "精良的強化雙開石框木門",
+               "description": "比一般木門更加時尚堅固沉重"
+            }
+         },
+         "stone_wooden_tunnel_door": {
+            "display_name": "石框隧道木門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "stone_wooden_tunnel_door_fine": {
+            "display_name": "精良的石框隧道木門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "stone_wooden_tunnel_door_2": {
+            "display_name": "強化石框隧道木門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "stone_wooden_tunnel_door_2_fine": {
+            "display_name": "精良的強化石框隧道木門",
+            "description": "很適合用來作為隧道的出入口"
+         },
+         "wooden_window_frame_shutter": {
+            "wooden_window_frame_shutter_ghost": {
+               "display_name": "百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_fine": {
+            "wooden_window_frame_shutter_fine_ghost": {
+               "display_name": "精良的百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter": {
+            "wooden_window_frame_tall_shutter_ghost": {
+               "display_name": "加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_fine": {
+            "wooden_window_frame_tall_shutter_fine_ghost": {
+               "display_name": "精良的加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_blue": {
+            "wooden_window_frame_shutter_blue_ghost": {
+               "display_name": "藍色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_blue_fine": {
+            "wooden_window_frame_shutter_blue_fine_ghost": {
+               "display_name": "精良的藍色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_blue": {
+            "wooden_window_frame_tall_shutter_blue_ghost": {
+               "display_name": "藍色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_blue_fine": {
+            "wooden_window_frame_tall_shutter_blue_fine_ghost": {
+               "display_name": "精良的藍色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_green": {
+            "wooden_window_frame_shutter_green_ghost": {
+               "display_name": "綠色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_green_fine": {
+            "wooden_window_frame_shutter_green_fine_ghost": {
+               "display_name": "精良的綠色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_green": {
+            "wooden_window_frame_tall_shutter_green_ghost": {
+               "display_name": "綠色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_green_fine": {
+            "wooden_window_frame_tall_shutter_green_fine_ghost": {
+               "display_name": "精良的綠色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_red": {
+            "wooden_window_frame_shutter_red_ghost": {
+               "display_name": "紅色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_shutter_red_fine": {
+            "wooden_window_frame_shutter_red_fine_ghost": {
+               "display_name": "精良的紅色百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_red": {
+            "wooden_window_frame_tall_shutter_red_ghost": {
+               "display_name": "紅色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "wooden_window_frame_tall_shutter_red_fine": {
+            "wooden_window_frame_tall_shutter_red_fine_ghost": {
+               "display_name": "精良的紅色加高百葉木窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter": {
+            "stone_window_frame_shutter_ghost": {
+               "display_name": "百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_fine": {
+            "stone_window_frame_shutter_fine_ghost": {
+               "display_name": "精良的百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter": {
+            "stone_window_frame_tall_shutter_ghost": {
+               "display_name": "加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_fine": {
+            "stone_window_frame_tall_shutter_fine_ghost": {
+               "display_name": "精良的加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_blue": {
+            "stone_window_frame_shutter_blue_ghost": {
+               "display_name": "藍色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_blue_fine": {
+            "stone_window_frame_shutter_blue_fine_ghost": {
+               "display_name": "精良的藍色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_blue": {
+            "stone_window_frame_tall_shutter_blue_ghost": {
+               "display_name": "藍色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_blue_fine": {
+            "stone_window_frame_tall_shutter_blue_fine_ghost": {
+               "display_name": "精良的藍色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_green": {
+            "stone_window_frame_shutter_green_ghost": {
+               "display_name": "綠色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_green_fine": {
+            "stone_window_frame_shutter_green_fine_ghost": {
+               "display_name": "精良的綠色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_green": {
+            "stone_window_frame_tall_shutter_green_ghost": {
+               "display_name": "綠色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_green_fine": {
+            "stone_window_frame_tall_shutter_green_fine_ghost": {
+               "display_name": "精良的綠色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_red": {
+            "stone_window_frame_shutter_red_ghost": {
+               "display_name": "紅色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_shutter_red_fine": {
+            "stone_window_frame_shutter_red_fine_ghost": {
+               "display_name": "精良的紅色百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_red": {
+            "stone_window_frame_tall_shutter_red_ghost": {
+               "display_name": "紅色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         },
+         "stone_window_frame_tall_shutter_red_fine": {
+            "stone_window_frame_tall_shutter_red_fine_ghost": {
+               "display_name": "精良的紅色加高百葉石窗",
+               "description": "可以避免室內溫度過高"
+            }
+         }
+      },
+      "containers": {
+         "stone_chest_fine": {
+            "stone_chest_fine_ghost": {
+               "display_name": "精良的石製儲存箱",
+               "description": "可以存放 64 個物品"
+            }
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+           "picket_fence_narrow_recipe": {
+               "description": "這是我的財產！",
+               "recipe_name": "密集柵欄",
+               "flavor": "可以把入侵者擋在外面"
+            },
+            "wooden_arch_window_recipe": {
+               "description": "復古風潮",
+               "recipe_name": "木製拱窗",
+               "flavor": "這拱形可真花了我不少時間製作"
+            },
+            "wooden_arch_window_tall_recipe": {
+               "description": "看起來蠻漂亮的，但是又好像有點陰森",
+               "recipe_name": "加高木製拱窗",
+               "flavor": "至少不會發出怪聲音，對吧？"
+            },
+            "wooden_diamond_window_tall_recipe": {
+               "description": "為了時尚我願意犧牲一點隱私",
+               "recipe_name": "加高菱形木窗",
+               "flavor": "至少你有更好的視野"
+            },
+            "wooden_diamond_window_wide_recipe": {
+               "description": "為了時尚我願意犧牲一點隱私",
+               "recipe_name": "加寬菱形木窗",
+               "flavor": "至少你有更好的視野"
+            },
+            "wooden_double_door_2_recipe": {
+               "description": "比一般木門更加堅固沉重",
+               "recipe_name": "強化雙開木門",
+               "flavor": "看起來還真有這麼一回事"
+            },
+            "wooden_tunnel_door_2_recipe": {
+               "description": "很適合用來作為隧道的出入口",
+               "recipe_name": "強化木製隧道門",
+               "flavor": "讓隧道可以通行自如"
+            },
+            "stone_wooden_door_recipe": {
+               "description": "至少看起來是個門",
+               "recipe_name": "石框木門",
+               "flavor": "好像有點窄，是吧？"
+            },
+            "stone_wooden_door_2_recipe": {
+               "description": "看起來就很堅固！",
+               "recipe_name": "強化石框木門",
+               "flavor": "至少對兔子來說是這樣"
+            },
+            "stone_wooden_double_door_recipe": {
+               "description": "這門看起來真棒！",
+               "recipe_name": "雙開石框木門",
+               "flavor": "出口往這裡走，謝謝"
+            },
+            "stone_wooden_double_door_2_recipe": {
+               "description": "堅固耐用的一扇大門",
+               "recipe_name": "強化雙開石框木門",
+               "flavor": "讓你的房子看起來像一座城堡！"
+            },
+            "stone_wooden_tunnel_door_recipe": {
+               "description": "為隧道量身訂做",
+               "recipe_name": "石框隧道木門",
+               "flavor": "這裡好黑，我什麼都看不到"
+            },
+            "stone_wooden_tunnel_door_2_recipe": {
+               "description": "木門絕對不可能比這扇門要堅固",
+               "recipe_name": "強化石框隧道木門",
+               "flavor": "警告：小心白蟻"
+            },
+            "clothed_dining_table_recipe": {
+               "description": "為文明添加一些優雅氣息",
+               "recipe_name": "桌巾餐桌",
+               "flavor": "都什麼時代了誰還用沒有桌巾的桌子吃飯？"
+            },
+            "comfy_arch_backed_chair_recipe": {
+               "description": "讓你在跪拜時有地方可以休息",
+               "recipe_name": "舒適教堂拱椅",
+               "flavor": "適合那些不是那麼虔誠的教徒"
+            },
+            "wooden_window_frame_shutter_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "百葉木窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "wooden_window_frame_tall_shutter_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "加高百葉木窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "wooden_window_frame_shutter_blue_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "藍色百葉木窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "wooden_window_frame_tall_shutter_blue_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "藍色加高百葉木窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "wooden_window_frame_shutter_green_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "綠色百葉木窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "wooden_window_frame_tall_shutter_green_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "綠色加高百葉木窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "stone_window_frame_shutter_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "百葉石窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "stone_window_frame_tall_shutter_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "加高百葉石窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "stone_window_frame_shutter_blue_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "藍色百葉石窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "stone_window_frame_tall_shutter_blue_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "藍色加高百葉石窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "stone_window_frame_shutter_green_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "綠色百葉石窗",
+               "flavor": "上面寫義大利設計，誰是義大利？"
+            },
+            "stone_window_frame_tall_shutter_green_recipe": {
+               "description": "可以避免室內溫度過高",
+               "recipe_name": "綠色加高百葉石窗",
+               "flavor": "增加一點風格，同時遮擋陽光"
+            },
+            "bookcase_recipe": {
+               "description": "不過裡面沒有書",
+               "recipe_name": "木製書櫃",
+               "flavor": "可以擋住很大一面牆"
+            },
+            "comfy_stool_recipe": {
+               "description": "翹得太高可能會跌倒",
+               "recipe_name": "舒適木凳",
+               "flavor": "有了枕頭後似乎一切都不重要了"
+            },
+            "dresser_narrow_recipe": {
+               "description": "比一般的五斗櫃再小一點",
+               "recipe_name": "小五斗櫃",
+               "flavor": "讓小空間能夠更有效的利用！"
+            },
+            "shelf_recipe": {
+               "description": "雖然空空的，但是可以讓房間看起來更豐富",
+               "recipe_name": "木製置物架",
+               "flavor": "獻給特別喜歡木板的你"
+            },
+            "simple_wooden_stool_recipe": {
+               "description": "坐著吃東西可以獲得 120% 的飽足感",
+               "recipe_name": "木凳",
+               "flavor": "獻給喜歡鄉村風格的你"
+            },
+            "wardrobe_recipe": {
+               "description": "可以蓋住牆上的裂縫或是你藏在牆裡的東西",
+               "recipe_name": "木製衣櫃",
+               "flavor": "前者比較有用"
+            },
+            "wooden_latticed_window_recipe": {
+               "description": "讓光灑進室內吧！",
+               "recipe_name": "菱格木窗",
+               "flavor": "說好的隱私呢..."
+            },
+            "wooden_latticed_window_tall_recipe": {
+               "description": "額外的高度增添優雅的氣息.",
+               "recipe_name": "加高菱格木窗"
+            },
+            "wooden_latticed_window_wide_recipe": {
+               "description": "美景盡收眼底！",
+               "recipe_name": "加寬菱格木窗"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "cobblestone_fence_narrow_recipe": {
+               "description": "質樸堅固的圍牆",
+               "recipe_name": "密集鵝卵石圍牆",
+               "flavor": "用現地的資源作為放牧區的圍牆？太聰明了！"
+            },
+            "stone_window_frame_recipe": {
+               "description": "讓陽光可以灑進室內",
+               "recipe_name": "石窗",
+               "flavor": "這有隱私可言嗎..."
+            },
+            "stone_window_frame_tall_recipe": {
+               "description": "額外的高度增添優雅的氣息",
+               "recipe_name": "加高石窗"
+            },
+            "stone_window_frame_wide_recipe": {
+               "description": "美景盡收眼底！",
+               "recipe_name": "加寬石窗"
+            },
+            "stone_arch_window_recipe": {
+               "description": "復古風潮",
+               "recipe_name": "石製拱窗",
+               "flavor": "看看那個拱形，多美"
+            },
+            "stone_arch_window_tall_recipe": {
+               "description": "看起來蠻漂亮的，但是又好像有點陰森",
+               "recipe_name": "加高石製拱窗",
+               "flavor": "至少它不會發出怪聲，對吧？"
+            },
+            "stone_diamond_window_recipe": {
+               "description": "這有隱私可言嗎...",
+               "recipe_name": "菱形石窗",
+               "flavor": "保證百分之百石製"
+            },
+            "stone_diamond_window_tall_recipe": {
+               "description": "為了時尚我願意犧牲一點隱私",
+               "recipe_name": "加高菱形石窗",
+               "flavor": "至少你有更好的視野"
+            },
+            "stone_diamond_window_wide_recipe": {
+               "description": "為了時尚我願意犧牲一點隱私",
+               "recipe_name": "加寬菱形石窗",
+               "flavor": "至少你有更好的視野"
+            },
+            "stone_doorway_recipe": {
+               "description": "至少看起來是個門",
+               "recipe_name": "石製門框",
+               "flavor": "木匠可以把門裝在上面，讓你擁有更多隱私"
+            },
+            "stone_double_doorway_recipe": {
+               "description": "更大的門框，讓人印象深刻",
+               "recipe_name": "加寬石製門框",
+               "flavor": "對於那些渺小的生物來說肯定讓人印象深刻"
+            },
+            "stone_tunnel_doorway_recipe": {
+               "description": "很適合用來裝飾隧道",
+               "recipe_name": "石製隧道門框"
+            },
+            "clothed_stone_table_recipe": {
+               "description": "希望桌巾不會跟桌子一樣重",
+               "recipe_name": "桌巾石桌",
+               "flavor": "桌巾可以蓋住你不想讓人看到的東西"
+            },
+            "comfy_stone_chair_recipe": {
+               "description": "其實坐起來不太舒服",
+               "recipe_name": "舒適石椅",
+               "flavor": "\"我的天啊！我坐在什麼上面？\" - 格蘭瑟姆伯爵夫人"
+            },
+            "hardly_a_bed_recipe": {
+               "description": "對於石頭做的東西來說算軟了",
+               "recipe_name": "石床",
+               "flavor": "至少你可以在上面做個美夢"
+            },
+            "comfy_stone_bed_recipe": {
+               "description": "睡在舒適的床上總是讓人心情愉悅",
+               "recipe_name": "舒適石床",
+               "flavor": "\"我好像終於找到我夢寐以求的床了！\" - 路易·阿姆斯壯"
+            },
+            "stone_latticed_window_recipe": {
+               "description": "讓陽光灑進室內吧！",
+               "recipe_name": "菱格石窗",
+               "flavor": "說好的隱私呢..."
+            },
+            "stone_latticed_window_tall_recipe": {
+               "description": "額外的高度增添優雅的氣息.",
+               "recipe_name": "加高菱格石窗"
+            },
+            "stone_latticed_window_wide_recipe": {
+               "description": "美景盡收眼底！",
+               "recipe_name": "加寬菱格石窗"
+            },
+            "pond_recipe": {
+               "description": "淺到不會讓人溺水",
+               "recipe_name": "小水塘",
+               "flavor": "\"嘿，放輕鬆點\" - 米卡"
+            }
+         }
+      },
+      "potter": {
+         "recipes": {
+            "comfy_clay_bed_recipe": {
+               "description": "睡在舒適的床上總是讓人心情愉悅",
+               "recipe_name": "舒適陶土床",
+               "flavor": "蘇丹·沙赫里亞爾肯定會愛上它"
+            },
+            "latticed_clay_window_frame_recipe": {
+               "recipe_name": "紅色菱格陶土窗",
+               "mixintypes": {"recipe_name": "override"}
+            },
+            "tall_clay_window_recipe": {
+               "recipe_name": "加高陶土窗",
+               "mixintypes": {"recipe_name": "override"}
+            },
+            "tan_tall_latticed_window_recipe": {
+               "recipe_name": "加高菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子",
+               "flavor": "添加一點東方的優雅氣息"
+            },
+            "blue_tall_clay_window_recipe": {
+               "recipe_name": "加高藍色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣",
+               "flavor": "\"窗邊是冷卻各種派的最佳地點\" - 艾倫，務實主義者"
+            },
+            "blue_tall_latticed_window_recipe": {
+               "recipe_name": "加高藍色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子",
+               "flavor": "添加一點東方的優雅氣息"
+            },
+            "green_tall_clay_window_recipe": {
+               "recipe_name": "加高綠色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣",
+               "flavor": "\"窗邊是冷卻各種派的最佳地點\" - 艾倫，務實主義者"
+            },
+            "green_tall_latticed_window_recipe": {
+               "recipe_name": "加高綠色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子",
+               "flavor": "添加一點東方的優雅氣息"
+            },
+            "red_tall_clay_window_recipe": {
+               "recipe_name": "加高紅色陶土窗",
+               "description": "我彷彿可以感覺到沙漠的空氣",
+               "flavor": "\"窗邊是冷卻各種派的最佳地點\" - 艾倫，務實主義者"
+            },
+            "red_tall_latticed_window_recipe": {
+               "recipe_name": "加高紅色菱格陶土窗",
+               "description": "讓空氣流通，同時阻擋小蟲子",
+               "flavor": "添加一點東方的優雅氣息"
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "banner_wall_standard_recipe": {
+               "description": "用這旗幟展現城鎮的榮耀",
+               "recipe_name": "壁掛旗幟",
+               "flavor": "為榮耀吶喊！"
+            }
+         }
+      },
+      "engineer": {
+         "recipes": {
+            "iron_double_door_recipe": {
+               "description": "配有鎖頭的厚重堅固的雙開鐵門",
+               "recipe_name": "雙開鐵甲門"
+            },
+            "iron_double_doorway_recipe": {
+               "description": "好像也沒有比木製或石製的好到哪裡去.",
+               "recipe_name": "加寬鐵製門框"
+            }
+         }
+      }
+   }
+}

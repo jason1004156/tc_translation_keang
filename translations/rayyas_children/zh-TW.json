@@ -1,0 +1,1595 @@
+{
+  "kingdom": {
+    "kingdom_name": "瑞亞之子",
+    "quote": "冥想，調和，治癒：萬物之中自有其序可循，循理而行，萬物生機。",
+    "long_description": "沙漠中的人們深諳生存之道，他們仰賴彼此，互助而生。他們天性熱情好客，助其貿易商隊行遍世界。",
+    "post_selection_description": "，一個富有智慧，深諳交易之道的社會。",
+    "initial_town_name": "商隊 [str(town_number)]"
+  },
+  "jobs": {
+    "potter": {
+      "potter_description": {
+        "requirements": "由石匠所製造的陶藝師的工具刀"
+      },
+      "recipes": {
+        "mason_clay_chisel_recipe": {
+          "description": "轉職為石匠的必要工具",
+          "recipe_name": "石匠的陶製工具",
+          "flavor": "\"一個讓巨大岩石變得更小、更精緻、更有用的工具\""
+        },
+        "trading_post_monument_recipe": {
+          "recipe_name": "富商巨賈",
+          "description": "象徵您的城鎮是一個聲名遠播的交易站"
+        },
+        "monkey_shrine_monument_recipe": {
+          "description": "一座向蒙猴與聖母奧秘致敬的紀念碑",
+          "recipe_name": "蒙猴聖所"
+        },
+        "exotic_trade_monument_recipe": {
+          "description": "象徵您在異國高超的交易技巧",
+          "recipe_name": "永恆之焰"
+        },
+        "herbalist_clay_staff_recipe": {
+          "flavor": "'花草樹木也會關心照顧它們的人，如同我們也會關心它們' - 草藥大師 薩爾"
+        },
+        "jar_green_recipe": {
+          "description": "燃著蠟燭的小巧綠色玻璃罐",
+          "recipe_name": "綠色玻璃燭罐"
+        },
+        "jar_red_recipe": {
+          "description": "燃著蠟燭的小巧紅色玻璃罐",
+          "recipe_name": "紅色玻璃燭罐"
+        },
+        "pot_oil_earthen_recipe": {
+          "description": "燃著火苗的小巧陶土油壺",
+          "recipe_name": "陶土油壺"
+        },
+        "pot_oil_green_recipe": {
+          "description": "燃著火苗的小巧草綠油壺",
+          "recipe_name": "草綠油壺"
+        },
+        "pot_oil_halfgreen_recipe": {
+          "description": "燃著火苗的小巧半釉油壺",
+          "recipe_name": "半釉油壺"
+        },
+        "pot_sunflower_recipe": {
+          "description": "陶製的盆栽中種著美麗的花朵",
+          "recipe_name": "太陽花盆栽"
+        },
+        "pot_fox_lily_recipe": {
+          "description": "陶製的盆栽中種著美麗的花朵",
+          "recipe_name": "狐尾百合盆栽"
+        },
+        "pot_acacia_recipe": {
+          "description": "陶製的盆栽中種著美麗的小樹",
+          "recipe_name": "造景盆栽"
+        },
+        "urn_large_recipe": {
+          "description": "可以存放 128 個物品",
+          "recipe_name": "貿易儲貨陶罐"
+        },
+        "wall_hanging_sunflower_recipe": {
+          "description": "可以掛在牆上的太陽花裝飾品",
+          "recipe_name": "壁花"
+        },
+        "wall_hanging_sunwreath_recipe": {
+          "description": "可以掛在牆上的太陽花圈",
+          "recipe_name": "太陽花圈"
+        },
+        "wind_chime_recipe": {
+          "description": "清透的外觀與清脆的鈴聲，完美的組合",
+          "recipe_name": "玻璃風鈴"
+        },
+        "window_tall_latticed_recipe": {
+          "description": "菱格阻擋了大部分的陽光，而且看起來很漂亮！",
+          "recipe_name": "加高陶土菱格窗"
+        },
+        "door_clay_latticed_recipe": {
+          "recipe_name": "陶製菱格門",
+          "description": "菱格阻擋了大部分的陽光，而且看起來很漂亮！"
+        },
+        "chest_recipe": {
+          "description": "一個存放蒙猴與聖母奧秘的供品的儲存箱",
+          "recipe_name": "陶製蒙猴儲存箱"
+        },
+        "lamp_gold_recipe": {
+          "description": "它的火焰為夜晚帶來溫暖的亮光",
+          "recipe_name": "黃金油燈"
+        },
+        "lamp_wall_gold_recipe": {
+          "description": "它的火焰為夜晚帶來溫暖的亮光",
+          "recipe_name": "黃金壁掛油燈"
+        },
+        "lightbox_recipe": {
+          "description": "它的光芒灑在四周形成特殊的花紋",
+          "recipe_name": "陶製光盒"
+        },
+        "monkey_recipe": {
+          "description": "致敬蒙猴與她的許多幫手",
+          "recipe_name": "陶製蒙猴雕像"
+        },
+        "teapot_recipe": {
+          "description": "專為那些大人物所準備",
+          "recipe_name": "精緻的茶具組"
+        },
+        "wall_hanging_key_recipe": {
+          "description": "一個可以讓我們想起蒙猴的牆上裝飾品",
+          "recipe_name": "蒙猴聖鑰"
+        },
+        "banner_wall_big_recipe": {
+          "description": "用這面旗幟展現城鎮的驕傲",
+          "recipe_name": "長型壁掛旗幟"
+        },
+        "banner_wall_small_recipe": {
+          "description": "用這面旗幟展現城鎮的驕傲",
+          "recipe_name": "寬型壁掛旗幟"
+        },
+        "pedestal_firepit_recipe": {
+          "description": "微微發光的煤炭",
+          "recipe_name": "火盆台座",
+          "flavor": "有個小火苗住在裡面"
+        },
+        "pedestal_floral_red_recipe": {
+          "description": "用以展示芳香的花卉與藥草",
+          "recipe_name": "紅色花壇",
+          "flavor": "為乾燥的沙漠吹進花卉的芬芳"
+        },
+        "pedestal_floral_coral_recipe": {
+          "description": "用以展示芳香的花卉與藥草",
+          "recipe_name": "珊瑚花壇",
+          "flavor": "為乾燥的沙漠吹進花卉的芬芳"
+        },
+        "pedestal_floral_blue_recipe": {
+          "description": "用以展示芳香的花卉與藥草",
+          "recipe_name": "藍色花壇",
+          "flavor": "為乾燥的沙漠吹進花卉的芬芳"
+        },
+        "kiln_upgrade_recipe": {
+          "description": "讓陶藝師的能夠盡情揮灑他的創意",
+          "recipe_name": "陶藝師的進階土窯"
+        },
+        "workbench_upgrade_recipe": {
+          "description": "獻給專注完美的陶藝師",
+          "recipe_name": "陶藝師的進階陶輪",
+          "flavor": "'工具的品質，決定你作品的品質' - 陶藝大師 柯拉"
+        },
+        "legendary_rc_face_recipe": {
+          "description": "為巨龍之盾所準備",
+          "recipe_name": "龍甲",
+          "flavor": "反覆上釉與退火讓它如龍鱗一般閃耀，並且具有彈性"
+        },
+        "legendary_rc_inlay_recipe": {
+          "description": "為沙漠獠牙帶來金黃色的光芒",
+          "recipe_name": "炎光嵌物",
+          "flavor": "如同爐或火般閃閃發光"
+        }
+      },
+      "potter_kiln_upgrade": {
+        "potter_kiln_upgrade_ghost": {
+          "display_name": "陶藝師的進階土窯",
+          "description": "讓陶藝師的能夠盡情揮灑他的創意"
+        }
+      },
+      "potter_workbench_upgrade": {
+        "potter_workbench_upgrade_ghost": {
+          "display_name": "陶藝師的進階陶輪",
+          "description": "獻給專注完美的陶藝師"
+        }
+      }
+    },
+    "herbalist": {
+      "herbalist_description": {
+        "requirements": "由陶藝師所製作的草藥師的手杖"
+      },
+      "recipes": {
+        "legendary_rc_cloth_recipe": {
+          "description": "緋紅頭飾的傳統素材",
+          "recipe_name": "炎陽織物",
+          "flavor": "吸收了太陽的光芒與藥草的精華"
+        },
+        "legendary_rc_stave_recipe": {
+          "description": "西風之弓的雙臂",
+          "recipe_name": "上古弓柄",
+          "flavor": "用特殊的樹脂製成，需要一支軍隊才能分裂把弓"
+        }
+      }
+    },
+    "mason": {
+      "mason_description": {
+        "requirements": "等級2的陶藝師<br>由陶藝師所製作的石匠的陶製工具"
+      },
+      "recipes": {
+        "rc_giants_shield_recipe": {
+          "description": "沙漠中最堅硬的盾牌",
+          "recipe_name": "巨龍之盾",
+          "flavor": "即使面對最可怕的敵人與最危險的險境，依舊堅不可摧"
+        },
+        "legendary_rc_blade_recipe": {
+          "description": "沙漠獠牙堅不可摧的刀刃",
+          "recipe_name": "百煉之骨",
+          "flavor": "如狂風一般鋒利"
+        },
+        "legendary_rc_gem_recipe": {
+          "description": "可以凝聚精神，專為緋紅頭飾所準備",
+          "recipe_name": "炙焰紅寶石",
+          "flavor": "引導治癒之光的紅色星芒"
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "rc_bow_valor_recipe": {
+          "description": "沙漠中最敏捷的弓",
+          "recipe_name": "西風之弓",
+          "flavor": "一把需要高超技巧才能使用的弓，一旦出手便會帶給敵人如狂風般的箭雨"
+        }
+      }
+    },
+    "cook": {
+      "recipes": {
+        "golden_gourd_curry_recipe": {
+          "description": "煮過的金葫蘆會比較好吃嗎？",
+          "recipe_name": "金葫蘆咖哩",
+          "flavor": "待完成"
+        },
+        "flat_bread_recipe": {
+          "description": "玉米粉做成的無發酵大餅",
+          "recipe_name": "大餅"
+        },
+        "meat_tagine_recipe": {
+          "description": "用陶鍋燉煮的肉跟蔬菜",
+          "recipe_name": "燉肉塔吉鍋"
+        },
+        "vegetable_tagine_recipe": {
+          "description": "用陶鍋燉煮的蔬菜",
+          "recipe_name": "燉蔬菜塔吉鍋"
+        }
+      }
+    },
+    "blacksmith": {
+      "recipes": {
+        "wall_hanging_suncatcher_recipe": {
+          "description": "不斷地打磨拋光，有如鏡子一般",
+          "recipe_name": "捉日者",
+          "flavor": "不必真的去捕捉一個太陽，它本身反射的光芒就已經足夠刺眼了，噢...我的眼睛"
+        },
+        "rc_two_handed_sword_valor_recipe": {
+          "description": "沙漠中最鋒利的劍",
+          "recipe_name": "沙漠獠牙",
+          "flavor": "完美的平衡與大小，揮舞它的人將可以克服任何挑戰"
+        },
+        "rc_circlet_valor_recipe": {
+          "description": "沙漠中最方正的頭飾",
+          "recipe_name": "緋紅頭飾",
+          "flavor": "連結心與靈，引向治癒之光"
+        },
+        "legendary_rc_frame_recipe": {
+          "description": "加強巨龍之盾的強度",
+          "recipe_name": "龍板外框",
+          "flavor": "巨龍之骨"
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "outfit_worker_goldthread_recipe": {
+          "description": "時尚的外衣，可以提高工人的移動速度與工作效率",
+          "recipe_name": "時尚工作服",
+          "flavor": "紅色，永遠不會退流行"
+        },
+        "banner_gilded_blue_recipe": {
+          "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲",
+          "recipe_name": "金邊藍色壁毯",
+          "flavor": "毛線和閃閃發光的金線互相交錯所形成的色彩在城鎮中流淌而過"
+        },
+        "banner_gilded_coral_recipe": {
+          "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲",
+          "recipe_name": "金邊珊瑚壁毯",
+          "flavor": "毛線和閃閃發光的金線互相交錯所形成的色彩在城鎮中流淌而過"
+        },
+        "banner_gilded_red_recipe": {
+          "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲",
+          "recipe_name": "金邊紅色壁毯",
+          "flavor": "毛線和閃閃發光的金線互相交錯所形成的色彩在城鎮中流淌而過"
+        },
+        "banner_gilded_sage_recipe": {
+          "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲",
+          "recipe_name": "金邊草綠壁毯",
+          "flavor": "毛線和閃閃發光的金線互相交錯所形成的色彩在城鎮中流淌而過"
+        },
+        "chair_gilded_blue_recipe": {
+          "description": "豪華柔軟的座墊",
+          "recipe_name": "金邊藍色坐墊",
+          "flavor": "不好好地坐上去的話，簡直就是對它的不敬！"
+        },
+        "chair_gilded_red_recipe": {
+          "description": "豪華柔軟的座墊",
+          "recipe_name": "金邊紅色坐墊",
+          "flavor": "不好好地坐上去的話，簡直就是對它的不敬！"
+        },
+        "chair_gilded_sage_recipe": {
+          "description": "豪華柔軟的座墊",
+          "recipe_name": "金邊草綠坐墊",
+          "flavor": "不好好地坐上去的話，簡直就是對它的不敬！"
+        },
+        "chair_gilded_coral_recipe": {
+          "description": "豪華柔軟的座墊",
+          "recipe_name": "金邊珊瑚坐墊",
+          "flavor": "不好好地坐上去的話，簡直就是對它的不敬！"
+        },
+        "rug_gilded_blue_recipe": {
+          "description": "巧妙地用染色的毛線與金線編織而成",
+          "recipe_name": "金邊藍色流蘇地毯",
+          "flavor": "這顏色是從北方極地深山中的珍貴藍石中萃取出來的"
+        },
+        "rug_gilded_red_recipe": {
+          "description": "巧妙地用染色的毛線與金線編織而成",
+          "recipe_name": "金邊紅色流蘇地毯",
+          "flavor": "濃厚中帶點紫色的色調來自於遠方王國周圍山麓的漿果"
+        },
+        "rug_gilded_coral_recipe": {
+          "description": "巧妙地用染色的毛線與金線編織而成",
+          "recipe_name": "金邊珊瑚流蘇地毯",
+          "flavor": "生動的紅橘色取自南方乾旱的海床上吸收了太陽精華的珊瑚"
+        },
+        "rug_gilded_sage_recipe": {
+          "description": "巧妙地用染色的毛線與金線編織而成",
+          "recipe_name": "金邊草綠流蘇地毯",
+          "flavor": "用烈性藥草調配出這嬌嫩的綠色需要高超的技巧，一個不小心可能就會迅速衰敗"
+        },
+        "rc_legendary_circlet_recipe": {
+          "description": "為沙漠中最優秀的牧師所準備",
+          "recipe_name": "緋紅頭飾",
+          "flavor": "連結心與靈，引向治癒之光"
+        },
+        "legendary_rc_bowstring_recipe": {
+          "description": "為西風之弓所準備的弓弦",
+          "recipe_name": "炎光弓弦",
+          "flavor": "如同火焰所打造的絲線"
+        }
+      }
+    }
+  },
+  "data": {
+    "rayyas_children_population": {
+      "display_name": "瑞亞之子"
+    },
+    "gm": {
+      "campaigns": {
+        "trader": {
+          "iskender_caravan_1": {
+            "shop_info": {
+              "name": "伊沙坎德的貿易篷車",
+              "title": "伊沙坎德的貿易篷車回來了！"
+            }
+          },
+          "iskender_caravan_2": {
+            "shop_info": {
+              "name": "伊沙坎德的貿易篷車",
+              "title": "伊沙坎德的貿易篷車帶著更多的東西回來了！"
+            }
+          },
+          "iskender_caravan_3": {
+            "shop_info": {
+              "name": "伊沙坎德的貿易篷車",
+              "title": "伊沙坎德的貿易篷車回來了！"
+            }
+          },
+          "starting_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "000": "哈哈！沒有什麼比一個新出現的駐紮地更引人注目了，對吧？在你的努力下，這片荒涼的土地很快就會變的富庶起來的！我們明天會帶著貨物一起來的，同時，這些是商會提供的一些初始資源：",
+                    "001": "蒙猴保佑你，朋友！看到一群商隊到達他們理想的交易點時總是令人感到開心，根據合約，我們明天會再帶著貨物來的，同時，這些是商會提供的一些初始資源：",
+                    "002": "伊沙坎德貿易商會一直都在尋找在遙遠路途中的一個停靠站，我們很高興你們來到這裡，朋友們！我們明天會帶著貨物一起來的，在這同時，先給你一些我們的商品幫助你度過難關：",
+                    "003": "已經準備好駐紮在這裡的是吧！朋友，沙漠永遠歡迎他的子民們！我們明天會再來看看你們的，同時，商會親送來了一些可以幫助你們的物資：",
+                    "004": "啊哈！伊沙坎德貿易商會的新潛在交易對象！我們明天一定會帶著貨物回來，在這之前，這些東西就當作我們對你們的一點投資，看看到時候你能迸出什麼樣的火花！"
+                  },
+                  "bulletin_title": "一名伊沙坎德的代理人接近中",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "非常感謝！"
+                }
+              }
+            }
+          },
+          "stonecutter_shop": {
+            "shop_info": {
+              "name": "沃斯克・沙吉的石製商品",
+              "title": "一輛大師級石匠的貨車停靠在附近"
+            }
+          },
+          "tannery_shop": {
+            "shop_info": {
+              "name": "凜的精緻毛皮毛毯",
+              "title": "一輛裝載著動物毛皮的馬車正在靠近"
+            }
+          },
+          "woodcutter_shop": {
+            "shop_info": {
+              "name": "羅津來自遙遠西方的貨物",
+              "title": "一名來自異國的木材商人來到了鎮上"
+            }
+          },
+          "food_shop": {
+            "shop_info": {
+              "name": "農民吉姆的農業物資",
+              "title": "農民吉姆的貨車來到了鎮上"
+            }
+          },
+          "naryal_tier_2_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "rewards": {
+                  "bulletin_message": {
+                    "000": "那麼，為了能夠明確的辨別出你的城鎮，你必須獲得世界各地的貿易商與旅者的認可，同時我們也會提供你我們從別的瑞亞之子手中獲取的建築藍圖。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "那麼，好吧！"
+                },
+                "shrine_reqs": {
+                  "bulletin_message": {
+                    "000": "瑞亞教堂，常以聖母奧秘聞名，可以指定一個前哨站為其官方禮拜點。為了符合資格，必須提供一個聖所讓旅者與浪人能夠對蒙猴獻禮，並向聖母瑞亞致上最高敬意。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "聽起來不錯",
+                  "choice_001": "還有其他選擇嗎？"
+                },
+                "details": {
+                  "bulletin_message": {
+                    "000": "說到這一點，我相信我們雙方都可以從一個協議中受益。我們伊沙坎德致力於繪製最精密的世界地圖，希望能夠詳細註明任何著名的地點，就像你的小鎮。當然，是在你的許可下！"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "我可以得到什麼回報？"
+                },
+                "requirements": {
+                  "bulletin_message": {
+                    "000": "很好！讓我們接著談，首先，你想要被如何描述？這裡我們提供三個建議：富商巨賈，蒙猴聖所，或是異國風情。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "富商巨賈！",
+                  "choice_001": "蒙猴聖所！",
+                  "choice_002": "異國風情！"
+                },
+                "repeat_reqs": {
+                  "bulletin_message": {
+                    "000": "你想要被如何描述？這裡我們提供三個建議：富商巨賈，蒙猴聖所，或是異國風情。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "富商巨賈！",
+                  "choice_001": "蒙猴聖所！",
+                  "choice_002": "異國風情！"
+                },
+                "naryal_approaches": {
+                  "bulletin_message": {
+                    "000": "你好 [str(i18n_data.town_name)] 的朋友們！距離我們上次來到這個前哨站已經有段時間了，看起來我們當初給你們的物資有幫上忙。"
+                  },
+                  "bulletin_title": "伊沙坎德代理人 奈亞爾 接近中",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "你怎麼會來這裡？"
+                },
+                "exotic_goods_reqs": {
+                  "bulletin_message": {
+                    "000": "為了被標註為異國風情，你必須與來自異國的商人進行交易，獲取各種在這片土地上無法取得的物品。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "聽起來不錯！",
+                  "choice_001": "還有其他選擇嗎？"
+                },
+                "conclusion2": {
+                  "bulletin_message": {
+                    "000": "願蒙猴與你同在，[str(i18n_data.town_name)]！我會留下一隻信鴿，需要核對條件時就告訴我吧！"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "再會！"
+                },
+                "map_of_hearth": {
+                  "bulletin_message": {
+                    "000": "我們的製圖師正準備製作一張新的世界地圖。伊沙坎德確實以貿易聞名，但我們同時也以繪製精確的地圖為豪，標註世界各地的城鎮與精確的貿易路線。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德"
+                },
+                "trading_post_reqs": {
+                  "bulletin_message": {
+                    "000": "為了被標註為富商巨賈，你的小鎮必須成為一個歡迎各地商人的貿易站，我會給你的陶藝師一張藍圖，用以建造符合形象的紀念碑。"
+                  },
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "聽起來不錯！",
+                  "choice_001": "還有其他選擇嗎？"
+                },
+                "conclusion": {
+                  "bulletin_title": "奈亞爾・伊沙坎德",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "謝謝你，這是我的榮幸！",
+                  "bulletin_message": {
+                    "000": "非常好！除了建造一座適當的紀念碑，你的小鎮也需要累積一定的財富。我會把各種要求一併寫在紙上交給你，你可以任意選擇你未來的道路。"
+                  }
+                },
+                "shrine_reqs_ctd": {
+                  "bulletin_message": {
+                    "000": "我會給你的陶藝師一張神聖的藍圖，來自最高層的神官們。他們說建造材料可以在古老的建築中或是寶箱中找到，當你建好之後我會回來確認是否達到教堂長老的標準的。"
+                  }
+                },
+                "exotic_goods_reqs_ctd": {
+                  "bulletin_message": {
+                    "000": "我會給你的陶藝師一張藍圖，你可以從異國商人的手中獲取建造所需的素材，但你要知道這些素材可是很稀有的。建造這座紀念碑以彰顯你與異國商人的交易技巧。"
+                  }
+                }
+              }
+            }
+          },
+          "unlock_exotic_trade_monument": {
+            "bulletin_title": "陶藝師配方解鎖：永恆之焰"
+          },
+          "unlock_monkey_shrine_monument": {
+            "bulletin_title": "陶藝師配方解鎖：蒙猴聖所"
+          },
+          "unlock_trading_post_monument": {
+            "bulletin_title": "陶藝師配方解鎖：富商巨賈"
+          },
+          "trading_post_tier_2_reached": {
+            "title": "伊沙坎德代理人奈亞爾回來了",
+            "speaker_name": "奈亞爾・伊沙坎德",
+            "message": "恭喜你們，[str(i18n_data.town_name)]！你們的小鎮有資格被正式承認為城鎮！一如往常，我給你們帶來了一些建築材料與貿易協定。",
+            "accept": "好耶！",
+            "dialog_title": "達到城鎮規模！",
+            "tier_title": "城鎮",
+            "reward_message": "根據瑞亞之子的榮譽詔令，我們正式承認其資格：",
+            "reward_message_ctd": "為表彰其世界級的貿易中心，在此特別贈予：",
+            "tier_2_bldg_template": "二級建築模板",
+            "tier_2_shops": "二級商店",
+            "tier_2_BGM": "二級背景音樂"
+          },
+          "rayyas_children_town_tier_quest": {
+            "title": "城鎮規模需求",
+            "dialog_title": "城鎮規模需求",
+            "text": "滿足下列任一條件，即可晉升為城鎮：",
+            "summon_text": "傳代理人！"
+          },
+          "exotic_trade_tier_2_reached": {
+            "reward_message_ctd": "為表彰其在異國的往來貿易，在此特別贈予："
+          },
+          "shrine_tier_2_reached": {
+            "reward_message_ctd": "為榮耀蒙猴的奧秘與她的熱情，在此特別贈予："
+          },
+          "arcs": {
+            "encounters": {
+              "tier_2_shops": {
+                "bakery_shop": {
+                  "shop_info": {
+                    "name": "瑞夫・泰格瑞的麵包與燉肉",
+                    "title": "一位廚師帶著麵包與燉肉來到了鎮上"
+                  }
+                },
+                "container_shop": {
+                  "shop_info": {
+                    "name": "伊利亞・柏克斯的儲存箱",
+                    "title": "伊利亞・柏克斯帶著一箱儲存箱來到了鎮上"
+                  }
+                },
+                "door_shop": {
+                  "shop_info": {
+                    "name": "瑞登的異國商品",
+                    "title": "瑞登帶著異國的商品來到了鎮上"
+                  }
+                },
+                "farming_supplies_shop": {
+                  "shop_info": {
+                    "name": "農民馬卡的農作物",
+                    "title": "農民馬卡帶著他的農作物來到了鎮上"
+                  }
+                },
+                "weapon_armor_shop": {
+                  "shop_info": {
+                    "name": "薩克的鍛造屋",
+                    "title": "一輛馬車帶著裝甲與武器來到了鎮上"
+                  }
+                },
+                "woodcutter_shop2": {
+                  "shop_info": {
+                    "name": "羅津來自遙遠西方的貨物",
+                    "title": "羅津帶著更加稀有的木製品來到了鎮上"
+                  }
+                },
+                "rugs_shop2": {
+                  "shop_info": {
+                    "name": "哈維的毛毯與服飾",
+                    "title": "哈維帶著一些特殊商品來到了鎮上"
+                  }
+                },
+                "stonecutter_shop2": {
+                  "shop_info": {
+                    "name": "沃斯克・沙吉的石製商品",
+                    "title": "大師沙吉的貨車停靠在附近，裝滿了各式貨物"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "town_progression": {
+          "shrine_upgrade_valor": {
+            "reward_message": "以伊沙坎德貿易商會為證，我們特此承認：",
+            "reward_message_ctd": "為表彰其在戰鬥中的英勇表現，在此特別頒予：",
+            "achievements": {
+              "001": "鐵匠配方解鎖：捉日者",
+              "002": "陶藝師配方解鎖：各式台座",
+              "003": "裁縫師配方解鎖：壁毯、流蘇地毯、坐墊"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_blacksmith": "鐵匠配方解鎖：捉日者",
+              "recipe_unlock_potter": "陶藝師配方解鎖：各式台座",
+              "recipe_unlock_weaver": "裁縫師配方解鎖：壁毯、流蘇地毯、坐墊",
+              "recipe_unlock_weapons_1": "新傳奇武器配方 - 需由裁縫師、陶藝師、鐵匠合作完成",
+              "recipe_unlock_weapons_2": "新傳奇盾牌配方 - 需由鐵匠、木匠、石匠合作完成",
+              "recipe_unlock_weapons_3": "新傳奇弓箭配方 - 需由工程師、裁縫師、木匠合作完成"
+            }
+          },
+          "shrine_choice": {
+            "guildmaster": {
+              "name": "富商巨賈",
+              "description": "<i>這座城鎮必須展現其生產力，財富，以及貿易能力。</i><ul><li>賦予工匠創造大師品質物品的能力</li><li>解鎖居家主題的裝飾品配方</li></ul>"
+            },
+            "deity": {
+              "name": "蒙猴聖所",
+              "description": "<i>這座城鎮必須展現其探究世界奧秘的精神，為聖母奧秘奉獻付出。</i><ul><li>賦予所有爐民心智、體格、精神 +1</li><li>解鎖蒙猴主題的裝飾品配方</li></ul>"
+            },
+            "valor": {
+              "name": "永恆之焰",
+              "description": "<i>這座城鎮必須展現其致力於保衛整個地區的精神。</i><ul><li>解鎖傳奇武器配方</li><li>解鎖異國主題的裝飾品配方</li></ul>"
+            }
+          },
+          "banner_upgrade_cunning": {
+            "reward_message_ctd": "願這座前哨基地成為繁忙的貿易中心。"
+          },
+          "banner_upgrade_strength": {
+            "reward_message_ctd": "願這座前哨基地成為所有人的避風港。"
+          },
+          "banner_upgrade_vitality": {
+            "reward_message_ctd": "願這座前哨基地能與大自然共同成長。"
+          },
+          "bird_departs": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "將表格填好放進背包後，亞克就撿了起來並開始了牠的旅程，往最近的伊沙坎德貿易代理處直奔而去。"
+                  },
+                  "bulletin_title": "狐狸離開了",
+                  "dialog_title": "狐狸離開了",
+                  "choice_000": "願蒙猴照看你，小狐狸"
+                }
+              }
+            }
+          },
+          "hearth_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "makers": {
+                  "bulletin_message": {
+                    "00": "<i>造者之爐</i> 則是給那些認為城鎮的價值取決於爐民的工作及其成果的人的選擇。"
+                  },
+                  "bulletin_title": "工匠的象徵",
+                  "dialog_title": "工匠的象徵",
+                  "choice_000": "聽起來很有生產力"
+                },
+                "final": {
+                  "bulletin_message": {
+                    "00": "歡呼，造者，榮耀 - 完全取決於你。設想城鎮未來的藍圖，並跟隨火爐的光芒前進未來吧！"
+                  },
+                  "bulletin_title": "抉擇",
+                  "dialog_title": "抉擇",
+                  "choice_000": "我們選擇..."
+                },
+                "intro2": {
+                  "bulletin_message": {
+                    "00": "如你所知，從鳳凰帝國以來，火爐便是一切的基石。<p>如果沒有它們的火光，我們瑞亞之子絕對沒有辦法在這廣袤無邊的沙漠中找到自己的出路，我們的社會也早就分崩離析。同時，火爐的類型也將道出這個據點的價值所在。"
+                  },
+                  "bulletin_title": "奈亞爾說道",
+                  "dialog_title": "奈亞爾・伊沙坎德",
+                  "choice_000": "價值？"
+                },
+                "cheer": {
+                  "bulletin_message": {
+                    "00": "例如 <i>歡呼之爐</i> 就是給那些相信城鎮的價值取決於居民幸福的人的選擇。"
+                  },
+                  "bulletin_title": "一個快樂的選擇",
+                  "dialog_title": "一個快樂的選擇",
+                  "choice_000": "聽起來有點有趣"
+                },
+                "intro3": {},
+                "glory": {
+                  "bulletin_message": {
+                    "00": "最後，<i>榮耀之爐</i> 是給那些相信武勝於文、自己的領地必須以武力守護的人。"
+                  },
+                  "bulletin_title": "膽量與榮耀",
+                  "dialog_title": "膽量與榮耀",
+                  "choice_000": "聽起來很英勇"
+                },
+                "intro": {
+                  "bulletin_message": {
+                    "00": "哈囉，又見面了！這次我以正式的身份前來拜訪，所以沒有帶上我的貨物。伊沙坎德貿易商會對這個前哨基地的進展印象深刻，所以正式決定把這裡提拔為'村莊'。<p>不過在我們繼續下去之前，習俗上必須選擇一座象徵村莊的火爐。</p>"
+                  },
+                  "bulletin_title": "奈亞爾沒有帶著商隊，獨自走近",
+                  "dialog_title": "正式拜訪",
+                  "choice_000": "謝謝你！",
+                  "choice_001": "[跳過] 我們已經決定要選什麼火爐了"
+                }
+              }
+            }
+          },
+          "hearth_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_title": "狐狸回來了！",
+                  "dialog_title": "另一封信！",
+                  "bulletin_message": {
+                    "00": "信差小狐狸回來了，帶著一封來自艾瑞亞・伊沙坎德的回信。"
+                  },
+                  "choice_000": "打開信"
+                },
+                "msg4": {
+                  "bulletin_message": {
+                    "00": "相對的，我們希望你開始思考下一步該怎麼做。雖然我們大部分的據點都聚焦在貿易上，但是我們認為其他能夠使瑞亞之子繁榮的道路也很有一試的價值，當然，這完全取決於該據點自己的抉擇。<p>願蒙猴照看你！<br>伊沙坎德貿易商會<br>艾瑞亞・伊沙坎德</p><br><font size=3>P.S. 這是給你的小禮物，希望給你帶來好運！ <font size=+2>✨</font></font>"
+                  },
+                  "bulletin_title": "下一步",
+                  "dialog_title": "下一步",
+                  "choice_000": "是金箔！謝謝！"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "恭喜你成立了前哨基地！<p>現在這個前哨基地已經正式納入商會旗下了，我相信未來這裡一定會成為我們在這個區域的首要聯絡據點！</p>"
+                  },
+                  "bulletin_title": "信上寫著...",
+                  "dialog_title": "信上寫著...",
+                  "choice_000": "信上繼續寫著..."
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "為了幫助你達成這個遠大的目標，之後的日子裡我們會將更多的貿易夥伴介紹到這個據點，並鼓勵其他脫離商隊的人前往 [str(i18n_data.town_name)]。</p>"
+                  },
+                  "bulletin_title": "互惠關係",
+                  "dialog_title": "互惠關係",
+                  "choice_000": "最後寫道..."
+                }
+              }
+            }
+          },
+          "guild_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "有我們在背後支援，當你們說你們有能力製作出 '大師品質' 的物品時，所有人都會知道你們是認真的！畢竟，你們確實有這個能力。<br/><br/>我毫不懷疑之後會有更多商人來訪，我想我們可以期待獲得更多夥伴了！"
+                  },
+                  "bulletin_title": "艾迪亞繼續說道",
+                  "dialog_title": "公會主席 艾迪亞・瑞迪",
+                  "choice_000": "我們會盡力而為！"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "好了，公事就到這裡。我要去找個年輕小夥子跟我跳舞！<br/><br/>什麼？你說你很年輕？別鬧了。"
+                  },
+                  "bulletin_title": "艾迪亞繼續說道",
+                  "dialog_title": "公會主席 艾迪亞・瑞迪",
+                  "choice_000": "好好玩！還有...小心一點？"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "<font size=3 color='#cccccc'>（艾迪亞邊點頭邊喃喃說道 '嗯...這做工確實很完美'）</font><br/><br/>噢！孩子，很高興你選擇加入我們貿易商公會的一份子，我們也很高興能夠擁有你！"
+                  },
+                  "bulletin_title": "艾迪亞傾身靠近檢視紀念碑",
+                  "dialog_title": "公會主席 艾迪亞・瑞迪",
+                  "choice_000": "謝謝你，主席！"
+                }
+              }
+            }
+          },
+          "valor_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "哈！我想你說的是實話！<br/><br/>我們在聖母奧秘那些傢伙藏起來的古老典籍中找到了一些武裝設計圖，我帶了一份複製品給你，交給你們的工匠吧，他們會知道怎麼做的！"
+                  },
+                  "bulletin_title": "安瑞特繼續說道",
+                  "dialog_title": "五彩獵犬 安瑞特・凱瓦",
+                  "choice_000": "我很確定他們會找出辦法的！"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "毫無疑問！<br/><br/>好啦，我今天也走了一整天的路了，該來找點食物了！恭喜你囉！"
+                  },
+                  "bulletin_title": "安瑞特繼續說道",
+                  "dialog_title": "五彩獵犬 安瑞特・凱瓦",
+                  "choice_000": "謝謝，好好享受吧！"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "哇，我敢打賭這在十幾里外都還看得到！那些哥布林肯定很快就會被嚇得屁滾尿流！<br/><br/>我真的很高興你加入我們，雖然我們的規模還不大，但是有了你們，我們一定會成長得很快！"
+                  },
+                  "bulletin_title": "安瑞特臉上掛著大大的笑容",
+                  "dialog_title": "五彩獵犬 安瑞特・凱瓦",
+                  "choice_000": "一開始我們的規模也很小！"
+                }
+              }
+            }
+          },
+          "deity_dialog_1": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "自此以後，聖母的奧秘將會賦予每位子民神奇的力量。<br/><br/>認真思考一下，將你的好奇心帶進你的生活中，不論是在交易，探索，還是歡迎陌生人來到你的城鎮的時候，嘗試捕捉那些在風中旖旎的新知。"
+                  },
+                  "bulletin_title": "諾娜繼續說道",
+                  "dialog_title": "高階祭司 諾娜・崔斯特",
+                  "choice_000": "我們會的！"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "當然，我們也會期待你們的定期回報，不過這個還不急，現在，先讓我們沉浸在愉悅中享受美食吧！"
+                  },
+                  "bulletin_title": "諾娜繼續說道",
+                  "dialog_title": "高階祭司 諾娜・崔斯特",
+                  "choice_000": "好耶！"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "願蒙猴照看你，兄弟姊妹們。你們建造的聖壇完全符合我們的期望！<br/><br/>我尤其喜歡那把掛在蒙猴尾巴上的鑰匙 - 這個鎖意味著什麼呢？又是什麼隱藏在這個鎖的背後呢？多麼饒富意味啊！"
+                  },
+                  "bulletin_title": "諾娜滿意地點點頭",
+                  "dialog_title": "高階祭司 諾娜・崔斯特",
+                  "choice_000": "謝謝你，高階祭司"
+                }
+              }
+            }
+          },
+          "post_shrine_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "太好了，太好了！你的城鎮完全不負伊沙坎德的盛名！<br/><br/>謝謝你為我與我們客人們舉辦了一個盛大的招待會。"
+                  },
+                  "bulletin_title": "艾瑞亞慢慢走近，看起來很高興",
+                  "dialog_title": "艾瑞亞・伊沙坎德",
+                  "choice_000": "這是我們的榮幸，艾瑞亞！"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "順帶一提，我們正在歡慶的這座聖壇是很特別的，城鎮的創立也為其注入了一股神秘的魔法。<br/><br/>建造更多的聖壇可以作為裝飾的一環，但是它們可就不會散發出這些光芒了，我想你知道我的意思。"
+                  },
+                  "bulletin_title": "艾瑞亞繼續說道",
+                  "dialog_title": "艾瑞亞・伊沙坎德",
+                  "choice_000": "了解！"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "<p align='right'><font color='#E3D0AF'>（咿呀！咿呀！）</font></p>好啦，好啦，亞克，我知道，我們該回去了。<br/><br/>我很想再多待一點，不過有另外一個需要協助的商隊更需要我的關注。<br/><br/>祝賀你的成功，還有謝謝你讓我的工作一切順利。"
+                  },
+                  "bulletin_title": "艾瑞亞繼續說道",
+                  "dialog_title": "艾瑞亞・伊沙坎德",
+                  "choice_000": "再會了！還有...小事一樁？"
+                }
+              }
+            }
+          },
+          "shrine_choice_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "intro": {
+                  "bulletin_message": {
+                    "00": "哈囉，[str(i18n_data.town_name)]！<p>能夠親眼見證這個據點真是太令我高興了！我之前都以為是奈亞爾在誇大說詞，現在想想他還只是輕描淡寫呢！<p>好的，現在我們來談談正事吧。這幾位就是我在信上提到的資助者，請花點時間聽聽他們的說詞吧。</p>"
+                  },
+                  "bulletin_title": "艾瑞亞・伊沙坎德來了！",
+                  "dialog_title": "艾瑞亞帶著客人來了！",
+                  "choice_000": "噢，好的！",
+                  "choice_001": "[跳過] 我們已經做出決定了！"
+                },
+                "clergy": {
+                  "bulletin_message": {
+                    "00": "願蒙猴照看你，兄弟姐妹們！我是諾娜・崔斯特，來自聖母奧秘的高階祭司。聖母瑞亞給了我們一個任務，探索這個世界，並發掘所有的秘密。其中一個做法，就是透過資助那些像這裡一樣的遠方城鎮。"
+                  },
+                  "bulletin_title": "高階祭司",
+                  "dialog_title": "高階祭司",
+                  "choice_000": "願蒙猴照看你，姐妹"
+                },
+                "clergy_cont": {
+                  "bulletin_message": {
+                    "00": "作為回報，我們通常會要求在城鎮中為聖母奧秘建造一座聖壇，以此不斷提醒大眾，這個世界充滿了奧秘，有待我們深入瞭解與學習。一旦聖壇經過了祝禱，聖壇便會以其神秘的力量賦予其子民神奇的效力。<br><br><font size=3 color='#cccccc'><i>註：侍奉聖母奧秘將賦予爐民心智、體格、精神 +1</i></font>"
+                  },
+                  "bulletin_title": "諾娜・崔斯特",
+                  "dialog_title": "諾娜・崔斯特",
+                  "choice_000": "真有趣！"
+                },
+                "makers": {
+                  "bulletin_message": {
+                    "00": "過來這裡，孩子！我是艾迪亞・瑞迪，貿易商公會的主席，同時也是這個正在萌芽的小村莊的崇拜者。驚人的效率與充滿未來的前景！在我漫長的歲月中曾經造訪過不少年輕的村莊，看著這些瑞亞的子民們逐漸繁榮茁壯總是讓我樂此不疲。<br><br><font size=3><i>艾迪亞從她的長袍中掏出了一把糖果，並分給周遭的人們</i></font>"
+                  },
+                  "bulletin_title": "貿易商人",
+                  "dialog_title": "貿易商人",
+                  "choice_000": "謝謝你！"
+                },
+                "makers_cont": {
+                  "bulletin_message": {
+                    "00": "如你所知，貿易商公會是所有瑞亞之子城鎮的主要資助人，所以你在這裡看到我不必感到太驚訝。我們很樂意讓你們加入公會，我認為這個村莊擁有生產與出口我們瑞亞之子最棒的物品的能力，就如我們一路走來的優秀傳統一樣。<br><br><font size=3 color='#cccccc'><i>註：侍奉富商巨賈將賦予爐民創造大師品質物品的能力，比卓越品質的物品更上一層樓！</i></font>"
+                  },
+                  "bulletin_title": "艾迪亞・瑞迪",
+                  "dialog_title": "艾迪亞・瑞迪",
+                  "choice_000": "聽起來有利可圖！"
+                },
+                "military": {
+                  "bulletin_message": {
+                    "00": "嘿！我是安瑞特・凱瓦！你可能還沒聽說過我，不過我是五彩獵犬的首領。五彩獵犬是由一群年輕人所組成的，試圖在這艱困的世界中開創一條和平的道路。面對哥布林或是不死族的侵襲，我們交給瑞亞的子民們各種自保的技巧。 而現在我們正在尋找願意加入我們的村莊！"
+                  },
+                  "bulletin_title": "年輕人",
+                  "dialog_title": "年輕人",
+                  "choice_000": "歡迎你，安瑞特"
+                },
+                "military_cont": {
+                  "bulletin_message": {
+                    "00": "我們認為這個村莊具有保衛自己的力量，甚至是保衛周遭地區的力量。所以我們希望你們可以打造一座永恆之焰，宣示這個地區在你們的保衛之下，相對的，我們會與你們分享一些我們最新的武裝設計圖。<br><br><font size=3 color='#cccccc'><i>註：侍奉永恆之焰將會解鎖最高等級的武器配方</i></font>"
+                  },
+                  "bulletin_title": "安瑞特・凱瓦",
+                  "dialog_title": "安瑞特・凱瓦",
+                  "choice_000": "我們會認真考慮的"
+                },
+                "summary": {
+                  "bulletin_message": {
+                    "00": "好的！現在你已經見過所有人了，而我作為協調人的工作也即將告一段落。我不想要影響你的選擇，不過我可以跟你保證他們都是有力的資助人，足以激發你城鎮的所有潛力。<p>我會將每個聖壇的設計圖都交給你的陶藝師，謹慎地做出你的決定。</p><p>真是一次愉快的拜訪，我很期待可以在奉獻儀式上再次見到你！</p>"
+                  },
+                  "bulletin_title": "艾瑞亞總結",
+                  "dialog_title": "艾瑞亞總結",
+                  "choice_000": "聽起來不錯！"
+                }
+              }
+            }
+          },
+          "shrine_foreshadow_dialog": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg4": {
+                  "bulletin_message": {
+                    "00": "我正在安排一趟前往據點的旅程，當我前去時，將會帶著幾位有興趣資助各位的知名人士一同前往。這幾位可都是社會中鼎鼎有名的人物，記得端出你最好的茶具！<p>願蒙猴照看你！<br>伊沙坎德貿易商會<br>艾瑞亞・伊沙坎德</p>"
+                  },
+                  "bulletin_title": "一封信",
+                  "dialog_title": "一封信",
+                  "choice_000": "太令人興奮了！"
+                },
+                "msg2": {
+                  "bulletin_message": {
+                    "00": "致 [str(i18n_data.town_name)]，<p>我從很多知名的貿易夥伴那收到了很多對你的讚譽。我很高興我們對這個據點的投資這麼快就開花結果了！</p>"
+                  },
+                  "bulletin_title": "一封信",
+                  "dialog_title": "一封信",
+                  "choice_000": "知名的貿易夥伴？"
+                },
+                "msg3": {
+                  "bulletin_message": {
+                    "00": "我想你還記得我們的合約，在我們的指導下，我們所能提供的最後一項服務便是將瑞亞之子中一些傑出人物介紹到這個據點，好讓這個據點透過他們的協助跨越成為城鎮的最後一道橋。"
+                  },
+                  "bulletin_title": "一封信",
+                  "dialog_title": "一封信",
+                  "choice_000": "好耶！"
+                },
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "看起來艾瑞亞又寄了一封信！"
+                  },
+                  "bulletin_title": "亞克又來了！",
+                  "dialog_title": "另一封信！",
+                  "choice_000": "打開信"
+                }
+              }
+            }
+          },
+          "shrine_quest_deity": {
+            "title": "城鎮任務：蒙猴聖所",
+            "dialog_title": "城鎮任務：蒙猴聖所"
+          },
+          "shrine_quest_guildmaster": {
+            "title": "城鎮任務：富商巨賈",
+            "dialog_title": "城鎮任務：富商巨賈"
+          },
+          "shrine_quest_valor": {
+            "title": "城鎮任務：永恆之焰",
+            "dialog_title": "城鎮任務：永恆之焰"
+          },
+          "shrine_upgrade_deity": {
+            "title": "晉升城鎮",
+            "reward_message": "以伊沙坎德貿易商會為證，我們特此承認：",
+            "reward_message_ctd": "為表彰其探索世界奧秘的決心，在此特別頒予：",
+            "achievements": {
+              "001": "陶藝師配方解鎖：裝飾品",
+              "002": "鐵匠配方解鎖：燈具",
+              "003": "裁縫師配方解鎖：壁掛旗幟"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_potter": "陶藝師配方解鎖：裝飾品",
+              "recipe_unlock_blacksmith": "鐵匠配方解鎖：燈具",
+              "recipe_unlock_weaver": "裁縫師配方解鎖：壁掛旗幟"
+            }
+          },
+          "shrine_upgrade_guildmaster": {
+            "reward_message": "以伊沙坎德貿易商會為證，我們特此承認：",
+            "reward_message_ctd": "為表彰其工匠技藝與貿易技巧，在此特別頒予：",
+            "achievements": {
+              "001": "陶藝師配方解鎖：陶罐裝飾品",
+              "002": "陶藝師配方解鎖：花卉裝飾品 ",
+              "003": "陶藝師配方解鎖：進階工作台"
+            },
+            "recipe_bulletins": {
+              "recipe_unlock_potter": "陶藝師配方解鎖：陶罐裝飾品、花卉裝飾品、進階工作台"
+            }
+          },
+          "town_founding_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "read_letter3": {
+                  "bulletin_message": {
+                    "00": "一旦你們做出了決定，請將隨信附上的表格填好，讓亞克帶回來。送牠離開前，請務必先給牠吃點東西。牠比較喜歡漿果，不過牠也可以接受仙人掌果實。<br><p>願蒙猴照看你，<br>伊沙坎德貿易商會<br>艾瑞亞・伊沙坎德</p>"
+                  },
+                  "bulletin_title": "信上繼續寫著",
+                  "dialog_title": "信上繼續寫著",
+                  "choice_000": "我們選擇..."
+                },
+                "open_letter": {
+                  "bulletin_message": {
+                    "00": "一隻步伐堅定的大耳狐咬著一個皮革製的小背包，上面貼著一封寫著<i>\"伊沙坎德商隊官方郵件\"</i>的信。牠在城鎮旗幟旁放下小背包並坐了下來，一臉期待地看著大家。"
+                  },
+                  "bulletin_title": "一隻大耳狐靠了過來",
+                  "dialog_title": "會送信的狐狸？",
+                  "choice_000": "打開小背包",
+                  "choice_001": "[跳過] 我們知道該選什麼旗幟"
+                },
+                "read_letter": {
+                  "bulletin_message": {
+                    "00": "致商隊 [str(i18n_data.town_serial_number)]，<p>謝謝你們自願前往遙遠的西方建立一座新的前哨基地！我們伊沙坎德貿易商會對於你們選擇我們作為協助者感到非常高興。<p>一旦必要的文件都準備妥當後，由奈亞爾・伊沙坎德所帶領的官方商隊將會往基地所在處開闢一條新的道路。</p>"
+                  },
+                  "bulletin_title": "一封來自艾瑞亞・伊沙坎德的信",
+                  "dialog_title": "一封來自艾瑞亞・伊沙坎德的信",
+                  "choice_000": "信上繼續寫著..."
+                },
+                "read_letter2": {
+                  "bulletin_message": {
+                    "00": "首先，為了讓前哨基地正式納入商會旗下，必須先取個名字，並選擇依循的的旗幟。<p>這面旗幟是向其餘的瑞亞之子展示你在這裡定居的目的，儘管我們發現它在鼓舞前哨基地的方面更加有效。</p>"
+                  },
+                  "bulletin_title": "信上繼續寫著",
+                  "dialog_title": "信上繼續寫著",
+                  "choice_000": "旗幟啊..."
+                }
+              }
+            }
+          },
+          "town_founding_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "00": "顯然除了這封信外，亞克的背包裡還有個裝滿的金幣的小錢包，上面印著<i>\"基地成立獎金\"</i>。"
+                  },
+                  "bulletin_title": "亞克戳了戳背包",
+                  "dialog_title": "背包裡還有東西",
+                  "choice_000": "我們肯定用的上！"
+                }
+              }
+            }
+          },
+          "unlock_shrine_recipes": {
+            "bulletin_title": "陶藝師配方解鎖：聖壇"
+          },
+          "arcs": {
+            "trigger": {
+              "town_progression": {
+                "encounters": {
+                  "reembark_dialog": {
+                    "dialog_tree_info": {
+                      "dialog_nodes": {
+                        "msg1": {
+                          "bulletin_message": {
+                            "00": "願蒙猴照看你，朋友！雖然我們目前的合約已經結束了，但是伊沙坎德貿易商會的門永遠為你敞開！<p>事實上，由於我們合作的過程非常順利，如果你想要建立另一座城鎮，我們會很樂意提供一輛大貨車，好讓你帶著幾位得力助手以及一些物品隨行。當你準備好時跟我們說一聲就行了！</p><p><font size=3><i>重新出發建立一座新的城鎮可以讓你選擇 3 位爐民與 10 個物品，已解鎖的配方將會保留。</i></font></p>"
+                          },
+                          "bulletin_title": "奈亞爾又來了！",
+                          "dialog_title": "最後一件事",
+                          "choice_000": "很高興可以知道！"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "saved_objects": {
+      "building_templates_index": {
+        "template_tabs": {
+          "rayyas_children": {
+            "display_name": "瑞亞之子",
+            "categories": {
+              "outpost": "前哨模板",
+              "settlement": "城鎮模板"
+            }
+          }
+        }
+      },
+      "building_templates": {
+        "pottery_studio": {
+          "display_name": "陶藝師工作室"
+        },
+        "weavers_hut": {
+          "display_name": "紡織小屋"
+        },
+        "communal_kitchen": {
+          "display_name": "公共廚房"
+        },
+        "masons_workshop": {
+          "display_name": "石匠工作室"
+        },
+        "tier2": {
+          "desert_lodge": {
+            "display_name": "沙漠別館"
+          },
+          "little_red_hut": {
+            "display_name": "小紅磚房"
+          },
+          "rayyas_shadow": {
+            "display_name": "瑞亞之影"
+          },
+          "red_clay_homes": {
+            "display_name": "紅陶磚房"
+          },
+          "engineers_workshop": {
+            "display_name": "技師工作室"
+          }
+        },
+        "blacksmiths_workshop": {
+          "display_name": "鍛造屋"
+        },
+        "herbalists_workshop": {
+          "display_name": "草藥師小屋"
+        }
+      }
+    }
+  },
+  "entities": {
+    "gizmos": {
+      "rc_camp_standard": {
+        "rc_camp_standard_ghost": {
+          "display_name": "營地旗幟",
+          "description": "看到這面旗子你就知道你回到家了"
+        }
+      },
+      "rc_town_banner_guardian": {
+        "rc_town_banner_guardian_ghost": {
+          "display_name": "旗幟 - 崇尚財富",
+          "description": "看到這面旗子你就知道你回到家了"
+        },
+        "rc_town_banner_guardian_token_iconic": {
+          "display_name": "財富小旗",
+          "description": "來自財富旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      },
+      "rc_town_banner_nature": {
+        "rc_town_banner_nature_ghost": {
+          "display_name": "旗幟 - 崇尚自然",
+          "description": "看到這面旗子你就知道你回到家了"
+        },
+        "rc_town_banner_nature_token_iconic": {
+          "display_name": "自然小旗",
+          "description": "來自自然旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      },
+      "rc_town_banner_might": {
+        "rc_town_banner_might_ghost": {
+          "display_name": "旗幟 - 崇尚力量",
+          "description": "看到這面旗子你就知道你回到家了"
+        },
+        "rc_town_banner_might_token_iconic": {
+          "display_name": "力量小旗",
+          "description": "來自力量旗幟的一部份碎片，蘊含著原本的祝福"
+        }
+      }
+    },
+    "decoration": {
+      "monkey_shrine_monument": {
+        "monkey_shrine_monument_ghost": {
+          "display_name": "蒙猴聖所",
+          "description": "一座向蒙猴與聖母奧秘致敬的紀念碑"
+        },
+        "chest": {
+          "chest_ghost": {
+            "display_name": "陶製蒙猴儲存箱",
+            "description": "一個存放蒙猴與聖母奧秘的供品的儲存箱"
+          }
+        },
+        "monkey": {
+          "monkey_ghost": {
+            "display_name": "陶製蒙猴雕像",
+            "description": "致敬蒙猴與她的許多幫手"
+          }
+        },
+        "key": {
+          "key_ghost": {
+            "display_name": "蒙猴聖鑰",
+            "description": "一個可以讓我們想起蒙猴的牆上裝飾品"
+          }
+        },
+        "lamp_gold": {
+          "lamp_gold_ghost": {
+            "display_name": "黃金油燈",
+            "description": "它的火焰為夜晚帶來溫暖的亮光"
+          }
+        },
+        "lamp_wall_gold": {
+          "lamp_wall_gold_ghost": {
+            "display_name": "黃金壁掛油燈",
+            "description": "它的火焰為夜晚帶來溫暖的亮光"
+          }
+        },
+        "window_tall_latticed": {
+          "window_tall_latticed_ghost": {
+            "display_name": "加高陶土菱格窗",
+            "description": "菱格阻擋了大部分的陽光，而且看起來很漂亮！"
+          }
+        },
+        "door_clay_latticed": {
+          "door_clay_latticed_ghost": {
+            "display_name": "陶製菱格門",
+            "description": "菱格阻擋了大部分的陽光，而且看起來很漂亮！"
+          }
+        },
+        "teapot": {
+          "teapot_ghost": {
+            "display_name": "精緻的茶具組",
+            "description": "專為那些大人物所準備"
+          }
+        },
+        "banner_wall_small": {
+          "banner_wall_small_ghost": {
+            "display_name": "寬型壁掛旗幟",
+            "description": "用這面旗幟展現城鎮的驕傲"
+          }
+        },
+        "banner_wall_big": {
+          "banner_wall_big_ghost": {
+            "display_name": "長型壁掛旗幟",
+            "description": "用這面旗幟展現城鎮的驕傲"
+          }
+        },
+        "lightbox": {
+          "lightbox_ghost": {
+            "display_name": "陶製光盒",
+            "description": "它的光芒灑在四周形成特殊的花紋"
+          }
+        }
+      },
+      "exotic_trade_monument": {
+        "exotic_trade_monument_ghost": {
+          "display_name": "永恆之焰",
+          "description": "為整個地區提供安全和保護信標"
+        },
+        "banner_gilded_blue": {
+          "banner_gilded_blue_ghost": {
+            "display_name": "金邊藍色壁毯",
+            "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲"
+          }
+        },
+        "chair_gilded_blue": {
+          "chair_gilded_blue_ghost": {
+            "display_name": "金邊藍色坐墊",
+            "description": "豪華柔軟的座墊"
+          }
+        },
+        "pedestal_firepit": {
+          "pedestal_firepit_ghost": {
+            "display_name": "火盆台座",
+            "description": "微微發光的煤炭"
+          }
+        },
+        "wall_hanging_suncatcher": {
+          "wall_hanging_suncatcher_ghost": {
+            "display_name": "捉日者",
+            "description": "不斷地打磨拋光，有如鏡子一般"
+          }
+        },
+        "outfit_worker_goldthread": {
+          "mixins": {
+            "worker_outfit_goldthread_iconic": {
+              "display_name": "時尚工作服",
+              "description": "時尚的外衣，可以提高工人的移動速度與工作效率"
+            },
+            "worker_outfit_goldthread": {
+              "display_name": "時尚工作服",
+              "description": "時尚的外衣，可以提高工人的移動速度與工作效率"
+            }
+          }
+        },
+        "rug_gilded_blue": {
+          "rug_gilded_blue_ghost": {
+            "display_name": "金邊藍色流蘇地毯",
+            "description": "巧妙地用染色的毛線與金線編織而成"
+          }
+        },
+        "chair_gilded_red": {
+          "chair_gilded_red_ghost": {
+            "display_name": "金邊紅色坐墊",
+            "description": "豪華柔軟的座墊"
+          }
+        },
+        "chair_gilded_coral": {
+          "chair_gilded_coral_ghost": {
+            "display_name": "金邊珊瑚坐墊",
+            "description": "豪華柔軟的座墊"
+          }
+        },
+        "chair_gilded_sage": {
+          "chair_gilded_sage_ghost": {
+            "display_name": "金邊草綠坐墊",
+            "description": "豪華柔軟的座墊"
+          }
+        },
+        "banner_gilded_red": {
+          "banner_gilded_red_ghost": {
+            "display_name": "金邊紅色壁毯",
+            "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲"
+          }
+        },
+        "banner_gilded_coral": {
+          "banner_gilded_coral_ghost": {
+            "display_name": "金邊珊瑚壁毯",
+            "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲"
+          }
+        },
+        "banner_gilded_sage": {
+          "banner_gilded_sage_ghost": {
+            "display_name": "金邊草綠壁毯",
+            "description": "具有異國情調的壁毯展現作為貿易城鎮的驕傲"
+          }
+        },
+        "pedestal_floral_blue": {
+          "pedestal_floral_blue_ghost": {
+            "display_name": "藍色花壇",
+            "description": "用以展示芳香的花卉與藥草"
+          }
+        },
+        "pedestal_floral_coral": {
+          "pedestal_floral_coral_ghost": {
+            "display_name": "珊瑚花壇",
+            "description": "用以展示芳香的花卉與藥草"
+          }
+        },
+        "pedestal_floral_red": {
+          "pedestal_floral_red_ghost": {
+            "display_name": "紅色花壇",
+            "description": "用以展示芳香的花卉與藥草"
+          }
+        },
+        "rug_gilded_red": {
+          "rug_gilded_red_ghost": {
+            "display_name": "金邊紅色流蘇地毯",
+            "description": "巧妙地用染色的毛線與金線編織而成"
+          }
+        },
+        "rug_gilded_coral": {
+          "rug_gilded_coral_ghost": {
+            "display_name": "金邊珊瑚流蘇地毯",
+            "description": "巧妙地用染色的毛線與金線編織而成"
+          }
+        },
+        "rug_gilded_sage": {
+          "rug_gilded_sage_ghost": {
+            "display_name": "金邊草綠流蘇地毯",
+            "description": "巧妙地用染色的毛線與金線編織而成"
+          }
+        }
+      },
+      "trading_post_monument": {
+        "trading_post_monument_ghost": {
+          "display_name": "富商巨賈",
+          "description": "象徵一個城鎮的生產力，財富，以及貿易能力"
+        },
+        "urn_large": {
+          "urn_large_ghost": {
+            "display_name": "貿易儲貨陶罐",
+            "description": "可以存放 128 個物品"
+          }
+        },
+        "pot_oil_earthen": {
+          "pot_oil_earthen_ghost": {
+            "display_name": "陶土油壺",
+            "description": "燃著火苗的小巧陶土油壺"
+          }
+        },
+        "pot_oil_green": {
+          "pot_oil_green_ghost": {
+            "display_name": "草綠油壺",
+            "description": "燃著火苗的小巧草綠油壺"
+          }
+        },
+        "pot_oil_halfgreen": {
+          "pot_oil_halfgreen_ghost": {
+            "display_name": "半釉油壺",
+            "description": "燃著火苗的小巧半釉油壺"
+          }
+        },
+        "pot_sunflower": {
+          "pot_sunflower_ghost": {
+            "display_name": "太陽花盆栽",
+            "description": "陶製的盆栽中種著美麗的花朵"
+          }
+        },
+        "wall_hanging_sunflower": {
+          "wall_hanging_sunflower_ghost": {
+            "display_name": "壁花",
+            "description": "可以掛在牆上的太陽花裝飾品"
+          }
+        },
+        "wall_hanging_sunwreath": {
+          "wall_hanging_sunwreath_ghost": {
+            "display_name": "太陽花圈",
+            "description": "可以掛在牆上的太陽花圈"
+          }
+        },
+        "pot_fox_lily": {
+          "pot_fox_lily_ghost": {
+            "display_name": "狐尾百合盆栽",
+            "description": "陶製的盆栽中種著美麗的花朵"
+          }
+        },
+        "jar_green": {
+          "jar_green_ghost": {
+            "display_name": "綠色玻璃燭罐",
+            "description": "燃著蠟燭的小巧綠色玻璃罐"
+          }
+        },
+        "jar_red": {
+          "jar_red_ghost": {
+            "display_name": "紅色玻璃燭罐",
+            "description": "燃著蠟燭的小巧紅色玻璃罐"
+          }
+        },
+        "pot_acacia": {
+          "pot_acacia_ghost": {
+            "display_name": "造景盆栽",
+            "description": "陶製的盆栽中種著美麗的小樹"
+          }
+        },
+        "wind_chime": {
+          "wind_chime_ghost": {
+            "display_name": "玻璃風鈴",
+            "description": "清透的外觀與清脆的鈴聲，完美的組合"
+          }
+        }
+      },
+      "hearth_box": {
+        "hearth_box_ghost": {
+          "display_name": "榮耀之爐",
+          "description": "提供溫暖和煦的照明，以及召喚強敵的能力"
+        }
+      },
+      "hearth_lamp": {
+        "hearth_lamp_ghost": {
+          "display_name": "歡呼之爐",
+          "description": "提供溫暖和煦的照明，以及每日增益"
+        }
+      },
+      "hearth_urn": {
+        "hearth_urn_ghost": {
+          "display_name": "造者之爐",
+          "description": "提供溫暖和煦的照明，以及金幣的每日利息"
+        }
+      }
+    },
+    "npc": {
+      "herald": {
+        "female": {
+          "herald_female": {
+            "display_name": "<Unused> Heraldine Swift",
+            "description": "<Unused> 瑞亞之子的使者"
+          },
+          "herald_adia": {
+            "display_name": "艾迪亞・瑞迪",
+            "description": "貿易商公會的主席"
+          },
+          "herald_amyyria": {
+            "display_name": "艾瑞亞・伊沙坎德",
+            "description": "伊沙坎德貿易商會的會長"
+          }
+        },
+        "male": {
+          "herald_male": {
+            "display_name": "<Unused> Herald Holly",
+            "description": "<Unused> 瑞亞之子的使者"
+          },
+          "herald_naryal": {
+            "display_name": "奈亞爾・伊沙坎德",
+            "description": "伊沙坎德貿易商會的代理人"
+          },
+          "herald_nona": {
+            "display_name": "諾娜・崔斯特",
+            "description": "來自聖母奧秘的祭司"
+          },
+          "herald_emeret": {
+            "display_name": "安瑞特・凱瓦",
+            "description": "五彩獵犬的首領"
+          },
+          "herald_arke": {
+            "display_name": "亞克",
+            "description": "伊沙坎德的首席信差"
+          }
+        }
+      }
+    },
+    "armor": {
+      "rc_legendary_circlet": {
+        "display_name": "緋紅頭飾",
+        "description": "沙漠中最方正的頭飾"
+      },
+      "rc_legendary_shield": {
+        "display_name": "巨龍之盾",
+        "description": "沙漠中最堅硬的盾牌"
+      }
+    },
+    "weapons": {
+      "rc_legendary_bow": {
+        "display_name": "西風之弓",
+        "description": "沙漠中最敏捷的弓"
+      },
+      "rc_legendary_sword": {
+        "display_name": "沙漠獠牙",
+        "description": "沙漠中最鋒利的劍"
+      }
+    },
+    "refined": {
+      "legendary_rc_bowstring": {
+        "display_name": "炎光弓弦",
+        "description": "為西風之弓所準備的弓弦"
+      },
+      "legendary_rc_stave": {
+        "display_name": "上古弓柄",
+        "description": "西風之弓的雙臂"
+      },
+      "legendary_rc_face": {
+        "display_name": "龍甲",
+        "description": "為巨龍之盾所準備"
+      },
+      "legendary_rc_frame": {
+        "display_name": "龍板外框",
+        "description": "加強巨龍之盾的強度"
+      },
+      "legendary_rc_gem": {
+        "display_name": "炙焰紅寶石",
+        "description": "可以凝聚精神，專為緋紅頭飾所準備"
+      },
+      "legendary_rc_blade": {
+        "display_name": "百煉之骨",
+        "description": "沙漠獠牙堅不可摧的刀刃"
+      },
+      "legendary_rc_inlay": {
+        "display_name": "炎光嵌物",
+        "description": "為沙漠獠牙帶來金黃色的光芒"
+      },
+      "legendary_rc_cloth": {
+        "display_name": "炎陽織物",
+        "description": "緋紅頭飾的傳統素材"
+      }
+    }
+  },
+  "kingdoms": {
+    "rayyas_children": "瑞亞之子"
+  }
+}

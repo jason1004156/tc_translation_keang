@@ -1,0 +1,751 @@
+{
+   "ui": {
+      "game": {
+        "entities": {
+            "dehydration_notification": "[name(i18n_data.citizen)] 覺得非常渴！"
+         },
+         "common": {
+            "bye": "養蜂場，沒問題！"
+         },
+         "zones_mode": {
+            "pasture": {
+               "yak_pasture_name": "犛牛",
+               "yak_pasture_description": "犛牛是牛奶與肉的來源，兩者都是很有價值的食材",
+               "pig_pen_name": "豬",
+               "pig_pen_description": "豬是肉的來源，豬偶爾也會挖掘松露"
+            },
+            "stockpile": {
+               "filters": {
+                  "tooltip_quest_items": "任務物品",
+                  "tooltip_drink_containers": "飲料"
+               }
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "food_resource_name": "食物",
+            "queen_bee_resource_name": "蜂后",
+            "jerky_resource_name": "肉乾",
+            "water_resource_name": "水"
+         },
+         "gm" : {
+            "campaigns" : {
+               "bees" : {
+                  "dialog_nodes" : {
+                     "bulletin_message" : {
+                        "000" : "看來你美麗的小鎮吸引了一群蜜蜂，牠們似乎在那奇形怪狀的樹上築巢，等等，以前那裡可沒有這棵樹啊！",
+                        "001" : "或許我們可以讓事情往的好方向發展？",
+                        "002" : "我提議我們直接把那棵樹砍了！不會有問題的啦！",
+                        "003" : "喔哇！太幸運了！",
+                        "004" : "牠們從樹上掉下來的時候似乎被震暈了！如果不是這樣，你敢想像會有甚麼後果嗎？",
+                        "005" : "我們把蜂巢剖開看看裡面有甚麼！不會有問題的啦！(點選蜂巢奮力一踢！)",
+                        "006" : "哎唷喂呀，好痛啊！沒想到牠們會這麼兇！！",
+                        "007" : "好吧，還真有點痛，說不定還會引起過敏...",
+                        "008" : "哇喔！你可踢的真用力... 整個都碎掉了...",
+                        "009" : "別這樣看我...我會把有用的東西帶回來的。再見！",
+                        "010" : "我把有用的東西都放在你的旗子那裡了，雖然那個旗子插在那裡很奇怪，不信你看，看起來真的很蠢！不好意思，離題了，不過你最好建一個養蜂場，不然之前的辛苦都白費了！"
+                     },
+                     "bulletin_title_001" : "你聽到微弱的嗡嗡聲...",
+                     "bulletin_title_002" : "嗡嗡聲愈來愈大聲了...",
+                     "bulletin_title_003" : "嗡嗡聲漸漸消失了...",
+                     "bulletin_title_004" : "我又來了！",
+                     "dialog_title_001"   : "前來幫忙的村民"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ai": {
+      "actions": {
+         "status_text": {
+               "drink" : "喝飲料",
+               "drink_item" : "正在喝 [name(data.target)]"
+         }
+      }
+   },
+   "data": {
+      "happiness": {
+         "thoughts" : {
+           "thirst": {
+              "values" : {
+                 "stuffed": {
+                    "display_name": "濕潤",
+                    "tooltip": "一滴水都喝不下了！"
+                 },
+                 "thirsty": {
+                    "display_name": "口乾舌燥",
+                    "tooltip": "有點口渴"
+                 },
+                 "dehydrated": {
+                    "display_name": "脫水",
+                    "tooltip": "超級口渴"
+                 }
+              }
+           },
+            "drinking": {
+               "values" : {
+                 "drank_unpalatable": {
+                     "display_name": "喝起來沒味道！",
+                     "tooltip": "[str(drinkname)] 喝起來真是平淡無味，不過至少可以解渴"
+                  },
+                  "drank_raw": {
+                     "display_name": "至少可以解渴",
+                     "tooltip": "[str(drinkname)] 喝起來有點平淡，不過至少可以解渴"
+                  },
+                  "drank_prepared": {
+                     "display_name": "令人清新的飲料！",
+                     "tooltip": "[str(drinkname)] 喝起來很清新，正是我需要的！"
+                  },
+                  "drank_tasty": {
+                     "display_name": "多美好的飲料！",
+                     "tooltip": "哇喔！[str(drinkname)] 可能會成為我的最愛！太好喝了！"
+                  }
+               }
+            }
+         }
+      },
+      "buffs": {
+         "well_fed": {
+            "well_fed": {
+               "display_name" : "吃飽上工",
+               "description"  : "更多的熱量讓你可以更努力地工作"
+            }
+         },
+         "parched": {
+            "parched": {
+               "display_name" : "口乾舌燥",
+               "description"  : "好渴....."
+            }
+         }
+      },
+      "commands": {
+         "harvest_honey": {
+            "display_name" : "採收蜂蜜",
+            "description"  : "蜂蜜可以做為美味料理的素材",
+            "disabled_description": "蜜蜂還在採蜜！"
+         },
+         "harvest_water": {
+            "display_name" : "取水",
+            "description"  : "水可以用來飲用或是用於烹飪",
+            "disabled_description": "水桶還沒滿！"
+         },
+         "smash_beehive": {
+            "display_name" : "粉碎蜂巢",
+            "description"  : "上吧！用力的踢它！"
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes" : {
+            "apiary_recipe" : {
+               "recipe_name" : "養蜂場",
+               "description" : "可以收集蜂蜜",
+               "flavor" : "金色花蜜"
+            },
+            "wind_sail_recipe" : {
+               "recipe_name" : "風車",
+               "description" : "基本的風車",
+               "flavor" : "這裡風還蠻大的..."
+            },
+            "fishing_rod_recipe" : {
+               "recipe_name" : "漁夫的釣竿",
+               "description" : "轉職為漁夫的必要物品",
+               "flavor" : ""
+            },
+            "rickety_well_recipe" : {
+               "recipe_name" : "簡易水井",
+               "description" : "乾淨的水源",
+               "flavor"      : "石匠可以為你打造更好的水井！"
+            },
+            "scarecrow_recipe" : {
+               "recipe_name" : "稻草人",
+               "description" : "可以嚇跑害蟲"
+            },
+            "cook_sign_recipe" : {
+               "recipe_name" : "餐廳招牌",
+               "description" : "木牌上有餐廳的標記",
+               "flavor" : ""
+            }
+         }
+      },
+      "cook": {
+         "recipes" : {
+            "drinks_name" : "飲料",
+            "berry_juice_recipe" : {
+               "recipe_name" : "漿果汁",
+               "description" : "美味的漿果汁",
+               "flavor"      : "用搗碎的漿果製作而成的清涼飲料"
+            },
+            "berry_pie_recipe" : {
+               "recipe_name" : "漿果派",
+               "description" : "美味的漿果派",
+               "flavor"      : "薄薄的餅皮內填滿了成熟的漿果"
+            },
+            "pear_juice_recipe" : {
+               "recipe_name" : "仙人掌果汁",
+               "description" : "用仙人掌果做成的果汁",
+               "flavor"      : "用搗碎的仙人掌果製作而成的清涼飲料"
+            },
+            "boiled_rice_recipe" : {
+               "recipe_name" : "米飯",
+               "description" : "雖然沒甚麼味道，但是可以吃得很飽",
+               "flavor"      : ""
+            },
+            "rice_pudding_recipe" : {
+               "recipe_name" : "米布丁",
+               "description" : "用米跟牛奶做成的美味甜點",
+               "flavor"      : "再加一點成熟的漿果就更棒了！"
+            },
+            "cheese_recipe" : {
+               "recipe_name" : "起司",
+               "description" : "軟硬適中的起司",
+               "flavor"      : "配甚麼都好吃！"
+            },
+            "cake_recipe" : {
+               "recipe_name" : "蛋糕",
+               "description" : "美味的蛋糕！",
+               "flavor"      : "你知道甜點是用另一個胃裝的嗎？"
+            },
+            "grits_recipe" : {
+               "recipe_name" : "葛子",
+               "description" : "用玉米做成的一道平淡的餐點",
+               "flavor"      : "拜託先生，我可以不要了嗎！？"
+            },
+            "honey_berry_wine_recipe" : {
+               "recipe_name" : "蜂蜜漿果酒",
+               "description" : "美味的蜂蜜漿果酒",
+               "flavor"      : "用搗碎的漿果、水還有蜂蜜做成的清爽飲料"
+            },
+            "honey_glazed_critter_recipe" : {
+               "recipe_name" : "蜜汁烤肉",
+               "description" : "完美的蜜汁烤肉",
+               "flavor"      : "不管是甚麼東西，只要加了蜂蜜都會變好吃，對吧？"
+            },
+            "meat_and_potato_pie_recipe" : {
+               "recipe_name" : "肉餡馬鈴薯派",
+               "description" : "薄薄的餅皮內填滿了美味的肉",
+               "flavor"      : "爽朗又可口"
+            },
+            "meat_pie_recipe" : {
+               "recipe_name" : "肉派",
+               "description" : "好吃的肉派",
+               "flavor"      : "餅皮做成的容器最適合拿來裝獵人剛打到的獵物"
+            },
+            "pig_feed_recipe" : {
+               "recipe_name" : "豬飼料",
+               "description" : "可以吃的話牠們就會吃",
+               "flavor" : ""
+            },
+            "yak_feed_recipe" : {
+               "recipe_name" : "犛牛飼料",
+               "description" : "粗糙的乾草最適合拿來當犛牛的食物",
+               "flavor" : ""
+            },
+            "pottage_recipe" : {
+               "recipe_name" : "濃湯",
+               "description" : "一道用蔬菜還有穀物做成且具有飽足感的料理",
+               "flavor"      : "好飽喔！"
+            },
+            "pumpkin_pie_recipe" : {
+               "recipe_name" : "南瓜派",
+               "description" : "南瓜和派，有甚麼理由不喜歡？",
+               "flavor"      : "又甜又美味"
+            },
+            "pumpkin_soup_recipe" : {
+               "recipe_name" : "南瓜濃湯",
+               "description" : "暖暖的南瓜濃湯",
+               "flavor"      : "又甜又美味"
+            },
+            "roast_critter_recipe" : {
+               "recipe_name" : "烤肉",
+               "description" : "完美的烤肉",
+               "flavor"      : "吃起來像雞肉"
+            },
+            "roast_ham_recipe" : {
+               "recipe_name" : "烤火腿",
+               "description" : "烤得剛剛好",
+               "flavor" : ""
+            },
+            "roast_beef_recipe" : {
+               "recipe_name" : "烤牛肉",
+               "description" : "烤得剛剛好",
+               "flavor" : ""
+            }
+         }
+      },
+      "mason": {
+         "recipes" : {
+            "well_recipe" : {
+               "recipe_name" : "水井",
+               "description" : "乾淨的水源",
+               "flavor"      : "小心呀！潔西卡寶寶！"
+            }
+         }
+      },
+      "herbalist": {
+         "recipes" : {
+            "hedge" : {
+               "recipe_name" : "樹籬",
+               "description" : "妝點在任何花園都很適合",
+               "flavor"      : "美麗的外觀下提供基本的安全"
+            }
+         }
+      },
+      "weaver": {
+         "recipes" : {
+            "cook_outfit_2_recipe" : {
+               "recipe_name" : "時尚廚師服",
+               "description" : "時尚的廚師就要穿時尚廚師服！",
+               "flavor"      : "時尚！"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "apiary" : {
+            "apiary" : {
+               "description"  : "提供蜂蜜",
+               "display_name" : "養蜂場"
+            },
+            "apiary_ghost" : {
+               "description"  : "提供蜂蜜",
+               "display_name" : "養蜂場"
+            }
+         },
+         "hedge" : {
+            "hedge" : {
+               "description"  : "美麗的外觀下提供基本的安全",
+               "display_name" : "樹籬"
+            },
+            "hedge_post" : {
+               "description"  : "讓樹籬可以向上成長的支架",
+               "display_name" : "樹籬支架"
+            },
+            "growing" : {
+               "description"  : "在成長初期的樹籬",
+               "display_name" : "成長中的樹籬"
+            }
+         },
+         "hedge_gate" : {
+            "hedge_gate" : {
+               "description"  : "可以讓你進出樹籬的柵門",
+               "display_name" : "樹籬柵門"
+            },
+            "hedge_gate_post" : {
+               "description"  : "讓樹籬可以向上成長的支架",
+               "display_name" : "樹籬支架"
+            },
+            "growing_gate" : {
+               "description"  : "在成長初期的樹籬",
+               "display_name" : "成長中的樹籬"
+            }
+         },
+         "well" : {
+            "well" : {
+               "description"  : "乾淨的水源",
+               "display_name" : "水井"
+            },
+            "well_ghost" : {
+               "description"  : "乾淨的水源",
+               "display_name" : "水井"
+            }
+         },
+         "rickety_well" : {
+            "well" : {
+               "description"  : "乾淨的水源",
+               "display_name" : "簡易水井"
+            },
+            "well_ghost" : {
+               "description"  : "乾淨的水源",
+               "display_name" : "簡易水井"
+            }
+         }
+      },
+      "misc": {
+         "default_object" : {
+            "default_object" : {
+               "description"  : "Froggy的基本物件",
+               "display_name" : "發生錯誤，你不該在遊戲中看見此物件"
+            }
+         }
+      },
+      "critters" : {
+         "pig": {
+            "description" : "不怎麼需要照顧的食物吸塵器",
+            "display_name": "一隻豬",
+            "display_name": "豬"
+         },
+         "bees": {
+            "tree_description"   : "聽起來有嗡嗡聲...",
+            "tree_display_name"  : "奇怪的樹",
+            "hive_description"   : "小心處理！",
+            "hive_display_name"  : "蜂窩",
+            "queen_description"  : "♫ 她是你的皇后 ♫",
+            "queen_display_name" : "鎮靜的蜂后",
+            "species": "蜜蜂"
+         },
+         "yak": {
+            "description" : "又慢又臭",
+            "milk_description" : "還沒有奶可以擠",
+            "display_name": "一隻犛牛",
+            "display_name": "犛牛"
+         }
+      },
+      "decoration" : {
+         "wind_sail": {
+            "description" : "♫ 妳讓我團團轉，寶貝！♫",
+            "display_name": "風車"
+         },
+         "scarecrow": {
+            "iconic_display_name": "稻草人",
+            "iconic_description": "準備好佈署的稻草人",
+            "description" : "可以嚇跑害蟲",
+            "display_name": "稻草人"
+         }
+      },
+      "food": {
+         "honey_vat": {
+            "honey_vat" : {
+               "display_name" : "一桶蜂蜜",
+               "description"  : "一桶美味的蜂蜜",
+               "flavor"       : "好吃！"
+            },
+            "honey_vat_serving" : {
+               "display_name" : "一杯蜂蜜",
+               "description"  : "一杯美味的蜂蜜"
+            }
+         },
+         "water": {
+            "water": {
+               "display_name" : "一桶水",
+               "description"  : "含有一氧化二氫",
+               "flavor"       : "清爽！"
+            },
+            "water_serving": {
+               "display_name" : "一杯水",
+               "description"  : "含有一氧化二氫"
+            }
+         },
+         "milk": {
+            "milk": {
+               "display_name" : "一桶牛奶",
+               "description"  : "不含防腐劑",
+               "flavor"       : "清爽！"
+            },
+            "milk_serving": {
+               "display_name" : "一杯牛奶",
+               "description"  : "清爽！"
+            }
+         },
+         "berry_juice" : {
+            "berry_juice" : {
+               "short_display_name" : "果汁",
+               "display_name" : "漿果汁",
+               "description"  : "美味的漿果汁",
+               "flavor"       : "用搗碎的漿果製作而成的清涼飲料"
+            },
+            "berry_juice_serving" : {
+               "display_name" : "一杯漿果汁",
+               "description"  : "美味的漿果汁"
+            }
+         },
+         "pear_juice" : {
+            "pear_juice" : {
+               "display_name" : "仙人掌果汁",
+               "description"  : "用仙人掌果做成的果汁",
+               "flavor"       : "用搗碎的仙人掌果製作而成的清涼飲料"
+            },
+            "pear_juice_serving" : {
+               "display_name" : "一杯仙人掌果汁",
+               "description"  : "美味的仙人掌果汁"
+            }
+         },
+         "boiled_rice" : {
+            "boiled_rice" : {
+               "display_name" : "米飯",
+               "description"  : "營養的基本來源",
+               "flavor"       : "用水和米做成的簡單料理"
+            },
+            "boiled_rice_serving" : {
+               "display_name" : "一碗飯",
+               "description"  : "平淡，但是很有飽足感"
+            }
+         },
+         "cake" : {
+            "cake" : {
+               "display_name" : "蛋糕",
+               "description"  : "美味的蛋糕",
+               "flavor"       : ""
+            },
+            "cake_serving" : {
+               "display_name" : "一片蛋糕",
+               "description"  : "神聖"
+            }
+         },
+         "rice_pudding" : {
+            "rice_pudding" : {
+               "display_name" : "米布丁",
+               "description"  : "用米跟牛奶做成的美味甜點",
+               "flavor"       : ""
+            },
+            "rice_pudding_serving" : {
+               "display_name" : "米布丁",
+               "description"  : "加了果醬更好吃"
+            }
+         },
+         "berry_pie" : {
+            "berry_pie" : {
+               "display_name" : "漿果派",
+               "description"  : "美味的漿果派",
+               "flavor"       : "薄薄的餅皮內填滿了成熟的漿果"
+            },
+            "berry_pie_serving" : {
+               "display_name" : "一片漿果派",
+               "description"  : "又甜又美味"
+            }
+         },
+         "cheese" : {
+            "cheese" : {
+               "display_name" : "起司",
+               "description"  : "軟硬適中的起司",
+               "flavor"       : "配甚麼都好吃！"
+            },
+            "cheese_serving" : {
+               "display_name" : "一份起司",
+               "description"  : "滿滿的起司"
+            }
+         },
+         "grits" : {
+            "grits" : {
+               "display_name" : "葛子",
+               "description"  : "用玉米做成的一道平淡的餐點",
+               "flavor"       : "拜託先生，我可以不要了嗎！？"
+            },
+            "grits_serving" : {
+               "display_name" : "一碗葛子",
+               "description"  : "一份葛子"
+            }
+         },
+         "honey_berry_wine" : {
+            "honey_berry_wine" : {
+               "display_name" : "蜂蜜漿果酒",
+               "description"  : "美味的蜂蜜漿果酒",
+               "flavor"       : "用搗碎的漿果、水還有蜂蜜做成的清爽飲料"
+            },
+            "honey_berry_wine_serving" : {
+               "display_name" : "一杯蜂蜜漿果酒",
+               "description"  : "又甜又清爽"
+            }
+         },
+         "honey_glazed_critter" : {
+            "honey_glazed_critter" : {
+               "display_name" : "蜜汁烤肉",
+               "description"  : "完美的蜜汁烤肉",
+               "flavor"       : "不管是甚麼東西，只要加了蜂蜜都會變好吃，對吧？"
+            },
+            "honey_glazed_critter_serving" : {
+               "display_name" : "一份蜜汁烤肉",
+               "description"  : "吃起來像雞肉"
+            }
+         },
+         "meat_and_potato_pie" : {
+            "meat_and_potato_pie" : {
+               "display_name" : "肉餡馬鈴薯派",
+               "description"  : "薄薄的餅皮內填滿了美味的肉",
+               "flavor"       : "爽朗又可口"
+            },
+            "meat_and_potato_pie_serving" : {
+               "display_name" : "一片肉餡馬鈴薯派",
+               "description"  : "好吃又吃得飽"
+            }
+         },
+         "meat_pie" : {
+            "meat_pie" : {
+               "display_name" : "肉派",
+               "description"  : "好吃的肉派",
+               "flavor"       : "餅皮做成的容器最適合拿來裝獵人剛打到的獵物"
+            },
+            "meat_pie_serving" : {
+               "display_name" : "一片肉派",
+               "description"  : "好吃的肉派"
+            }
+         },
+         "yak_feed" : {
+            "yak_feed" : {
+               "display_name" : "犛牛飼料",
+               "description"  : "粗糙的乾草最適合拿來當犛牛的食物",
+               "flavor"       : ""
+            },
+            "yak_feed_ground" : {
+               "display_name" : "犛牛飼料",
+               "description"  : "粗糙的乾草最適合拿來當犛牛的食物"
+            }
+         },
+         "pig_feed" : {
+            "pig_feed" : {
+               "display_name" : "豬飼料",
+               "description"  : "可以吃的話牠們就會吃",
+               "flavor"       : ""
+            },
+            "pig_feed_ground" : {
+               "display_name" : "豬飼料",
+               "description"  : "可以吃的話牠們就會吃"
+            }
+         },
+         "pig_meat" : {
+            "display_name" : "豬肉",
+            "description"  : "多汁的豬肉"
+         },
+         "yak_meat" : {
+            "display_name" : "牛肉",
+            "description"  : "多汁的牛肉"
+         },
+         "pumpkin_pie" : {
+            "pumpkin_pie" : {
+               "display_name" : "南瓜派",
+               "description"  : "最好放在窗台邊",
+               "flavor"       : "又甜又美味"
+            },
+            "pumpkin_pie_serving" : {
+               "display_name" : "一片南瓜派",
+               "description"  : "好吃！"
+            }
+         },
+         "pumpkin_soup" : {
+            "pumpkin_soup" : {
+               "display_name" : "南瓜濃湯",
+               "description"  : "暖暖的南瓜濃湯",
+               "flavor"       : "又甜又美味"
+            },
+            "pumpkin_soup_serving" : {
+               "display_name" : "一碗南瓜濃湯",
+               "description"  : "暖暖的南瓜濃湯"
+            }
+         },
+         "pottage" : {
+            "pottage" : {
+               "display_name" : "濃湯",
+               "description"  : "一碗濃湯",
+               "flavor"       : "好吃！"
+            },
+            "pottage_serving" : {
+               "display_name" : "一碗濃湯",
+               "description"  : "好吃！"
+            }
+         },
+         "roast_critter" : {
+            "roast_critter" : {
+               "display_name" : "烤肉",
+               "description"  : "完美的烤肉",
+               "flavor"       : "吃起來像雞肉"
+            },
+            "roast_critter_serving" : {
+               "display_name" : "一份烤肉",
+               "description"  : "完美的烤肉"
+            }
+         },
+         "roast_ham" : {
+            "roast_ham" : {
+               "display_name" : "烤火腿",
+               "description"  : "烤得剛剛好",
+               "flavor"       : ""
+            },
+            "roast_ham_serving" : {
+               "display_name" : "一份烤火腿",
+               "description"  : "烤得剛剛好"
+            }
+         },
+         "roast_beef" : {
+            "roast_beef" : {
+               "display_name" : "烤牛肉",
+               "description"  : "烤得剛剛好",
+               "flavor"       : ""
+            },
+            "roast_beef_serving" : {
+               "display_name" : "一份烤牛肉",
+               "description"  : "烤得剛剛好"
+            }
+         }
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "馬鈴薯",
+               "description": "可以吃了"
+            },
+            "potato_serving": {
+               "display_name": "一份馬鈴薯",
+               "description": "吃起來有腳的味道"
+            }
+         },
+         "rice": {
+            "rice_basket": {
+               "display_name": "一袋米",
+               "description": "可以煮了"
+            }
+         }
+      },
+      "crops": {
+         "potato_crop": {
+            "display_name": "馬鈴薯",
+            "description": "你有聽過洋芋片嗎？",
+            "growth_stage": {
+               "004": {
+                  "name": "馬鈴薯",
+                  "description": "可以收成了！"
+               },
+               "001": {
+                  "name": "馬鈴薯幼苗",
+                  "description": "還不能收成"
+               },
+               "002": {
+                  "name": "馬鈴薯芽",
+                  "description": "還不能收成"
+               },
+               "003": {
+                  "name": "小馬鈴薯",
+                  "description": "還不能收成"
+               },
+               "007": {
+                  "name": "腐爛的馬鈴薯",
+                  "description": "已經不能吃了"
+               }
+            }
+         },
+         "rice_crop": {
+            "display_name": "稻米",
+            "description": "基本食物",
+            "growth_stage": {
+               "005": {
+                  "name": "成熟的稻米",
+                  "description": "可以收割了！"
+               },
+               "001": {
+                  "name": "稻米",
+                  "description": "還不能收割"
+               },
+               "002": {
+                  "name": "稻米",
+                  "description": "還不能收割"
+               },
+               "003": {
+                  "name": "稻米",
+                  "description": "還不能收割"
+               },
+               "004": {
+                  "name": "稻米",
+                  "description": "還不能收割"
+               },
+               "007": {
+                  "name": "枯萎的稻米",
+                  "description": "已經枯萎了..."
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,282 @@
+{
+    "entities": {
+        "weapons": {
+            "ice_shot": {
+                "description": "一大塊冰",
+                "display_name": "冰礫"
+            },
+            "molten_rock": {
+                "description": "就是熔岩，不然呢？",
+                "display_name": "熔岩"
+            },
+            "wizard_green_hammer": {
+                "description": "一把鑲嵌著玉石的青銅戰錘",
+                "display_name": "玉石戰錘"
+			}
+        }
+    },
+   "jobs": {
+        "herbalist": {
+            "recipes": {
+                "wizard_blue_tome_recipe": {
+                    "recipe_name": "藍袍巫師的寶典",
+                    "description": "轉職為藍袍巫師的必要物品",
+                    "flavor": "摸起來冰冰涼涼的..."
+                },
+                "wizard_red_tome_recipe": {
+                    "recipe_name": "紅袍巫師的寶典",
+                    "description": "轉職為紅袍巫師的必要物品",
+                    "flavor": "摸起來溫溫熱熱的..."
+                },
+                "wizard_green_tome_recipe": {
+                    "recipe_name": "綠袍巫師的寶典",
+                    "description": "轉職為綠袍巫師的必要物品",
+                    "flavor": "拿起來意外地重..."
+				}
+            }
+        },
+        "wizard_blue": {
+            "wizard_blue_description": {
+                "display_name": "藍袍巫師",
+                "description": "藍袍巫師可以從遠處支援他的隊友，運用寒冰魔法削弱敵人",
+                "requirements": "由草藥師所製作",
+                "level_0_data": {
+                    "perk_000_name": "冰礫",
+                    "perk_000_description": "巫師向敵人投擲冰塊，削弱對方的速度與力量"
+                },
+                "level_1_data": {
+                    "perk_000_name": "魔力增幅",
+                    "perk_000_description": "透過大量的訓練提升魔力上限，可以使用更強力的魔法"
+                },
+                "level_2_data": {
+                    "perk_000_name": "動能提升",
+                    "perk_000_description": "攻擊距離增加"
+                },
+                "level_3_data": {
+                    "perk_000_name": "動能滿點",
+                    "perk_000_description": "攻擊距離大幅增加"
+                },
+                "level_4_data": {
+                    "perk_000_name": "冰雹",
+                    "perk_000_description": "巫師向敵人投擲大量冰塊"
+                },
+                "level_5_data": {
+                    "perk_000_name": "循環不息",
+                    "perk_000_description": "巫師掌握了自身氣血的循環，提高了生命上限與回復力"
+                },
+                "level_6_data": {
+                    "perk_000_name": "絕對零度",
+                    "perk_000_description": "巫師以最強力的冷凍魔法攻擊敵人，大幅削弱對方的行動力、力量以及回復力"
+                }
+            },
+            "wizard_blue_buffs": {
+                "damage_1_buff": {
+                    "display_name": "傷害增幅 20%",
+                    "description": "造成更多傷害"
+                },
+                "range_1_buff": {
+                    "display_name": "動能提升",
+                    "description": "攻擊距離提升"
+                },
+                "range_2_buff": {
+                    "display_name": "動能滿點",
+                    "description": "攻擊距離大幅提升"
+                },
+                "health_1_buff": {
+                    "display_name": "循環不息",
+                    "description": "提高生命上限與回復力"
+                },
+                "wizard_blue_slow_buff": {
+                    "display_name": "寒冷",
+                    "description": "受到藍袍巫師的攻擊"
+                },
+                "wizard_blue_freeze_buff": {
+                    "display_name": "冷凍",
+                    "description": "冷到幾乎要變成冰塊了"
+                }
+            },
+            "wizard_blue_outfit": {
+                "display_name": "藍色巫師袍",
+                "description": "由各種布料與皮革製成，藍色的陰影讓大家知道他是名藍袍巫師。記得打開暖氣。"
+            },
+            "wizard_blue_hat": {
+                "display_name": "藍色巫師帽",
+                "description": "藍色的尖頂帽，巫師必備"
+            },
+            "wizard_blue_tome": {
+                "description": "轉職為藍袍巫師的必要物品",
+                "display_name": "藍袍巫師的寶典",
+                "wizard_blue_tome_iconic": {
+                    "description": "轉職為藍袍巫師的必要物品",
+                    "display_name": "藍袍巫師的寶典"
+                },
+                "wizard_blue_tome_talisman": {
+                    "description": "轉職為藍袍巫師的必要物品",
+                    "display_name": "藍袍巫師的寶典"
+                }
+            }
+        },
+        "wizard_red": {
+            "wizard_red_description": {
+                "display_name": "紅袍巫師",
+                "description": "紅袍巫師擅長使用火焰魔法讓敵人身陷火海",
+                "requirements": "由草藥師所製作",
+                "level_0_data": {
+                    "perk_000_name": "熔岩",
+                    "perk_000_description": "向敵人投擲燃燒的岩石，部分傷害可以穿透敵人護甲，並有一定機率附加燃燒狀態"
+                },
+                "level_1_data": {
+                    "perk_000_name": "心勝於物",
+                    "perk_000_description": "犧牲部分生命力來增強法力"
+                },
+                "level_2_data": {
+                    "perk_000_name": "拓荒者",
+                    "perk_000_description": "提高移動速度"
+                },
+                "level_3_data": {
+                    "perk_000_name": "心勝於物 II",
+                    "perk_000_description": "犧牲更多生命力來大幅增強法力"
+                },
+                "level_4_data": {
+                    "perk_000_name": "熔火盛焰",
+                    "perk_000_description": "巫師的火焰變得更加灼熱，可以輕鬆熔化護甲"
+                },
+                "level_5_data": {
+                    "perk_000_name": "煉獄",
+                    "perk_000_description": "巫師可以用令人無法忍受的炙熱火焰點燃敵人"
+                },
+                "level_6_data": {
+                    "perk_000_name": "心勝於物 III",
+                    "perk_000_description": "犧牲所有生命力來獲得至高無上的法力"
+                }
+            },
+            "wizard_red_buffs": {
+                "armor_penetration_1_buff": {
+                    "display_name": "護甲穿透 30%",
+                    "description": "造成的傷害可以穿透敵人 30% 的護甲"
+                },
+                "armor_penetration_2_buff": {
+                    "display_name": "護甲穿透 80%",
+                    "description": "造成的傷害可以穿透敵人 80% 的護甲"
+                },
+                "inferno": {
+                    "display_name": "煉獄",
+                    "description": "被炙熱的火焰纏身，護甲降低"
+                },
+                "molten_rock": {
+                    "display_name": "燃燒",
+                    "description": "受到燃燒"
+                },
+                "mom_1_buff": {
+                    "display_name": "心勝於物",
+                    "description": "增加 25% 傷害，但身體變得較為虛弱"
+                },
+                "mom_2_buff": {
+                    "display_name": "心勝於物 II",
+                    "description": "增加 50% 傷害，但身體變得較為虛弱"
+                },
+                "mom_3_buff": {
+                    "display_name": "心勝於物 III",
+                    "description": "增加 75% 傷害，但身體變得較為虛弱"
+                },
+                "trail_blaze_1_buff": {
+                    "display_name": "拓荒者",
+                    "description": "移動速度提高 30%"
+                }
+            },
+            "wizard_red_outfit": {
+                "display_name": "紅色巫師袍",
+                "description": "紅黑相間的巫師袍被塑造成類似背心的樣式，以防止穿著者施展火焰魔法時身體過熱"
+            },
+            "wizard_red_hat": {
+                "display_name": "紅色巫師帽",
+                "description": "紅色的尖頂帽，巫師必備"
+            },
+            "wizard_red_tome": {
+                "description": "轉職為紅袍巫師的必要物品",
+                "display_name": "紅袍巫師的寶典",
+                "wizard_red_tome_iconic": {
+                    "description": "轉職為紅袍巫師的必要物品",
+                    "display_name": "紅袍巫師的寶典"
+                },
+                "wizard_red_tome_talisman": {
+                    "description": "轉職為紅袍巫師的必要物品",
+                    "display_name": "紅袍巫師的寶典"
+                }
+            }
+        },
+        "wizard_green": {
+            "wizard_green_description": {
+                "display_name": "綠袍巫師",
+                "description": "綠袍巫師汲取大地的魔力在前線戰鬥，揮動戰錘時能夠對附近的複數敵人造成傷害",
+                "requirements": "由草藥師所製作",
+                "level_1_data": {
+                    "perk_000_name": "大地加護 I",
+                    "perk_000_description": "將大地之力灌注於體內，使耐力提升"
+                },
+                "level_2_data": {
+                    "perk_000_name": "燧石祝福",
+                    "perk_000_description": "使綠袍巫師的揮擊如同燧石一般堅硬，使攻擊力提升"
+                },
+                "level_3_data": {
+                    "perk_000_name": "地震 (尚未實作)",
+                    "perk_000_description": "綠袍巫師縱身一躍，藉下墜之力猛擊大地"
+                },
+                "level_4_data": {
+                    "perk_000_name": "大地加護 II",
+                    "perk_000_description": "將大地之力灌注於體內，使耐力提升"
+                },
+                "level_5_data": {
+                    "perk_000_name": "岩石光環",
+                    "perk_000_description": "位附近的爐民增加 30% 的護甲"
+                },
+                "level_6_data": {
+                    "perk_000_name": "巨石魔像 (尚未實作)",
+                    "perk_000_description": "綠袍巫師汲取大地之力，召喚巨石魔像協助戰鬥"
+                }
+            },
+            "wizard_green_buffs": {
+                "earth_blessing_1_buff": {
+                    "display_name": "大地加護 I",
+                    "description": "提升血量與回復力"
+                },
+                "earth_blessing_2_buff": {
+                    "display_name": "大地加護 II",
+                    "description": "大幅提升血量與回復力"
+                },
+                "flint_blessing_1_buff": {
+                    "display_name": "燧石祝福",
+                    "description": "提升 25% 攻擊力，同時提升移動速度"
+                },
+                "stone_aura_buff": {
+                    "display_name": "岩石光環",
+                    "description": "為自身與附近爐民提升 30% 由裝備所提供的護甲"
+                },
+                "stone_aura_effect_buff": {
+                    "display_name": "岩石皮膚",
+                    "description": "受惠於綠袍巫師，提升 30% 由裝備所提供的護甲"
+                }
+            },
+            "wizard_green_outfit": {
+                "display_name": "綠色巫師袍",
+                "description": "綠色的長袍嵌合青銅護甲，是大地的顏色"
+            },
+            "wizard_green_hat": {
+                "display_name": "綠色頭罩",
+                "description": "綠袍巫師專屬的綠色精美頭罩"
+            },
+            "wizard_green_tome": {
+                "description": "轉職為綠袍巫師的必要物品",
+                "display_name": "綠袍巫師的寶典",
+                "wizard_green_tome_iconic": {
+                    "description": "轉職為綠袍巫師的必要物品",
+                    "display_name": "綠袍巫師的寶典"
+                },
+                "wizard_green_tome_talisman": {
+                    "description": "轉職為綠袍巫師的必要物品",
+                    "display_name": "綠袍巫師的寶典"
+                }
+            }
+        }
+   }
+}

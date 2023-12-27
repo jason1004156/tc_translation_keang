@@ -1,0 +1,814 @@
+{
+	"ui": {
+	},
+	"entities": {
+		"decoration": {
+			"banner_blank": {
+				"description": "一面空白的旗幟",
+				"display_name": "空白壁掛旗幟",
+				"recipe_name": "空白壁掛旗幟",
+				"flavor": "可以讓你在上面畫畫"
+			},
+			"banner_hanging_large_black": {
+				"description": "一面大型的黑色旗幟",
+				"display_name": "大型黑色掛旗",
+				"recipe_name": "大型黑色掛旗",
+				"flavor": "一面大型的黑色掛旗"
+			},
+			"banner_hanging_large_blue": {
+				"description": "一面大型的藍色旗幟",
+				"display_name": "大型藍色掛旗",
+				"recipe_name": "大型藍色掛旗",
+				"flavor": "一面大型的藍色掛旗"
+			},
+			"banner_hanging_large_green": {
+				"description": "一面大型的綠色旗幟",
+				"display_name": "大型綠色掛旗",
+				"recipe_name": "大型綠色掛旗",
+				"flavor": "一面大型的綠色掛旗"
+			},
+			"banner_hanging_large_red": {
+				"description": "一面大型的紅色旗幟",
+				"display_name": "大型紅色掛旗",
+				"recipe_name": "大型紅色掛旗",
+				"flavor": "一面大型的紅色掛旗"
+			},
+			"banner_hanging_large_white": {
+				"description": "一面大型的白色旗幟",
+				"display_name": "大型白色掛旗",
+				"recipe_name": "大型白色掛旗",
+				"flavor": "一面大型的白色掛旗"
+			},
+			"banner_hanging_large_yellow": {
+				"description": "一面大型的黃色旗幟",
+				"display_name": "大型黃色掛旗",
+				"recipe_name": "大型黃色掛旗",
+				"flavor": "一面大型的黃色掛旗"
+			},
+			"banner_hanging_small_black": {
+				"description": "一面黑色旗幟",
+				"display_name": "黑色掛旗",
+				"recipe_name": "黑色掛旗",
+				"flavor": "一面黑色掛旗"
+			},
+			"banner_hanging_small_blue": {
+				"description": "一面藍色旗幟",
+				"display_name": "藍色掛旗",
+				"recipe_name": "藍色掛旗",
+				"flavor": "一面藍色掛旗"
+			},
+			"banner_hanging_small_green": {
+				"description": "一面綠色旗幟",
+				"display_name": "綠色掛旗",
+				"recipe_name": "綠色掛旗",
+				"flavor": "一面綠色掛旗"
+			},
+			"banner_hanging_small_red": {
+				"description": "一面紅色旗幟",
+				"display_name": "紅色掛旗",
+				"recipe_name": "紅色掛旗",
+				"flavor": "一面紅色掛旗"
+			},
+			"banner_hanging_small_white": {
+				"description": "一面白色旗幟",
+				"display_name": "白色掛旗",
+				"recipe_name": "白色掛旗",
+				"flavor": "一面白色掛旗"
+			},
+			"banner_hanging_small_yellow": {
+				"description": "一面黃色旗幟",
+				"display_name": "黃色掛旗",
+				"recipe_name": "黃色掛旗",
+				"flavor": "一面黃色掛旗"
+			},
+			"banner_pennant_large_black": {
+				"description": "一面大型的黑色立旗",
+				"display_name": "大型黑色立旗",
+				"recipe_name": "大型黑色立旗",
+				"flavor": "一面大型的黑色立旗"
+			},
+			"banner_pennant_large_blue": {
+				"description": "一面大型的藍色立旗",
+				"display_name": "大型藍色立旗",
+				"recipe_name": "大型藍色立旗",
+				"flavor": "一面大型的藍色立旗"
+			},
+			"banner_pennant_large_green": {
+				"description": "一面大型的綠色立旗",
+				"display_name": "大型綠色立旗",
+				"recipe_name": "大型綠色立旗",
+				"flavor": "一面大型的綠色立旗"
+			},
+			"banner_pennant_large_red": {
+				"description": "一面大型的紅色立旗",
+				"display_name": "大型紅色立旗",
+				"recipe_name": "大型紅色立旗",
+				"flavor": "一面大型的紅色立旗"
+			},
+			"banner_pennant_large_white": {
+				"description": "一面大型的白色立旗",
+				"display_name": "大型白色立旗",
+				"recipe_name": "大型白色立旗",
+				"flavor": "一面大型的白色立旗"
+			},
+			"banner_pennant_large_yellow": {
+				"description": "一面大型的黃色立旗",
+				"display_name": "大型黃色立旗",
+				"recipe_name": "大型黃色立旗",
+				"flavor": "一面大型的黃色立旗"
+			},
+			"banner_pennant_small_black": {
+				"description": "一面黑色立旗",
+				"display_name": "黑色立旗",
+				"recipe_name": "黑色立旗",
+				"flavor": "一面黑色立旗"
+			},
+			"banner_pennant_small_blue": {
+				"description": "一面藍色立旗",
+				"display_name": "藍色立旗",
+				"recipe_name": "藍色立旗",
+				"flavor": "一面藍色立旗"
+			},
+			"banner_pennant_small_green": {
+				"description": "一面綠色立旗",
+				"display_name": "綠色立旗",
+				"recipe_name": "綠色立旗",
+				"flavor": "一面綠色立旗"
+			},
+			"banner_pennant_small_red": {
+				"description": "一面紅色立旗",
+				"display_name": "紅色立旗",
+				"recipe_name": "紅色立旗",
+				"flavor": "一面紅色立旗"
+			},
+			"banner_pennant_small_white": {
+				"description": "一面白色立旗",
+				"display_name": "白色立旗",
+				"recipe_name": "白色立旗",
+				"flavor": "一面白色立旗"
+			},
+			"banner_pennant_small_yellow": {
+				"description": "一面黃色立旗",
+				"display_name": "黃色立旗",
+				"recipe_name": "黃色立旗",
+				"flavor": "一面黃色立旗"
+			},
+			"banner_simple_blacksmith": {
+				"description": "一面簡單的鐵匠壁掛旗幟",
+				"display_name": "簡易鐵匠壁掛旗幟",
+				"recipe_name": "簡易鐵匠壁掛旗幟",
+				"flavor": "一面樸素的鐵匠旗幟"
+			},
+			"banner_simple_carpenter": {
+				"description": "一面簡單的木匠壁掛旗幟",
+				"display_name": "簡易木匠壁掛旗幟",
+				"recipe_name": "簡易木匠壁掛旗幟",
+				"flavor": "一面樸素的木匠旗幟"
+			},
+			"banner_simple_cook": {
+				"description": "一面簡單的廚師壁掛旗幟",
+				"display_name": "簡易廚師壁掛旗幟",
+				"recipe_name": "簡易廚師壁掛旗幟",
+				"flavor": "一面樸素的廚師旗幟"
+			},
+			"banner_simple_engineer": {
+				"description": "一面簡單的工程師壁掛旗幟",
+				"display_name": "簡易工程師壁掛旗幟",
+				"recipe_name": "簡易工程師壁掛旗幟",
+				"flavor": "一面樸素的工程師旗幟"
+			},
+			"banner_simple_herbalist": {
+				"description": "一面簡單的草藥師壁掛旗幟",
+				"display_name": "簡易草藥師壁掛旗幟",
+				"recipe_name": "簡易草藥師壁掛旗幟",
+				"flavor": "一面樸素的草藥師旗幟"
+			},
+			"banner_simple_mason": {
+				"description": "一面簡單的石匠壁掛旗幟",
+				"display_name": "簡易石匠壁掛旗幟",
+				"recipe_name": "簡易石匠壁掛旗幟",
+				"flavor": "一面樸素的石匠旗幟"
+			},
+			"banner_simple_potter": {
+				"description": "一面簡單的陶藝師壁掛旗幟",
+				"display_name": "簡易陶藝師壁掛旗幟",
+				"recipe_name": "簡易陶藝師壁掛旗幟",
+				"flavor": "一面樸素的陶藝師旗幟"
+			},
+			"banner_simple_weaver": {
+				"description": "一面簡單的裁縫師壁掛旗幟",
+				"display_name": "簡易裁縫師壁掛旗幟",
+				"recipe_name": "簡易裁縫師壁掛旗幟",
+				"flavor": "一面樸素的裁縫師旗幟"
+			},
+			"banner_wall_blacksmith": {
+				"description": "一面代表鐵匠的旗幟",
+				"display_name": "鐵匠壁掛旗幟",
+				"recipe_name": "鐵匠壁掛旗幟",
+				"flavor": "一面華麗的鐵匠旗幟"
+			},
+			"banner_wall_carpenter": {
+				"description": "一面代表木匠的旗幟",
+				"display_name": "木匠壁掛旗幟",
+				"recipe_name": "木匠壁掛旗幟",
+				"flavor": "一面華麗的木匠旗幟"
+			},
+			"banner_wall_cook": {
+				"description": "一面代表廚師的旗幟",
+				"display_name": "廚師壁掛旗幟",
+				"recipe_name": "廚師壁掛旗幟",
+				"flavor": "一面華麗的廚師旗幟"
+			},
+			"banner_wall_engineer": {
+				"description": "一面代表工程師的旗幟",
+				"display_name": "工程師壁掛旗幟",
+				"recipe_name": "工程師壁掛旗幟",
+				"flavor": "一面華麗的工程師旗幟"
+			},
+			"banner_wall_herbalist": {
+				"description": "一面代表草藥師的旗幟",
+				"display_name": "草藥師壁掛旗幟",
+				"recipe_name": "草藥師壁掛旗幟",
+				"flavor": "一面華麗的草藥師旗幟"
+			},
+			"banner_wall_inn": {
+				"description": "一面代表旅店的旗幟",
+				"display_name": "旅店壁掛旗幟",
+				"recipe_name": "旅店壁掛旗幟",
+				"flavor": "一面代表旅店的旗幟"
+			},
+			"banner_wall_large_black": {
+				"description": "一面大型的黑色壁掛旗幟",
+				"display_name": "大型黑色壁掛旗幟",
+				"recipe_name": "大型黑色壁掛旗幟",
+				"flavor": "一面大型的黑色壁掛旗幟"
+			},
+			"banner_wall_large_green": {
+				"description": "一面大型的綠色壁掛旗幟",
+				"display_name": "大型綠色壁掛旗幟",
+				"recipe_name": "大型綠色壁掛旗幟",
+				"flavor": "一面大型的綠色壁掛旗幟"
+			},
+			"banner_wall_large_red": {
+				"description": "一面大型的紅色壁掛旗幟",
+				"display_name": "大型紅色壁掛旗幟",
+				"recipe_name": "大型紅色壁掛旗幟",
+				"flavor": "一面大型的紅色壁掛旗幟"
+			},
+			"banner_wall_large_white": {
+				"description": "一面大型的白色壁掛旗幟",
+				"display_name": "大型白色壁掛旗幟",
+				"recipe_name": "大型白色壁掛旗幟",
+				"flavor": "一面大型的白色壁掛旗幟"
+			},
+			"banner_wall_large_yellow": {
+				"description": "一面大型的黃色壁掛旗幟",
+				"display_name": "大型黃色壁掛旗幟",
+				"recipe_name": "大型黃色壁掛旗幟",
+				"flavor": "一面大型的黃色壁掛旗幟"
+			},
+			"banner_wall_mason": {
+				"description": "一面代表石匠的旗幟",
+				"display_name": "石匠壁掛旗幟",
+				"recipe_name": "石匠壁掛旗幟",
+				"flavor": "一面華麗的石匠旗幟"
+			},
+			"banner_wall_potion": {
+				"description": "一面畫有藥水的旗幟",
+				"display_name": "藥水壁掛旗幟",
+				"recipe_name": "藥水壁掛旗幟",
+				"flavor": "一面畫有藥水的旗幟"
+			},
+			"banner_wall_potter": {
+				"description": "一面代表陶藝師的旗幟",
+				"display_name": "陶藝師壁掛旗幟",
+				"recipe_name": "陶藝師壁掛旗幟",
+				"flavor": "一面華麗的陶藝師旗幟"
+			},
+			"banner_wall_pub": {
+				"description": "一面代表酒館的旗幟",
+				"display_name": "酒館壁掛旗幟",
+				"recipe_name": "酒館壁掛旗幟",
+				"flavor": "一面畫有酒杯的旗幟"
+			},
+			"banner_wall_small_black": {
+				"description": "一面黑色壁掛旗幟",
+				"display_name": "黑色壁掛旗幟",
+				"recipe_name": "黑色壁掛旗幟",
+				"flavor": "一面黑色壁掛旗幟"
+			},
+			"banner_wall_small_green": {
+				"description": "一面綠色壁掛旗幟",
+				"display_name": "綠色壁掛旗幟",
+				"recipe_name": "綠色壁掛旗幟",
+				"flavor": "一面綠色壁掛旗幟"
+			},
+			"banner_wall_small_red": {
+				"description": "一面紅色壁掛旗幟",
+				"display_name": "紅色壁掛旗幟",
+				"recipe_name": "紅色壁掛旗幟",
+				"flavor": "一面紅色壁掛旗幟"
+			},
+			"banner_wall_small_white": {
+				"description": "一面白色壁掛旗幟",
+				"display_name": "白色壁掛旗幟",
+				"recipe_name": "白色壁掛旗幟",
+				"flavor": "一面白色壁掛旗幟"
+			},
+			"banner_wall_small_yellow": {
+				"description": "一面黃色壁掛旗幟",
+				"display_name": "黃色壁掛旗幟",
+				"recipe_name": "黃色壁掛旗幟",
+				"flavor": "一面黃色壁掛旗幟"
+			},
+			"banner_wall_storage": {
+				"description": "一面代儲藏區的旗幟",
+				"display_name": "儲藏區壁掛旗幟",
+				"recipe_name": "儲藏區壁掛旗幟",
+				"flavor": "一面代儲藏區的旗幟"
+			},
+			"banner_wall_weaver": {
+				"description": "一面代表裁縫師的旗幟",
+				"display_name": "裁縫師壁掛旗幟",
+				"recipe_name": "裁縫師壁掛旗幟",
+				"flavor": "一面華麗的裁縫師旗幟"
+			},
+			"sign_clay_blacksmith": {
+				"description": "以陶土為基底的鐵匠招牌",
+				"display_name": "陶製鐵匠招牌",
+				"recipe_name": "陶製鐵匠招牌",
+				"flavor": "一面簡單的陶製鐵匠招牌"
+			},
+			"sign_clay_blank": {
+				"description": "空白的陶製招牌",
+				"display_name": "空白陶製招牌",
+				"recipe_name": "空白陶製招牌",
+				"flavor": "一面空白的陶製招牌正等待著設計師"
+			},
+			"sign_clay_carpenter": {
+				"description": "以陶土為基底的木匠招牌",
+				"display_name": "陶製木匠招牌",
+				"recipe_name": "陶製木匠招牌",
+				"flavor": "一面簡單的陶製木匠招牌"
+			},
+			"sign_clay_cook": {
+				"description": "以陶土為基底的廚師招牌",
+				"display_name": "陶製廚師招牌",
+				"recipe_name": "陶製廚師招牌",
+				"flavor": "一面簡單的陶製廚師招牌"
+			},
+			"sign_clay_engineer": {
+				"description": "以陶土為基底的工程師招牌",
+				"display_name": "陶製工程師招牌",
+				"recipe_name": "陶製工程師招牌",
+				"flavor": "一面簡單的陶製工程師招牌"
+			},
+			"sign_clay_herbalist": {
+				"description": "以陶土為基底的草藥師招牌",
+				"display_name": "陶製草藥師招牌",
+				"recipe_name": "陶製草藥師招牌",
+				"flavor": "一面簡單的陶製草藥師招牌"
+			},
+			"sign_clay_inn": {
+				"description": "以陶土為基底的旅店招牌",
+				"display_name": "陶製旅店招牌",
+				"recipe_name": "陶製旅店招牌",
+				"flavor": "一面簡單的陶製旅店招牌"
+			},
+			"sign_clay_mason": {
+				"description": "以陶土為基底的石匠招牌",
+				"display_name": "陶製石匠招牌",
+				"recipe_name": "陶製石匠招牌",
+				"flavor": "一面簡單的陶製石匠招牌"
+			},
+			"sign_clay_potter": {
+				"description": "以陶土為基底的陶藝師招牌",
+				"display_name": "陶製陶藝師招牌",
+				"recipe_name": "陶製陶藝師招牌",
+				"flavor": "一面簡單的陶製陶藝師招牌"
+			},
+			"sign_clay_pub": {
+				"description": "以陶土為基底的酒館招牌",
+				"display_name": "陶製酒館招牌",
+				"recipe_name": "陶製酒館招牌",
+				"flavor": "一面簡單的陶製酒館招牌"
+			},
+			"sign_clay_storage": {
+				"description": "以陶土為基底的儲藏區招牌",
+				"display_name": "陶製儲藏區招牌",
+				"recipe_name": "陶製儲藏區招牌",
+				"flavor": "一面簡單的陶製儲藏區招牌"
+			},
+			"sign_clay_weaver": {
+				"description": "以陶土為基底的裁縫師招牌",
+				"display_name": "陶製裁縫師招牌",
+				"recipe_name": "陶製裁縫師招牌",
+				"flavor": "一面簡單的陶製裁縫師招牌"
+			},
+			"sign_fancy_clay_bed": {
+				"description": "上面有一張床的圖案",
+				"display_name": "高級陶製旅館招牌",
+				"recipe_name": "高級陶製旅館招牌",
+				"flavor": "陶製招牌上有一張床的圖案"
+			},
+			"sign_fancy_clay_blacksmith": {
+				"description": "更有設計感的陶製鐵匠招牌",
+				"display_name": "高級陶製鐵匠招牌",
+				"recipe_name": "高級陶製鐵匠招牌",
+				"flavor": "陶製招牌上有一把劍的圖案"
+			},
+			"sign_fancy_clay_carpenter": {
+				"description": "更有設計感的陶製木匠招牌",
+				"display_name": "高級陶製木匠招牌",
+				"recipe_name": "高級陶製木匠招牌",
+				"flavor": "陶製招牌上有一把鋸子的圖案"
+			},
+			"sign_fancy_clay_castle": {
+				"description": "上面有一座城堡的圖案",
+				"display_name": "高級陶製城堡招牌",
+				"recipe_name": "高級陶製城堡招牌",
+				"flavor": "陶製招牌上有一座城堡的圖案"
+			},
+			"sign_fancy_clay_cook": {
+				"description": "更有設計感的陶製廚師招牌",
+				"display_name": "高級陶製廚師招牌",
+				"recipe_name": "高級陶製廚師招牌",
+				"flavor": "陶製招牌上有一顆南瓜的圖案"
+			},
+			"sign_fancy_clay_desert_inn": {
+				"description": "更有設計感的陶製沙漠旅店招牌",
+				"display_name": "高級陶製沙漠旅店招牌",
+				"recipe_name": "高級陶製沙漠旅店招牌",
+				"flavor": "陶製招牌上有一個油燈的圖案"
+			},
+			"sign_fancy_clay_engineer": {
+				"description": "更有設計感的陶製工程師招牌",
+				"display_name": "高級陶製工程師招牌",
+				"recipe_name": "高級陶製工程師招牌",
+				"flavor": "陶製招牌上有幾個齒輪的圖案"
+			},
+			"sign_fancy_clay_herbalist": {
+				"description": "更有設計感的陶製草藥師招牌",
+				"display_name": "高級陶製草藥師招牌",
+				"recipe_name": "高級陶製草藥師招牌",
+				"flavor": "陶製招牌上有一罐藥水的圖案"
+			},
+			"sign_fancy_clay_inn": {
+				"description": "更有設計感的陶製旅店招牌",
+				"display_name": "高級陶製旅店招牌",
+				"recipe_name": "高級陶製旅店招牌",
+				"flavor": "陶製招牌上有一根蠟燭的圖案"
+			},
+			"sign_fancy_clay_mason": {
+				"description": "更有設計感的陶製石匠招牌",
+				"display_name": "高級陶製石匠招牌",
+				"recipe_name": "高級陶製石匠招牌",
+				"flavor": "陶製招牌上有雕鑿工具的圖案"
+			},
+			"sign_fancy_clay_mason_bench": {
+				"description": "更有設計感的陶製石匠招牌",
+				"display_name": "高級陶製石匠工作桌招牌",
+				"recipe_name": "高級陶製石匠工作桌招牌",
+				"flavor": "陶製招牌上有石匠工作桌的圖案"
+			},
+			"sign_fancy_clay_ol_saw": {
+				"description": "更有設計感的陶製木匠招牌",
+				"display_name": "高級陶製木匠弓鋸招牌",
+				"recipe_name": "高級陶製木匠弓鋸招牌",
+				"flavor": "陶製招牌上有一把弓鋸的圖案"
+			},
+			"sign_fancy_clay_potter": {
+				"description": "更有設計感的陶製陶藝師招牌",
+				"display_name": "高級陶製陶藝師招牌",
+				"recipe_name": "高級陶製陶藝師招牌",
+				"flavor": "陶製招牌上有一個茶壺的圖案"
+			},
+			"sign_fancy_clay_pub": {
+				"description": "更有設計感的陶製酒館招牌",
+				"display_name": "高級陶製酒館招牌",
+				"recipe_name": "高級陶製酒館招牌",
+				"flavor": "陶製招牌上有一杯啤酒的圖案"
+			},
+			"sign_fancy_clay_storage": {
+				"description": "更有設計感的陶製儲藏區招牌",
+				"display_name": "高級陶製儲藏區招牌",
+				"recipe_name": "高級陶製儲藏區招牌",
+				"flavor": "陶製招牌上有一個儲存箱的圖案"
+			},
+			"sign_fancy_clay_weaver": {
+				"description": "更有設計感的陶製裁縫師招牌",
+				"display_name": "高級陶製裁縫師招牌",
+				"recipe_name": "高級陶製裁縫師招牌",
+				"flavor": "陶製招牌上有一把剪刀的圖案"
+			},
+			"sign_metal_blacksmith": {
+				"description": "鐵製的鐵匠招牌",
+				"display_name": "鐵製鐵匠招牌",
+				"recipe_name": "鐵製鐵匠招牌",
+				"flavor": "高級沉重的招牌"
+			},
+			"sign_metal_blacksmith_hammer": {
+				"description": "鐵製的鐵匠鐵鎚招牌",
+				"display_name": "鐵製鐵鎚招牌",
+				"recipe_name": "鐵製鐵鎚招牌",
+				"flavor": "是不是在某個地方有人正在思念它的鐵鎚呢？"
+			},
+			"sign_metal_carpenter": {
+				"description": "鐵製的木匠招牌",
+				"display_name": "鐵製木匠招牌",
+				"recipe_name": "鐵製木匠招牌",
+				"flavor": "不知道為什麼看起來有點蠢"
+			},
+			"sign_metal_cook": {
+				"description": "鐵製的廚師招牌",
+				"display_name": "鐵製廚師招牌",
+				"recipe_name": "鐵製廚師招牌",
+				"flavor": "肚子餓了嗎？"
+			},
+			"sign_metal_engineer": {
+				"description": "鐵製的工程師招牌",
+				"display_name": "鐵製工程師招牌",
+				"recipe_name": "鐵製工程師招牌",
+				"flavor": "'我可以做得比這更好' - 工程師"
+			},
+			"sign_metal_flowers": {
+				"description": "鐵製的花環招牌",
+				"display_name": "鐵製花環招牌",
+				"recipe_name": "鐵製花環招牌",
+				"flavor": "我說那鐵製的蝴蝶呢！？"
+			},
+			"sign_metal_fork": {
+				"description": "鐵製的餐具招牌",
+				"display_name": "鐵製餐具招牌",
+				"recipe_name": "鐵製餐具招牌",
+				"flavor": "肚子餓了嗎？"
+			},
+			"sign_metal_gear": {
+				"description": "鐵製的齒輪招牌",
+				"display_name": "鐵製齒輪招牌",
+				"recipe_name": "鐵製齒輪招牌",
+				"flavor": "可惜它不會轉"
+			},
+			"sign_metal_goblin": {
+				"description": "鐵製的哥布林招牌",
+				"display_name": "鐵製哥布林招牌",
+				"recipe_name": "鐵製哥布林招牌",
+				"flavor": "栩栩如生"
+			},
+			"sign_metal_goblin_angry": {
+				"description": "鐵製的氣噗噗哥布林招牌",
+				"display_name": "鐵製氣噗噗哥布林招牌",
+				"recipe_name": "鐵製氣噗噗哥布林招牌",
+				"flavor": "不知道為什麼氣噗噗的哥布林"
+			},
+			"sign_metal_herbalist": {
+				"description": "鐵製的草藥師招牌",
+				"display_name": "鐵製草藥師招牌",
+				"recipe_name": "鐵製草藥師招牌",
+				"flavor": "別擔心，製作這面招牌時沒有任何樹木受到傷害"
+			},
+			"sign_metal_inn": {
+				"description": "鐵製的旅店招牌",
+				"display_name": "鐵製旅店招牌",
+				"recipe_name": "鐵製旅店招牌",
+				"flavor": "你，累了嗎？"
+			},
+			"sign_metal_key": {
+				"description": "鐵製的鑰匙招牌",
+				"display_name": "鐵製鑰匙招牌",
+				"recipe_name": "鐵製鑰匙招牌",
+				"flavor": "這鑰匙看來是拿不下來了"
+			},
+			"sign_metal_mason": {
+				"description": "鐵製的石匠招牌",
+				"display_name": "鐵製石匠招牌",
+				"recipe_name": "鐵製石匠招牌",
+				"flavor": "不 是 石 頭"
+			},
+			"sign_metal_mason_bench": {
+				"description": "鐵製的石匠工作桌招牌",
+				"display_name": "鐵製石匠工作桌招牌",
+				"recipe_name": "鐵製石匠工作桌招牌",
+				"flavor": "依照實品縮小比例打造而成"
+			},
+			"sign_metal_pint": {
+				"description": "鐵製的酒館招牌",
+				"display_name": "鐵製酒館招牌",
+				"recipe_name": "鐵製酒館招牌",
+				"flavor": "來一杯啤酒！"
+			},
+			"sign_metal_potion": {
+				"description": "鐵製的藥水招牌",
+				"display_name": "鐵製藥水招牌",
+				"recipe_name": "鐵製藥水招牌",
+				"flavor": "不 能 喝"
+			},
+			"sign_metal_potter": {
+				"description": "鐵製的陶藝師招牌",
+				"display_name": "鐵製陶藝師招牌",
+				"recipe_name": "鐵製陶藝師招牌",
+				"flavor": "比陶製的還重"
+			},
+			"sign_metal_saw": {
+				"description": "鐵製的鋸子招牌",
+				"display_name": "鐵製鋸子招牌",
+				"recipe_name": "鐵製鋸子招牌",
+				"flavor": "'你對我的鋸子做了什麼！？' - 木匠"
+			},
+			"sign_metal_scissors": {
+				"description": "鐵製的剪刀招牌",
+				"display_name": "鐵製剪刀招牌",
+				"recipe_name": "鐵製剪刀招牌",
+				"flavor": "不要拿著剪刀跑步！"
+			},
+			"sign_metal_storage": {
+				"description": "鐵製的儲藏區招牌",
+				"display_name": "鐵製儲藏區招牌",
+				"recipe_name": "鐵製儲藏區招牌",
+				"flavor": "裡面放著各種好東西！"
+			},
+			"sign_metal_tower": {
+				"description": "鐵製的城堡招牌",
+				"display_name": "鐵製城堡招牌",
+				"recipe_name": "鐵製城堡招牌",
+				"flavor": "你幾乎可以看到有爐民住在裡面"
+			},
+			"sign_metal_vase": {
+				"description": "鐵製的花瓶招牌",
+				"display_name": "鐵製花瓶招牌",
+				"recipe_name": "鐵製花瓶招牌",
+				"flavor": "看起來很重"
+			},
+			"sign_metal_weaver": {
+				"description": "鐵製的裁縫師招牌",
+				"display_name": "鐵製裁縫師招牌",
+				"recipe_name": "鐵製裁縫師招牌",
+				"flavor": "這可不是織上去的"
+			},
+			"signpost_marker_blacksmith": {
+				"description": "鐵匠的路標",
+				"display_name": "鐵匠路標",
+				"recipe_name": "鐵匠路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_carpenter": {
+				"description": "木匠的路標",
+				"display_name": "木匠路標",
+				"recipe_name": "木匠路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_cook": {
+				"description": "廚師的路標",
+				"display_name": "廚師路標",
+				"recipe_name": "廚師路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_engineer": {
+				"description": "工程師的路標",
+				"display_name": "工程師路標",
+				"recipe_name": "工程師路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_herbalist": {
+				"description": "草藥師的路標",
+				"display_name": "草藥師路標",
+				"recipe_name": "草藥師路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_inn": {
+				"description": "旅店的路標",
+				"display_name": "旅店路標",
+				"recipe_name": "旅店路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_mason": {
+				"description": "石匠的路標",
+				"display_name": "石匠路標",
+				"recipe_name": "石匠路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_oak": {
+				"description": "用橡木製成的路標",
+				"display_name": "橡木路標",
+				"recipe_name": "橡木路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_potter": {
+				"description": "陶藝師的路標",
+				"display_name": "陶藝師路標",
+				"recipe_name": "陶藝師路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_pub": {
+				"description": "酒館的路標",
+				"display_name": "酒館路標",
+				"recipe_name": "酒館路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_storage": {
+				"description": "儲藏區的路標",
+				"display_name": "儲藏區路標",
+				"recipe_name": "儲藏區路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_marker_weaver": {
+				"description": "裁縫師的路標",
+				"display_name": "裁縫師路標",
+				"recipe_name": "裁縫師路標",
+				"flavor": "往這裡走！"
+			},
+			"signpost_oak": {
+				"description": "用橡木製成的路標支柱",
+				"display_name": "橡木路標支柱",
+				"recipe_name": "橡木路標支柱",
+				"flavor": "當然是用來放路標的"
+			},
+			"signstand_brick": {
+				"description": "磚造的招牌座",
+				"display_name": "磚造招牌座",
+				"recipe_name": "磚造招牌座",
+				"flavor": "比放在一根桿子上漂亮多了"
+			},
+			"signstand_brick_fancy": {
+				"description": "更具設計感的磚造招牌座",
+				"display_name": "高級磚造招牌座",
+				"recipe_name": "高級磚造招牌座",
+				"flavor": "它剛剛對著我大叫'快看我！'"
+			},
+			"signstand_oak": {
+				"description": "用橡木做的招牌座",
+				"display_name": "橡木招牌座",
+				"recipe_name": "橡木招牌座",
+				"flavor": "比放在一根桿子上漂亮多了"
+			},
+			"signstand_oak_fancy": {
+				"description": "更具設計感的橡木招牌座",
+				"display_name": "高級橡木招牌座",
+				"recipe_name": "高級橡木招牌座",
+				"flavor": "用橡木精心打造的招牌座"
+			},
+			"signstand_stone": {
+				"description": "石造的招牌座",
+				"display_name": "石造招牌座",
+				"recipe_name": "石造招牌座",
+				"flavor": "比放在一根桿子上漂亮多了"
+			},
+			"signstand_stone_fancy": {
+				"description": "更具設計感的石造招牌座",
+				"display_name": "高級石造招牌座",
+				"recipe_name": "高級石造招牌座",
+				"flavor": "帶著一點閃耀的金色光芒"
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"cook": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"mason": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"banner_name": "旗幟",
+				"signs_name": "招牌"
+			}
+		}
+	}
+}

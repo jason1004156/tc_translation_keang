@@ -1,0 +1,960 @@
+{
+   "data": {
+      "commands": {
+         "harvest_wood": {
+            "display_name" : "砍伐",
+            "description"  : "砍倒這棵樹"
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "yeast_resource_name" : "酵母",
+            "mushroom_resource_name" : "蘑菇",
+            "cocoa_powder_resource_name" : "可可粉",
+            "sugar_resource_name" : "蔗糖"
+         }
+      },
+      "buffs": {
+         "blitzed": {
+            "blitzed_buff": {
+               "display_name": "泥醉",
+               "description": "這位爐民喝太多太多酒啦！"
+            }
+         },
+         "buzzed": {
+            "buzzed_buff": {
+               "display_name": "微酣",
+               "description": "這位爐民在酒精的作用下，變得較為勇敢、深情"
+            }
+         },
+         "drunk": {
+            "drunk_buff": {
+               "display_name": "茫醉",
+               "description": "這位爐民喝醉了！"
+            }
+         },
+         "funky_taste": {
+            "funky_taste_buff": {
+               "display_name": "時尚品味",
+               "description": "這位爐民吃了或是喝了某種不合他口味的東西...噁"
+            }
+         },
+         "hangover": {
+            "hangover_buff": {
+               "display_name": "宿醉",
+               "description": "這位爐民有點喝過頭了，正在宿醉中"
+            }
+         },
+         "healthy_glow": {
+            "healthy_glow_buff": {
+               "display_name": "營養滿點",
+               "description": "這位爐民渾身是勁，所有能力上升"
+            }
+         },
+         "sugar_coma": {
+            "sugar_coma_buff": {
+               "display_name": "低血糖",
+               "description": "這位爐民吃了太多的糖後血糖飆升造成胰島素大量分泌，過了一段時間血糖又快速下降而導致疲倦"
+            }
+         },
+         "sweet_tooth": {
+            "sweet_tooth_buff": {
+               "display_name": "甜如蜜",
+               "description": "這位爐民吃了好多甜食，讓他工作更有效率，耐力更佳！"
+            }
+         }
+      }
+   },
+   "entities": {
+      "item_categories": {
+            "drink": "飲料"
+               },
+      "consumables": {
+         "seeds": {
+            "apple_tree_seeds": {
+               "display_name": "蘋果樹種子",
+               "description": "學習種植蘋果樹"
+            },
+            "blueberry_seeds": {
+               "display_name": "藍莓種子",
+               "description": "學習種植藍莓"
+            },
+            "cocoabeans_seeds": {
+               "display_name": "可可豆種子",
+               "description": "學習種植可可豆"
+            },
+            "garlic_seeds": {
+               "display_name": "大蒜種子",
+               "description": "學習種植大蒜"
+            },
+            "grapes_seeds": {
+               "display_name": "葡萄種子",
+               "description": "學習種植葡萄"
+            },
+            "mushroom_seeds": {
+               "display_name": "蘑菇種子",
+               "description": "學習種植蘑菇"
+            },
+            "strawberry_seeds": {
+               "display_name": "草莓種子",
+               "description": "學習種植草莓"
+            },
+            "sugarcane_seeds": {
+               "display_name": "甘蔗種子",
+               "description": "學習種植甘蔗"
+            },
+            "tomato_seeds": {
+               "display_name": "番茄種子",
+               "description": "學習種植番茄"
+            }
+         }
+      },
+      "crops": {
+         "blueberry_crop": {
+            "display_name": "藍莓",
+            "description": "生長快速，又小又甜的水果",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的藍莓",
+                  "description": "美味！"
+               },
+               "002": {
+                  "name": "小藍莓",
+                  "description": "小小的，還沒成熟"
+               },
+               "001": {
+                  "name": "藍莓芽",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "藍莓幼苗",
+                  "description": "又瘦又小的藍莓幼苗"
+               },
+               "012": {
+                  "name": "腐爛的藍莓",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "cocoabeans_crop": {
+            "display_name": "可可豆",
+            "description": "生長緩慢，可以用來做巧克力",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的可可豆",
+                  "description": "聞起來真香！"
+               },
+               "002": {
+                  "name": "小可可豆",
+                  "description": "小小的，還沒成熟"
+               },
+               "001": {
+                  "name": "可可豆芽",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "可可豆幼苗",
+                  "description": "幼苗"
+               },
+               "012": {
+                  "name": "腐爛的可可豆",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "garlic_crop": {
+            "display_name": "大蒜",
+            "description": "一種食材",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的大蒜",
+                  "description": "美麗的紫色花朵表示可以收成了！"
+               },
+               "002": {
+                  "name": "蒜芽",
+                  "description": "小小的"
+               },
+               "001": {
+                  "name": "小蒜芽",
+                  "description": "還不能採收！"
+               },
+               "000": {
+                  "name": "大蒜鱗莖",
+                  "description": "才剛種下去"
+               },
+               "012": {
+                  "name": "腐爛的大蒜",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "grapes_crop": {
+            "display_name": "葡萄",
+            "description": "生長緩慢，帶有香氣的嬌小的水果，可以拿來做酒",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的葡萄",
+                  "description": "聞起來真美味！"
+               },
+               "002": {
+                  "name": "小葡萄",
+                  "description": "小小的，還沒成熟"
+               },
+               "001": {
+                  "name": "葡萄藤",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "葡萄藤苗",
+                  "description": "葡萄藤苗"
+               },
+               "012": {
+                  "name": "腐爛的葡萄",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "strawberry_crop": {
+            "display_name": "草莓",
+            "description": "生長快速的美味水果",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的草莓",
+                  "description": "小小的美味！"
+               },
+               "002": {
+                  "name": "小草莓",
+                  "description": "小小的，還沒成熟"
+               },
+               "001": {
+                  "name": "草莓芽",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "草莓幼苗",
+                  "description": "草莓幼苗"
+               },
+               "012": {
+                  "name": "腐爛的草莓",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "sugarcane_crop": {
+            "display_name": "甘蔗",
+            "description": "生長超級緩慢的作物，可以用來生產蔗糖",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的甘蔗",
+                  "description": "終於！"
+               },
+               "002": {
+                  "name": "未成熟的甘蔗",
+                  "description": "還沒成熟"
+               },
+               "001": {
+                  "name": "甘蔗芽",
+                  "description": "還不能採收！"
+               },
+               "000": {
+                  "name": "甘蔗幼苗",
+                  "description": "小小的甘蔗幼苗"
+               },
+               "012": {
+                  "name": "腐爛的甘蔗",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "tomato_crop": {
+            "display_name": "番茄",
+            "description": "生長緩慢，但很美味",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的番茄",
+                  "description": "美味！"
+               },
+               "002": {
+                  "name": "小番茄",
+                  "description": "小小綠綠的"
+               },
+               "001": {
+                  "name": "番茄芽",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "番茄幼苗",
+                  "description": "小小的番茄幼苗"
+               },
+               "012": {
+                  "name": "腐爛的番茄",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "watermelon_crop": {
+            "display_name": "西瓜",
+            "description": "生長緩慢，在炎熱的天氣中最美味",
+            "growth_stage": {
+               "003": {
+                  "name": "成熟的西瓜",
+                  "description": "美味！"
+               },
+               "002": {
+                  "name": "小西瓜",
+                  "description": "小小的，還沒成熟"
+               },
+               "001": {
+                  "name": "西瓜芽",
+                  "description": "還不能吃！"
+               },
+               "000": {
+                  "name": "西瓜幼苗",
+                  "description": "小小的西瓜幼苗"
+               },
+               "012": {
+                  "name": "腐爛的西瓜",
+                  "description": "已經不能吃了..."
+               }
+            }
+         },
+         "apple_tree_crop": {
+            "display_name": "蘋果樹樹苗",
+            "description": "想要水果嗎？準備收成大量的蘋果吧！",
+            "growth_stage": {
+               "001": {
+                  "name": "蘋果樹幼苗",
+                  "description": "才剛要開始呢"
+               },
+               "003": {
+                  "name": "蘋果樹苗",
+                  "description": "可以移到更大的地方種植了"
+               },
+               "000": {
+                  "name": "蘋果種子",
+                  "description": "才剛種下去的蘋果種子"
+               },
+               "002": {
+                  "name": "蘋果樹芽",
+                  "description": "盡情向太陽伸展吧！"
+               }
+            }
+         },
+         "mushroom_crop": {
+            "display_name": "蘑菇",
+            "description": "生長緩慢，可以用來製作酵母",
+            "growth_stage": {
+               "001": {
+                  "name": "蘑菇幼苗",
+                  "description": "才剛要開始呢"
+               },
+               "003": {
+                  "name": "蘑菇",
+                  "description": "可以移到更大的地方種植了"
+               },
+               "000": {
+                  "name": "蘑菇種子",
+                  "description": "才剛種下去的蘑菇種子"
+               },
+               "002": {
+                  "name": "蘑菇芽",
+                  "description": "快快長大吧！"
+               },
+               "012": {
+                  "name": "腐爛的蘑菇",
+                  "description": "已經不能吃了..."
+               }
+            }
+         }
+      },
+      "containers": {
+         "empty_barrel": {
+            "empty_barrel_ghost": {
+               "display_name": "木桶",
+               "description": "適合用來存放飲料，可以存放 16 個物品"
+            }
+         }
+      },
+      "furniture": {
+         "allium_pot": {
+            "allium_pot_ghost": {
+               "display_name": "繡球蔥盆栽",
+               "description": "種在盆栽裡的繡球蔥"
+            }
+         },
+         "rose_pot": {
+            "rose_pot_ghost": {
+               "display_name": "玫瑰盆栽",
+               "description": "種在盆栽裡的玫瑰"
+            }
+         }
+      },
+      "food": {
+         "blueberry": {
+            "blueberry_basket": {
+               "display_name": "一籃藍莓",
+               "description": "新鮮又美味"
+            },
+            "blueberry_serving": {
+               "display_name": "一盤藍莓",
+               "description": "好吃好吃"
+            }
+         },
+         "blueberry_milkshake": {
+            "blueberry_milkshake": {
+               "display_name": "藍莓奶昔",
+               "description": "濃厚，綿密"
+            },
+            "blueberry_milkshake_serving": {
+               "display_name": "一杯藍莓奶昔",
+               "description": "濃厚，綿密"
+            }
+         },
+         "blueberry_wine": {
+            "blueberry_wine": {
+               "display_name": "藍莓酒",
+               "description": "微酸，清爽"
+            },
+            "blueberry_wine_serving": {
+               "display_name": "一杯藍莓酒",
+               "description": "微酸，清爽"
+            }
+         },
+         "carrot_juice": {
+            "carrot_juice": {
+               "display_name": "胡蘿蔔汁",
+               "description": "絕無添加防腐劑！"
+            },
+            "carrot_juice_serving": {
+               "display_name": "胡蘿蔔汁",
+               "description": "絕無添加防腐劑！"
+            }
+         },
+         "chocolate_milkshake": {
+            "chocolate_milkshake": {
+               "display_name": "巧克力奶昔",
+               "description": "濃厚，綿密"
+            },
+            "chocolate_milkshake_serving": {
+               "display_name": "巧克力奶昔",
+               "description": "濃厚，綿密"
+            }
+         },
+         "cocoa_powder": {
+               "display_name": "可可粉",
+               "description": "一種食材"
+         },
+         "cocoabeans": {
+            "cocoabeans_basket": {
+               "display_name": "一籃可可豆",
+               "description": "非常苦，但是可以用來製作美味的巧克力"
+            },
+            "cocoabeans_serving": {
+               "display_name": "可可豆",
+               "description": "苦苦的，最好加工過再吃"
+            }
+         },
+         "corn_mead": {
+            "corn_mead": {
+               "display_name": "玉米蜂蜜酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "corn_mead_serving": {
+               "display_name": "一杯玉米蜂蜜酒",
+               "description": "美味又清爽！"
+            }
+         },
+         "fortified_pine_wine": {
+            "fortified_pine_wine": {
+               "display_name": "精釀松酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "fortified_pine_wine_serving": {
+               "display_name": "一杯精釀松酒",
+               "description": "帶有松木的香味"
+            }
+         },
+         "fortified_wine": {
+            "fortified_wine": {
+               "display_name": "精釀葡萄酒",
+               "description": "獨一無二的風味"
+            },
+            "fortified_wine_serving": {
+               "display_name": "一杯精釀葡萄酒",
+               "description": "獨一無二的風味"
+            }
+         },
+         "frost_berry_wine": {
+            "frost_berry_wine": {
+               "display_name": "霜寒漿果酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "frost_berry_wine_serving": {
+               "display_name": "一杯霜寒漿果酒",
+               "description": "酷涼又清爽！"
+            }
+         },
+         "garlic": {
+            "garlic_basket": {
+               "display_name": "一籃大蒜",
+               "description": "用作食材"
+            },
+            "garlic_serving": {
+               "display_name": "大蒜",
+               "description": "具有苦味與強烈的氣味"
+            }
+         },
+         "golden_mead": {
+            "golden_mead": {
+               "display_name": "黃金蜂蜜酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "golden_mead_serving": {
+               "display_name": "一杯黃金蜂蜜酒",
+               "description": "終極蜂蜜酒"
+            }
+         },
+         "grapes": {
+            "grapes_basket": {
+               "display_name": "一籃葡萄",
+               "description": "新鮮又多汁"
+            },
+            "grapes_serving": {
+               "display_name": "葡萄",
+               "description": "美味又多汁"
+            }
+         },
+         "hot_chocolate": {
+            "hot_chocolate": {
+               "display_name": "熱可可",
+               "description": "溫暖又美味"
+            },
+            "hot_chocolate_serving": {
+               "display_name": "一杯熱可可",
+               "description": "溫暖又美味"
+            }
+         },
+         "huckle_my_buff": {
+            "huckle_my_buff": {
+               "display_name": "熱浪調酒",
+               "description": "有趣的花式雞尾酒"
+            },
+            "huckle_my_buff_serving": {
+               "display_name": "一杯熱浪調酒",
+               "description": "有趣的花式雞尾酒"
+            }
+         },
+         "mead": {
+            "mead": {
+               "display_name": "蜂蜜酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "mead_serving": {
+               "display_name": "一杯蜂蜜酒",
+               "description": "美味又清爽！"
+            }
+         },
+         "mushroom": {
+            "display_name": "蘑菇",
+            "description": "可以用來製作酵母"
+         },
+         "pumpkin_spice_mead": {
+            "pumpkin_spice_mead": {
+               "display_name": "南瓜香料蜂蜜酒",
+               "description": "絕無添加防腐劑！"
+            },
+            "pumpkin_spice_mead_serving": {
+               "display_name": "一杯南瓜香料蜂蜜酒",
+               "description": "美味又溫暖！"
+            }
+         },
+         "rice": {
+            "rice_basket": {
+               "display_name": "一袋米",
+               "description": "人工收割"
+            },
+            "rice_serving": {
+               "display_name": "米",
+               "description": "人工收割的有機米"
+            }
+         },
+         "rice_wine": {
+            "rice_wine": {
+               "display_name": "米酒",
+               "description": "一種美味的酒"
+            },
+            "rice_wine_serving": {
+               "display_name": "一杯米酒",
+               "description": "一種美味的酒"
+            }
+         },
+         "strawberry": {
+            "strawberry_basket": {
+               "display_name": "一籃草莓",
+               "description": "新鮮又美味"
+            },
+            "strawberry_serving": {
+               "display_name": "草莓",
+               "description": "甜甜的美味"
+            }
+         },
+         "strawberry_mead": {
+            "strawberry_mead": {
+               "display_name": "草莓蜂蜜酒",
+               "description": "甜甜的！"
+            },
+            "strawberry_mead_serving": {
+               "display_name": "一杯草莓蜂蜜酒",
+               "description": "甜甜的美味！"
+            }
+         },
+         "strawberry_milkshake": {
+            "strawberry_milkshake": {
+               "display_name": "草莓奶昔",
+               "description": "濃厚，綿密"
+            },
+            "strawberry_milkshake_serving": {
+               "display_name": "一杯草莓奶昔",
+               "description": "濃厚，綿密"
+            }
+         },
+         "strawberry_wine": {
+            "strawberry_wine": {
+               "display_name": "草莓酒",
+               "description": "充滿草莓的甜味"
+            },
+            "strawberry_wine_serving": {
+               "display_name": "一杯草莓酒",
+               "description": "充滿草莓的甜味"
+            }
+         },
+         "sugar": {
+               "display_name": "一袋蔗糖",
+               "description": "一種食材"
+         },
+         "sugarcanebundle": {
+               "display_name": "一綑甘蔗",
+               "description": "可以用來生產蔗糖"
+         },
+         "tomato": {
+            "tomato_basket": {
+               "display_name": "一籃番茄",
+               "description": "新鮮又美味"
+            },
+            "tomato_serving": {
+               "display_name": "番茄",
+               "description": "好吃"
+            }
+         },
+         "tomato_juice": {
+            "tomato_juice": {
+               "display_name": "番茄汁",
+               "description": "絕無添加防腐劑！"
+            },
+            "tomato_juice_serving": {
+               "display_name": "一杯番茄汁",
+               "description": "健康又好呵！"
+            }
+         },
+         "turnip_juice": {
+            "turnip_juice": {
+               "display_name": "白蘿蔔汁",
+               "description": "絕無添加防腐劑！"
+            },
+            "turnip_juice_serving": {
+               "display_name": "一杯白蘿蔔汁",
+               "description": "有點噁心，不過幹的好！"
+            }
+         },
+         "veggie_delight_smoothie": {
+            "veggie_delight_smoothie": {
+               "display_name": "蔬果冰沙",
+               "description": "超級健康的冰沙"
+            },
+            "veggie_delight_smoothie_serving": {
+               "display_name": "一杯蔬果冰沙",
+               "description": "超級健康的冰沙"
+            }
+         },
+         "vodka": {
+            "vodka": {
+               "display_name": "伏特加",
+               "description": "口感滑順的馬鈴薯伏特加"
+            },
+            "vodka_serving": {
+               "display_name": "一杯伏特加",
+               "description": "口感滑順的馬鈴薯伏特加"
+            }
+         },
+         "watermelon": {
+            "watermelon_basket": {
+               "display_name": "一籃西瓜",
+               "description": "新鮮又美味"
+            },
+            "watermelon_serving": {
+               "display_name": "西瓜",
+               "description": "好吃"
+            }
+         },
+         "watermelon_twist": {
+            "watermelon_twist": {
+               "display_name": "西瓜調酒",
+               "description": "充滿活力的雞尾酒"
+            },
+            "watermelon_twist_serving": {
+               "display_name": "一杯西瓜調酒",
+               "description": "充滿活力的雞尾酒"
+            }
+         },
+         "yeast": {
+               "display_name": "酵母",
+               "description": "一種食材"
+         },
+         "apple": {
+            "apple_basket": {
+               "display_name": "一籃蘋果",
+               "description": "一籃美味新鮮的蘋果"
+            },
+            "apple_serving": {
+               "display_name": "蘋果",
+               "description": "美味新鮮的蘋果"
+            }
+         },
+         "apple_pie": {
+            "apple_pie": {
+               "display_name": "蘋果派",
+               "description": "熱騰騰剛出爐的美味蘋果派"
+            },
+            "apple_pie_serving": {
+               "display_name": "一片蘋果派",
+               "description": "還熱熱的"
+            }
+         }
+      },
+      "plants": {
+         "allium": {
+            "display_name": "繡球蔥",
+            "description": "可以採收繡球蔥",
+            "unripe_description": "尚未成熟的繡球蔥"
+         },
+         "blueberry": {
+            "display_name": "藍莓",
+            "description": "可以採收藍莓",
+            "unripe_description": "尚未成熟的藍莓"
+         },
+         "mushroom": {
+            "display_name": "野生",
+            "description": "可以採收蘑菇",
+            "unripe_description": "尚未成熟的蘑菇"
+         },
+         "roses": {
+            "display_name": "玫瑰",
+            "description": "可以採收玫瑰",
+            "unripe_description": "尚未成熟的玫瑰"
+         },
+         "strawberry": {
+            "display_name": "草莓",
+            "description": "可以採收草莓",
+            "unripe_description": "尚未成熟的草莓"
+         }
+      },
+      "trees": {
+         "apple_tree": {
+            "ancient_apple_tree": {
+               "display_name": "古老的蘋果樹",
+               "description": "散發著神祕的氣息"
+            },
+            "large_apple_tree": {
+               "display_name": "高大的蘋果樹",
+               "description": "這棵樹大概有100歲了！"
+            },
+            "medium_apple_tree": {
+               "display_name": "蘋果樹",
+               "description": "強壯的樹幹還在茁壯中"
+            },
+            "small_apple_tree": {
+               "display_name": "小蘋果樹",
+               "description": "比樹苗還稍微大一點"
+            },
+            "unripe_apple_tree": {
+               "description": "這顆蘋果樹還需要一些時間才會結果"
+            },
+            "sapling_apple_tree": {
+               "description": "把它種在土裡，看著它長大吧！",
+               "sapling_apple_tree_ghost": {
+                  "display_name": "蘋果樹樹苗",
+                  "description": "把它種在土裡，看著它長大吧！"
+               },
+               "sapling_apple_tree_iconic": {
+                  "description": "把它種在土裡，看著它長大吧！"
+               }
+            }
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "empty_barrel_recipe": {
+               "description": "適合用來存放飲料，或是其他物品，可以存放 16 個物品",
+               "recipe_name": "木桶",
+               "flavor": ""
+            },
+            "signage_decoration": "專業物品"
+         }
+      },
+      "cook": {
+         "distiller": {
+            "distiller_ghost": {
+               "display_name": "蒸餾器",
+               "description": "用以生產各種精釀美酒、蜂蜜酒以及果汁"
+            }
+         },
+         "recipes": {
+            "carrot_juice_recipe": {
+               "description": "營養又美味的胡蘿蔔汁",
+               "recipe_name": "胡蘿蔔汁",
+               "flavor": "用水以及磨成泥的胡蘿蔔所做成的清爽飲料"
+            },
+            "blueberry_wine_recipe": {
+               "description": "充滿藍莓香氣的酒",
+               "recipe_name": "藍莓酒",
+               "flavor": "用充滿香氣的藍莓、蔗糖以及水所製成"
+            },
+            "blueberry_milkshake_recipe": {
+               "description": "濃厚綿密的美味藍莓奶昔",
+               "recipe_name": "藍莓奶昔",
+               "flavor": "用磨碎的藍莓以及牛奶所製成"
+            },
+            "chocolate_milkshake_recipe": {
+               "description": "濃厚綿密的美味巧克力奶昔.",
+               "recipe_name": "巧克力奶昔",
+               "flavor": "用可可粉以及牛奶所製成"
+            },
+            "cocoa_powder_recipe": {
+               "description": "不只可以用在烘焙，也可以拿來製作巧克力",
+               "recipe_name": "可可粉",
+               "flavor": "噢...巧克力"
+            },
+            "corn_mead_recipe": {
+               "description": "好喝的玉米蜂蜜酒.",
+               "recipe_name": "玉米蜂蜜酒",
+               "flavor": "用酵母、玉米、蜂蜜還有水所製成的一種清爽飲料"
+            },
+            "distiller_recipe": {
+               "description": "用以生產各種精釀美酒、蜂蜜酒以及果汁",
+               "recipe_name": "蒸餾器",
+               "flavor": " *嗝* "
+            },
+            "fortified_pine_wine_recipe": {
+               "description": "一種美妙的精釀酒",
+               "recipe_name": "精釀松酒",
+               "flavor": "將松木浸泡在蜂蜜酒中蒸餾而成"
+            },
+            "fortified_wine_recipe": {
+               "description": "可以讓人心情愉悅的葡萄酒",
+               "recipe_name": "精釀葡萄酒",
+               "flavor": "用葡萄與水所製成"
+            },
+            "frost_berry_wine_recipe": {
+               "description": "酷涼的漿果酒",
+               "recipe_name": "霜寒漿果酒",
+               "flavor": "用搗碎的漿果、霜寒花以及水所製成冰涼飲料"
+            },
+            "golden_mead_recipe": {
+               "description": "精緻奢華特調蜂蜜酒",
+               "recipe_name": "黃金蜂蜜酒",
+               "flavor": "用酵母、水、蜂蜜還有真正的黃金所製成的蜂蜜酒"
+            },
+            "hot_chocolate_recipe": {
+               "description": "溫溫熱熱，喝起來甜甜的",
+               "recipe_name": "熱可可",
+               "flavor": "用可可粉、蔗糖還有牛奶所製成的溫熱飲品"
+            },
+            "huckle_my_buff_recipe": {
+               "description": "有趣的花式雞尾酒",
+               "recipe_name": "熱浪調酒",
+               "flavor": "用雞蛋、蜂蜜酒、蔗糖還有水所調製而成"
+            },
+            "mead_recipe": {
+               "description": "美味好喝的蜂蜜酒",
+               "recipe_name": "蜂蜜酒",
+               "flavor": "用酵母、水還有蜂蜜製成的清爽飲料"
+            },
+            "pumpkin_spice_mead_recipe": {
+               "description": "溫暖人心的南瓜香料蜂蜜酒.",
+               "recipe_name": "南瓜香料蜂蜜酒",
+               "flavor": "用酵母、南瓜、水還有蜂蜜製成的溫熱飲品"
+            },
+            "rice_wine_recipe": {
+               "description": "喝起來味道不錯的米酒.",
+               "recipe_name": "米酒",
+               "flavor": "用發酵過的米與水所製成"
+            },
+            "strawberry_mead_recipe": {
+               "description": "充滿草莓香氣的美味草莓蜂蜜酒.",
+               "recipe_name": "草莓蜂蜜酒",
+               "flavor": "用酵母、水、蜂蜜還有草莓所製成"
+            },
+            "strawberry_milkshake_recipe": {
+               "description": "濃厚綿密的美味草莓奶昔.",
+               "recipe_name": "草莓奶昔",
+               "flavor": "用磨碎的草莓以及牛奶所製成"
+            },
+            "strawberry_wine_recipe": {
+               "description": "帶有草莓甜味的草莓酒.",
+               "recipe_name": "草莓酒",
+               "flavor": "用草莓、蔗糖還有水所製成充滿甜味的酒"
+            },
+            "sugar_recipe": {
+               "description": "可以用於烹飪以及調製飲品",
+               "recipe_name": "蔗糖",
+               "flavor": " 甜甜的~"
+            },
+            "tomato_juice_recipe": {
+               "description": "健康營養又好喝的番茄汁.",
+               "recipe_name": "番茄汁",
+               "flavor": "用磨碎的番茄、蔗糖還有水所調製的清爽飲料"
+            },
+            "turnip_juice_recipe": {
+               "description": "超級健康的白蘿蔔汁.",
+               "recipe_name": "白蘿蔔汁",
+               "flavor": "喝起來有點噁心但是充滿營養"
+            },
+            "veggie_delight_smoothie_recipe": {
+               "description": "營養滿點的綜合蔬果冰沙",
+               "recipe_name": "蔬果冰沙",
+               "flavor": "用胡蘿蔔、白蘿蔔、南瓜、蔗糖還有水所調製的健康飲品"
+            },
+            "vodka_recipe": {
+               "description": "口感滑順的馬鈴薯伏特加",
+               "recipe_name": "伏特加",
+               "flavor": "用馬鈴薯跟水所製成的飲品"
+            },
+            "watermelon_twist_recipe": {
+               "description": "充滿活力的雞尾酒",
+               "recipe_name": "西瓜調酒",
+               "flavor": "用西瓜、草莓還有伏特加調製的清爽雞尾酒"
+            },
+            "yeast_recipe": {
+               "description": "可以用作烘焙，也可以用來製作蜂蜜酒",
+               "recipe_name": "酵母",
+               "flavor": "有點臭臭的"
+            },
+            "apple_pie_recipe": {
+               "description": "新鮮現烤的蘋果派",
+               "recipe_name": "蘋果派",
+               "flavor": "用蘋果、麵粉、酵母還有水所烘焙而成"
+            },
+            "sweet_name": "甜點",
+            "beverages_name": "飲料",
+            "meads_name": "蜂蜜酒",
+            "wines_name": "紅酒",
+            "milkshakes_name": "奶昔",
+            "other_drinks_name": "其他飲品"
+         }
+      }
+   }
+}

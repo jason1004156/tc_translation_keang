@@ -1,0 +1,27 @@
+{
+   "turrets": {
+      "balista_turret": {
+         "balista_turret": {
+            "display_name" : "弩砲",
+            "description" : "重型遠距離防衛塔，射速緩慢，但是威力強大"
+         }
+      },
+      "consumable": {
+         "balista_bolt": {
+            "balista_bolt": {
+               "display_name" : "弩箭束",
+               "description" : "3 支沉重的弩箭，可裝填於弩砲",
+               "shot_description" : "接招吧！",
+               "shot_name" : "弩箭"
+            }
+         }
+      },
+       "recipes": {
+         "balista_turret": {
+           "balista_turret_recipe": {
+               "flavor_text" : "以絞繩的扭力來發射物體的大型冷兵器砲"
+            }
+         }
+      }
+   }
+}

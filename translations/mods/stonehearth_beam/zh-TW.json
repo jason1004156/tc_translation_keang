@@ -1,0 +1,14 @@
+{
+    "ui": {
+        "shell": {
+            "beam_roster": {
+                "add_traits": "增加性格",
+                "add_traits_title": "增加性格",
+                "add_traits_hint": "註：點擊性格的圖標來選擇",
+                "close_traits": "關閉",
+                "cheat_mode_checkbox": "解除 屬性點數 & 性格 限制",
+                "cheat_mode_tooltip": "選擇後將解除屬性點數與性格數量的上限"
+            }
+        }
+    }
+}

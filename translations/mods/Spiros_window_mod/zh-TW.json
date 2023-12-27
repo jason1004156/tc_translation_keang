@@ -1,0 +1,228 @@
+{
+   "jobs": {
+      "generic": {
+         "building_parts": "建築物件"
+      },
+      "carpenter": {
+         "recipes": {
+            "fenestra_large_w_recipe": {
+               "recipe_name": "大型造型木窗",
+               "description": "3x5 的木窗",
+               "flavor": "我看的見你，但是你看不見我"
+            },
+            "fenestraladenblau_recipe": {
+               "recipe_name": "藍板木窗",
+               "description": "木窗外綴有藍色窗板",
+               "flavor": "窗戶，真的窗戶"
+            },
+            "big_1_recipe": {
+               "recipe_name": "挑高大型木窗",
+               "description": "4x5 的木窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "big_2_recipe": {
+               "recipe_name": "深色挑高大型木窗",
+               "description": "4x5 的木窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "big_1_small_recipe": {
+               "recipe_name": "大型木窗",
+               "description": "4x4 的木窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "big_2_small_recipe": {
+               "recipe_name": "深色大型木窗",
+               "description": "4x4 的木窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "fenestra_small_w_recipe": {
+               "recipe_name": "造型木窗",
+               "description": "2x3 的木窗",
+               "flavor": "我看的見你，但是你看不見我"
+            },
+	    "hexagon_large_w_recipe": {
+               "recipe_name": "六角木窗",
+               "description": "六角形的木窗",
+               "flavor": "如果可以有6個邊，為什麼還要4個邊？"
+            },
+            "hexagon_small_w_recipe": {
+               "recipe_name": "小型六角木窗",
+               "description": "六角形的木窗",
+               "flavor": "如果可以有6個邊，為什麼還要4個邊？"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "big_1_s_recipe": {
+               "recipe_name": "挑高大型石窗",
+               "description": "4x5 的石窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "schiessscharte_recipe": {
+               "recipe_name": "箭孔",
+               "description": "給弓箭手瞄準敵人的地方",
+               "flavor": "瞄準，發射！"
+            },
+            "big_1_s_small_recipe": {
+               "recipe_name": "大型石窗",
+               "description": "4x4 的石窗",
+               "flavor": "讓陽光進來吧"
+            },
+            "gothic_large_s_recipe": {
+               "recipe_name": "大型歌德石窗",
+               "description": "花俏的窗戶",
+               "flavor": "三位一體"
+            },
+            "gothic_small_s_recipe": {
+               "recipe_name": "歌德石窗",
+               "description": "花俏的窗戶",
+               "flavor": "三位一體"
+            },
+            "fenestra_small_s_recipe": {
+               "recipe_name": "造型石窗",
+               "description": "2x3 的石窗",
+               "flavor": "我看的見你，但是你看不見我"
+            },
+            "fenestra_medium_s_recipe": {
+               "recipe_name": "中型造型石窗",
+               "description": "2x4 的石窗",
+               "flavor": "我看的見你，但是你看不見我"
+            },
+            "fenestra_large_s_recipe": {
+               "recipe_name": "大型造型石窗",
+               "description": "3x5 的石窗",
+               "flavor": "我看的見你，但是你看不見我"
+            },
+	    "hexagon_large_s_recipe": {
+               "recipe_name": "六角石窗",
+               "description": "六角形的石窗",
+               "flavor": "如果可以有6個邊，為什麼還要4個邊？"
+            },
+            "hexagon_small_s_recipe": {
+               "recipe_name": "小型六角石窗",
+               "description": "六角形的石窗",
+               "flavor": "如果可以有6個邊，為什麼還要4個邊？"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "big_1": {
+            "big_1_ghost": {
+               "description": "4x5 的木窗",
+               "display_name": "挑高大型木窗"
+            }
+         },
+         "schiessscharte": {
+            "schiessscharte_ghost": {
+               "description": "給弓箭手瞄準敵人的地方",
+               "display_name": "箭孔"
+            }
+         },
+         "big_1_small": {
+            "big_1_small_ghost": {
+               "description": "4x4 的木窗",
+               "display_name": "大型木窗"
+            }
+         },
+         "fenestra_small_w": {
+            "fenestra_small_w_ghost": {
+               "description": "2x3 的木窗",
+               "display_name": "造型木窗"
+            }
+         },
+         "hexagon_large_w": {
+            "hexagon_large_w_ghost": {
+               "description": "六角形的木窗",
+               "display_name": "六角木窗"
+            }
+         },
+         "hexagon_small_w": {
+            "hexagon_small_w_ghost": {
+               "description": "六角形的木窗",
+               "display_name": "小型六角木窗"
+            }
+         },
+         "big_2": {
+            "big_2_ghost": {
+               "description": "4x5 的木窗",
+               "display_name": "深色挑高大型木窗"
+            }
+         },
+         "big_1_s_small": {
+            "big_1_s_small_ghost": {
+               "description": "4x4 的石窗",
+               "display_name": "大型石窗"
+            }
+         },
+         "big_2_small": {
+            "big_2_small_ghost": {
+               "description": "4x4 的木窗",
+               "display_name": "深色大型木窗"
+            }
+         },
+         "big_1_s": {
+            "big_1_s_ghost": {
+               "description": "4x5 的石窗",
+               "display_name": "挑高大型石窗"
+            }
+         },
+         "fenestra_small_s": {
+            "fenestra_small_s_ghost": {
+               "description": "2x3 的石窗",
+               "display_name": "造型石窗"
+            }
+         },
+         "fenestra_large_s": {
+            "fenestra_large_s_ghost": {
+               "description": "3x5 的石窗",
+               "display_name": "大型造型石窗"
+            }
+         },
+         "fenestra_large_w": {
+            "fenestra_large_w_ghost": {
+               "description": "3x5 的木窗",
+               "display_name": "大型造型木窗"
+            }
+         },
+         "fenestraladenblau": {
+            "fenestraladenblau_ghost": {
+               "description": "木窗外綴有藍色窗板",
+               "display_name": "藍板木窗"
+            }
+         },
+         "fenestra_medium_s": {
+            "fenestra_medium_s_ghost": {
+               "description": "2x4 的石窗",
+               "display_name": "中型造型石窗"
+            }
+         },
+         "hexagon_large_s": {
+            "hexagon_large_s_ghost": {
+               "description": "六角形的石窗",
+               "display_name": "六角石窗"
+            }
+         },
+         "hexagon_small_s": {
+            "hexagon_small_s_ghost": {
+               "description": "六角形的石窗",
+               "display_name": "小型六角石窗"
+            }
+         },
+         "gothic_large_s": {
+            "gothic_large_s_ghost": {
+               "description": "花俏的窗戶",
+               "display_name": "大型歌德石窗"
+            }
+         },
+         "gothic_small_s": {
+            "gothic_small_s_ghost": {
+               "description": "花俏的窗戶",
+               "display_name": "歌德石窗"
+            }
+         }
+      }
+   }
+}

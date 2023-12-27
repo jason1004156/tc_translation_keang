@@ -1,0 +1,64 @@
+{
+   "entities" : {
+      "armor" : {
+         "long_shield" : {
+            "description" : "可以在戰鬥時提供很好的防禦",
+            "display_name" : "長盾",
+            "long_shield_iconic" : {
+               "description" : "跟十字軍戰甲是一套的",
+               "display_name" : "長盾"
+            }
+         }
+      },
+      "weapons" : {
+         "battle_hammer" : {
+            "description" : "轉職為十字軍的必要物品",
+            "display_name" : "十字軍的戰錘",
+            "battle_hammer_iconic" : {
+               "description" : "轉職為十字軍的必要物品",
+               "display_name" : "十字軍的戰錘"
+            },
+            "battle_hammer_talisman" : {
+               "description" : "轉職為十字軍的必要物品",
+               "display_name" : "十字軍的戰錘"
+            }
+         }
+      }
+   },
+   "jobs" : {
+      "blacksmith": {
+         "recipes" : {
+            "battle_hammer_recipe" : {
+               "recipe_name" : "十字軍的戰錘",
+               "description" : "轉職為十字軍的必要物品",
+               "flavor" : "由 @Goldmetal 所設計"
+            }
+         }
+      },
+      "crusader": {
+         "crusader_description": {
+            "display_name": "十字軍",
+            "description": "十字軍是一種近戰單位，尤其擅長對付不死族",
+            "requirements": "等級2的步兵<br>由鐵匠所製作的十字軍的戰錘",
+            "level_1_data": {
+               "perk_000_name": "天堂之拳",
+               "perk_000_description": "天堂之拳可以對不死族造成神聖傷害"
+            },
+            "level_2_data": {
+               "perk_000_name": "治癒靈氣",
+               "perk_000_description": "十字軍可以透過少量的恢復有效抵擋不死族的攻擊"
+            }
+         },
+         "crusader_buffs": {
+            "heal_aura_buff": {
+		"display_name": "治癒靈氣",
+               "description": "小幅恢復生命"
+            }
+         },
+         "crusader_outfit": {
+            "display_name": "十字軍戰甲",
+            "description": "由 @Goldmetal 所設計"
+         }
+      }
+   }
+}

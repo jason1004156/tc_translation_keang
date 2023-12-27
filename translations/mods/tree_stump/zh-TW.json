@@ -1,0 +1,8 @@
+{
+	"entities": {
+		"trees": {
+			"stump": "樹樁",
+			"stump_description": "不再是一棵完整的樹了"
+		}
+	}
+}

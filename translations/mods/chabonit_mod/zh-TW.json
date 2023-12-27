@@ -1,0 +1,1688 @@
+{
+	"ui":	{
+		"game":	{
+			"zones_mode":	{
+				"stockpile":	{
+					"filters":	{
+						"tooltip_gem": "寶石 & 粉末",
+						"tooltip_jewellery": "珠寶"
+					}
+				}
+			},
+			"crafter_menu":	{
+				"items":	{
+					"jeweler":	{
+						"display_name": "珠寶匠",
+						"description": "製作各種與珠寶相關的物品",
+						"required_job_text": "需要至少一名珠寶匠"
+					},
+					"leader":	{
+						"display_name": "君王",
+						"description": "掌管並統治爐民",
+						"required_job_text": "需要至少一名君王"
+					}
+				}
+			}
+		},
+		"data":	{
+			"constants":	{
+				"awakened_plant_resource_name": "覺醒植物"
+			},
+			"gm":	{
+				"campaigns":	{
+					"royals":	{
+						"dialog_nodes":	{
+							"kingdom_foundation":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "王國提案",
+								"bulletin_title_002": "時機未到",
+								"choice_000": "或許晚點吧",
+								"choice_001": "聽起來很不錯！",
+								"bulletin_message":	{
+									"000": "你好，這個城鎮發展得很好呢，是個富足的城鎮。公會裡的成員與我曾經針對我們的未來進行了一番討論，現在外面的世界愈發危險，其他城鎮的勢力為了抵禦外敵，一起建立了聯盟。",
+									"001": "我們崇尚自由的城鎮中，居住著形形色色的人們，各司其職，生機盎然。我們的戰士們受過良好的訓練，配備齊全，可以保護我們免受外敵侵擾，我不認為我們需要與其他勢力結盟。",
+									"002": "我們可以靠自己抵抗入侵者，建立起屬於我們自己的王國。但是這條路並不好走，在我們達到目標前肯定會有很多需要克服的困難。",
+									"003": "這將會是一個困難的決定，我們要開始建立屬於自己的王國？還是要等待更好的時機？",
+									"004": "我接受你的選擇，或許這對我們來說是最好的。不過我會再來找你的，我們可沒辦法一直等下去。"
+								}
+							},
+							"throne_talk":	{
+								"bulletin_message":	{
+									"000": "我跟鎮上的鐵匠討論過了，他告訴我他可以打造一個符合君王身分的王座。"
+								}
+							},
+							"throne_unlock":	{
+								"bulletin_title_001": "鐵匠配方解鎖：王座"
+							},
+							"throne_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "第一步",
+								"bulletin_message":	{
+									"000": "我們鎮上工匠的手藝還真不錯，既然王座已經準備好了，就讓我們繼續吧！下一步，我們得讓更多爐民加入我們的王國，我想...至少要超過 24 位爐民。",
+									"001": "此外，我們需要更多的金錠為我們的君王打造符合身分地位的物品。所以你的任務就是讓我們更加富足，吸引更多爐民，同時挖掘更多金礦！"
+								}
+							},
+							"king_armor_unlock":	{
+								"bulletin_title_001": "鐵匠配方解鎖：君王鎧甲",
+								"bulletin_title_002": "珠寶匠配方解鎖：王冠"
+							},
+							"king_recipe_002_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "古老卷軸的秘密",
+								"bulletin_message":	{
+									"000": "我們在古老的卷軸中得知了過去的歷史，在遙遠的過去，這裡曾經是由英明的國王所統領的帝國中的一部份，我們透過卷軸中的畫像重現了他當年的鎧甲與頭冠。",
+									"001": "我想我們優秀的鐵匠與珠寶匠有能力重現這些古代的遺物，製作完後我們再來討論之後的計畫，同時我們還要變得更加富足，補充更多的人手。"
+								}
+							},
+							"castle_build_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "智者之僧",
+								"bulletin_title_002": "城堡",
+								"choice_000": "沒問題",
+								"bulletin_message":	{
+									"000": "在製作了王座、鎧甲以及王冠之後，現在，我們要往前一大步，建造我們的王國之心，城堡。",
+									"001": "在這裡，我們執掌內政，統領軍事，掌管貿易，同時，這裡也是君王的住所。用最堅硬的石頭所建造，配以上等的家具與稀有的裝飾品。",
+									"002": "不論如何，我們必須建造一座城堡，而命運也是站在我們這邊的，前幾天剛好有位建築師造訪這裡，我雇用他幫我們設計了一座城堡的藍圖。",
+									"003": "但是，其中一些建築部件我們的工匠們還沒有能力製作，所以我寄了封信給我的朋友，智者之僧。",
+									"004": "好消息是，他們擁有這些建築部件的設計圖，壞消息是，我們必須以 100 塊石頭作為交換的代價，好讓他們建造新的聖堂以及更大的圖書館。"
+								}
+							},
+							"monk_stone_fail_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "資源不足",
+								"choice_000": "把石頭送過去吧",
+								"bulletin_message": {
+									"000": "很抱歉，我們還沒有充足的石頭，再派些人去挖吧！"
+								}
+							},
+							"monk_answer_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "智者之僧的考驗",
+								"bulletin_message":	{
+									"000": "噢！我等不及要告訴你這個好消息了！智者之僧退回了這些石頭，他們說這是為了測試我們而設計的考驗，而我們通過了，他們寄了一箱古老的捲軸還有設計圖給我們呢！",
+									"001": "我已經集合了所有的工匠，好讓我們可以加快對這些文件的解讀，你就耐心的等待結果吧！"
+								}
+							},
+							"unlock_castle_recipe_ascendancy":	{
+								"bulletin_title_000": "木匠配方解鎖：王之椅",
+								"bulletin_title_001": "木匠配方解鎖：君王臥床",
+								"bulletin_title_002": "鐵匠配方解鎖：銀製盔甲架",
+								"bulletin_title_003": "木匠配方解鎖：屠肉桌",
+								"bulletin_title_004": "裁縫師配方解鎖：皇家地毯",
+								"bulletin_title_005": "石匠配方解鎖：石柱火盆",
+								"bulletin_title_006": "石匠配方解鎖：小火盆",
+								"bulletin_title_007": "鐵匠配方解鎖：青銅戰甲架",
+								"bulletin_title_008": "鐵匠配方解鎖：鐵製盔甲架",
+								"bulletin_title_009": "裁縫師配方解鎖：皇家掛毯-冬",
+								"bulletin_title_010": "裁縫師配方解鎖：皇家掛毯-春",
+								"bulletin_title_011": "裁縫師配方解鎖：皇家掛毯-夏",
+								"bulletin_title_012": "裁縫師配方解鎖：皇家掛毯-秋",
+								"bulletin_title_013": "鐵匠配方解鎖：武器架",
+								"bulletin_title_014": "木匠配方解鎖：寫字檯",
+								"bulletin_title_015": "木匠配方解鎖：戰略地圖"
+							},
+							"last_step_dialog":	{
+								"dialog_title_001": "城鎮長老",
+								"bulletin_title_001": "君王",
+								"bulletin_message":	{
+									"000": "在獨立為一個王國的路上，我們完成了許多任務，讓我們為未來的君王建造一座城堡吧！而你在挑選君王人選的時候，請務必選一位聰慧、強壯且思維開放的爐民。",
+									"001": "君王必須在子民有爭議時擔任裁決者，在戰爭時必須統領戰局。這個世界充滿了未知，新奇的，詭異的，神奇的，而只有開放的思維可以接納這一切事物。",
+									"002": "上述這些是君王所必備的特質，不過根據上古卷軸的紀載，如果我的理解沒錯的話，要成為真正的君王還必須有些象徵性的物品。",
+									"003": "我跟珠寶匠還有鐵匠花了好幾天徹夜研究關於珠寶與黃金的古老知識，浮現出的是一把用黃金以及珠寶打造的寶劍，雖然不太適合拿來打鬥，但是它的象徵性是不可質疑的。",
+									"004": "讓我們的工匠打造這把寶劍，你就可以讓其中一位爐民晉升為我們王國的君王，或許...我們就能夠以一個新興王國的姿態佇立在這個大陸上！"
+								}
+							},
+							"unlock_golden_sword":	{
+								"bulletin_title_000": "鐵匠配方解鎖：黃金劍"
+							},
+							"unlock_leader_sword":	{
+								"bulletin_title_000": "珠寶匠配方解鎖：王者之劍"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"data":	{
+		"buffs":	{
+			"speed_up_low_buff":	{
+				"display_name": "敏捷之護",
+				"description": "藍玉產生的能量可以微幅提升敏捷"
+			},
+			"speed_up_med_buff":	{
+				"display_name": "敏捷之力",
+				"description": "黃金與藍玉產生的能量可以提升敏捷"
+			},
+			"speed_up_high_buff":	{
+				"display_name": "敏捷之祝",
+				"description": "上等的藍玉結合上等的黃金產生的能量可以大幅提升敏捷"
+			},
+			"moon_new_buff":	{
+				"display_name": "新月祝福",
+				"description": "需要較少睡眠"
+			},
+			"moon_half_buff":	{
+				"display_name": "弦月祝福",
+				"description": "只需要少許睡眠"
+			},
+			"moon_full_buff":	{
+				"display_name": "滿月祝福",
+				"description": "幾乎不需要睡眠"
+			},
+			"strength_up_low_buff":	{
+				"display_name": "肌力",
+				"description": "微幅提升力量"
+			},
+			"strength_up_med_buff":	{
+				"display_name": "強力",
+				"description": "提升力量"
+			},
+			"strength_up_high_buff":	{
+				"display_name": "猛力",
+				"description": "大幅提升力量"
+			},
+			"health_up_low_buff":	{
+				"display_name": "血之護",
+				"description": "微幅提升體力"
+			},
+			"health_up_med_buff":	{
+				"display_name": "血之力",
+				"description": "提升體力"
+			},
+			"health_up_high_buff":	{
+				"display_name": "血之祝",
+				"description": "大幅提升體力"
+			},
+			"combat_elixir_buff":	{
+				"display_name": "戰鬥靈藥",
+				"description": "提升力量、敏捷與體力"
+			},
+			"speed_elixir_buff":	{
+				"display_name": "敏捷靈藥",
+				"description": "大幅提升敏捷"
+			},
+			"experience_elixir_buff":	{
+				"display_name": "經驗靈藥",
+				"description": "各種知識有如泉湧！"
+			},
+			"blood_eye_buff":	{
+				"display_name": "赤血之眼",
+				"description": "微幅提升力量"
+			},
+			"serpent_eye_buff":	{
+				"display_name": "青蛇之眼",
+				"description": "微幅提升力量與敏捷"
+			},
+			"sharpshooter_eye_buff":	{
+				"display_name": "寶鑽之眼",
+				"description": "提升力量與敏捷"
+			},
+			"decree_of_progression_buff":	{
+				"display_name": "專注發展",
+				"description": "提高獲得的經驗值"
+			},
+			"decree_of_crafting_buff":	{
+				"display_name": "精雕細琢",
+				"description": "提昇工匠製作精良物品的機率"
+			},
+			"decree_of_production_buff":	{
+				"display_name": "不眠不休",
+				"description": "提高工作的時間"
+			},
+			"order_attack_buff":	{
+				"display_name": "進攻",
+				"description": "穩守進攻！"
+			},
+			"order_last_stand_buff":	{
+				"display_name": "至死方休",
+				"description": "絕不後退！"
+			},
+			"order_storm_the_front_buff":	{
+				"display_name": "衝鋒陷陣",
+				"description": "衝啊！"
+			},
+			"speech_of_contemplation_buff":	{
+				"display_name": "解放心靈",
+				"description": "用你的心眼看世界！"
+			},
+			"speech_of_fury_buff":	{
+				"display_name": "滿腔怒火",
+				"description": "一股怒火在你的身體遊走"
+			},
+			"speech_of_the_heart_buff":	{
+				"display_name": "鋼鐵雄心",
+				"description": "英勇無懼"
+			},
+			"speech_of_the_wise_buff":	{
+				"display_name": "智者之道",
+				"description": "凝聚古人的智慧"
+			}
+		}
+	},
+	"entities":	{
+		"armor":	{
+			"silver_circlet":	{
+				"display_name": "銀製頭飾",
+				"description": "用銀所製造的頭飾"
+			},
+			"gold_circlet":	{
+				"display_name": "黃金頭飾",
+				"description": "用黃金所製造的頭飾"
+			},
+			"king_armor":	{
+				"display_name": "君王鎧甲",
+				"description": "以黃金打造，充滿氣勢的鎧甲"
+			},
+			"amulets":	{
+				"silver_amulet_topaz":	{
+					"display_name": "敏捷護符",
+					"description": "微幅提升裝備者的敏捷"
+				},
+				"gold_amulet_topaz":	{
+					"display_name": "藍玉敏捷護符",
+					"description": "提升裝備者的敏捷"
+				},
+				"gold_amulet_topaz_fine":	{
+					"display_name": "閃耀藍玉敏捷護符",
+					"description": "大幅提升裝備者的敏捷"
+				},
+				"silver_amulet_ruby":	{
+					"display_name": "血之護符",
+					"description": "微幅提升裝備者的體力"
+				},
+				"gold_amulet_ruby":	{
+					"display_name": "健體護符",
+					"description": "提升裝備者的體力"
+				},
+				"gold_amulet_ruby_fine":	{
+					"diplay_name": "生命護符",
+					"description": "大幅提升裝備者的體力"
+				}
+			},
+			"cloth":	{
+				"emerald_archer_hood":	{
+					"display_name": "綠寶石弓手頭罩",
+					"description": "鑲有綠寶石的弓手頭罩"
+				},
+				"copper_threaded_robe":	{
+					"display_name": "銅絲長袍",
+					"description": "輔以銅線紡織而成的長袍"
+				},
+				"silver_threaded_robe":	{
+					"display_name": "銀絲長袍",
+					"description": "輔以銀線紡織而成的長袍，散發神聖的光芒"
+				},
+				"gold_threaded_robe":	{
+					"display_name": "金絲長袍",
+					"description": "輔以金線紡織而成，最好的長袍！"
+				}
+			},
+			"crowns":	{
+				"king_crown":	{
+					"display_name": "王冠",
+					"description": "只有君王才能配戴的頭冠"
+				}
+			},
+			"obsidian":	{
+				"obsidian_great_helm":	{
+					"display_name": "黑曜石戰盔",
+					"description": "強化的黑曜石輔以鋼鐵打造而成"
+				},
+				"obsidian_scale_helm":	{
+					"display_name": "黑曜石鱗盔",
+					"description": "用黑曜石打造而成的頭盔"
+				},
+				"obsidian_plate_armor":	{
+					"display_name": "黑曜石戰甲",
+					"description": "用黑曜石打造而成的戰甲，比想像中的輕"
+				},
+				"obsidian_scale_mail":	{
+					"display_name": "黑曜石鱗甲",
+					"description": "用黑曜石打造而成的鱗甲"
+				},
+				"obsidian_plated_shield":	{
+					"display_name": "黑曜石盾",
+					"description": "用黑曜石打造的堅硬盾牌"
+				},
+				"obsidian_topaz_shield":	{
+					"display_name": "藍玉曜石盾",
+					"description": "以藍玉為黑曜石盾提昇性能"
+				}
+			},
+			"rings":	{
+				"silver_ring_obsidian":	{
+					"display_name": "新月之戒",
+					"description": "裝備者需要較少睡眠"
+				},
+				"gold_ring_obsidian":	{
+					"display_name": "弦月之戒",
+					"description": "裝備者只需要少許睡眠"
+				},
+				"gold_ring_obsidian_fine":	{
+					"display_name": "滿月之戒",
+					"description": "裝備者幾乎不需要睡眠"
+				},
+				"silver_ring_emerald":	{
+					"display_name": "自然之戒",
+					"description": "與大自然連結，微幅提升裝備者的力量"
+				},
+				"gold_ring_emerald":	{
+					"display_name": "泰坦之戒",
+					"description": "綠寶石中潛藏著泰坦之力，提升裝備者的力量"
+				},
+				"gold_ring_emerald_fine":	{
+					"display_name": "蓋亞之戒",
+					"description": "蓋亞女神的祝福大幅提升裝備者的力量"
+				}
+			},
+			"diadems":	{
+				"blood_eye":	{
+					"display_name": "赤血之眼",
+					"description": "弓手用的紅寶石瞄準鏡，微幅提升力量"
+				},
+				"serpent_eye":	{
+					"display_name": "青蛇之眼",
+					"description": "弓手用的綠寶石瞄準鏡，微幅提升力量與敏捷"
+				},
+				"sharpshooter_eye":	{
+					"display_name": "寶鑽之眼",
+					"description": "用鑽石與黃金打造的瞄準鏡，提升力量與敏捷"
+				}
+			}
+		},
+		"consumables":	{
+			"healing_tonic":	{
+				"medium_healing_tonic":	{
+					"display_name": "中型治療藥劑",
+					"description": "可以恢復少許生命"
+				},
+				"large_healing_tonic":	{
+					"display_name": "大型治療藥劑",
+					"description": "比中型治療藥劑更為有效"
+				},
+				"superior_healing_tonic":	{
+					"display_name": "高級治療藥劑",
+					"description": "比大型治療藥劑更為有效"
+				},
+				"ultimate_healing_tonic":	{
+					"display_name": "終極治療藥劑",
+					"description": "最好的治療藥劑"
+				},
+				"amber_healing_tonic":	{
+					"display_name": "琥珀治療藥劑",
+					"description": "有不錯的療效"
+				},
+				"concentrated_amber_healing_tonic":	{
+					"display_name": "濃縮琥珀治療藥劑",
+					"description": "濃縮過的琥珀治療藥劑，具有更好的療效"
+				}
+			},
+			"speed_elixir":	{
+				"speed_elixir_ghost":	{
+					"display_name": "敏捷靈藥",
+					"description": "暫時大幅提升全體爐民的敏捷"
+					}
+			},
+			"combat_elixir":	{
+				"combat_elixir_ghost":	{
+					"display_name": "戰鬥靈藥",
+					"description": "暫時提升全體爐民的力量、敏捷以及體力"
+					}
+			},
+			"experience_elixir":	{
+				"experience_elixir_ghost":	{
+					"display_name": "經驗靈藥",
+					"description": "微微散發著知識靈光的藥劑"
+				}
+			},
+			"decrees":	{
+				"decree_of_progression":	{
+					"decree_of_progression_ghost":	{
+						"display_name": "Decree of Progression",
+						"description": "The Decree of the Leader lets the Village progress faster"
+					}
+				},
+				"decree_of_crafting":	{
+					"decree_of_crafting_ghost":	{
+						"display_name": "Decree of Crafting",
+						"description": "The Decree inspires the crafters to fine works"
+					}
+				},
+				"decree_of_production":	{
+					"decree_of_production_ghost":	{
+						"display_name": "Decree of Production",
+						"description": "The Leader orders everyone to work without rest"
+					}
+				}
+			},
+			"orders":	{
+				"order_attack":	{
+					"order_attack_ghost":	{
+						"display_name": "Order to Attack",
+						"description": "Attack the enemy"
+					}
+				},
+				"order_last_stand":	{
+					"order_last_stand_ghost":	{
+						"display_name": "Order for The Last Stand",
+						"description": "Used under siege to withstand"
+					}
+				},
+				"order_storm_the_front":	{
+					"order_storm_the_front_ghost":	{
+						"display_name": "Order to Storm the Front",
+						"description": "May the Force be with you"
+					}
+				}
+			},
+			"speeches":	{
+				"speech_of_contemplation":	{
+					"speech_of_contemplation_ghost":	{
+						"display_name": "Speech of Contemplation",
+						"description": "Let your thoughts bring you beyond the horizon"
+					}
+				},
+				"speech_of_fury":	{
+					"speech_of_fury_ghost":	{
+						"display_name": "Speech of Fury",
+						"description": "Awaken the fury of your mind and soul"
+					}
+				},
+				"speech_of_the_heart":	{
+					"speech_of_the_heart_ghost":	{
+						"display_name": "Speech of the Heart",
+						"description": "Your heart is stronger than fear and pain"
+					}
+				},
+				"speech_of_the_wise":	{
+					"speech_of_the_wise_ghost":	{
+						"display_name": "Speech of the Wise",
+						"description": "Wisdom is earned by experience, intelligence and age"
+					}
+				}
+			}
+		},
+		"decoration":	{
+			"amber_torch_pole":	{
+				"amber_torch_pole_ghost":	{
+					"display_name": "珠寶火把",
+					"description": "木桿上裝著一顆會發光的珠寶"
+				}
+			},
+			"amber_torch_wall":	{
+				"amber_torch_wall_ghost":	{
+					"display_name": "壁掛式珠寶火把",
+					"description": "可以裝在牆上的珠寶火把"
+				}
+			},
+			"light_crystal_town":	{
+				"light_crystal_town_ghost":	{
+					"display_name": "大型珠寶燈",
+					"description": "可以大來大範圍的照明"
+				}
+			},
+			"topaz_looking_glas":	{
+				"topaz_looking_glas_ghost":	{
+					"display_name": "藍玉晶球",
+					"description": "似乎可以在其中看見過去與未來"
+				}
+			},
+			"gold_candelabra":	{
+				"gold_candelabra_ghost":	{
+					"display_name": "黃金燭台",
+					"description": "奢華住宅的必備物品"
+				}
+			},
+			"night_candle":	{
+				"night_candle_ghost":	{
+					"display_name": "夜燭",
+					"description": "一根點亮夜晚的蠟燭"
+				}
+			},
+			"golden_topaz_mirror":	{
+				"golden_topaz_mirror_ghost":	{
+					"display_name": "黃金藍玉鏡",
+					"description": "反射著微微的藍光"
+				}
+			},
+			"golden_goblet":	{
+				"golden_goblet_ghost":	{
+					"display_name": "黃金高腳杯",
+					"description": "國王專屬的高腳杯"
+				}
+			},
+			"rack_silver_mail":	{
+				"rack_silver_mail_ghost":	{
+					"display_name": "銀製盔甲架",
+					"description": "可以展現你的工匠的技藝"
+				}
+			},
+			"castle_rug":	{
+				"castle_rug_ghost":	{
+					"display_name": "皇家地毯",
+					"description": "用皇家的顏色編織而成"
+				}
+			},
+			"brazier_column":	{
+				"brazier_column_ghost":	{
+					"display_name": "石柱火盆",
+					"description": "好看的火盆"
+				}
+			},
+			"brazier_small":	{
+				"brazier_small_ghost":	{
+					"display_name":	"小火盆",
+					"description": "可以放在地板的火盆"
+				}
+			},
+			"rack_iron_mail":	{
+				"rack_iron_mail_ghost":	{
+					"display_name": "鐵製盔甲架",
+					"description": "鐵匠的驕傲"
+				}
+			},
+			"rack_bronze_armor":	{
+				"rack_bronze_armor_ghost":	{
+					"display_name": "青銅戰甲架",
+					"description": "每天把它擦亮是我的樂趣"
+				}
+			},
+			"wall_tapestry":	{
+				"wall_tapestry_tree_winter":	{
+					"wall_tapestry_tree_winter_ghost":	{
+							"display_name": "皇家掛毯-冬",
+							"description": "掛毯上織有皇家巨樹在冬天時的姿態"
+						}
+					},
+				"wall_tapestry_tree_spring":	{
+					"wall_tapestry_tree_spring_ghost":	{
+							"display_name": "皇家掛毯-春",
+							"description": "掛毯上織有皇家巨樹在春天時的姿態"
+					}
+				},
+				"wall_tapestry_tree_summer":	{
+					"wall_tapestry_tree_summer_ghost":	{
+							"display_name": "皇家掛毯-夏",
+							"description": "掛毯上織有皇家巨樹在夏天時的姿態"
+					}
+				},
+				"wall_tapestry_tree_autumn":	{
+					"wall_tapestry_tree_autumn_ghost":	{
+							"display_name": "皇家掛毯-秋",
+							"description": "掛毯上織有皇家巨樹在秋天時的姿態"
+					}
+				}
+			},
+			"weapon_rack":	{
+				"weapon_rack_ghost":	{
+					"display_name": "武器架",
+					"description": "放滿了鐵匠所打造的各種武器"
+				}
+			}
+		},
+		"figurines_statues":	{
+			"jade_castle":	{
+				"display_name": "青玉城堡",
+				"description": "用青玉製作的城堡塑像"
+			},
+			"jade_colosseum":	{
+				"display_name": "青玉競技場",
+				"description": "用青玉製作的競技場塑像"
+			},
+			"jade_elephant":	{
+				"display_name": "青玉象",
+				"description": "用青玉製作的大象塑像"
+			},
+			"jade_fisher_hut":	{
+				"display_name": "青玉漁屋",
+				"description": "用青玉製作的漁屋塑像"
+			},
+			"jade_island":	{
+				"display_name": "青玉之島",
+				"description": "用青玉製作的島嶼塑像"
+			},
+			"jade_snake":	{
+				"display_name": "青玉蛇",
+				"description": "用青玉製作的曼巴蛇塑像"
+			},
+			"jade_temple":	{
+				"display_name": "青玉神廟",
+				"description": "用青玉製作的神廟塑像"
+			},
+			"jade_wolfman":	{
+				"display_name": "青玉狼人",
+				"description": "用青玉製作的狼人塑像"
+			}
+		},
+		"furniture":	{
+			"king_throne":	{
+				"display_name": "王座",
+				"description": "用黃金打造，專屬君王的寶座"
+			},
+			"wooden_king_chair":	{
+				"wooden_king_chair_ghost":	{
+					"display_name": "王之椅",
+					"description": "可以展現君王威嚴的椅子"
+				}
+			},
+			"king_bed":	{
+				"king_bed_ghost":	{
+					"display_name": "君王臥床",
+					"description": "上好的浣熊皮與黃金為你帶來無止盡的美夢"
+				}
+			},
+			"butcher_table":	{
+				"butcher_table_ghost":	{
+					"display_name": "屠肉桌",
+					"description": "血，肉，食物"
+				}
+			}
+		},
+		"plants":	{
+			"awakened_brightbell":	{
+				"display_name": "覺醒光鈴花",
+				"description": "品種優越的光鈴花"
+			},
+			"awakened_frostsnap":	{
+				"display_name": "覺醒霜寒花",
+				"description": "品種優越的霜寒花"
+			},
+			"awakened_cactus_flower":	{
+				"display_name": "覺醒仙人掌花",
+				"description": "品種優越的霜寒花仙人掌花"
+			}
+		},
+		"refined":	{
+			"amber":	{
+				"display_name": "琥珀",
+				"description": "一塊古老的樹脂"
+			},
+			"topaz":	{
+				"display_name": "藍玉",
+				"description": "深埋於大地的藍色碎片"
+			},
+			"obsidian":	{
+				"display_name": "黑曜石",
+				"description": "如同龍鱗一般堅硬"
+			},
+			"emerald":	{
+				"display_name": "綠寶石",
+				"description": "創造於大地之愛"
+			},
+			"ruby":	{
+				"display_name": "紅寶石",
+				"description": "如同一滴魔法之血"
+			},
+			"diamond":	{
+					"display_name": "鑽石",
+					"description": "寶石之冠"
+			},
+			"faceted_gem":	{
+				"faceted_amber":	{
+					"display_name": "切面琥珀",
+					"description": "最好的琥珀寶石"
+				},
+				"faceted_amber_fine":	{
+					"display_name": "精良的切面琥珀",
+					"description": "頂級的琥珀寶石"
+				},
+				"faceted_diamond":	{
+					"display_name": "切面鑽石",
+					"description": "純淨，清澈，閃閃發光"
+				},
+				"faceted_diamond_fine":	{
+					"display_name": "精良的切面鑽石",
+					"description": "頂級的鑽石"
+				},
+				"faceted_ruby":	{
+					"display_name": "切面紅寶石",
+					"description": "如同珠寶匠的熱情一般火紅"
+				},
+				"faceted_ruby_fine":	{
+					"display_name": "精良的切面紅寶石",
+					"description": "頂級的紅寶石"
+				},
+				"faceted_emerald":	{
+					"display_name": "切面綠寶石",
+					"description": "如同大自然一般美麗"
+				},
+				"faceted_emerald_fine":	{
+					"display_name": "精良的切面綠寶石",
+					"description": "頂級的綠寶石"
+				},
+				"faceted_topaz":	{
+					"display_name": "切面藍玉",
+					"description": "切割細緻的藍玉"
+				},
+				"faceted_topaz_fine":	{
+					"display_name": "精良的切面藍玉",
+					"description": "頂級的藍玉"
+				},
+				"gold_scale":	{
+					"display_name": "金片",
+					"description": "展現你的財富"
+				},
+				"obsidian_scale":	{
+					"display_name": "黑曜石片",
+					"description": "將黑曜石製作為更進一步的原料"
+				}
+			},
+			"thread":	{
+				"copper_thread":	{
+					"display_name": "銅線",
+					"description": "好好纏在捲軸上的銅線"
+				},
+				"silver_thread":	{
+					"display_name": "銀線",
+					"description": "好好纏在捲軸上的銅線"
+				},
+				"gold_thread":	{
+					"display_name": "金線",
+					"description": "好好纏在捲軸上的金線"
+				}
+			},
+			"raw_glas":	{
+				"display_name": "玻璃原料",
+				"description": "用石英砂冶煉而成"
+			},
+			"sheet_of_glas":	{
+				"display_name": "玻璃片",
+				"description": "好像可以裝在窗戶上"
+			}
+		},
+		"resources":	{
+			"awakened_wood":	{
+				"display_name": "覺醒木頭",
+				"description": "感覺充滿生機"
+			},
+			"bag_o_gems":	{
+				"display_name": "寶石袋",
+				"description": "一袋滿滿的寶石"
+			},
+			"precious_stone_ore":	{
+				"display_name": "寶石礦",
+				"description": "石頭中含有寶石的礦物"
+			},
+			"raw_amber":	{
+				"display_name": "琥珀原石",
+				"description": "微微散發著光芒"
+			},
+			"raw_topaz":	{
+					"display_name": "藍玉原石",
+					"description": "就像潛藏在大地中的純水"
+			},
+			"raw_obsidian":	{
+					"display_name": "黑曜石原石",
+					"description": "稍微加工一下就可以使用了"
+			},
+			"raw_emerald":	{
+					"display_name": "綠寶石原石",
+					"description": "散發著大自然的氣息"
+			},
+			"raw_ruby":	{
+					"display_name": "紅寶石原石",
+					"description": "鮮紅如同大地的血液"
+			},
+			"raw_diamond":	{
+				"display_name": "鑽石原石",
+				"description": "加工後的價值無可比擬"
+			},
+			"gem":	{
+				"amber_powder":	{
+						"display_name": "琥珀粉末",
+						"description": "將琥珀磨碎後可以加入藥劑中使用"
+				},
+				"ruby_powder":	{
+					"display_name": "紅寶石粉末",
+					"description": "充滿生命力的氣息"
+				},
+				"emerald_powder":	{
+					"display_name": "綠寶石粉末",
+					"description": "散發著大自然的氣息"
+				},
+				"topaz_powder": {
+					"display_name": "藍玉粉末",
+					"description": "如同純水般潔淨"
+				}
+			},
+			"quartz_sand":	{
+				"display_name":	"石英砂",
+				"description": "這可不是一般的沙子"
+			}
+		},
+		"trees":	{
+			"acacia_tree":	{
+				"awakened_acacia_tree_sapling":	{
+					"awakened_acacia_tree_sapling_ghost":	{
+						"display_name": "覺醒刺槐樹苗",
+						"description": "長大吧！"
+					},
+					"awakened_acacia_tree_sapling_iconic":	{
+						"display_name": "覺醒刺槐樹苗",
+						"description": "把它種在一個好地方吧！"
+					}
+				},
+				"awakened_small_acacia_tree":	{
+					"display_name": "小覺醒刺槐",
+					"description": "還在長大中"
+				},
+				"awakened_medium_acacia_tree":	{
+					"display_name": "覺醒刺槐",
+					"description": "還可以長得更大！"
+				},
+				"awakened_large_acacia_tree":	{
+					"display_name": "綠寶石刺槐",
+					"description": "可以準備採集神秘的木頭了！"
+				}
+			},
+			"oak_tree":	{
+				"awakened_oak_tree_sapling":	{
+					"awakened_oak_tree_sapling_ghost":	{
+						"display_name": "覺醒橡樹樹苗",
+						"description": "長大吧！"
+					},
+					"awakened_oak_tree_sapling_iconic": {
+						"display_name": "覺醒橡樹樹苗",
+						"description": "把它種在一個好地方吧！"
+					}
+				},
+				"awakened_small_oak_tree":	{
+					"display_name": "小覺醒橡樹",
+					"description": "小小綠綠的"
+				},
+				"awakened_medium_oak_tree":	{
+					"display_name": "覺醒橡樹",
+					"description": "強壯的樹幹還在茁壯中"
+				},
+				"awakened_large_oak_tree":	{
+					"display_name": "高大的覺醒橡樹",
+					"description": "有點耐心，它還可以長得更大呢！"
+				},
+				"awakened_ancient_oak_tree":	{
+					"display_name": "綠寶石橡樹",
+					"description": "如同傳說般的精靈之樹"
+				}
+			}
+		},
+		"weapons":	{
+			"golden_sword":	{
+				"golden_sword_ghost":	{
+					"display_name": "黃金劍",
+					"description": "用大量純金打造的寶劍"
+				}
+			},
+			"leader_sword":	{
+				"display_name":	"王者之劍",
+				"description": "轉職為君王的必要物品"
+			}
+		}
+	},
+	"jobs":	{
+		"carpenter":	{
+			"recipes":	{
+				"wooden_king_chair_recipe":	{
+					"recipe_name": "王之椅",
+					"description": "可以展現君王威嚴的椅子",
+					"flavor": "專門為君王的威嚴所準備"
+				},
+				"king_bed_recipe":	{
+					"recipe_name": "君王臥床",
+					"description": "上好的浣熊皮與黃金為你帶來無止盡的美夢",
+					"flavor": "噓...快出去！不要吵醒國王了！"
+				},
+				"butcher_table_recipe":	{
+					"recipe_name": "屠肉桌",
+					"description": "血，肉，食物",
+					"flavor": "聽說屠夫手中都握著屠刀與沾滿血漬的肉鉤"
+				},
+				"leader_war_map_recipe":	{
+					"recipe_name": "戰略地圖",
+					"description": "在戰事中用來討論戰術的地圖",
+					"flavor": "我喜歡上面那些棋子"
+				},
+				"leader_writing_table_recipe":	{
+					"recipe_name": "寫字檯",
+					"description": "可以在上面撰寫各種法令",
+					"flavor": "君王說話時，把你的耳朵打開點"
+				}
+			}
+		},
+		"herbalist":	{
+			"recipes":	{
+				"medium_healing_tonic_recipe":	{
+					"recipe_name": "中型治療藥劑",
+					"description": "可以恢復少許生命",
+					"flavor": "由小型治療藥劑濃縮而成"
+				},
+				"large_healing_tonic_recipe":	{
+					"recipe_name": "大型治療藥劑",
+					"description": "比中型治療藥劑更為有效",
+					"flavor": "聞起來像草莓加咖哩"
+				},
+				"superior_healing_tonic_recipe":	{
+					"recipe_name": "高級治療藥劑",
+					"description": "比大型治療藥劑更為有效",
+					"flavor": "味道有點像巨人之血"
+				},
+				"ultimate_healing_tonic_recipe":	{
+					"recipe_name": "終極治療藥劑",
+					"description": "最好的治療藥劑",
+					"flavor": "一眨眼你的傷就全都好了"
+				},
+				"amber_healing_tonic_recipe":	{
+					"recipe_name": "琥珀治療藥劑",
+					"description": "有不錯的療效",
+					"flavor": "琥珀粉末與藥草為你帶來治療"
+				},
+				"concentrated_amber_healing_tonic_recipe":	{
+					"recipe_name": "濃縮琥珀藥劑",
+					"description": "濃縮過的琥珀治療藥劑",
+					"flavor": "辛辣中戴著一點蜂蜜的味道"
+				},
+				"speed_elixir_recipe":	{
+					"recipe_name": "敏捷靈藥",
+					"description": "暫時提升全體爐民的敏捷",
+					"flavor": "效果佳，味道差"
+				},
+				"combat_elixir_recipe":	{
+					"recipe_name": "戰鬥靈藥",
+					"description": "暫時提升全體爐民 20% 的力量、敏捷以及體力",
+					"flavor": "讓你熱血沸騰"
+				},
+				"experience_elixir_recipe":	{
+					"recipe_name": "經驗靈藥",
+					"description": "微微散發著知識靈光的藥劑",
+					"flavor": "喝了再上"
+				},
+				"plant_life_name": "覺醒植物",
+				"awakened_oak_tree_sapling_recipe":	{
+					"recipe_name": "覺醒橡樹樹苗",
+					"description": "完全成長後可以收成覺醒木頭",
+					"flavor": "大自然的魔法"
+				},
+				"awakened_acacia_tree_sapling_recipe":	{
+					"recipe_name": "覺醒刺槐樹苗",
+					"description": "完全成長後可以收成覺醒木頭",
+					"flavor": "綠寶石粉末為其注入大自然的能量"
+				},
+				"awakened_brightbell_recipe":	{
+					"recipe_name": "覺醒光鈴花",
+					"description": "品種優越的光鈴花",
+					"flavor": "閃耀吧！光鈴花！"
+				},
+				"awakened_frostsnap_recipe":	{
+					"recipe_name": "覺醒霜寒花",
+					"description": "品種優越的霜寒花",
+					"flavor": "愈冷愈開花"
+				},
+				"awakened_cactus_flower_recipe":	{
+					"recipe_name": "覺醒仙人掌花",
+					"description": "品種優越的霜寒花仙人掌花",
+					"flavor": "沙漠之美"
+				}
+			}
+		},
+		"jeweler":	{
+			"jeweler_description":	{
+				"display_name": "珠寶匠",
+				"description": "專精於製作各種珠寶的工匠",
+				"requirements": "由鐵匠所製作",
+				"level_1_data":	{
+					"perk_000_name": "珠寶加工",
+					"perk_000_description": "能對珠寶進行初步的加工"
+				},
+				"level_2_data":	{
+					"perk_000_name": "粉碎珠寶",
+					"perk_000_description": "能將更多種珠寶磨成粉末"
+				},
+				"level_3_data":	{
+					"perk_000_name": "珠寶職人",
+					"perk_000_description": "初步習得切割珠寶的知識"
+				},
+				"level_4_data":	{
+					"perk_000_name": "切割專家",
+					"perk_000_description": "能對更多種珠寶進行切割"
+				},
+				"level_5_data":	{
+					"perk_000_name": "珠寶之心",
+					"perk_000_description": "對於珠寶的知識更加充足"
+				},
+				"level_6_data":	{
+					"title": "珠寶大師",
+					"perk_000_name": "珠寶大師",
+					"perk_000_description": "各國的王族都會想要穿戴他的作品"
+				}
+			},
+			"jeweler_workbench":	{
+				"jeweler_workbench_ghost":	{
+					"display_name": "珠寶洗淨槽",
+					"description": "專門用來清洗各種珠寶的水槽"
+				}
+			},
+			"jeweler_tong":	{
+				"display_name": "珠寶匠的珠寶鉗",
+				"description": "轉職為珠寶匠的必要物品",
+				"jeweler_tong_iconic":	{
+					"display_name": "珠寶匠的珠寶鉗",
+					"description": "轉職為珠寶匠的必要物品"
+				},
+				"jeweler_tong_talisman":	{
+					"display_name": "珠寶匠的珠寶鉗",
+					"description": "轉職為珠寶匠的必要物品"
+				}
+			},
+			"jeweler_gem_crusher":	{
+				"jeweler_gem_crusher_ghost":	{
+					"display_name": "珠寶粉碎機",
+					"description": "利用強化過的石錘將珠寶壓成粉末"
+				}
+			},
+			"jeweler_gem_cutter_table":	{
+				"jeweler_gem_cutter_table_ghost":	{
+					"display_name": "珠寶切割桌",
+					"description": "讓珠寶匠進行珠寶切割的工作桌"
+				}
+			},
+			"jeweler_smelting_oven":	{
+				"jeweler_smelting_oven_ghost":	{
+					"display_name": "冶煉爐",
+					"description": "專門用來冶煉石英砂的火爐"
+				}
+			},
+			"jeweler_outfit": {
+				"display_name": "珠寶工作服",
+				"description": "珠寶匠的專屬制服"
+			},
+			"recipes":	{
+				"workbenches_name": "工作台",
+				"jeweler_workbench_recipe":	{
+					"recipe_name": "珠寶洗淨槽",
+					"description": "專門用來清洗各種珠寶的水槽",
+					"flavor": "透過你的雙手來創造財富吧！"
+				},
+				"jeweler_gem_crusher_recipe":	{
+					"recipe_name": "珠寶粉碎機",
+					"description": "利用強化過的石錘將珠寶壓成粉末",
+					"flavor": "破壞，碾壓，磨碎"
+				},
+				"jeweler_gem_cutter_table_recipe":	{
+					"recipe_name": "珠寶切割桌",
+					"description": "讓珠寶匠進行珠寶切割的工作桌",
+					"flavor": "請勿打擾"
+				},
+				"jeweler_smelting_oven_recipe":	{
+					"recipe_name": "冶煉爐",
+					"description": "專門用來冶煉石英砂的火爐",
+					"flavor": "高溫勿近"
+				},
+				"cleaning_name": "洗淨珠寶",
+				"bag_o_gems_recipe":	{
+					"recipe_name": "寶石袋",
+					"description": "一袋滿滿的寶石",
+					"flavor": "珠寶匠的包包裡通常都有些珍貴的寶物..."
+				},
+				"clean_raw_amber_recipe":	{
+					"description": "一塊古老的樹脂",
+					"recipe_name": "琥珀",
+					"flavor": "曾經是樹木的血液，千年後便成了珠寶"
+				},
+				"clean_raw_topaz_recipe":	{
+					"description": "清澈如水的寶石",
+					"recipe_name": "藍玉",
+					"flavor": "純淨而稀有的藍色黃玉"
+				},
+				"clean_raw_obsidian_recipe":	{
+					"description": "目前所能找到顏色最深、硬度最硬的石頭",
+					"recipe_name": "黑曜石",
+					"flavor": "如同龍鱗一般堅硬"
+				},
+				"clean_raw_emerald_recipe":	{
+					"description": "猶如大自然濃縮於一塊寶石",
+					"recipe_name": "綠寶石",
+					"flavor": "或許這就是自然的本質"
+				},
+				"clean_raw_ruby_recipe":	{
+					"description": "來自於大地的血紅寶石",
+					"recipe_name": "紅寶石",
+					"flavor": "魔法、時間與一滴血，造就了這顆寶石"
+				},
+				"clean_raw_diamond_recipe":	{
+					"description": "最純淨、最稀有的寶石",
+					"recipe_name": "鑽石",
+					"flavor": "你可以賣掉或是自己保留，不管怎麼樣，你都會變得富有"
+				},
+				"smelting_name": "冶煉",
+				"raw_glas_recipe":	{
+					"recipe_name": "玻璃原料",
+					"description": "需要石英砂與超高溫的冶煉爐",
+					"flavor": "正確的原料與正確的溫度造就美麗的玻璃"
+				},
+				"crushing_crystals_name": "珠寶粉末",
+				"crush_amber_recipe":	{
+					"description": "可以用於藥劑或是其他加工品",
+					"recipe_name": "琥珀粉末",
+					"flavor": "雖然被磨成粉末，但是還是很有用處"
+				},
+				"crush_topaz_recipe":	{
+					"description": "如同純水般潔淨",
+					"recipe_name": "藍玉粉末",
+					"flavor": "如同春風般輕語，純水般透徹"
+				},
+				"crush_ruby_recipe":	{
+					"description": "如同血一般的粉末",
+					"recipe_name": "紅寶石粉末",
+					"flavor": "具有能量的粉末，對於提升生命、體力或是力量特別有效"
+				},
+				"crush_emerald_recipe":	{
+					"description": "大自然的粉末",
+					"recipe_name": "綠寶石粉末",
+					"flavor": "如同叢林之心般綠意盎然"
+				},
+				"gem_cutting_name": "珠寶切割",
+				"cut_amber_recipe":	{
+					"recipe_name": "切面琥珀",
+					"description": "最好的琥珀寶石",
+					"flavor": "如同陽光被困在其中般的閃亮"
+				},
+				"cut_topaz_recipe":	{
+					"recipe_name": "切面藍玉",
+					"description": "切割細緻的藍玉",
+					"flavor": "如同一池水中最純淨的那一滴"
+				},
+				"cut_ruby_recipe":	{
+					"recipe_name": "切面紅寶石",
+					"description": "如同珠寶匠的熱情一般火紅",
+					"flavor": "這是珠寶，抑或是蓋亞之血？"
+				},
+				"cut_emerald_recipe":	{
+					"recipe_name": "切面綠寶石",
+					"description": "如同大自然一般美麗",
+					"flavor": "通稱蛇眼"
+				},
+				"cut_diamond_recipe":	{
+					"recipe_name": "切面鑽石",
+					"description": "純淨，清澈，閃閃發光",
+					"flavor": "如同天堂掉落凡間的禮物"
+				},
+				"obsidian_scale_recipe":	{
+					"recipe_name": "黑曜石片",
+					"description": "更進一步的原料",
+					"flavor": "漆黑鱗甲的一片護甲"
+				},
+				"gold_scale_recipe":	{
+					"recipe_name": "金片",
+					"description": "展現你的財富",
+					"flavor": "黃金鱗甲會需要這個的"
+				},
+				"sheet_of_glas_recipe":	{
+					"recipe_name": "玻璃片",
+					"description": "就像我們一般看到的玻璃那樣",
+					"flavor": "你可以看透它們..."
+				},
+				"metal_thread_name": "金屬線",
+				"copper_thread_recipe":	{
+					"recipe_name": "銅線",
+					"description": "製作精良的銅線",
+					"flavor": "需要高超的技巧才能將銅錠化為細線"
+				},
+				"silver_thread_recipe":	{
+					"recipe_name": "銀線",
+					"description": "製作精良的銀線",
+					"flavor": "或許裁縫師可以用這個做出長袍"
+				},
+				"gold_thread_recipe":	{
+					"recipe_name": "金線",
+					"description": "製作精良的金線",
+					"flavor": "製作魔法師長袍的必備物品"
+				},
+				"circlet_diadem_name": "頭飾",
+				"silver_circlet_recipe":	{
+					"recipe_name": "銀製頭飾",
+					"description": "用銀所製造的頭飾",
+					"flavor": "用銀錠打造的精緻頭飾"
+				},
+				"gold_circlet_recipe":	{
+					"recipe_name": "黃金頭飾",
+					"description": "用黃金所製造的頭飾",
+					"flavor": "雖然沒有鑲嵌寶石，但還是很精緻"
+				},
+				"king_crown_recipe":	{
+					"recipe_name": "王冠",
+					"description": "只有君王才能配戴的頭冠",
+					"flavor": "隱藏在古老的卷軸中的一張設計圖"
+				},
+				"queen_crown_recipe":	{
+					"recipe_name": "后冠",
+					"description": "能夠彰顯出王后威嚴的頭冠",
+					"flavor": "使用質地最好的黃金打造而成"
+				},
+				"amulets_rings_name": "護符 & 戒指",
+				"silver_amulet_topaz_recipe":	{
+					"recipe_name": "敏捷護符",
+					"description": "微幅提升裝備者的敏捷",
+					"flavor": "噢！好想要！"
+				},
+				"gold_amulet_topaz_recipe":	{
+					"recipe_name": "藍玉敏捷護符",
+					"description": "提升裝備者的敏捷",
+					"flavor": "戴了就跑！"
+				},
+				"gold_amulet_topaz_fine_recipe":	{
+					"recipe_name": "閃耀藍玉敏捷護符",
+					"description": "大幅提升裝備者的敏捷",
+					"flavor": "光速！"
+				},
+				"silver_amulet_ruby_recipe":	{
+					"recipe_name": "血之護符",
+					"description": "微幅提升裝備者的體力",
+					"flavor": "大地之血增強裝備者之血"
+				},
+				"gold_amulet_ruby_recipe":	{
+					"recipe_name": "健體護符",
+					"description": "提升裝備者的體力",
+					"flavor": "戴上它你永遠不會生病"
+				},
+				"gold_amulet_ruby_fine_recipe":	{
+					"recipe_name": "生命護符",
+					"description": "大幅提升裝備者的體力",
+					"flavor": "受傷？開什麼玩笑"
+				},
+				"silver_ring_obsidian_recipe":	{
+					"recipe_name": "新月之戒",
+					"description": "裝備者需要較少睡眠",
+					"flavor": "如同黑夜般的戒指讓你需要較少睡眠"
+				},
+				"gold_ring_obsidian_recipe":	{
+					"recipe_name": "弦月之戒",
+					"description": "裝備者只需要少許睡眠",
+					"flavor": "深夜中的閃光讓你保持清醒"
+				},
+				"silver_ring_emerald_recipe":	{
+					"recipe_name": "自然之戒",
+					"description": "與大自然連結，微幅提升裝備者的力量",
+					"flavor": "戴上它，你可以感受到大地、水與風的氣息"
+				},
+				"gold_ring_emerald_recipe":	{
+					"recipe_name": "泰坦之戒",
+					"description": "綠寶石中潛藏著泰坦之力，提升裝備者的力量",
+					"flavor": "就像泰坦附身一樣"
+				},
+				"gold_ring_emerald_fine_recipe":	{
+					"recipe_name": "蓋亞之戒",
+					"description": "蓋亞女神的祝福大幅提升裝備者的力量",
+					"flavor": "大地之母的力量讓你覺得無與倫比！"
+				},
+				"blood_eye_recipe":	{
+					"recipe_name": "赤血之眼",
+					"description": "弓手用的紅寶石瞄準鏡，微幅提升力量",
+					"flavor": "感受紅寶石生命的脈動"
+				},
+				"serpent_eye_recipe":	{
+					"recipe_name": "青蛇之眼",
+					"description": "弓手用的綠寶石瞄準鏡，微幅提升力量與敏捷",
+					"flavor": "在黑夜中也可以看的一清二楚"
+				},
+				"sharpshooter_eye_recipe":	{
+					"recipe_name": "寶鑽之眼",
+					"description": "用鑽石與黃金打造的瞄準鏡，提升力量與敏捷",
+					"flavor": "萬物盡收眼底"
+				},
+				"decoration_name": "裝置",
+				"amber_torch_pole_recipe":	{
+					"recipe_name": "珠寶火把",
+					"description": "木桿上裝著一顆會發光的珠寶",
+					"flavor": "溫暖和煦"
+				},
+				"amber_torch_wall_recipe":	{
+					"recipe_name": "壁掛式珠寶火把",
+					"description": "可以裝在牆上的珠寶火把",
+					"flavor": "小巧可愛的光源"
+				},
+				"light_crystal_town_recipe":	{
+					"recipe_name": "大型珠寶燈",
+					"description": "可以大來大範圍的照明",
+					"flavor": "由琥珀組成的超大珠寶！"
+				},
+				"topaz_looking_glas_recipe":	{
+					"recipe_name": "藍玉晶球",
+					"description": "似乎可以在其中看見過去與未來",
+					"flavor": "未來、過去、命運"
+				},
+				"gold_candelabra_recipe":	{
+					"recipe_name": "黃金燭台",
+					"description": "奢華住宅的必備物品",
+					"flavor": "也可以放在寺廟裡"
+				},
+				"night_candle_recipe":	{
+					"recipe_name": "夜燭",
+					"description": "一根點亮夜晚的蠟燭",
+					"flavor": "別忘了吹熄它"
+				},
+				"golden_topaz_mirror_recipe":	{
+					"recipe_name": "黃金藍玉鏡",
+					"description": "反射著微微的藍光",
+					"flavor": "藍色的光芒讓你看起來更年輕"
+				},
+				"golden_goblet_recipe":	{
+					"recipe_name": "黃金高腳杯",
+					"description": "國王專屬的高腳杯",
+					"flavor": "用這個杯子來喝東西感覺更好喝了！"
+				},
+				"figurines_statues_name": "塑像",
+				"jade_castle_recipe":	{
+					"recipe_name": "玉城堡",
+					"description": "用青玉製作的城堡塑像",
+					"flavor": "精雕細琢，連最小的細節都不肯放過"
+				},
+				"jade_colosseum_recipe":	{
+					"recipe_name": "青玉競技場",
+					"description": "用青玉製作的競技場塑像",
+					"flavor": "想像爐民與猛獸在裡面戰鬥..."
+				},
+				"jade_elephant_recipe":	{
+					"recipe_name": "青玉象",
+					"description": "用青玉製作的大象塑像",
+					"flavor": "你確定牠不是活的嗎？"
+				},
+				"jade_fisher_hut_recipe":	{
+					"recipe_name": "青玉漁屋",
+					"description": "用青玉製作的漁屋塑像",
+					"flavor": "需要大量的時間才能完成精美的作品"
+				},
+				"jade_island_recipe":	{
+					"recipe_name": "青玉之島",
+					"description": "用青玉製作的島嶼塑像",
+					"flavor": "好想去小島上渡假啊"
+				},
+				"jade_snake_recipe":	{
+					"recipe_name": "青玉蛇",
+					"description": "用青玉製作的曼巴蛇塑像",
+					"flavor": "你的靴子裡有蛇！"
+				},
+				"jade_temple_recipe":	{
+					"recipe_name": "青玉神廟",
+					"description": "用青玉製作的神廟塑像",
+					"flavor": "不知道是用來供奉哪位神明的？"
+				},
+				"jade_wolfman_recipe":	{
+					"recipe_name": "青玉狼人",
+					"description": "用青玉製作的狼人塑像",
+					"flavor": "狼人？有這種生物嗎？"
+				},
+				"weapons_name": "武器",
+				"leader_sword_recipe":	{
+					"recipe_name": "王者之劍",
+					"description": "用黃金劍打造，轉職為君王的必備物品",
+					"flavor": "珠寶與黃金，剛好襯托出君王的氣勢與威嚴"
+				}
+			}
+		},
+		"blacksmith":	{
+			"recipes":	{
+				"jeweler_tong_recipe":	{
+					"description": "轉職為珠寶匠的必要物品",
+					"recipe_name": "珠寶匠的珠寶鉗",
+					"flavor": "珠寶匠最基本工具"
+				},
+				"obsidian_great_helm_recipe":	{
+					"recipe_name": "黑曜石戰盔",
+					"description": "強化的黑曜石輔以鋼鐵打造而成",
+					"flavor": "就算被棍棒打到你也沒有感覺"
+				},
+				"obsidian_scale_helm_recipe":	{
+					"recipe_name": "黑曜石鱗盔",
+					"description": "用黑曜石打造而成的頭盔",
+					"flavor": "保護頭部的好選擇"
+				},
+				"obsidian_plate_armor_recipe":	{
+					"recipe_name": "黑曜石戰甲",
+					"description": "用黑曜石打造而成的戰甲，比想像中的輕",
+					"flavor": "幾乎刀槍不入"
+				},
+				"obsidian_scale_mail_recipe":	{
+					"recipe_name": "黑曜石鱗甲",
+					"description": "用黑曜石打造而成的鱗甲",
+					"flavor": "保護身體的好選擇"
+				},
+				"obsidian_plated_shield_recipe":	{
+					"recipe_name": "黑曜石盾",
+					"description": "用黑曜石打造的堅硬盾牌",
+					"flavor": "只有身經百戰的戰士直擁有它"
+				},
+				"obsidian_topaz_shield_recipe":	{
+					"recipe_name": "藍玉曜石盾",
+					"description": "以藍玉為黑曜石盾提昇性能",
+					"flavor": "藍玉的力量讓你可以更輕易的掌握它"
+				},
+				"furniture_name": "家具",
+				"leader_throne_recipe":	{
+					"recipe_name": "王座",
+					"description": "用黃金打造，專屬君王的寶座",
+					"flavor": "君王唯一想坐的椅子"
+				},
+				"king_armor_recipe":	{
+					"recipe_name": "君王鎧甲",
+					"description": "以黃金打造，充滿氣勢的鎧甲",
+					"flavor": "雖然不適合用來打仗，但很適合用來展現工匠的工藝"
+				},
+				"rack_silver_mail_recipe":	{
+					"recipe_name": "銀製盔甲架",
+					"description": "可以展現你的工匠的技藝",
+					"flavor": "閃亮亮～"
+				},
+				"rack_iron_mail_recipe":	{
+					"recipe_name": "鐵製盔甲架",
+					"description": "鐵匠的驕傲",
+					"flavor": "鐵匠的代表作"
+				},
+				"rack_bronze_armor_recipe":	{
+					"recipe_name": "青銅戰甲架",
+					"description": "每天把它擦亮是我的樂趣",
+					"flavor": "想穿穿看嗎？"
+				},
+				"weapon_rack_recipe":	{
+					"recipe_name": "武器架",
+					"description": "放滿了鐵匠所打造的各種武器",
+					"flavor": "只可遠觀，不可褻玩"
+				},
+				"golden_sword_recipe":	{
+					"recipe_name": "黃金劍",
+					"description": "需要珠寶匠將其加工為王者之劍",
+					"flavor": "最好的物品，通常都要經過好幾個最好的工匠合力完成"
+				}
+			}
+		},
+		"leader":	{
+			"leader_description":	{
+				"display_name": "君王",
+				"description": "王國的統領者",
+				"requirements": "由珠寶匠所製作",
+				"level_1_data":	{
+					"perk_000_name": "族長",
+					"perk_000_description": "一個小族群的統領者"
+				},
+				"level_2_data":	{
+					"perk_000_name": "酋長",
+					"perk_000_description": "掌管部落的首領"
+				},
+				"level_3_data":	{
+					"perk_000_name": "巨樹騎士",
+					"perk_000_description": "經驗豐富的部隊領導者"
+				},
+				"level_4_data":	{
+					"perk_000_name": "諸侯",
+					"perk_000_description": "一塊小領土的最高權威"
+				},
+				"level_5_data":	{
+					"perk_000_name": "君主",
+					"perk_000_description": "眾諸侯的領導者"
+				},
+				"level_6_data":	{
+					"title": "",
+					"perk_000_name": "天之驕子",
+					"perk_000_description": "大地的統領者"
+				}
+			},
+			"leader_workbench":	{
+				"leader_workbench_ghost":	{
+					"display_name": "Throne of the leader",
+					"description": "To speek Law and to rule"
+				}
+			},
+			"leader_sword":	{
+				"display_name": "王者之劍",
+				"description": "轉職為君王的必備物品",
+				"leader_sword_iconic":	{
+					"display_name": "王者之劍",
+					"description": "轉職為君王的必備物品"
+				},
+				"leader_sword_talisman":	{
+					"display_name": "王者之劍",
+					"description": "轉職為君王的必備物品"
+				}
+			},
+			"leader_throne":	{
+				"leader_throne_ghost":	{
+					"display_name": "王座",
+					"description": "坐下，並統領大陸"
+				}
+			},
+			"leader_war_map":	{
+				"leader_war_map_ghost":	{
+					"display_name": "戰略地圖",
+					"description": "在戰事中用來討論戰術的地圖"
+				}
+			},
+			"leader_writing_table":	{
+				"leader_writing_table_ghost":	{
+					"display_name": "寫字檯",
+					"description": "可以在上面撰寫各種法令"
+				}
+			},
+			"leader_outfit": {
+				"display_name": "君王長袍",
+				"description": "無可比擬，最上等的長袍"
+			},
+			"recipes":	{
+				"decrees_name": "法令",
+				"decree_of_progression_recipe":	{
+					"recipe_name": "法令：專注發展",
+					"description": "可以提昇爐民獲得的經驗值",
+					"flavor": "為了王國！"
+				},
+				"decree_of_crafting_recipe":	{
+					"recipe_name": "法令：精雕細琢",
+					"description": "提昇工匠們製作精良物品的機率",
+					"flavor": "專注完美，近乎苛求"
+				},
+				"decree_of_production_recipe":	{
+					"recipe_name": "法令：不眠不休",
+					"description": "提高爐民工作的時間",
+					"flavor": "拜藍玉之力所賜"
+				},
+				"speeches_name": "演講",
+				"speech_of_contemplation_recipe":	{
+					"recipe_name": "演講：解放心靈",
+					"description": "將你的想法拋諸九霄雲外...",
+					"flavor": "進入冥想，放空你的身心..."
+				},
+				"speech_of_fury_recipe":	{
+					"recipe_name": "演講：滿腔怒火",
+					"description": "喚醒潛在你身心靈中的怒火",
+					"flavor": "你感到胸膛中一股迸發的力量"
+				},
+				"speech_of_the_heart_recipe":	{
+					"recipe_name": "演講：鋼鐵雄心",
+					"description": "堅定的心可以助你戰勝恐懼",
+					"flavor": "強化你的心靈，抵禦你深沈的恐懼"
+				},
+				"speech_of_the_wise_recipe":	{
+					"recipe_name": "演講：智者之道",
+					"description": "智慧是時間與經驗的結晶...",
+					"flavor": "知者不惑，仁者不憂，勇者不懼"
+				},
+				"orders_name": "命令",
+				"order_attack_recipe":	{
+						"recipe_name": "命令：進攻",
+						"description": "提昇爐民體力，穩守進攻",
+						"flavor": "冷靜應戰"
+				},
+				"order_last_stand_recipe":	{
+					"recipe_name": "命令：至死方休",
+					"description": "大幅提昇爐民體力，奮戰至最後一兵一卒",
+					"flavor": "沙場，才是我的歸宿"
+				},
+				"order_storm_the_front_recipe":	{
+					"recipe_name": "命令：衝鋒陷陣",
+					"description": "提昇爐民敏捷，快速衝入敵陣",
+					"flavor": "衝啊！"
+				},
+				"diplomacy_name": "外交"
+			}
+		},
+		"mason":	{
+			"recipes":	{
+				"brazier_column_recipe":	{
+					"recipe_name": "石柱火盆",
+					"description": "好看的火盆",
+					"flavor": "光，是光！"
+				},
+				"brazier_small_recipe":	{
+					"recipe_name":	"小火盆",
+					"description": "可以放在地板的火盆",
+					"flavor": "小心別踩到了！"
+				}
+			}
+		},
+		"weaver":	{
+			"recipes":	{
+				"emerald_archer_hood_recipe":	{
+					"recipe_name": "綠寶石弓手頭罩",
+					"description": "鑲有綠寶石的弓手頭罩",
+					"flavor": "我在說的是擁有大地之力的寶石"
+				},
+				"copper_threaded_robe_recipe":	{
+					"recipe_name": "銅絲長袍",
+					"description": "輔以銅線紡織而成的長袍",
+					"flavor": "這金屬製的穿在身上不舒服吧？等等...好像還不錯！"
+				},
+				"silver_threaded_robe_recipe":	{
+					"recipe_name": "銀絲長袍",
+					"description": "輔以銀線紡織而成，散發神聖光芒的長袍，",
+					"flavor": "閃 閃 發 光"
+				},
+				"gold_threaded_robe_recipe":	{
+					"recipe_name": "金絲長袍",
+					"description": "輔以金線紡織而成，最好的長袍！",
+					"flavor": "黃金，值得擁有"
+				},
+				"castle_rug_recipe":	{
+					"recipe_name": "皇家地毯",
+					"description": "用皇家的顏色編織而成",
+					"flavor": "巨樹般的翠綠，皇家般的金黃"
+				},
+				"wall_tapestry_tree_winter_recipe":	{
+					"recipe_name": "皇家掛毯-冬",
+					"description": "掛毯上織有皇家巨樹在冬天時的姿態",
+					"flavor": "皇家廳堂必備"
+				},
+				"wall_tapestry_tree_spring_recipe":	{
+					"recipe_name": "皇家掛毯-春",
+					"description": "掛毯上織有皇家巨樹在春天時的姿態",
+					"flavor": "皇家廳堂必備"
+				},
+				"wall_tapestry_tree_summer_recipe":	{
+					"recipe_name": "皇家掛毯-夏",
+					"description": "掛毯上織有皇家巨樹在夏天時的姿態",
+					"flavor": "皇家廳堂必備"
+				},
+				"wall_tapestry_tree_autumn_recipe":	{
+					"recipe_name": "皇家掛毯-秋",
+					"description": "掛毯上織有皇家巨樹在秋天時的姿態",
+					"flavor": "皇家廳堂必備"
+				}
+			}
+		}
+	}
+}

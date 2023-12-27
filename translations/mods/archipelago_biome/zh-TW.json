@@ -1,0 +1,993 @@
+{
+	"ai": {
+		"actions": {
+			"status_text": {
+				"fishing": "釣魚中"
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"fish_quiver": {
+				"display_name": "鮮魚箭矢袋",
+				"description": "當敵人被天外飛來的魚擊中臉時會喪失勇氣"
+			},
+			"turtle_shield": {
+				"display_name": "龜殼盾",
+				"description": "用龜殼做成的盾牌"
+			}
+		},
+		"beach": {
+			"bottle": {
+				"display_name": "玻璃瓶",
+				"description": "一個普通的玻璃瓶"
+			},
+			"broken_boat": {
+				"display_name": "沈船",
+				"description": "可以採集到木頭，運氣好的話說不定可以找到黃金"
+			},
+			"oyster": {
+				"display_name": "牡蠣",
+				"description": "珍珠的家",
+				"unripe_description": "殼裡空空如也"
+			},
+			"seaweed": {
+				"display_name": "海草"
+			},
+			"starfish": {
+				"display_name": "海星",
+				"description": "一種棘皮動物"
+			}
+		},
+		"construction": {
+			"bead_door": {
+				"display_name": "珠簾",
+				"description": "上面掛著一串又一串的珠子",
+				"flavor": "有風吹過來的時候很吵"
+			},
+			"porthole": {
+				"display_name": "舷窗",
+				"description": "常常在船上見到的圓形窗戶",
+				"flavor": "為什麼船上的窗戶是圓的？<br>欲知詳情請自行Google"
+			}
+		},
+		"containers": {
+			"input_fish_rack": {
+				"display_name": "魚架",
+				"description": "用來掛波波魚"
+			},
+			"input_food_bin": {
+				"display_name": "食物捐贈籃",
+				"description": "一個用來捐贈食物的供應籃"
+			}
+		},
+		"critters": {
+			"crab": {
+				"display_name": "螃蟹",
+				"description": "夾，夾，夾"
+			},
+			"sea_turtle": {
+				"display_name": "海龜",
+				"description": "海洋中帶有殼與船槳狀四肢的爬蟲類"
+			}
+		},
+		"crops": {
+			"palm_tree_crop": {
+				"display_name": "椰子樹苗",
+				"description": "沒有木材了嗎？來種些樹吧！",
+				"growth_stage_0": {
+					"name": "椰子",
+					"description": "就是顆埋在土裡的椰子"
+				},
+				"growth_stage_1": {
+					"name": "椰子樹幼苗",
+					"description": "終於穿透了椰子殼"
+				},
+				"growth_stage_2": {
+					"name": "椰子樹芽",
+					"description": "向著太陽生長"
+				},
+				"growth_stage_3": {
+					"name": "椰子樹苗",
+					"description": "可以移到更大的地方種植了"
+				}
+			}
+		},
+		"decoration": {
+			"anchor": {
+				"display_name": "船錨",
+				"description": "沈重到足以固定你的船",
+				"recipe": {
+					"description": "可以放在地上或是掛在牆上",
+					"flavor": "如果船是一個人的頭，那船錨是他的耳環嗎？"
+				}
+			},
+			"aquarium": {
+				"display_name": "水族箱",
+				"description": "透明的箱子裡可以看到魚兒悠游",
+				"recipe": {
+					"flavor": "貓或是水族箱，兩者不能兼得"
+				}
+			},
+			"big_fish_hanging": {
+				"display_name": "巨齒魚吊架",
+				"description": "一隻巨齒魚吊掛在鎖鏈上",
+				"recipe": {
+					"flavor": "你最好把牠掛出來，不然不會有人相信你釣上牠的"
+				}
+			},
+			"dock": {
+				"display_name": "釣魚碼頭",
+				"description": "一個讓漁夫盡情釣魚的平台"
+			},
+			"ice_dock": {
+				"display_name": "冰釣洞口",
+				"description": "在冰層上鑿出一個洞讓漁夫可以釣魚"
+			},
+			"fish_container": {
+				"display_name": "裝箱波波魚",
+				"description": "可以存放 16 條魚"
+			},
+			"fancy_fisher_sign": {
+				"display_name": "華麗的漁夫招牌",
+				"description": "華麗的木牌上有漁夫的標記",
+				"recipe": {
+					"flavor": "超越最好的漁獲就在這"
+				}
+			},
+			"fisher_sign": {
+				"display_name": "木製漁夫招牌",
+				"description": "木牌上有漁夫的標記",
+				"recipe": {
+					"flavor": "最好的漁獲就在這"
+				}
+			},
+			"fruit_container": {
+				"display_name": "裝箱椰子",
+				"description": "可以存放 16 顆椰子",
+				"recipe": {
+					"description": "可以存放 16 顆椰子",
+					"flavor": "可以準備出貨了"
+				}
+			},
+			"lei": {
+				"display_name": "花環",
+				"description": "用花編織而成的裝飾品，可以掛在牆上",
+				"recipe": {
+					"description": "用花編織而成的裝飾品，可以掛在牆上",
+					"flavor": "讓你的牆壁看起來不再單調！"
+				}
+			},
+			"magma":{
+				"display_name":"熔岩",
+				"description":"超級燙，發著紅光，半固體，千萬不要碰"
+			},
+			"pearl_container": {
+				"display_name": "裝箱珍珠",
+				"description": "可以存放 16 顆珍珠"
+			},
+			"pirate_flag": {
+				"display_name": "海盜旗",
+				"description": "不是交朋友的好方法",
+				"recipe": {
+					"description": "經典海盜旗幟",
+					"flavor": "呀哈哈！"
+				}
+			},
+			"raft": {
+				"display_name": "木筏",
+				"description": "原始帆船",
+				"recipe": {
+					"description": "航海新手必備",
+					"flavor": "只要有豐富的想像力你就可以乘風破浪！"
+				}
+			},
+			"sand_castle": {
+				"display_name": "沙堡",
+				"description": "沙之公主在另一座沙堡裡",
+				"recipe": {
+					"description": "用沙子（陶土）打造你夢想中的城堡",
+					"flavor": "你花了 4 年讀建築學系只為了蓋這個？"
+				}
+			},
+			"ship_wheel": {
+				"display_name": "船舵",
+				"description": "引領你的夢想前進",
+				"recipe": {
+					"description": "可以用來引導船隻，但現在主要用於裝飾",
+					"flavor": "你知道裝在哪裡最好嗎？一艘船上面！"
+				}
+			},
+			"tiki_torch": {
+				"display_name": "堤基火把",
+				"description": "一根很長的火把",
+				"recipe": {
+					"description": "一根長長的火把，用於戶外照明",
+					"flavor": "能夠點亮派對，驅趕臭蟲"
+                }
+			},
+			"totem": {
+				"display_name": "圖騰",
+				"description": "堆疊著海邊的動物",
+				"flavor": "烏龜，螃蟹，海鷗！"
+			}
+		},
+		"food": {
+			"coconut": {
+				"display_name": "椰子",
+				"description": "總是令人感到清爽"
+			},
+			"crab": {
+				"display_name": "螃蟹",
+				"description": "需要經過處理後才能食用"
+			},
+			"crab_bisque": {
+				"display_name": "蟹肉濃湯",
+				"description": "既溫暖又美味",
+				"recipe": {
+					"description": "用椰奶與蟹肉熬煮而成的濃湯",
+					"flavor": "結合了兩種美味食材的濃湯怎麼可能有人不愛？"
+				}
+			},
+			"crab_bisque_serving": {
+				"display_name": "一碗蟹肉濃湯"
+			},
+			"crab_cake": {
+				"display_name": "蟹肉餅",
+				"description": "用螃蟹作為材料製成的肉餅，通常是用油炸的",
+				"recipe": {
+					"description": "用螃蟹作為材料製成的肉餅，通常是用油炸的",
+					"flavor": "外酥內嫩"
+				}
+			},
+			"crab_omelette": {
+				"display_name": "蟹肉蛋捲",
+				"description": "美味的蛋皮中包著鮮美的蟹肉"
+			},
+			"crab_rotten": {
+				"display_name": "腐爛的螃蟹",
+				"description": "螃蟹腐敗的速度很快..."
+			},
+			"big_fish": {
+				"display_name": "新鮮的巨齒魚",
+				"description": "太大了，需要先切開後才能食用"
+			},
+			"big_fish_cooked": {
+				"display_name": "鮮烤巨齒魚",
+				"description": "新鮮美味",
+				"recipe": {
+					"description": "就讓牠在烤爐裡待著吧",
+					"flavor": "酥脆的外皮，軟嫩的內裡"
+				}
+			},
+			"big_fish_cooked_serving": {
+				"display_name": "鮮烤巨齒魚"
+			},
+			"nemo": {
+				"display_name": "尼莫"
+			},
+			"fish": {
+				"display_name": "新鮮的波波魚",
+				"description": "需要經過處理後才能食用"
+			},
+			"fish_cooked": {
+				"display_name": "酥炸波波魚",
+				"description": "酥脆美味",
+				"recipe": {
+					"description": "油炸過後的波波魚",
+					"flavor": "外酥內嫩"
+				}
+			},
+			"big_fish_rotten": {
+				"display_name": "腐爛的巨齒魚",
+				"description": "巨齒魚腐敗的速度很快..."
+			},
+			"fish_rotten": {
+				"display_name": "腐爛的波波魚",
+				"description": "波波魚腐敗的速度很快..."
+			},
+			"fish_stew": {
+				"display_name": "燉魚湯",
+				"description": "溫暖又美味",
+				"recipe": {
+					"description": "一道溫暖人心的開胃菜，波波魚的肉非常軟嫩",
+					"flavor": "出乎意料的簡單，但是又很美味"
+				}
+			},
+			"fish_stew_serving": {
+				"display_name": "一碗燉魚湯"
+			},
+			"papaya_cookie": {
+				"display_name": "木瓜餅乾",
+				"description": "上面還撒了一些椰子粉",
+				"recipe": {
+					"description": "上面撒了椰子粉的木瓜餅乾",
+					"flavor": "比較健康，但是吃多了還是會胖"
+				}
+			},
+			"papaya_smoothie": {
+				"display_name": "木瓜奶昔",
+				"description": "滿滿的木瓜！",
+				"recipe": {
+					"description": "讓你在炎熱的天氣中涼快一下",
+					"flavor": "早上喝一杯精神都來了！"
+				}
+			},
+			"papaya_basket": {
+				"display_name": "木瓜",
+				"description": "滿滿的木瓜"
+			},
+			"papaya_serving": {
+				"display_name": "木瓜",
+				"description": "剖半的木瓜"
+			},
+			"sashimi": {
+				"display_name": "生魚片",
+				"description": "用新鮮的波波魚切片而成"
+			},
+			"tropical_fish": {
+				"display_name": "新鮮的熱帶魚"
+			}
+		},
+        "furniture":{
+			"hammock": {
+				"display_name": "吊床",
+				"description": "睡個午覺吧！",
+				"recipe": {
+					"description": "可以在上面睡個舒服的午覺",
+					"flavor": "小心螃蟹在下面偷襲你..."
+				}
+			}
+		},
+		"gizmos": {
+			"cocobomb": {
+				"display_name": "椰子炸彈",
+				"description": "不要玩你的食物！",
+				"recipe": {
+					"description": "放置於地上後，受到攻擊時會爆炸，對附近敵人造成傷害，並且附加燃燒效果",
+					"flavor": "爆炸，使一切事物更加美好"
+				}
+			},
+			"crab_trap": {
+				"display_name": "捕蟹籠",
+				"description": "可以吸引並捕捉螃蟹"
+			}
+		},
+		"humans": {
+			"anya": {
+				"display_name": "恩雅"
+			},
+			"captain_miranda": {
+				"display_name": "船長 米蘭達",
+				"description": "海洋就是他的家"
+			}
+		},
+		"landmark":{
+			"summon_stone_block_sand": {
+				"display_name": "沙地地塊石",
+				"description": "召喚一塊 8x5x8 大小的沙地地形"
+			},
+			"summon_stone_patch_sand": {
+				"display_name": "沙地覆地石",
+				"description": "生成一片 12x12 大小的沙地地形"
+			},
+			"summon_stone_volcano":{
+				"display_name": "火山",
+				"description": "召喚出一座小火山"
+			}
+		},
+		"monsters": {
+			"cocoling": {
+				"display_name": "椰仔",
+				"description": "這不是椰子！"
+			},
+			"cocoling_spawner": {
+				"display_name": "遠古聖物",
+				"description": "愈古老，愈有價值"
+			},
+			"fake_container": {
+				"display_name": "神秘的箱子",
+				"description": "打破它來看看裡面有甚麼"
+			},
+			"octopus": {
+				"display_name": "章魚",
+				"description": "黏呼呼的觸手"
+			},
+			"oyster": {
+				"display_name": "牡蠣怪",
+				"description": "帶有硬殼的氣噗噗牡蠣"
+			}
+		},
+		"outfit": {
+			"visitor_outfit": {
+				"description": "來自另一座島嶼的普通工作服"
+			}
+		},
+		"plants": {
+			"hibiscus_plant": {
+				"display_name": "扶桑花",
+				"description": "可以用來製作草藥",
+				"unripe_description": "最近才剛被採收過",
+				"seed": {
+					"display_name": "扶桑花種子",
+					"description": "一旦種在土裡，就會長出藥草"
+				},
+				"sprout": {
+					"description": "還需要一段時間跟照護",
+					"display_name": "扶桑花幼苗"
+				},
+				"stem": {
+					"description": "長大中！",
+					"display_name": "扶桑花芽"
+				},
+				"bud": {
+					"description": "就快可以採收了！",
+					"display_name": "扶桑花蕾"
+				}
+			},
+			"blue_hibiscus_plant": {
+				"display_name": "藍色扶桑花",
+				"description": "稀有，可以用來製作草藥",
+				"unripe_description": "最近才剛被採收過",
+				"seed": {
+					"display_name": "藍色扶桑花種子",
+					"description": "一旦種在土裡，就會長出藥草"
+				},
+				"sprout": {
+					"description": "還需要一段時間跟照護",
+					"display_name": "藍色扶桑花幼苗"
+				},
+				"stem": {
+					"description": "長大中！",
+					"display_name": "藍色扶桑花芽"
+				},
+				"bud": {
+					"description": "就快可以採收了！",
+					"display_name": "藍色扶桑花蕾"
+				}
+			}
+		},
+		"resources": {
+			"pearl": {
+				"display_name": "白珍珠",
+				"description": "最受歡迎的珠寶"
+			},
+			"black_pearl": {
+				"display_name": "黑珍珠",
+				"description": "看似充滿了深沉的詛咒，但是可以賣個好價錢"
+			},
+			"herb": {
+				"hibiscus": {
+					"display_name": "扶桑花",
+					"description": "既美麗又具有療效的熱帶植物"
+				},
+				"blue_hibiscus": {
+					"display_name": "藍色扶桑花",
+					"description": "既稀有又具有療效的熱帶植物"
+				}
+			},
+			"hot_rock": {
+				"display_name": "玄武岩",
+				"description": "充滿了礦物，挖就對了"
+			},
+			"ice_cube": {
+				"display_name": "冰塊",
+				"description": "不知道誰釣到的，很快就會融化"
+			}
+		},
+		"toys": {
+			"beachball": {
+				"display_name": "海灘球",
+				"description": "娛樂時間！"
+			}
+		},
+		"trees": {
+			"common_palm": {
+				"description": "熱帶島嶼的象徵，可以採收椰子",
+				"unripe_description": "目前沒有椰子可以採收"
+			},
+			"palm_tree": {
+				"seed": {
+					"display_name": "椰子樹種子",
+					"description": "可以種出椰子樹"
+				},
+				"sprout": {
+					"display_name": "椰子樹幼苗",
+					"description": "還需要一些時間跟照顧"
+				},
+				"stem": {
+					"display_name": "椰子樹芽",
+					"description": "還在長大！"
+				},
+				"bud": {
+					"display_name": "迷你椰子樹",
+					"description": "快好了！你看它的葉子！"
+				},
+				"sapling_palm_tree": {
+					"display_name": "椰子樹苗"
+				},
+				"small_palm_tree": {
+					"display_name": "小椰子樹"
+				},
+				"large_palm_tree": {
+					"display_name": "椰子樹"
+				}
+			},
+			"bend_palm_tree": {
+				"small_bend_palm_tree": {
+					"display_name": "彎曲的小椰子樹"
+				},
+				"large_bend_palm_tree": {
+					"display_name": "彎曲的椰子樹"
+				}
+			},
+			"dranden": {
+				"display_name": "德蘭登樹",
+				"description": "厚實的樹幹與茂密的枝葉",
+				"seed": {
+					"display_name": "德蘭登樹種子",
+					"description": "把它種在土裡，可以長出一棵德蘭登樹"
+				},
+				"sprout": {
+					"display_name": "德蘭登樹芽",
+					"description": "還需要一些時間..."
+				},
+				"stem": {
+					"display_name": "成長中的德蘭登樹",
+					"description": "還在成長中！"
+				},
+				"bud": {
+					"display_name": "結苞的德蘭登樹",
+					"description": "就快好了！你看它的葉苞！"
+				}
+			},
+			"smalea": {
+				"display_name": "斯梅爾樹",
+				"description": "雖然小，但是很結實",
+				"seed": {
+					"display_name": "斯梅爾樹種子",
+					"description": "把它種在土裡，可以長出一棵斯梅爾樹"
+				},
+				"sprout": {
+					"display_name": "斯梅爾樹芽",
+					"description": "還需要一些時間..."
+				},
+				"stem": {
+					"display_name": "成長中的斯梅爾樹",
+					"description": "還在成長中！"
+				},
+				"bud": {
+					"display_name": "結苞的斯梅爾樹",
+					"description": "就快好了！你看它的葉苞！"
+				}
+			},
+			"papaya": {
+				"display_name": "木瓜樹",
+				"description": "一種像樹的植物（它不是樹嗎？），可以採收木瓜",
+				"unripe_description": "目前沒有木瓜可以採收",
+				"seed": {
+					"display_name": "木瓜樹種子",
+					"description": "把它種在土裡，可以長出一棵木瓜樹"
+				},
+				"sprout": {
+					"display_name": "木瓜樹芽",
+					"description": "還需要一些時間..."
+				},
+				"stem": {
+					"display_name": "成長中的木瓜樹",
+					"description": "還在成長中！"
+				},
+				"bud": {
+					"display_name": "結苞的木瓜樹",
+					"description": "就快好了！你看它的葉苞！"
+				}
+			}
+		},
+		"weapons": {
+			"slap_fish": {
+				"display_name": "巴掌魚",
+				"description": "噢！"
+			},
+			"crab_pincer": {
+				"display_name": "蟹鉗",
+				"description": "看我夾你！"
+			},
+			"fish_arrow": {
+				"display_name": "鮮魚箭矢",
+				"description": "魚箭一出，勇者亦懼"
+			}
+		}
+	},
+	"jobs": {
+		"archer":{
+			"archer_buffs":{
+				"fish_arrow":{
+					"display_name":"迷失自我",
+					"description":"被魚擊中臉喪失了勇氣"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"tropical_recipes_name": "海鮮與熱帶食譜"
+			}
+		},
+		"fisher": {
+			"fisher_description": {
+				"display_name": "漁夫",
+				"description": "漁夫可以捕捉螃蟹，收獲珍珠，做其他跟水有關的工作",
+				"requirements": "由木匠所製作",
+				"level_1": {
+					"perk_name": "小釣手",
+					"perk_description": "漁夫現在可以製作捕魚用的工具"
+				},
+				"level_2": {
+					"perk_name": "捕蟹人",
+					"perk_description": "漁夫現在可以製作捕捉螃蟹用的工具"
+				},
+				"level_3": {
+					"perk_name": "兼差廚師",
+					"perk_description": "漁夫現在可以用他的小火爐烹調一些基本的食物"
+				},
+				"level_4": {
+					"perk_name": "釣魚訣竅",
+					"perk_description": "現在漁夫每升一級，釣魚的時間都會縮點一點"
+				}
+			},
+			"fisher_bucket": {
+				"display_name": "漁夫的木桶",
+				"description": "有很多種用途的木桶",
+				"fisher_bucket_talisman": {
+					"display_name": "漁夫的木桶",
+					"description": "轉職為漁夫的必要物品"
+				}
+			},
+			"fisher_rod": {
+				"display_name": "魚竿",
+				"description": "一根又長又有彈性的釣竿"
+			},
+			"fisher_workbench": {
+				"display_name": "漁夫的工作台",
+				"description": "漁夫所需要的工具幾乎都在這了",
+				"flavor": "不 准 動 我 的 工 具 ！"
+			},
+			"fisher_firepit": {
+				"display_name": "小火爐",
+				"description": "可以用來烹調基本的熱食",
+				"flavor": "想要更好的食物？去找你的廚師吧"
+			},
+			"fisher_outfit": {
+				"display_name": "漁夫外裝",
+				"description": "一般漁夫的工作套裝"
+			},
+			"recipes": {
+				"fisher_tools_name": "工具",
+				"fisher_bucket_recipe": {
+					"recipe_name": "漁夫的木桶",
+					"description": "轉職為漁夫的必要物品",
+					"flavor": "有很多種用途的木桶"
+				},
+				"crab_pincer_recipe": {
+					"recipe_name": "蟹鉗",
+					"description": "可以戴在手上的武器",
+					"flavor": "戴上去之前記得先清理乾淨"
+				},
+				"crab_trap_recipe": {
+					"recipe_name": "捕蟹籠",
+					"description": "可以吸引並捕捉附近的螃蟹，必須放置在水邊或水裡",
+					"flavor": ""
+				},
+				"fish_container_recipe": {
+					"recipe_name": "裝箱波波魚",
+					"description": "可以存放 16 條魚",
+					"flavor": "可以準備出貨了"
+				},
+				"fish_quiver_recipe": {
+					"recipe_name": "鮮魚箭矢袋",
+					"description": "當敵人被天外飛來的魚擊中臉時會喪失勇氣，感到噁心並迷失自我"
+				},
+				"input_fish_rack_recipe": {
+					"recipe_name": "魚架",
+					"description": "爐民會自動將波波魚掛上去，讓波波魚隨手可得",
+					"flavor": "總比放在地上好"
+				},
+				"pearl_container_recipe": {
+					"recipe_name": "裝箱珍珠",
+					"description": "可以存放 16 顆珍珠",
+					"flavor": "可以準備出貨了"
+				},
+				"sashimi_recipe": {
+					"recipe_name": "生魚片",
+					"description": "用新鮮的波波魚切片而成",
+					"flavor": "烈冰鮮雕山！"
+				},
+				"slap_fish_recipe": {
+					"recipe_name": "巴掌魚",
+					"description": "噢！",
+					"flavor": "噁心的感覺大於疼痛的感覺"
+				},
+				"dock_recipe": {
+					"recipe_name": "釣魚碼頭",
+					"description": "把它放在水邊，並面向水的方向，漁夫就會自動去這裡釣魚",
+					"flavor": "波波魚喜歡待在它的陰影下"
+				},
+				"ice_dock_recipe": {
+					"recipe_name": "冰釣洞口",
+					"description": "放置在雪地與冰層上鑿出一個用於冰釣的洞口，漁夫就會自動去這裡釣魚",
+					"flavor": "波波魚喜歡聚集在洞口附近"
+				}
+			}
+		},
+		"geomancer": {
+			"recipes": {
+				"summon_stone_volcano_recipe":{
+					"recipe_name": "火山",
+					"description": "召喚出一座小火山"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"palm_transmute_recipe": {
+					"recipe_name": "椰子樹種子",
+					"description":"想來點椰子汁嗎？先種點椰子吧！",
+					"flavor":""
+				},
+				"papaya_transmute_recipe": {
+					"recipe_name": "木瓜種子 (x3)"
+				},
+				"hibiscus_transmute_recipe": {
+					"recipe_name": "扶桑花種子 (x3)"
+				},
+				"blue_hibiscus_transmute_recipe": {
+					"recipe_name": "藍色扶桑花種子 (x3)"
+				}
+			}
+		}
+	},
+	"ui": {
+		"data":{
+			"constants":{
+				"raw_fish_name":"新鮮的波波魚",
+				"raw_big_fish_name":"新鮮的巨齒魚"
+			}
+		},
+		"game": {
+			"build_mode": {
+				"building_templates": {
+					"template_names": {
+						"fisher_hut": "漁夫小屋",
+						"fisher_hut_rayya": "漁夫小屋（瑞亞）",
+						"fisher_hut_north": "漁夫小屋（北境）",
+						"shaded_hammock": "遮陰吊床",
+						"beach_tower": "海灘塔",
+						"little_pier": "小碼頭",
+						"open_house": "開放式小屋",
+						"small_beach_house": "海邊小屋",
+						"carpenter_house": "木匠小屋",
+						"tiki_bar": "堤基酒吧",
+						"small_boat": "小船",
+						"double_outrigger_boat": "雙舷帆船",
+						"explorer_ship": "探險者號",
+						"long_ship": "長船",
+						"trader_ship": "貿易商船"
+					}
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"fisher": {
+							"display_name": "漁夫",
+							"description": "製作各種跟漁夫相關的物品",
+							"required_job_text": "需要至少一名漁夫"
+						}
+					}
+				}
+			},
+			"zones_mode": {
+				"stockpile": {
+					"filters": {
+						"food_bin": "幫忙捐贈食物"
+					}
+				}
+			}
+		},
+		"shell": {
+			"select_settlement": {
+				"terrain_codes": {
+					"water": "海洋",
+					"plains_2": "沙灘"
+				}
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"archipelago": {
+				"display_name": "熱帶群島",
+				"description": "佈滿了沙灘，放眼望去，四周是無盡的海洋。",
+				"random_location_names": {
+					"000": "冒納羅亞群島"
+				},
+				"seasons":{
+					"dry":{
+						"display_name":"乾季",
+						"description":"熱帶群島的乾季是個充滿陽光的季節，持續８個月。這個季節非常適合度假，雖然偶爾也會有強風和小雨。"
+					},
+					"hurricane":{
+						"display_name":"龍捲風季",
+						"description":"熱帶群島的龍捲風季是個危險的季節，只會持續１個月。狂風呼嘯，暴雨來襲是家常便飯。"
+					},
+					"wet":{
+						"display_name":"濕季",
+						"description":"熱帶群島的濕季是個充滿雨的季節，持續３個月。風雨是常態，很少有機會可以看到太陽。"
+					}
+				}
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#f1f1a4": "沙灘色1 (熱帶群島)",
+					"#f0ea99": "沙灘色2 (熱帶群島)",
+					"#f0e187": "沙灘色3 (熱帶群島)"
+				}
+			}
+		},
+		"commands": {
+			"open_crate": {
+				"display_name": "打破箱子",
+				"description": "敲破它！"
+			},
+			"archer_arrows":{
+				"fish_arrows": {
+					"display_name": "鮮魚箭矢",
+					"description": "使用鮮魚箭矢，可以降低敵人的勇氣，點擊以切換其他箭矢"
+				}
+			}
+		},
+		"fishing":{
+			"turtle_shield":{
+				"title":"漁夫獲得了一面龜殼盾！",
+				"message":"看起來是個步兵用的低階盾牌，隨時可以上陣"
+			},
+			"nemo":{
+				"title":"找到一隻魚",
+				"message":"漁夫找到了一條迷路的小丑魚"
+			},
+			"dusty_tome":{
+				"message":"一本非常舊的書，對沙漠的子民來說很有價值，但是為什麼它還是乾的一直是個謎..."
+			}
+		},
+		"monster_tuning": {
+			"forest": {
+				"insane_octopus": {
+					"description": "較小的章魚往往會聚集在牠們身邊"
+				},
+				"insane_oyster": {
+					"description": "較小的牡蠣往往會聚集在牠們身邊"
+				}
+			}
+		},
+		"gm": {
+			"anya": "恩雅",
+			"captain_miranda": "船長 米蘭達",
+			"goblin_bucket": "帶著一個桶子的哥布林",
+			"campaigns": {
+				"archipelago_tutorial": {
+					"trigger": {
+						"introduction": {
+							"title": "來自海上的協助",
+							"message_start": "你好，很高興認識你！我是米蘭達，需要協助嗎？<br>你是新來的吧，我可以告訴你一些新手須知喔！",
+							"message_decline": "好吧，那你自己保重囉。<br>祝你好運。",
+							"message_accept": "太好了！終於有人願意接受我的幫助了！<br>跟我來！",
+							"message_trees": "你會需要木材以及食物，對吧？<br>在這裡只要有椰子樹兩種需求都可以滿足！<br>第一次採收椰子樹可以取得一些椰子。<br>如果你想要木材，可以在採收椰子後砍倒它。",
+							"message_oysters": "噢，還有這些牡蠣也很棒。漁夫可以從牠們那裡收穫珍珠，賣個好價錢。<br>傳言說有可能發現稀有的黑珍珠，不過我從來沒看過就是了。",
+							"message_broken_boats": "再看看這四周，或許你會看到某些運氣不好的沈船。<br>你可以從那些船上收集到不少好東西。",
+							"message_bye": "大概就這樣了吧。<br>之後我會再回來看看你們的。<br>現在我得乘著這陣風出航冒險了，好東西可不會憑空冒出來。<br>再會了，祝你好運！",
+
+							"na_message_start": "嘿，來自雪地的朋友們！你問我怎麼知道你們是從雪地來的？看看你們，全身都是雪地衣裝！<br>順帶一提，我是米蘭達，需要幫忙嗎？<br>我可以告訴你一些關於這片群島的一些小知識。",
+							"na_message_decline": "好吧，那你自己保重囉。<br>祝你好運，還有，換上輕便點的衣服吧！",
+							"na_message_bye": "大概就這樣了吧。<br>之後我會再回來看看你們的，希望到時候你們不會熱死在那套厚重的衣服裡！<br>現在我得乘著這陣風出航冒險了，好東西可不會憑空冒出來。<br>再會了，祝你好運！"
+						}
+					}
+				},
+				"archipelago_campaign": {
+					"trigger": {
+						"miranda_before_selling_clay": {
+							"title": "我的船上有太多陶土了！",
+							"message_start": "我跟瑞亞的商人做了些買賣，你知道他們的陶土有多便宜嗎？我實在禁不起誘惑，但是我真的買太多了！",
+							"message_convincing": "我沒有辦法帶著這麼重的船出航！你可以跟我買一些嗎？我猜你應該也會需要吧，畢竟這裡沒有太多的地方讓你挖...",
+
+							"rc_message_start": "我跟瑞亞的商人做了些交易。你已經知道那些陶土有多重要了，對吧？我沒有辦法拒絕，但是我現在真的有太多陶土了！"
+						},
+						"miranda_clay_shop": "米蘭達船長的陶土",
+						"miranda_notice_a_lost_crate": {
+							"title": "你有丟失一個箱子嗎？",
+							"message_start": "順帶一提，我在你營地附近發現了這個箱子，我猜應該是你的，所以我把它放在你的營地旗幟旁。",
+							"choice": "恩？甚麼箱子？",
+							"this_crate": "這個箱子？"
+						},
+						"teaches_how_to_break_crate": {
+							"title": "有問題嗎？",
+							"message_start": "你不打開那個箱子嗎？說不定裡面有什麼重要的東西！<br>（要打開它，請點選它並點擊打破箱子的按鈕）"
+						},
+						"miranda_talks_about_cocolings": {
+							"title": "椰仔",
+							"message_start": "對於你昨天受到攻擊我深感抱歉，最近到處都是椰仔...",
+							"choice": "你是說小小的邪惡椰子？",
+							"message_2": "沒錯，他們在其他的島嶼上也製造了不少麻煩。<br>我們仍然不知道他們是怎麼來的或是為什麼而來...<br>其他島民也試圖將這個謎團弄清楚。",
+							"choice_end": "我也會盡我所能"
+						},
+						"miranda_notice_another_crate": {
+							"title": "又一個箱子...",
+							"message_start": "小心，我在你的島上又看到了一個箱子！在你打開前，最好先把你的守衛指派到那裡。",
+							"choice": "告訴我在哪裡！"
+						},
+						"lets_trade_again": {
+							"title": "讓我們再來場交易吧？",
+							"message_start": "嗨！想要再買些沒用的東西嗎？<br>噢，抱歉，我沒注意到你有訪客，我晚點再來！",
+							"choice": "訪客...？",
+							"message_those_guys": "對呀，就在那邊，讓我帶你過去。"
+						},
+						"show_the_visitors": {
+							"show": "在這裡！"
+						},
+						"visitors_introduction": {
+							"title": "我們需要幫助",
+							"message_start": "嗨，我是恩雅。<br>很抱歉突然停靠在這裡，但是我們實在是沒有什麼選擇了。",
+							"choice": "發生什麼事了？",
+							"message_2": "我想你一定聽說過椰仔，對吧？雖然他們一直都很煩，但是還不至於造成威脅。<br>不過這已經是過去的事了，現在他們非常具有攻擊性。<br>在男人們留下來奮戰的期間，我們則外出尋求救援。而現在我們最需要的是食物...",
+							"choice_2": "我可以幫忙",
+							"message_3": "謝謝你！我們會在你的營地旗幟附近放一個捐贈籃。<br>於此同時，我們可以協助你們在這裡的工作。",
+							"choice_end": "歡迎！"
+						},
+						"teaches_how_to_donate_food": {
+							"title": "需要幫忙嗎？",
+							"message_start": "食物捐贈籃還沒有滿嗎？<br>（要讓你的爐民把食物放進去，請點選捐贈籃，並點擊生食的標籤）"
+						},
+						"anya_says_she_will_leave": {
+							"message_start": "嘿！你真的給了我們很多幫助！謝謝你！",
+							"message_2": "所以...我想這表示我們該離開了。我們會在早上 8:00 離開，好嗎？",
+							"title": "填滿食物捐贈籃了！"
+						},
+						"miranda_offers_a_ride": {
+							"title": "掰掰",
+							"message_start": "我不敢相信你幫了我們這麼多，謝謝你。",
+							"choice": "小意思",
+							"message_2": "現在，我們之前的木筏在哪呢？",
+							"choice_2": "嗯？",
+							"message_3": "舊木筏？不不不，你們要搭我的船！這樣我們馬上就可以抵達目的地了！",
+							"choice_3": "好像很不錯",
+							"message_4": "謝謝你，米蘭達。謝謝你們大家，那我們要出發了。<br>祝你們好運，再見！",
+							"choice_end": "再見！"
+						}
+          }
+				},
+				"archipelago_free_bucket": {
+					"trigger": {
+						"goblin_donation": {
+							"title": "一隻哥布林帶著一個桶子走了過來",
+							"message_1": "嗨笨蛋，我找到了這個桶子，這個垃圾一定是你的。這沒辦法戴在我的頭上，看到了嗎？<br><br><font size=3>（指著自己的頭）</font>",
+							"message_2": "我不在乎你要對它做什麼，看你要燒了它還是什麼的我都無所謂！<br><br><font size=3>（把桶子丟在地上，踢了一腳，生氣地走掉了）</font>",
+							"answer": "謝謝？"
+						}
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"display_name": "熱帶群島",
+					"categories": {
+						"camp": "海邊營地",
+						"boats": "船港",
+						"tier3": "皇家海港"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "entities": {
+       "patrol_point": {
+          "patrol_point_ghost": {
+             "display_name" : "巡邏點",
+             "description" : "讓你的部隊出發巡邏去！"
+          }
+       }
+    },
+    "recipes": {
+       "carpenter": {
+          "patrol_point_recipe": {
+             "recipe_name" : "巡邏點",
+             "description" : "讓你的部隊出發巡邏去！",
+             "flavor" : "有了這個你就可以控制部隊的巡邏路線了 :D"
+          }
+       },
+       "potter": {
+          "patrol_point_recipe": {
+             "recipe_name" : "巡邏點",
+             "description" : "讓你的部隊出發巡邏去！",
+             "flavor" : "有了這個你就可以控制部隊的巡邏路線了 :D"
+          }
+       }
+    }
+ }

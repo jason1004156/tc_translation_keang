@@ -1,0 +1,75 @@
+{
+   "data": {
+      "biome": {
+         "anorien": {
+            "display_name": "安諾瑞安",
+            "description": "安諾瑞安為剛鐸的省份之一，位處白色山脈以北，在米那斯提力斯的北邊",
+            "random_location_names": {
+               "000": "明多陸安",
+               "001": "伊瑞德尼姆拉斯",
+               "002": "安都因河"
+            }
+         }
+      }
+   },
+   "entities": {
+      "crops": {
+         "oak_tree_crop": {
+            "display_name" : "橡樹樹苗",
+            "description"  : "沒有樹了？準備開始造林吧",
+            "growth_stage": {
+               "001": {
+                  "name"        : "橡樹幼苗",
+                  "description" : "才剛要開始呢"
+               },
+               "003": {
+                  "name"        : "橡樹苗",
+                  "description" : "可以移到更大的地方種植了"
+               },
+               "000": {
+                  "name": "橡果",
+                  "description" : "登高必自卑，行遠必自邇，巨大的橡樹也是從一顆種子開始的"
+               },
+               "002": {
+                  "name": "橡樹芽",
+                  "description" : "快快長大吧！"
+               }
+            }
+         }
+      },
+      "trees": {
+        "oak_tree": {
+            "sapling_oak_tree": {
+               "description": "橡樹寶寶",
+               "sapling_oak_tree_ghost": {
+                  "display_name": "橡樹樹苗",
+                  "description": "橡樹寶寶"
+               },
+               "sapling_oak_tree_iconic": {
+                  "description": "把它種在土裡，看著它長大吧！"
+               }
+            },
+          "small_oak_autumn": {
+             "display_name": "小橡樹",
+             "description": "應該還不會變成樹精..."
+               },
+
+		   "medium_oak_autumn": {
+             "display_name": "橡樹",
+             "description": "強壯的樹幹還在茁壯中"
+               },
+
+		   "large_oak_autumn": {
+             "display_name": "高大的橡樹",
+             "description": "這棵樹大概有100歲了！"
+
+		      },
+
+		   "ancient_oak_autumn": {
+             "display_name" : "古老的橡樹",
+             "description"  : "這棵樹看起來很古老，散發出神秘的氣息"
+            }
+	     }
+      }
+   }
+}

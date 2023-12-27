@@ -1,0 +1,79 @@
+{
+	"ui": {
+
+	},
+	"entities": {
+		"armor": {
+			"primitive_armor1": {
+				"description": "由木質部件與樹皮組裝而成的護甲",
+				"display_name": "樹皮護甲",
+				"recipe_name": "樹皮護甲",
+				"flavor": "是時候讓敵人嚐到我們對森林所做的事了！"
+			},
+			"primitive_armor2": {
+				"description": "由加熱硬化的陶瓷片組裝而成的護甲",
+				"display_name": "陶瓷護甲",
+				"recipe_name": "陶瓷護甲",
+				"flavor": "'不許通過。' 茶壺騎士說道"
+			},
+			"primitive_helm1": {
+				"description": "由木質部件與樹皮組裝而成的頭盔",
+				"display_name": "樹皮頭盔",
+				"recipe_name": "樹皮頭盔",
+				"flavor": "嚐嚐我的頭擊！"
+			},
+			"primitive_helm2": {
+				"description": "由加熱硬化的陶瓷片組裝而成的頭盔",
+				"display_name": "陶瓷頭盔",
+				"recipe_name": "陶瓷頭盔",
+				"flavor": "'親愛的，你有看到我的花園茶壺嗎？'"
+			},
+			"primitive_shield1": {
+				"description": "由一大片樹皮製成的盾牌",
+				"display_name": "樹皮盾牌",
+				"recipe_name": "樹皮盾牌",
+				"flavor": "怎麼可能會出錯？"
+			},
+			"primitive_shield2": {
+				"description": "由陶瓷製成的簡單盾牌",
+				"display_name": "陶瓷盾牌",
+				"recipe_name": "陶瓷盾牌",
+				"flavor": "絕對不是鍋蓋"
+			}
+		},
+		"weapons": {
+			"primitive_spear1": {
+				"description": "用堅硬的木棒削製而成的粗糙長矛",
+				"display_name": "原始長矛",
+				"recipe_name": "原始長矛",
+				"flavor": "用長矛的尖端刺穿你的敵人"
+			},
+			"primitive_spear2": {
+				"description": "前端綁著削尖的石頭",
+				"display_name": "原始石矛",
+				"recipe_name": "原始石矛",
+				"flavor": "住在洞穴裡的理想武器"
+			},
+			"primitive_hatchet": {
+				"description": "用石頭打造而成的斧頭",
+				"display_name": "原始石斧",
+				"recipe_name": "原始石斧",
+				"flavor": "'但是我們的工人不是已經拿金屬製成的斧頭砍樹了嗎？' 從來沒有爐民這麼說過"
+			},
+			"primitive_dagger": {
+				"description": "由加熱硬化的陶瓷製成的匕首",
+				"display_name": "原始匕首",
+				"recipe_name": "原始匕首",
+				"flavor": "易碎品，小心輕放"
+			}
+		}
+	},
+	"jobs": {
+		"potter": {
+			"recipes": {
+				"weapons_armor_name": "武器 & 裝甲"
+               	}
+			}
+		}
+
+}

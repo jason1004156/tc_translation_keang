@@ -1,0 +1,42 @@
+{
+	"minecart": {
+		"display_name":"礦車",
+		"description":"可以存放 64 個物品",
+		"recipe": {
+			"description": "可以存放 64 個物品",
+			"flavor": "抱歉，目前無法移動"
+		}
+	},
+	"rail": {
+		"display_name":"鐵軌",
+		"description":"礦車軌道",
+		"recipe": {
+			"description": "一般的鐵軌",
+			"flavor": "所有鐵軌必須擺放於實體之上"
+		}
+	},
+	"rail_curved": {
+		"display_name":"鐵軌 - 轉角",
+		"description":"礦車軌道",
+		"recipe": {
+			"description": "放在轉角處的鐵軌",
+			"flavor": ""
+		}
+	},
+	"rail_end": {
+		"display_name":"鐵軌 - 終點",
+		"description":"礦車軌道",
+		"recipe": {
+			"description": "終點到了！",
+			"flavor": ""
+		}
+	},
+	"rail_ramp": {
+		"display_name":"鐵軌 - 斜坡",
+		"description":"礦車軌道",
+		"recipe": {
+			"description": "上升，或是下降",
+			"flavor": "30度角"
+		}
+	}
+}

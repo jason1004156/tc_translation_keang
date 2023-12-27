@@ -1,0 +1,1094 @@
+{
+	"ui": {
+	  "gardener": {
+		"display_name": "園藝師",
+		"description": "利用各種植物製造裝飾性物品",
+		"requirements": "需要農民",
+		"crafter_requirements": "需要至少一名園藝師",
+		"craft_gardener": "園藝師"
+	  }
+	},
+	"entities": {
+	  "construction": {
+		"carved_stone_window": {
+		  "display_name": "石造雕花窗",
+		  "description": "細心雕刻的石造窗"
+		},
+		"carved_stone_door": {
+		  "display_name": "石造雕花門",
+		  "description": "細心雕刻的石造門"
+		},
+		"clay_brick_wall": {
+		  "display_name": "陶磚牆",
+		  "description": "由一層又一層的陶磚所堆疊而成"
+		},
+		"fortress_door": {
+		  "display_name": "堡壘門",
+		  "description": "就如同外觀一樣的堅強"
+		},
+		"fortress_window": {
+		  "display_name": "堡壘窗",
+		  "description": "有鐵柵的石造窗"
+		},
+		"gardener_sign": {
+		  "display_name": "園藝師招牌",
+		  "description": "木牌上有園藝師的標記"
+		},
+		"hedge": {
+		  "display_name": "樹籬",
+		  "description": "滿滿的樹葉，柔軟又有彈性"
+		},
+		"hedge_corner": {
+		  "display_name": "樹籬轉角",
+		  "description": "滿滿的樹葉，柔軟又有彈性"
+		},
+		"tumbleweed_fibre_fence": {
+		  "display_name": "風滾草樹籬",
+		  "description": "糾結得密不可分"
+		},
+		"tumbleweed_fibre_fence_corner": {
+		  "display_name": "風滾草樹籬轉角",
+		  "description": "糾結得密不可分"
+		},
+		"mine_entrance_scaffold": {
+		  "display_name": "木製礦道支撐架",
+		  "description": "用以支撐礦道的木製支撐架"
+		},
+		"picket_fence_archway": {
+		  "display_name": "柵欄拱門",
+		  "description": "不適用來圍住動物"
+		},
+		"robust_door": {
+		  "display_name": "堅固的門",
+		  "description": "堅固可靠"
+		},
+		"robust_window": {
+		  "display_name": "堅固的窗戶",
+		  "description": "可以透過一個小孔看到外面"
+		},
+		"spiked_fence_corner": {
+		  "display_name": "尖刺圍欄 - 轉角",
+		  "description": "滿足你在所有角度上的需求"
+		},
+		"spiked_fence": {
+		  "display_name": "尖刺圍欄",
+		  "description": "刺刺的"
+		},
+		"tall_wooden_palliside": {
+			"display_name": "加高尖刺圍欄",
+			"description": "又高又刺"
+		},
+		"tall_wooden_palliside_corner": {
+			"display_name": "加高尖刺圍欄 - 轉角",
+			"description": "又高又刺"
+		},
+		"stone_mine_entrance": {
+		  "display_name": "石製礦道支撐架",
+		  "description": "用石頭雕刻而成的礦道支撐架"
+		},
+		"large_wooden_window_frame": {
+		  "display_name": "大型木窗",
+		  "description": "一扇很大的窗戶"
+		},
+		"large_stone_window_frame": {
+		  "display_name": "大型石窗",
+		  "description": "一扇很大的窗戶"
+		},
+		"iron_gate": {
+		  "display_name": "鐵門",
+		  "description": "在風中吱吱作響"
+		}
+	  },
+	  "furniture": {
+		"berry_curtains": {
+		  "display_name": "漿果窗簾",
+		  "description": "你幾乎可以嚐到漿果的味道"
+		},
+		"bird_house": {
+		  "display_name": "鳥屋",
+		  "description": "住宿免費！"
+		},
+		"brightbell_hanging_basket": {
+		  "display_name": "光鈴花吊籃",
+		  "description": "替它澆水是個苦差事"
+		},
+		"cactus_tree_planter": {
+		  "display_name": "仙人掌樹植栽",
+		  "description": "又高又壯，而且刺刺的"
+		},
+		"canopy_garden": {
+		  "display_name": "花棚",
+		  "description": "為什麼不把花種在地上？"
+		},
+		"canopy_garden_long": {
+		  "display_name": "長型花棚",
+		  "description": "為什麼不把花種在地上？"
+		},
+		"cloth_canopy": {
+		  "display_name": "布棚",
+		  "description": "有陰影的休息場所"
+		},
+		"cloth_canopy_long": {
+		  "display_name": "長型布棚",
+		  "description": "有陰影的休息場所"
+		},
+		"chiminea": {
+		  "display_name": "煙囪火爐",
+		  "description": "為你帶來溫暖"
+		},
+		"feasting_table": {
+		  "display_name": "宴席桌",
+		  "description": "一張用來舉辦宴席的大桌"
+		},
+		"fireplace": {
+		  "display_name": "壁爐",
+		  "description": "讓你度過舒適的夜晚"
+		},
+		"flower_fence": {
+		  "display_name": "花籬",
+		  "description": "四處都開著花"
+		},
+		"flowered_curtains": {
+		  "display_name": "花紋窗簾",
+		  "description": "既時尚又實用"
+		},
+		"footman_tapestry": {
+		  "display_name": "步兵掛毯",
+		  "description": "有步兵圖像的精緻掛毯"
+		},
+		"foxfire_hanging_basket": {
+		  "display_name": "狐火花吊籃",
+		  "description": "替它澆水是個苦差事"
+		},
+		"foxfire_lantern": {
+		  "display_name": "狐火座燈",
+		  "description": "填滿了發光黏液的石製座燈"
+		},
+		"ember_lantern": {
+		  "display_name": "餘燼座燈",
+		  "description": "填滿了餘燼花粉的石製座燈"
+		},
+		"frostsnap_hanging_basket": {
+		  "display_name": "霜寒花吊籃",
+		  "description": "替它澆水是個苦差事"
+		},
+		"fur_bed": {
+		  "display_name": "毛皮床",
+		  "description": "溫暖又舒適"
+		},
+		"garden_bed": {
+		  "display_name": "花圃",
+		  "description": "各種植物的聖地"
+		},
+		"guardian_statue": {
+		  "display_name": "守衛者雕像",
+		  "description": "一尊石造的衛兵雕像"
+		},
+		"hanging_cactus_pots": {
+		  "display_name": "仙人掌吊盆",
+		  "description": "吊盆裡種著仙人掌"
+		},
+		"hanging_ember_pots": {
+		  "display_name": "餘燼花吊盆",
+		  "description": "吊盆裡種著餘燼花"
+		},
+		"hanging_litso_pots": {
+		  "display_name": "光索草吊盆",
+		  "description": "吊盆裡種著光索草"
+		},
+		"large_stone_planter": {
+		  "display_name": "大型石造花盆",
+		  "description": "美觀又堅固"
+		},
+		"large_vase": {
+		  "display_name": "大型花瓶",
+		  "description": "很大，但是很脆弱"
+		},
+		"large_wooden_planter": {
+		  "display_name": "大型木造花盆",
+		  "description": "很漂亮"
+		},
+		"log_chair": {
+		  "display_name": "原木座椅",
+		  "description": "在戶外的時候可以坐下休息"
+		},
+		"luxury_stone_chair": {
+		  "display_name": "豪華石椅",
+		  "description": "最棒的座椅"
+		},
+		"plant_pot": {
+		  "display_name": "花盆",
+		  "description": "一個陶製的小花盆"
+		},
+		"poster_bed": {
+		  "display_name": "四柱床",
+		  "description": "好大的一張床呀"
+		},
+		"potted_brightbell": {
+		  "display_name": "光鈴花盆",
+		  "description": "一盆光鈴花"
+		},
+		"potted_foxfire": {
+		  "display_name": "狐火花盆",
+		  "description": "一盆狐火花"
+		},
+		"potted_frostsnap": {
+		  "display_name": "霜寒花盆",
+		  "description": "一盆霜寒花"
+		},
+		"potted_box_plant": {
+		  "display_name": "方盒花盆",
+		  "description": "一盆方盒花"
+		},
+		"potted_litso_grass": {
+		  "display_name": "光索花盆",
+		  "description": "一盆光索草"
+		},
+		"potted_ember_plant": {
+		  "display_name": "餘燼花盆",
+		  "description": "一盆餘燼花"
+		},
+		"sarcophagus": {
+		  "display_name": "石棺",
+		  "description": "殞落英雄之墓"
+		},
+		"scarecrow": {
+		  "display_name": "稻草人",
+		  "description": "守護你的作物"
+		},
+		"shelf": {
+		  "display_name": "木架",
+		  "description": "小孩碰不到的高度"
+		},
+		"shepherd_tapestry": {
+		  "display_name": "牧人掛毯",
+		  "description": "有牧人圖像的精緻掛毯"
+		},
+		"skull_flag": {
+		  "display_name": "骷髏旗",
+		  "description": "有點嚇人的旗幟"
+		},
+		"small_stone_planter": {
+		  "display_name": "小型石造花盆",
+		  "description": "最適合放在花園前院"
+		},
+		"small_vase": {
+		  "display_name": "小花瓶",
+		  "description": "又小又脆弱"
+		},
+		"small_wooden_planter": {
+		  "display_name": "小型木造花盆",
+		  "description": "最適合放在花園前院"
+		},
+		"statue_of_fortune": {
+		  "display_name": "命運雕像",
+		  "description": "許個願吧"
+		},
+		"stone_fur_bed": {
+		  "display_name": "毛皮石床",
+		  "description": "既堅固又柔軟"
+		},
+		"stone_garden_bed": {
+		  "display_name": "石造花圃",
+		  "description": "各種植物的聖地"
+		},
+		"stone_totem": {
+		  "display_name": "石造圖騰",
+		  "description": "雕刻著爐民的文化"
+		},
+		"straw_basket": {
+		  "display_name": "編織草籃",
+		  "description": "可以存放 16 個物品"
+		},
+		"sundial": {
+		  "display_name": "日晷",
+		  "description": "簡單卻又如此耐人尋味"
+		},
+		"the_mighty_worker_statue": {
+		  "display_name": "全能雕像",
+		  "description": "任何職業的楷模"
+		},
+		"tiered_stone_planter": {
+		  "display_name": "階層石造花盆",
+		  "description": "一層接著一層的生機"
+		},
+		"tiered_wooden_planter": {
+		  "display_name": "階層木造花盆",
+		  "description": "一層接著一層的生機"
+		},
+		"totem": {
+		  "display_name": "圖騰",
+		  "description": "神聖不可侵犯"
+		},
+		"traveller_statue": {
+		  "display_name": "旅者雕像",
+		  "description": "冰冷的石頭與深邃的雙眼"
+		},
+		"wall_mounted_foxfire_lantern": {
+		  "display_name": "狐火牆燈",
+		  "description": "填滿了發光黏液的石製牆燈"
+		},
+		"wall_mounted_ember_lantern": {
+		  "display_name": "餘燼牆燈",
+		  "description": "填滿了餘燼花粉的石製牆燈"
+		},
+		"weaver_tapestry": {
+		  "display_name": "織女掛毯",
+		  "description": "有織女圖像的精緻掛毯"
+		},
+		"wise_man_statue": {
+		  "display_name": "智者雕像",
+		  "description": "有時候鵝毛筆更勝刀劍"
+		},
+		"wooden_hero_statue": {
+		  "display_name": "英雄雕像",
+		  "description": "榮耀殞落的英雄"
+		},
+		"wooden_tree_planter": {
+		  "display_name": "樹木植栽",
+		  "description": "小花小草根本不夠看"
+		}
+	  },
+	  "crops": {
+		"box_plant": {
+		  "display_name": "方盒花",
+		  "description": "生長緩慢的漂亮花朵"
+		},
+		"box_plant_1": {
+		  "name": "方盒花幼苗",
+		  "description": "嫩綠的青芽"
+		},
+		"box_plant_2": {
+		  "name": "方盒花芽",
+		  "description": "開始發芽囉！"
+		},
+		"box_plant_3": {
+		  "name": "方盒花蕾",
+		  "description": "小而美的花瓣"
+		},
+		"box_plant_4": {
+		  "name": "方盒花",
+		  "description": "美麗的方盒花"
+		},
+		"foxfire": {
+		  "display_name": "狐火花",
+		  "description": "生長緩慢，可以生產發光黏液"
+		},
+		"foxfire_1": {
+		  "name": "狐火花幼苗",
+		  "description": "黏糊糊的小燈泡"
+		},
+		"foxfire_2": {
+		  "name": "狐火花芽",
+		  "description": "比之前更大，更黏"
+		},
+		"foxfire_3": {
+		  "name": "狐火花蕾",
+		  "description": "幾乎可以收成了"
+		},
+		"litso_grass": {
+		  "display_name": "光索草",
+		  "description": "又短又小的草，尖端有如陽光一般的黃"
+		},
+		"litso_grass_1": {
+		  "name": "光索草幼苗",
+		  "description": "小小的芽"
+		},
+		"litso_grass_2": {
+		  "name": "光索草芽",
+		  "description": "綠芽長得更高更壯了"
+		},
+		"litso_grass_3": {
+		  "name": "嬌嫩的光索草",
+		  "description": "幾乎已經完全成熟了"
+		},
+		"litso_grass_4": {
+		  "name": "光索草",
+		  "description": "成熟的光索草"
+		},
+		"ember_plant": {
+		  "display_name": "餘燼花",
+		  "description": "生長週期較短的花，帶著發出微微紅光的花粉"
+		},
+		"ember_plant_1": {
+		  "name": "餘燼花幼苗",
+		  "description": "如嬰兒般的幼苗"
+		},
+		"ember_plant_2": {
+		  "name": "餘燼花芽",
+		  "description": "還在長大中"
+		},
+		"ember_plant_3": {
+		  "name": "嬌嫩的餘燼花",
+		  "description": "開花的徵兆"
+		},
+		"ember_plant_4": {
+		  "name": "餘燼花",
+		  "description": "完全綻放的餘燼花"
+		}
+	  },
+	  "decorations": {
+		"foxfire": {
+		  "display_name": "野生的狐火花",
+		  "description": "綻放著明亮的藍色光芒"
+		},
+		"box_plant": {
+		  "display_name": "野生的方盒花",
+		  "description": "美麗的方盒花"
+		},
+		"litso_grass": {
+		  "display_name": "野生的光索草",
+		  "description": "尖端泛黃的小草"
+		},
+		"ember_plant": {
+		  "display_name": "野生的餘燼花",
+		  "description": "沙漠中的小火炬"
+		}
+	  },
+	  "plants": {
+		"foxfire": {
+		  "display_name": "野生的狐火花",
+		  "description": "可以採集其內發著藍光的黏液",
+		  "unripe_description": "才剛被採收過"
+		},
+		"foxfire_seed": {
+		  "display_name": "狐火花種子",
+		  "description": "狐火花小而濕軟的種子"
+		},
+		"box_plant": {
+		  "display_name": "野生的方盒花",
+		  "description": "可以採集方盒花作為裝飾",
+		  "unripe_description": "才剛被採收過"
+		},
+		"box_plant_seeds": {
+		  "display_name": "方盒花種子",
+		  "description": "帶有綠色小芽的方盒花種子"
+		},
+		"litso_grass": {
+		  "display_name": "野生的光索草",
+		  "description": "可以採集光索草",
+		  "unripe_description": "才剛被採收過"
+		},
+		"litso_grass_seeds": {
+		  "display_name": "光索草種子",
+		  "description": "帶有黃色嫩芽的光索草種子"
+		},
+		"ember_plant": {
+		  "display_name": "野生的餘燼花",
+		  "description": "可以採集餘燼花粉",
+		  "unripe_description": "才剛被採收過"
+		},
+		"ember_plant_seeds": {
+		  "display_name": "餘燼花種子",
+		  "description": "如火炬一般的餘燼花種子"
+		}
+	  },
+	  "resources": {
+		"foxfire_slime": {
+		  "display_name": "狐火黏液",
+		  "description": "能發出藍色光芒的黏糊糊的物質"
+		},
+		"ember_plant_pollen": {
+		  "display_name": "餘燼花粉",
+		  "description": "取自餘燼花，能發出如爐火般的橘紅色微光"
+		},
+		"ember_plant_pod": {
+		  "display_name": "餘燼花莢",
+		  "description": "取自餘燼花的花莢"
+		},
+		"foxfire_pod": {
+		  "display_name": "狐火花莢",
+		  "description": "狐火花黏黏的核心"
+		},
+		"litso_grass_stem": {
+		  "display_name": "光索草莖",
+		  "description": "光索草的草莖"
+		},
+		"box_plant_flowers": {
+		  "display_name": "方盒花朵",
+		  "description": "方盒花的花朵"
+		}
+	  }
+	},
+	"effects": {
+	  "smoke_stack": {
+		"display_name": "煙霧",
+		"description": "一縷煙霧"
+	  },
+	  "fire_flies": {
+		"display_name": "螢火蟲",
+		"description": "一群充滿活力的螢火蟲"
+	  },
+	  "ghost": {
+		"display_name": "鬧鬼之地",
+		"description": "這片地區有一種令人不安的感覺"
+	  },
+	  "bird": {
+		"display_name": "小鳥飛行",
+		"description": "小鳥飛在高處尋找獵物"
+	  }
+	},
+	"jobs": {
+	  "gardener": {
+		"talisman": {
+		  "name": "園藝師的泥鏟",
+		  "description": "轉職為園藝師的必要物品"
+		},
+		"workbench": {
+		  "display_name": "園藝師的工作台",
+		  "description": "讓園藝師可以製造各種東西"
+		},
+		"toolbench": {
+		  "display_name": "園藝師的工作桌",
+		  "description": "讓園藝師可以製造更多東西"
+		},
+		"outfit": {
+		  "name": "園藝師的工作服",
+		  "description": "園藝師的制服"
+		},
+		"job_description": {
+		  "display_name": "園藝師",
+		  "description": "園藝師可以利用各種植物製作裝飾性物品",
+		  "requirements": "由鐵匠所製作"
+		},
+		"level_data": {
+		  "l1_name": "園藝師基礎",
+		  "l1_description": "園藝師現在可以製作一些花園裝飾物了",
+		  "l2_name": "熟能生巧",
+		  "l2_description": "園藝師現在可以利用更複雜的原料製作物品了",
+		  "l3_name": "能工巧匠",
+		  "l3_description": "園藝師現在可以製作更加複雜的物品",
+		  "l4_name": "靈光乍現",
+		  "l4_description": "突如其來的靈感或許能讓園藝師有意外的收穫",
+		  "l6_name": "滿園春色",
+		  "l6_description": "園藝師掌握了花草的精髓，能夠用全新的方式處理各種素材"
+		},
+		"personality": {
+		  "promote": "轉職為園藝師：",
+		  "beleaguered_leader": "我不知道能不能夠勝任，要是它們死光了怎麼辦？",
+		  "hopeless_optimist": "太棒了，現在我可以種我自己的食物...... 大概吧",
+		  "lovable_rogue": "雖然平常我會直接踩在花花草草上，不過我應該也可以把它們照顧得不錯，應該",
+		  "psychopathic_misanthrope": "所有的花都在我的掌控下，它們的命運可都在我手中",
+		  "insufferable_academic": "我一直都想嘗試植物科學",
+		  "diligent_sweetheart": "園藝師？所以我可以把花放在我想要的任何地方？太棒了！"
+		},
+		"recipe_category": {
+		  "workbenches": "工作台",
+		  "garden_decorations": "花園裝飾",
+		  "housing_decorations": "建築裝飾",
+		  "planters": "造景",
+		  "resources": "資源"
+		},
+		"recipes": {
+		  "brightbell_hanging_basket": {
+			"recipe_name": "光鈴花吊籃",
+			"description": "吊籃中放著光鈴花，可以掛在高處",
+			"flavor": "警告：在暴風來臨時可能會變為具有殺傷力的武器"
+		  },
+		  "cactus_tree_planter": {
+			"recipe_name": "仙人掌樹植栽",
+			"description": "周圍有陶磚作為基底的巨大仙人掌樹",
+			"flavor": "嚴禁觸碰！"
+		  },
+		  "canopy_garden_long": {
+			"recipe_name": "長型花棚",
+			"description": "長形的木架上覆蓋著光鈴花",
+			"flavor": "抬頭就可以看到除了天空以外的東西"
+		  },
+		  "canopy_garden": {
+			"recipe_name": "花棚",
+			"description": "木架上覆蓋著光鈴花",
+			"flavor": "抬頭就可以看到除了天空以外的東西"
+		  },
+		  "flower_fence": {
+			"recipe_name": "花籬",
+			"description": "裝飾性的木製籬笆，中間穿插著光鈴花",
+			"flavor": "隱私與裝飾，一舉兩得"
+		  },
+		  "foxfire_hanging_basket": {
+			"recipe_name": "狐火花吊籃",
+			"description": "吊籃中放著狐火花，可以掛在高處",
+			"flavor": "警告：在暴風來臨時可能會變為具有殺傷力的武器"
+		  },
+		  "foxfire_slime": {
+			"recipe_name": "狐火黏液",
+			"description": "能發出藍色光芒的黏糊糊的物質",
+			"flavor": "令人厭惡，但...耐人尋味。"
+		  },
+		  "ember_plant_pollen": {
+			"recipe_name": "餘燼花粉",
+			"description": "取自餘燼花，能發出如爐火般的橘紅色微光",
+			"flavor": "如同遠古火焰所留下的餘燼，綻放著微光"
+		  },
+		  "frostsnap_hanging_basket": {
+			"recipe_name": "霜寒花吊籃",
+			"description": "吊籃中放著霜寒花，可以掛在高處",
+			"flavor": "警告：在暴風來臨時可能會變為具有殺傷力的武器"
+		  },
+		  "garden_bed": {
+			"recipe_name": "花圃",
+			"description": "各種植物的聖地，填滿了綿密的土壤，生機盎然",
+			"flavor": ""
+		  },
+		  "gardener_toolbench": {
+			"recipe_name": "園藝師的工作桌",
+			"description": "工作桌可以讓園藝師使用更多工具製作更複雜的物品",
+			"flavor": ""
+		  },
+		  "gardener_workbench": {
+			"recipe_name": "園藝師的工作台",
+			"description": "讓園藝師可以製造各種東西",
+			"flavor": ""
+		  },
+		  "hedge_corner": {
+			"recipe_name": "樹籬轉角",
+			"description": "樹籬的轉角",
+			"flavor": "對環境無害的籬笆"
+		  },
+		  "hedge": {
+			"recipe_name": "樹籬",
+			"description": "一小段樹籬",
+			"flavor": "對環境無害的籬笆"
+		  },
+		  "tumbleweed_fibre_fence": {
+			"recipe_name": "風滾草樹籬",
+			"description": "由風滾草的纖維交織而成的籬笆",
+			"flavor": ""
+		  },
+		  "tumbleweed_fibre_fence_corner": {
+			"recipe_name": "風滾草樹籬轉角",
+			"description": "由風滾草的纖維交織而成的籬笆轉角",
+			"flavor": ""
+		  },
+		  "hanging_cactus_pots": {
+			"recipe_name": "仙人掌吊盆",
+			"description": "用線吊著的花盆裡種著仙人掌",
+			"flavor": "請確保它們得到應有的照顧"
+		  },
+		  "hanging_ember_pots": {
+			"recipe_name": "餘燼花吊盆",
+			"description": "用線吊著的花盆裡種著餘燼花",
+			"flavor": "請確保它們得到應有的照顧"
+		  },
+		  "hanging_litso_pots": {
+			"recipe_name": "光索草吊盆",
+			"description": "用線吊著的花盆裡種著光索草",
+			"flavor": "請確保它們得到應有的照顧"
+		  },
+		  "large_stone_planter": {
+			"recipe_name": "大型石造花盆",
+			"description": "一個填滿了花朵的大型石造裝飾",
+			"flavor": ""
+		  },
+		  "large_wooden_planter": {
+			"recipe_name": "大型木造花盆",
+			"description": "一個填滿了花朵的大型木造裝飾",
+			"flavor": ""
+		  },
+		  "potted_brightbell": {
+			"recipe_name": "光鈴花盆",
+			"description": "陶製花盆中種著光鈴花",
+			"flavor": ""
+		  },
+		  "potted_foxfire": {
+			"recipe_name": "狐火花盆",
+			"description": "陶製花盆中種著狐火花",
+			"flavor": ""
+		  },
+		  "potted_frostsnap": {
+			"recipe_name": "霜寒花盆",
+			"description": "陶製花盆中種著霜寒花",
+			"flavor": ""
+		  },
+		  "potted_box_plant": {
+			"recipe_name": "方盒花盆",
+			"description": "陶製花盆中種著方盒花",
+			"flavor": ""
+		  },
+		  "potted_litso_grass": {
+			"recipe_name": "光索花盆",
+			"description": "陶製花盆中種著光索草",
+			"flavor": ""
+		  },
+		  "potted_ember_plant": {
+			"recipe_name": "餘燼花盆",
+			"description": "陶製花盆中種著餘燼花",
+			"flavor": ""
+		  },
+		  "scarecrow": {
+			"recipe_name": "稻草人",
+			"description": "守衛你的農作物",
+			"flavor": "希望它不會跟前一個稻草人一樣活起來"
+		  },
+		  "small_stone_planter": {
+			"recipe_name": "小型石造花盆",
+			"description": "填滿了花的小型石造裝飾",
+			"flavor": ""
+		  },
+		  "small_wooden_planter": {
+			"recipe_name": "小型木造花盆",
+			"description": "填滿了花的小型木造裝飾",
+			"flavor": ""
+		  },
+		  "stone_garden_bed": {
+			"recipe_name": "石造花圃",
+			"description": "各種植物的石造聖地，填滿了綿密的土壤，生機盎然",
+			"flavor": ""
+		  },
+		  "tiered_stone_planter": {
+			"recipe_name": "階層石造花盆",
+			"description": "多層次的石造花盆打造最優雅的花園",
+			"flavor": ""
+		  },
+		  "tiered_wooden_planter": {
+			"recipe_name": "階層木造花盆",
+			"description": "多層次的木造花盆打造最優雅的花園",
+			"flavor": ""
+		  },
+		  "wooden_tree_planter": {
+			"recipe_name": "樹木植栽",
+			"description": "大型木製花盆中種著一棵小樹",
+			"flavor": "難道你不覺得樹木往你不想要的地方長的時候很討厭嗎？"
+		  }
+		}
+	  },
+	  "carpenter": {
+		"recipe_category": {
+		  "statues": "雕像"
+		},
+		"recipes": {
+		  "picket_fence_archway": {
+			"recipe_name": "柵欄拱門",
+			"description": "可以跟柵欄搭配使用的一道木製拱門",
+			"flavor": "誰有時間開門啊？"
+		  },
+		  "robust_window": {
+			"recipe_name": "堅固的窗戶",
+			"description": "可以阻止入侵者的結實窗戶",
+			"flavor": ""
+		  },
+		  "robust_door": {
+			"recipe_name": "堅固的門",
+			"description": "堅固可靠，專為安全而設計",
+			"flavor": "請確保你每次開門後都有確實關上"
+		  },
+		  "mine_entrance_scaffold": {
+			"recipe_name": "木製礦道支撐架",
+			"description": "用以支撐礦道的木製支撐架",
+			"flavor": "根據礦道安全規章 462-A 所製作"
+		  },
+		  "spiked_fence": {
+			"recipe_name": "尖刺圍欄",
+			"description": "讓敵人遠離你的財產",
+			"flavor": "小心有刺"
+		  },
+			"tall_wooden_palliside": {
+				"recipe_name": "加高尖刺圍欄",
+				"description": "讓敵人遠離你的財產",
+				"flavor": "小心有刺"
+			},
+			"tall_wooden_palliside_corner": {
+				"recipe_name": "加高尖刺圍欄 - 轉角",
+				"description": "現在你可以轉向任一面，只要是 90 度角就沒問題",
+				"flavor": "小心有刺"
+			},
+		  "gardener_sign": {
+			"recipe_name": "園藝師招牌",
+			"description": "木牌上有園藝師的標記",
+			"flavor": "百花齊放"
+		  },
+		  "the_mighty_worker_statue": {
+			"recipe_name": "全能雕像",
+			"description": "任何職業的楷模",
+			"flavor": "適合任何共產類型的小鎮"
+		  },
+		  "wise_man_statue": {
+			"recipe_name": "智者雕像",
+			"description": "一位年長智者的雕像，榮耀那些善用智慧的人們",
+			"flavor": "天才與瘋狂只有一線之隔"
+		  },
+		  "wooden_hero_statue": {
+			"recipe_name": "英雄雕像",
+			"description": "榮耀殞落的英雄，他們的英勇必定留下痕跡",
+			"flavor": "健康與安全部門下令不能把劍做得太尖銳"
+		  },
+		  "spiked_fence_corner": {
+			"recipe_name": "尖刺圍欄 - 轉角",
+			"description": "滿足你在所有角度上的需求",
+			"flavor": "小心有刺"
+		  },
+		  "bird_house": {
+			"recipe_name": "鳥屋",
+			"description": "專為你的鳥朋友設計的木製迷你小屋",
+			"flavor": "啾啾～"
+		  },
+		  "poster_bed": {
+			"recipe_name": "四柱床",
+			"description": "一張大床，專給那些享受生活的人",
+			"flavor": "成為眾人的忌妒中心"
+		  },
+		  "fur_bed": {
+			"recipe_name": "毛皮床",
+			"description": "用柔軟毛皮互相交疊而成",
+			"flavor": "現在我知道成為一隻熊的感覺了"
+		  },
+		  "log_chair": {
+			"recipe_name": "原木座椅",
+			"description": "用原木雕刻而成的座椅",
+			"flavor": "簡單，便宜，有效，但不是特別舒服"
+		  },
+		  "totem": {
+			"recipe_name": "圖騰",
+			"description": "一支雕工精細的圖騰可以炫耀木匠的工藝",
+			"flavor": "每道刻痕都有一個故事"
+		  },
+		  "shelf": {
+			"recipe_name": "木架",
+			"description": "提供一個放在高處的平台，可以放書、裝飾品，或是獎盃...如果你有的話",
+			"flavor": "對比較矮的人來說很不方便"
+		  },
+		  "large_wooden_window_frame": {
+			"recipe_name": "大型木窗",
+			"description": "一扇宏偉的大窗戶",
+			"flavor": "多麼美妙的風景！"
+		  },
+		  "feasting_table": {
+			"recipe_name": "宴席桌",
+			"description": "一張用來舉辦盛大宴席的大桌",
+			"flavor": "有足夠的空間讓每個人都能填飽肚子"
+		  }
+		}
+	  },
+	  "mason": {
+		"recipe_category": {
+		  "statues": "雕像"
+		},
+		"recipes": {
+		  "foxfire_lantern": {
+			"recipe_name": "狐火座燈",
+			"description": "填滿了發光黏液的石製座燈",
+			"flavor": ""
+		  },
+		  "wall_mounted_foxfire_lantern": {
+			"recipe_name": "狐火牆燈",
+			"description": "填滿了發光黏液的石製牆燈",
+			"flavor": ""
+		  },
+		  "ember_lantern": {
+			"recipe_name": "餘燼座燈",
+			"description": "填滿了餘燼花粉的石製座燈",
+			"flavor": ""
+		  },
+		  "wall_mounted_ember_lantern": {
+			"recipe_name": "餘燼牆燈",
+			"description": "填滿了餘燼花粉的石製牆燈",
+			"flavor": ""
+		  },
+		  "sundial": {
+			"recipe_name": "日晷",
+			"description": "一個石造的裝置，透過光與影來顯示當下的時間",
+			"flavor": "精確到5個小時以內！"
+		  },
+		  "stone_totem": {
+			"recipe_name": "石造圖騰",
+			"description": "圖騰上刻有歷史與知識",
+			"flavor": ""
+		  },
+		  "sarcophagus": {
+			"recipe_name": "石棺",
+			"description": "石棺內封著殞落的英雄",
+			"flavor": "誰躺在裡面？"
+		  },
+		  "stone_mine_entrance": {
+			"recipe_name": "石製礦道支撐架",
+			"description": "用石頭雕刻而成的礦道支撐架",
+			"flavor": "根據礦道安全規章 462-B 所製作"
+		  },
+		  "carved_stone_window": {
+			"recipe_name": "石造雕花窗",
+			"description": "細心雕刻的石造窗",
+			"flavor": ""
+		  },
+		  "carved_stone_door": {
+			"recipe_name": "石造雕花門",
+			"description": "細心雕刻的石造門",
+			"flavor": ""
+		  },
+		  "fortress_window": {
+			"recipe_name": "堡壘窗",
+			"description": "有鐵柵的石造窗",
+			"flavor": "把人留在裡面或擋在外面"
+		  },
+		  "fortress_door": {
+			"recipe_name": "堡壘門",
+			"description": "具有石造外框的強化雙開門Stone framed with a reinforced double door.",
+			"flavor": "遭遇圍城或不死大軍選這個對了！"
+		  },
+		  "stone_fur_bed": {
+			"recipe_name": "毛皮石床",
+			"description": "以石頭為基底，再以柔軟的毛皮覆蓋其上",
+			"flavor": "如果沒有毛皮，會比睡在地上還要慘"
+		  },
+		  "luxury_stone_chair": {
+			"recipe_name": "豪華石椅",
+			"description": "由石頭雕刻而成，再鋪上最柔軟的毛皮",
+			"flavor": "就像坐在雲朵中"
+		  },
+		  "guardian_statue": {
+			"recipe_name": "守衛者雕像",
+			"description": "一尊石造的衛兵雕像",
+			"flavor": "一動不動，時刻保持警惕，正如一個衛兵的表現"
+		  },
+		  "statue_of_fortune": {
+			"recipe_name": "命運雕像",
+			"description": "一尊提供祭品給神的雕像",
+			"flavor": "花代表希望，金代表財富，鐵代表力量，銅代表守護"
+		  },
+		  "traveller_statue": {
+			"recipe_name": "旅者雕像",
+			"description": "以亡者的引路人的形象所雕刻而成",
+			"flavor": "祈求一路平安"
+		  },
+		  "large_stone_window_frame": {
+			"recipe_name": "大型石窗",
+			"description": "一扇宏偉的大窗戶",
+			"flavor": "多麼美妙的風景！"
+		  },
+		  "iron_gate": {
+			"recipe_name": "鐵門",
+			"description": "由石柱與鐵條構成的門",
+			"flavor": ""
+		  },
+		  "fireplace": {
+			"recipe_name": "壁爐",
+			"description": "以鵝卵石打造而成的壁爐",
+			"flavor": "好好坐著溫暖你的雙腳"
+		  }
+		}
+	  },
+	  "blacksmith": {
+		"recipes": {
+		  "gardeners_tool": {
+			"recipe_name": "園藝師的泥鏟",
+			"description": "轉職為園藝師的必要物品",
+			"flavor": ""
+		  }
+		}
+	  },
+	  "weaver": {
+		"recipe_category": {
+		  "storage": "儲存箱"
+		},
+		"recipes": {
+		  "skull_flag": {
+			"recipe_name": "骷髏旗",
+			"description": "一根兩旁裝飾著動物頭顱的旗幟",
+			"flavor": "如果你想要打造一個野蠻部落，這就是你要的"
+		  },
+		  "weaver_tapestry": {
+			"recipe_name": "織女掛毯",
+			"description": "有織女圖像的精緻掛毯",
+			"flavor": "藝術生活"
+		  },
+		  "footman_tapestry": {
+			"recipe_name": "步兵掛毯",
+			"description": "有步兵圖像的精緻掛毯",
+			"flavor": ""
+		  },
+		  "shepherd_tapestry": {
+			"recipe_name": "牧人掛毯",
+			"description": "有牧人圖像的精緻掛毯",
+			"flavor": ""
+		  },
+		  "flowered_curtains": {
+			"recipe_name": "花紋窗簾",
+			"description": "窗簾上印有光鈴花",
+			"flavor": "阻隔外界的苛刻與冰冷的現實"
+		  },
+		  "berry_curtains": {
+			"recipe_name": "漿果窗簾",
+			"description": "用漿果將窗簾染成紫色",
+			"flavor": "靈感來自於爐民衣服上的漿果汙漬"
+		  },
+		  "straw_basket": {
+			"recipe_name": "編織草籃",
+			"description": "由稻草編織而成，可以存放 16 個物品",
+			"flavor": ""
+		  },
+		  "cloth_canopy": {
+			"recipe_name": "布棚",
+			"description": "木架上覆蓋著布匹",
+			"flavor": "提供一個遮陰處，抵擋灼熱的陽光"
+		  },
+		  "cloth_canopy_long": {
+			"recipe_name": "長型布棚",
+			"description": "長形的木架上覆蓋著布匹",
+			"flavor": "提供一個遮陰處，抵擋灼熱的陽光"
+		  }
+		}
+	  },
+	  "herbalist": {
+		"recipes": {
+		  "litso_grass_seeds": {
+			"recipe_name": "利索草種子 (x3)",
+			"description": "將種子從本體中剝離",
+			"flavor": "只有一雙巧手可以將種子剝離出來，但是在過程中會失去該植物"
+		  }
+		}
+	  },
+	  "potter": {
+		"recipes": {
+		  "clay_brick_wall": {
+			"recipe_name": "陶磚牆",
+			"description": "由一層又一層的陶磚所堆疊而成",
+			"flavor": ""
+		  },
+		  "plant_pot": {
+			"recipe_name": "花盆",
+			"description": "一個陶製的小花盆",
+			"flavor": ""
+		  },
+		  "chiminea": {
+			"recipe_name": "煙囪火爐",
+			"description": "一個大型的陶製戶外火爐",
+			"flavor": "溫暖你的手指和腳趾"
+		  },
+		  "small_vase": {
+			"recipe_name": "小花瓶",
+			"description": "用陶土製成的小花瓶",
+			"flavor": ""
+		  },
+		  "large_vase": {
+			"recipe_name": "大花瓶",
+			"description": "用陶土製成的大花瓶",
+			"flavor": ""
+		  },
+		  "fireplace": {
+			"recipe_name": "壁爐",
+			"description": "用陶土打造的壁爐",
+			"flavor": "好好坐著溫暖你的雙腳"
+		  }
+		}
+	  }
+	},
+	"data": {
+	  "commands": {
+		"place_effect_smoke_stack": {
+		  "display_name": "放置特效",
+		  "description": "放置煙特效"
+		},
+		"place_effect_fire_flies": {
+		  "display_name": "放置特效",
+		  "description": "放置螢火蟲特效"
+		},
+		"place_effect_ghost": {
+		  "display_name": "放置特效",
+		  "description": "放置鬧鬼特效"
+		},
+		"place_effect_bird": {
+		  "display_name": "放置特效",
+		  "description": "放置小鳥高飛特效"
+		}
+	  }
+	}
+  }

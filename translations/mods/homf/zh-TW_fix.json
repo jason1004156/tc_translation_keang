@@ -1,0 +1,50 @@
+{
+   "ui": {
+      "shell": {
+         "select_roster": {
+            "eyebrows": "眉毛",
+            "eye_color": "瞳色",
+            "head_hair": "頭髮",
+
+            "black": "黑色",
+            "brown": "褐色",
+            "red": "紅色",
+            "sandy": "沙色",
+            "blonde": "金色",
+            "platinum": "銀白色",
+            "white": "白色",
+            "brown_1": "褐色 1",
+            "brown_2": "褐色 2",
+            "aqua": "水色",
+            "blue": "藍色",
+            "blurple": "藍紫色",
+            "green": "綠色",
+            "hazel": "淡褐色",
+            "magenta": "紫紅色",
+            "yellow": "黃色",
+            "[none]": "無",
+            "chops": "臉頰",
+            "beard": "一般",
+            "beard_chin": "下巴",
+            "beard_epic": "大鬍子",
+            "straight_eyebrows": "直線型",
+            "male_hair_1": "男性髮型 1",
+            "male_hair_2": "男性髮型 2",
+            "male_hair_3": "男性髮型 3",
+            "male_hair_4": "男性髮型 4",
+            "male_hair_old_1": "年長男性髮型 1",
+            "male_hair_old_2": "年長男性髮型 2",
+            "male_head_bald_1": "男性禿頭 1",
+            "male_head_bald_2": "男性禿頭 2",
+            "female_hair_1": "女性髮型 1",
+            "female_hair_2": "女性髮型 2",
+            "female_hair_3": "女性髮型 3",
+            "female_hair_4": "女性髮型 4",
+            "female_hair_5": "女性髮型 5",
+            "female_hair_6": "女性髮型 6",
+            "female_hair_7": "女性髮型 7",
+            "female_hair_8": "女性髮型 8"
+         }
+      }
+   }
+}

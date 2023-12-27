@@ -1,0 +1,15 @@
+{
+   "data": {
+      "biome": {
+         "green_mesa": {
+            "display_name": "青綠平頂山",
+            "description": "一個森林茂密的地區，同時也佈滿了小山丘與小湖泊",
+            "random_location_names": {
+               "000": "斯塔利約德",
+               "001": "華卡海姆",
+               "002": "艾可瑞弗德"
+            }
+         }
+      }
+   }
+}

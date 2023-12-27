@@ -1,0 +1,440 @@
+{
+    "entities" :
+    {
+	"construction":
+	{
+	    "stone_door_double":
+	    {
+	        "stone_door_double_ghost":
+		{
+			"display_name": "雙開石門",
+			"description": "一扇大門，能給人深刻的印象"
+		}
+	    }
+	},
+        "containers" :
+	{
+	    "big_barrel" :
+	    {
+	        "big_barrel_ghost" :
+		{
+		    "display_name" : "木桶",
+		    "description"  : "可以存放 64 個物品"
+		}
+	    },
+	    "simple_wooden_chest" :
+	    {
+	        "simple_wooden_chest_ghost" :
+		{
+		    "display_name" : "木箱",
+		    "description"  : "可以存放 96 個物品"
+		}
+	    },
+	    "treasure_chest" :
+	    {
+	        "treasure_chest_ghost" :
+		{
+		    "display_name" : "寶箱",
+		    "description"  : "可以存放 96 個物品"
+		}
+	    }
+	},
+	"decoration" :
+	{
+	   "wooden_sign_cup" :
+	   {
+	       "wooden_sign_cup_ghost" :
+	       {
+		    "display_name" : "酒杯招牌",
+		    "description"  : "木牌上有酒杯的標記"
+	       }
+	   },
+	   "wooden_sign_footman" :
+	   {
+	       "wooden_sign_footman_ghost" :
+	       {
+		    "display_name" : "步兵招牌",
+		    "description"  : "木牌上有步兵的標記"
+	       }
+	   },
+	   "wooden_sign_hashtag" :
+	   {
+	       "wooden_sign_hashtag_ghost" :
+	       {
+		    "display_name" : "井字招牌",
+		    "description"  : "木牌上有井字的標記"
+	       }
+	   },
+	   "wooden_sign_healer" :
+	   {
+	       "wooden_sign_healer_ghost" :
+	       {
+		    "display_name" : "治療師招牌",
+		    "description"  : "木牌上有治療師的標記"
+	       }
+	   },
+	   "wooden_sign_pick" :
+	   {
+	       "wooden_sign_pick_ghost" :
+	       {
+		    "display_name" : "鐵鎬招牌",
+		    "description"  : "木牌上有鐵鎬的標記"
+	       }
+	   },
+	   "wooden_sign_potion" :
+	   {
+	       "wooden_sign_potion_ghost" :
+	       {
+		    "display_name" : "藥水招牌",
+		    "description"  : "木牌上有藥水的標記"
+	       }
+	   },
+	   "wooden_sign_soup" :
+	   {
+	       "wooden_sign_soup_ghost" :
+	       {
+		    "display_name" : "湯品招牌",
+		    "description"  : "木牌上有湯品的標記"
+	       }
+	   }
+	},
+        "furniture" :
+        {
+	    "gold_plate_column" :
+	    {
+	        "gold_plate_column_ghost" :
+		{
+                    "display_name" : "金邊大理石柱",
+                    "description"  : "有黃金裝飾的大理石柱"
+		}
+	    },
+	    "gold_plate_column_half" :
+	    {
+	        "gold_plate_column_half_ghost" :
+		{
+                    "display_name" : "金邊大理石牆柱",
+                    "description"  : "有黃金裝飾的大理石牆柱"
+		}
+	    },
+	    "golden_throne" :
+	    {
+	        "golden_throne_ghost" :
+		{
+                    "display_name" : "黃金王座",
+                    "description"  : "別有一番風味的座椅"
+		}
+	    },
+	    "marble_column" :
+	    {
+	        "marble_column_ghost" :
+		{
+                    "display_name" : "大理石柱",
+                    "description"  : "散發著優雅氣息的大理石柱"
+		}
+	    },
+	    "marble_column_half" :
+	    {
+	        "marble_column_half_ghost" :
+		{
+                    "display_name" : "大理石牆柱",
+                    "description"  : "散發著優雅氣息的大理石牆柱"
+		}
+	    },
+            "messy_bookshelf" :
+            {
+                "messy_bookshelf_ghost" :
+                {
+                    "display_name" : "雜亂的書櫃",
+                    "description"  : "擁有這個書櫃的人一定很好學"
+                }
+            },
+            "picnic_bench" :
+            {
+                "picnic_bench_ghost" :
+                {
+                    "display_name" : "野餐長凳",
+                    "description"  : "戶外休息的好去處"
+                }
+            },
+            "picnic_table" :
+            {
+                "picnic_table_ghost" :
+                {
+                    "display_name" : "野餐桌",
+                    "description"  : "鋪上桌巾的餐桌，很適合在野外使用"
+                }
+            },
+            "picnic_umbrella" :
+            {
+                "picnic_umbrella_ghost" :
+                {
+                    "display_name" : "野餐陽傘",
+                    "description"  : "為你遮擋野外的陽光"
+                }
+            },
+            "picnic_umbrella_table" :
+            {
+                "picnic_umbrella_table_ghost" :
+                {
+                    "display_name" : "野餐陽傘餐桌",
+                    "description"  : "鋪上桌巾的餐桌，再附上一支陽傘"
+                }
+            },
+            "stone_column" :
+            {
+                "stone_column_ghost" :
+                {
+                    "display_name" : "圓形石柱",
+                    "description"  : "帶點藝術氣息的石柱"
+                }
+            },
+            "stone_column_half" :
+            {
+                "stone_column_half_ghost" :
+                {
+                    "display_name" : "半圓形石柱",
+                    "description"  : "帶點藝術氣息的石柱"
+                }
+            },
+            "stone_column_square" :
+            {
+                "stone_column_square_ghost" :
+                {
+                    "display_name" : "方形石柱",
+                    "description"  : "結實的方形石柱."
+                }
+            },
+            "stone_column_square_half" :
+            {
+                "stone_column_square_half_ghost" :
+                {
+                    "display_name" : "方形牆邊石柱",
+                    "description"  : "結實的方形石柱"
+                }
+            },
+            "tidy_bookshelf" :
+            {
+                "tidy_bookshelf_ghost" :
+                {
+                    "display_name" : "整齊的書櫃",
+                    "description"  : "擁有這個書櫃的人一定很好學，可能還有點潔癖"
+                }
+            }
+        },
+	"resources" :
+	{
+	    "marble" :
+	    {
+	        "hunk_of_marble" :
+		{
+		    "display_name" : "大理石",
+		    "description"  : "沈重的白色石頭"
+		}
+	    }
+	},
+	"terrain" :
+	{
+	    "ui" :
+	    {
+	        "marble_block" :
+		{
+		    "display_name" : "大理石礦脈",
+		    "description"  : "可以採挖到大理石"
+		}
+	    }
+	}
+    },
+    "jobs" :
+    {
+        "blacksmith" :
+	{
+	    "recipes" :
+	    {
+	        "gold_treasure_chest_recipe" :
+		{
+                    "recipe_name" : "寶箱",
+                    "description" : "可能比你要放在裡面的東西還貴重，可以存放 96 個物品",
+		    "flavor"      : ""
+		}
+	    }
+	},
+        "carpenter" :
+        {
+            "recipes" :
+            {
+                "big_barrel_recipe" :
+                {
+                    "recipe_name" : "木桶 x 2",
+                    "description" : "一個木桶可以存放 64 個物品",
+		    "flavor"      : "木桶，你知道的，就是那個木桶嘛"
+                },
+                "messy_bookshelf_recipe" :
+                {
+                    "recipe_name" : "雜亂的書櫃",
+                    "description" : "雖然有點亂，但是可以讓你看起來很有學問",
+		    "flavor"      : ""
+                },
+                "picnic_bench_recipe" :
+                {
+                    "recipe_name" : "野餐長凳",
+                    "description" : "可以讓你在外面野餐時坐著吃東西",
+		    "flavor"      : ""
+                },
+                "picnic_table_recipe" :
+                {
+                    "recipe_name" : "野餐桌",
+                    "description" : "鋪上桌巾的餐桌，很適合在野外使用",
+		    "flavor"      : ""
+                },
+                "simple_wooden_chest_recipe" :
+                {
+                    "recipe_name" : "木箱",
+                    "description" : "可以存放 96 個物品",
+		    "flavor"      : ""
+                },
+                "tidy_bookshelf_recipe" :
+                {
+                    "recipe_name" : "整齊的書櫃",
+                    "description" : "整齊劃一的書櫃，看起來就很專業",
+		    "flavor"      : ""
+                },
+                "wooden_sign_cup_recipe" :
+                {
+                    "recipe_name" : "酒杯招牌",
+                    "description" : "木牌上有酒杯的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_footman_recipe" :
+                {
+                    "recipe_name" : "步兵招牌",
+                    "description" : "木牌上有步兵的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_hashtag_recipe" :
+                {
+                    "recipe_name" : "井字招牌",
+                    "description" : "木牌上有井字的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_healer_recipe" :
+                {
+                    "recipe_name" : "治療師招牌",
+                    "description" : "木牌上有治療師的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_pick_recipe" :
+                {
+                    "recipe_name" : "鐵鎬招牌",
+                    "description" : "木牌上有鐵鎬的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_potion_recipe" :
+                {
+                    "recipe_name" : "藥水招牌",
+                    "description" : "木牌上有藥水的標記，可以放在牆上",
+		    "flavor"      : ""
+                },
+                "wooden_sign_soup_recipe" :
+                {
+                    "recipe_name" : "湯品招牌",
+                    "description" : "木牌上有湯品的標記，可以放在牆上",
+		    "flavor"      : ""
+                }
+            }
+        },
+        "mason" :
+        {
+            "recipes" :
+            {
+                "gold_plate_column_half_recipe" :
+                {
+                    "recipe_name" : "金邊大理石牆柱",
+                    "description" : "有黃金裝飾的大理石牆柱",
+		    "flavor"      : ""
+                },
+                "gold_plate_column_recipe" :
+                {
+                    "recipe_name" : "金邊大理石柱",
+                    "description" : "有黃金裝飾的大理石柱",
+		    "flavor"      : ""
+                },
+                "golden_throne_recipe" :
+                {
+                    "recipe_name" : "黃金王座",
+                    "description" : "一張鍍金的石製豪華座椅，並用紅色皮革作為鋪墊",
+		    "flavor"      : ""
+                },
+                "marble_column_half_recipe" :
+                {
+                    "recipe_name" : "大理石牆柱",
+                    "description" : "散發著優雅氣息的大理石牆柱",
+		    "flavor"      : ""
+                },
+                "marble_column_recipe" :
+                {
+                    "recipe_name" : "大理石柱",
+                    "description" : "散發著優雅氣息的大理石柱",
+		    "flavor"      : ""
+                },
+                "stone_column_half_recipe" :
+                {
+                    "recipe_name" : "半圓形石柱",
+                    "description" : "帶點藝術氣息的石柱",
+		    "flavor"      : ""
+                },
+                "stone_column_recipe" :
+                {
+                    "recipe_name" : "圓形石柱",
+                    "description" : "帶點藝術氣息的石柱",
+		    "flavor"      : ""
+                },
+                "stone_column_square_half_recipe" :
+                {
+                    "recipe_name" : "方形牆邊石柱",
+                    "description" : "結實的方形石柱",
+		    "flavor"      : ""
+                },
+                "stone_column_square_recipe" :
+                {
+                    "recipe_name" : "方形石柱",
+                    "description" : "結實的方形石柱",
+		    "flavor"      : ""
+                },
+		"stone_double_door_recipe" :
+		{
+                    "recipe_name" : "雙開石門",
+                    "description" : "用黃銅加以裝飾，堅固的雙開石門",
+                    "flavor"      : "這是石化的木門嗎？"
+		}
+	    }
+	},
+        "weaver" :
+        {
+            "recipes" :
+            {
+                "picnic_umbrella_recipe" :
+                {
+                    "recipe_name" : "野餐陽傘",
+                    "description" : "為你遮擋野外的陽光",
+		    "flavor"      : ""
+                },
+                "picnic_umbrella_table_recipe" :
+                {
+                    "recipe_name" : "野餐陽傘餐桌",
+                    "description" : "鋪上桌巾的餐桌，再附上一支陽傘",
+		    "flavor"      : ""
+                }
+	    }
+	}
+    },
+    "ui" :
+    {
+	"data" :
+	{
+	    "constants" :
+	    {
+	        "marble_resource_name" : "大理石"
+	    }
+	}
+    }
+}

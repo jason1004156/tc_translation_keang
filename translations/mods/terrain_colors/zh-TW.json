@@ -1,0 +1,59 @@
+{
+   "data" : {
+      "build": {
+         "building_brushes": {
+            "colors": {
+         		"#6B6860": "風暴灰 (Terrain)",
+         		"#76726B": "鐵灰 (Terrain)",
+         		"#82807B": "和諧灰 (Terrain)",
+         		"#918D86": "熱成灰 (Terrain)",
+         		"#B3B0AA": "烏雲灰 1 (Terrain)",
+         		"#C1C0BB": "銀沙灰 (Terrain)",
+         		"#918154": "陶土棕 (Terrain)",
+         		"#807147": "暗影棕 (Terrain)",
+         		"#B3A16E": "砂土棕 (Terrain)",
+         		"#A29161": "檀香棕 (Terrain)",
+         		"#8BB270": "黃綠 1 (Terrain)",
+         		"#AFCC7C": "青綠 1 (Terrain)",
+         		"#9DBF76": "黃綠 2 (Terrain)",
+         		"#75B370": "蕨綠 (Terrain)",
+         		"#99CE7C": "青綠 2 (Terrain)",
+         		"#87C076": "德約綠 (Terrain)",
+         		"#A9A597": "霧灰 (Terrain)",
+         		"#AFAA9D": "烏雲灰 2 (Terrain)",
+         		"#A38B7C": "榛果 (Terrain)",
+         		"#997E73": "麻黃 (Terrain)",
+         		"#C4B49A": "劍麻 (Terrain)",
+         		"#BBA991": "奇諾 (Terrain)",
+         		"#CBBD96": "香草 (Terrain)",
+         		"#D8CEAE": "西班牙白 (Terrain)",
+         		"#D2C6A3": "加倍西班牙白 (Terrain)",
+         		"#25221A": "黑魔法 (Terrain)",
+         		"#51514F": "船灰 (Terrain)",
+         		"#A7B6BB": "石楠灰 (Terrain)",
+         		"#CCEAF4": "淺綠松 (Terrain)",
+         		"#CDE7EF": "烏納 (Terrain)",
+         		"#E2F9FF": "淺青 (Terrain)",
+         		"#F4FDFF": "天藍 1 (Terrain)",
+         		"#F7FEFF": "天藍 2 (Terrain)",
+         		"#FFFFFF": "白 (Terrain)",
+         		"#717277": "烏鴉 (Terrain)",
+         		"#5F6065": "亮灰 (Terrain)",
+         		"#DDDCD9": "瓷白 (Terrain)",
+         		"#CFCCC3": "羽毛灰 (Terrain)",
+         		"#E2E8ED": "孤獨灰 1 (Terrain)",
+         		"#F0F3F5": "孤獨灰 2 (Terrain)",
+         		"#828282": "灰 (Terrain)",
+         		"#6D6D6D": "暗灰 (Terrain)",
+         		"#757575": "皇后灰 (Terrain)",
+         		"#C87533": "銅黃 (Terrain)",
+         		"#B0A080": "沙灘棕 (Terrain)",
+         		"#90B0D0": "保羅藍 (Terrain)",
+         		"#CCCCCC": "輕灰 (Terrain)",
+         		"#FFD700": "金 (Terrain)",
+         		"#021C24": "深綠 (Terrain)"
+            }
+         }
+      }
+   }
+}

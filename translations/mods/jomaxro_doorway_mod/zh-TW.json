@@ -1,0 +1,125 @@
+{
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "wooden_doorway_recipe": {
+               "recipe_name": "木製門框",
+               "description": "一個開放的門框",
+               "flavor": "門去哪了？"
+            },
+            "wooden_doorway_2_recipe": {
+               "recipe_name": "強化木製門框",
+               "description": "一個強化的開放門框",
+               "flavor": "門去哪了？"
+            },
+            "wooden_double_doorway_recipe": {
+               "recipe_name": "加寬木製門框",
+               "description": "一個加寬的開放門框",
+               "flavor": "門去哪了？"
+            },
+            "wooden_tunnel_doorway_recipe": {
+               "recipe_name": "木製隧道門框",
+               "description": "一個開放的隧道門框",
+               "flavor": "門去哪了？"
+            }
+         }
+      },
+      "mason" : {
+         "recipes": {
+            "stone_tunnel_doorway_recipe": {
+               "recipe_name": "石製隧道門框",
+               "description": "一個開放的隧道門框",
+               "flavor": "門去哪了？"
+            }
+         }
+      },
+      "engineer" : {
+         "recipes" : {
+            "iron_doorway_recipe" : {
+               "recipe_name": "鐵甲門框",
+               "description": "一個開放的門框",
+               "flavor": "門去哪了？"
+            }
+         }
+      },
+      "potter" : {
+         "recipes": {
+            "clay_tunnel_doorway_recipe": {
+               "recipe_name": "陶製隧道門框",
+               "description": "一個開放的隧道門框",
+               "flavor": "門去哪了？"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "clay_tunnel_doorway" : {
+            "clay_tunnel_doorway_ghost" : {
+               "description" : "一個開放的隧道門框",
+               "display_name" : "陶製隧道門框"
+            }
+         },
+         "iron_doorway" : {
+            "iron_doorway_ghost" : {
+               "description" : "一個開放的門框",
+               "display_name" : "鐵甲門框"
+            }
+         },
+         "stone_tunnel_doorway" : {
+            "stone_tunnel_doorway_ghost" : {
+               "description" : "一個開放的隧道門框",
+               "display_name" : "石製隧道門框"
+            }
+         },
+         "wooden_doorway": {
+            "wooden_doorway_ghost": {
+               "description": "一個開放的門框",
+               "display_name": "木製門框"
+            }
+         },
+         "wooden_doorway_2": {
+            "wooden_doorway_2_ghost": {
+               "description": "一個強化的開放門框",
+               "display_name": "強化木製門框"
+            }
+         },
+         "wooden_doorway_fine": {
+            "wooden_doorway_fine_ghost": {
+               "description": "一個精良的木製門框",
+               "display_name": "精良的木製門框"
+            }
+         },
+         "wooden_doorway_2_fine": {
+            "wooden_doorway_2_fine_ghost": {
+               "description": "一個精良的強化木製門框",
+               "display_name": "精良的強化木製門框"
+            }
+         },
+         "wooden_double_doorway": {
+            "wooden_double_doorway_ghost": {
+               "description": "一個加寬的開放門框",
+               "display_name": "加寬木製門框"
+            }
+         },
+         "wooden_double_doorway_fine": {
+            "wooden_double_doorway_fine_ghost": {
+               "description": "一個精良的加寬木製門框",
+               "display_name": "精良的加寬木製門框"
+            }
+         },
+         "wooden_tunnel_doorway": {
+            "wooden_tunnel_doorway_ghost": {
+               "description": "一個開放的隧道門框",
+               "display_name": "木製隧道門框"
+            }
+         },
+         "wooden_tunnel_doorway_fine": {
+            "wooden_tunnel_doorway_fine_ghost": {
+               "description": "一個精良的木製隧道門框",
+               "display_name": "精良的木製隧道門框"
+            }
+         }
+      }
+   }
+}

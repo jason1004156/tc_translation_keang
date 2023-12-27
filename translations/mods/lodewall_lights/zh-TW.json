@@ -1,0 +1,107 @@
+{
+	"recipes" : {
+		"brazier_steel_recipe" : {
+			"recipe_name" : "鋼製火盆",
+			"description" : "比石頭做的要溫暖多了",
+			"flavor" : "高溫勿近"
+		},
+		"lantern_steel_recipe" : {
+			"recipe_name" : "鋼製燈籠",
+			"description" : "這些明亮的燈籠照亮了羅德威爾的街道已長達數個世紀",
+			"flavor" : "就像裝在罐子裡的一顆星星"
+		},
+		"lamp_brass_recipe" : {
+			"recipe_name" : "銅製提燈",
+			"description" : "兩旁的金屬邊可以防止突如其來碰撞",
+			"flavor" : "復古風"
+		},
+		"lamp_tin_recipe" : {
+			"recipe_name" : "錫製檯燈",
+			"description" : "一個帶玻璃蓋的錫製油燈，可以幫助你在晚上紀錄爐民日誌",
+			"flavor" : "弄乾淨後也可以拿來當花瓶"
+		},
+		"brazier_iron_recipe" : {
+			"recipe_name" : "鐵製火盆",
+			"description" : "很稱職的火盆，但請不要拿來當作頭盔使用",
+			"flavor" : "'可以用來工作，也可以用來烤肉。' - 天峰子民"
+		},
+		"candle_clayware_recipe" : {
+			"recipe_name" : "陶製燭台",
+			"description" : "熱蠟威脅：已消除",
+			"flavor" : "'而瑞亞馴服了火焰，並將溫暖與舒適的夜晚帶給他的子民'"
+		},
+		"torch_wood_recipe" : {
+			"recipe_name" : "木製火炬",
+			"description" : "有了它在旁邊，爐民可以增加20%的自信心",
+			"flavor" : "星星之火，可以燎原"
+		},
+		"torch_iron_recipe" : {
+			"recipe_name" : "鐵製火炬",
+			"description" : "由經驗老到的鐵匠打造而成，特別適合掛在漆黑的地城中，記得添加燃油",
+			"flavor" : "'是甚麼潛伏在漆黑的夜裡？說不定是喪失意識的人類！'"
+		},
+		"torch_steel_recipe" : {
+			"recipe_name" : "鋼製火炬",
+			"description" : "以油作為燃料，非常的堅固，鋼製的金屬條後方燃著可靠的火焰",
+			"flavor" : "傳說山中的地下國王在圍牆邊掛滿了這些東西"
+		},
+		"candelabra_stone_recipe" : {
+			"recipe_name" : "小石製燭台",
+			"description" : "精心雕鑿的燭台，附帶3根蠟燭",
+			"flavor" : "一個適合放在古老地穴或是山中堡壘的光源"
+		},
+		"candelabra_stone_tall_recipe" : {
+			"recipe_name" : "石製燭台",
+			"description" : "這個由石頭雕刻而成的高大燭台是石匠工藝的展現",
+			"flavor" : "對於那些出老千的賭徒們是個恐怖的象徵"
+		}
+	},
+	"entities" : {
+		"decoration" : {
+			"brazier_steel_ghost" : {
+				"description" : "點亮你的人生",
+				"name" : "鋼製火盆"
+			},
+			"lantern_steel_ghost" : {
+				"description" : "在風中吱吱作響",
+				"name" : "鋼製燈籠"
+			},
+			"lamp_brass_ghost" : {
+				"description" : "有感受到蒸氣龐克嗎？",
+				"name" : "銅製提燈"
+			},
+			"lamp_tin_ghost" : {
+				"description" : "放在桌上剛剛好",
+				"name" : "錫製燈臺"
+			},
+			"brazier_iron_ghost" : {
+				"description" : "舒適的火焰",
+				"name" : "鐵製火盆"
+			},
+			"candle_clayware_ghost" : {
+				"description" : "如果你需要一個地方放蠟燭的話，就是這裡了",
+				"name" : "陶製燭台"
+			},
+			"torch_wood_ghost" : {
+				"description" : "用木頭做的簡單的火炬",
+				"name" : "木製火炬"
+			},
+			"torch_iron_ghost" : {
+				"description" : "完全由金屬所製成的火炬",
+				"name" : "鐵製火炬"
+			},
+			"torch_steel_ghost" : {
+				"description" : "就像是一個小型火盆固定在一根金屬棍上",
+				"name" : "鋼製火炬"
+			},
+			"candelabra_stone_ghost" : {
+				"description" : "可以放3根蠟燭的燭台",
+				"name" : "小石製燭台"
+			},
+			"candelabra_stone_tall_ghost" : {
+				"description" : "可以放3根蠟燭的長長的燭台",
+				"name" : "石製燭台"
+			}
+		}
+	}
+}

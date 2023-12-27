@@ -1,0 +1,10 @@
+{
+   "entities": {
+      "floating_box": {
+         "floating_box_ghost": {
+            "display_name": "漂浮木箱",
+            "description": "可以浮在水上的木箱"
+         }
+      }
+   }
+}

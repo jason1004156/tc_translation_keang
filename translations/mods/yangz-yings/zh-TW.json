@@ -1,0 +1,1242 @@
+{
+	"entities": {
+		"decoration": {
+			"clock_wall": {
+				"description": "滴答滴答",
+				"display_name": "掛鐘"
+			},
+			"dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "狗屋"
+			},
+			"red_dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "紅色狗屋"
+			},
+			"green_dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "綠色狗屋"
+			},
+			"blue_dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "藍色狗屋"
+			},
+			"flame_dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "火焰狗屋"
+			},
+			"pink_dog_house": {
+				"description": "好好睡一覺吧，小狗狗",
+				"display_name": "粉紅狗屋"
+			},
+			"yellow_throw_rug": {
+				"description": "讓你的地板保持乾淨！",
+				"display_name": "黃色地毯"
+			},
+			"yellow_curtains_wide": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "黃色加寬窗簾"
+			},
+			"yellow_curtains_long": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "黃色加長窗簾"
+			},
+			"yellow_curtains": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "黃色窗簾"
+			},
+			"yellow_banner_wall_small": {
+				"description": "用這面黃色的旗幟展現城鎮的驕傲",
+				"display_name": "黃色壁掛旗幟"
+			},
+			"yellow_banner_wall_big": {
+				"description": "用這面黃色的旗幟展現城鎮的驕傲",
+				"display_name": "大型黃色壁掛旗幟"
+			},
+			"grey_throw_rug": {
+				"description": "讓你的地板保持乾淨！",
+				"display_name": "灰色地毯"
+			},
+			"grey_curtains_wide": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加寬灰色窗簾"
+			},
+			"grey_curtains_long": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加長灰色窗簾"
+			},
+			"grey_curtains": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "灰色窗簾"
+			},
+			"grey_banner_wall_small": {
+				"description": "用這面灰色的旗幟展現城鎮的驕傲",
+				"display_name": "灰色壁掛旗幟"
+			},
+			"grey_banner_wall_big": {
+				"description": "用這面灰色的旗幟展現城鎮的驕傲",
+				"display_name": "大型灰色壁掛旗幟"
+			},
+			"brown_throw_rug": {
+				"description": "讓你的地板保持乾淨！",
+				"display_name": "棕色地毯"
+			},
+			"brown_curtains_wide": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加寬棕色窗簾"
+			},
+			"brown_curtains_long": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加長棕色窗簾"
+			},
+			"brown_curtains": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "棕色窗簾"
+			},
+			"brown_banner_wall_small": {
+				"description": "用這面棕色的旗幟展現城鎮的驕傲",
+				"display_name": "棕色壁掛旗幟"
+			},
+			"brown_banner_wall_big": {
+				"description": "用這面棕色的旗幟展現城鎮的驕傲",
+				"display_name": "大型棕色壁掛旗幟"
+			},
+			"red_throw_rug": {
+				"description": "讓你的地板保持乾淨！",
+				"display_name": "紅色地毯"
+			},
+			"red_curtains_wide": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加寬紅色窗簾"
+			},
+			"red_curtains_long": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "加長紅色窗簾"
+			},
+			"red_curtains": {
+				"description": "用來點綴你的窗戶",
+				"display_name": "紅色窗簾"
+			},
+			"red_banner_wall_small": {
+				"description": "用這面紅色的旗幟展現城鎮的驕傲",
+				"display_name": "紅色壁掛旗幟"
+			},
+			"red_banner_wall_big": {
+				"description": "用這面紅色的旗幟展現城鎮的驕傲",
+				"display_name": "大型紅色壁掛旗幟"
+			},
+			"archery_target": {
+				"description": "瞄準...穩住...發射！",
+				"display_name": "箭靶"
+			},
+			"piano": {
+				"display_name": "鋼琴",
+				"description": "一台直立式鋼琴"
+			},
+			"piano_stool": {
+				"display_name": "鋼琴椅",
+				"description": "一張簡單的椅子"
+			},
+			"red_mailbox": {
+				"display_name": "紅色郵箱",
+				"description": "你有一封信！"
+			},
+			"blue_mailbox": {
+				"display_name": "藍色郵箱",
+				"description": "你有一封信！"
+			},
+			"green_mailbox": {
+				"display_name": "綠色郵箱",
+				"description": "你有一封信！"
+			},
+			"callendar": {
+				"display_name": "月曆",
+				"description": ""
+			},
+			"house_number_1": {
+				"display_name": "1 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_2": {
+				"display_name": "2 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_3": {
+				"display_name": "3 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_4": {
+				"display_name": "4 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_5": {
+				"display_name": "5 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_6": {
+				"display_name": "6 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_7": {
+				"display_name": "7 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_8": {
+				"display_name": "8 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_9": {
+				"display_name": "9 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"house_number_10": {
+				"display_name": "10 號房",
+				"description": "為你的房子標上數字！"
+			},
+			"nachtwacht": {
+				"description": "17 世紀荷蘭黃金時代畫家林布蘭的名畫",
+				"display_name": "夜巡"
+			},
+			"nachtwacht_framed": {
+				"description": "17 世紀荷蘭黃金時代畫家林布蘭的名畫",
+				"display_name": "夜巡（裱框）"
+			},
+			"i_fox": {
+				"display_name": "我是一隻狐狸",
+				"description": "我怎麼叫？"
+			},
+			"i_fox_framed": {
+				"display_name": "我是一隻狐狸（裱框）",
+				"description": "我怎麼叫？"
+			},
+			"sunset": {
+				"display_name": "落日",
+				"description": "一幅畫著落日的簡單畫作"
+			},
+			"sunset_framed": {
+				"display_name": "落日（裱框）",
+				"description": "一幅畫著落日的簡單畫作"
+			},
+			"mondriaan": {
+				"display_name": "紅，黃，藍的構成",
+				"description": "皮特・蒙德里安的創作"
+			},
+			"mondriaan_framed": {
+				"display_name": "紅，黃，藍的構成（裱框）",
+				"description": "皮特・蒙德里安的創作"
+			},
+			"frostfeast_painting": {
+				"frostfeast_painting_iconic": {
+					"display_name": "冬季盛宴",
+					"description": "是雪！"
+				},
+				"display_name": "冬季盛宴",
+				"description": "是雪！"
+			},
+			"frostfeast_painting_framed": {
+				"frostfeast_painting_framed_iconic": {
+					"display_name": "冬季盛宴（裱框）",
+					"description": "是雪！"
+				},
+				"display_name": "冬季盛宴（裱框）",
+				"description": "是雪！"
+			},
+			"curtains_long": {
+				"curtains_long_iconic": {
+					"display_name": "加長窗簾",
+					"description": "用來點綴你的窗戶"
+				},
+				"display_name": "加長窗簾",
+				"description": "用來點綴你的窗戶"
+			},
+			"curtains_wide": {
+				"curtains_wide_iconic": {
+					"display_name": "加寬窗簾",
+					"description": "用來點綴你的窗戶"
+				},
+				"display_name": "加寬窗簾",
+				"description": "用來點綴你的窗戶"
+			}
+		},
+		"refined": {
+			"_comment": "Refined",
+			"canvas_l": {
+				"description": "可以畫很大一幅畫！",
+				"display_name": "大型畫布"
+			},
+			"canvas_m": {
+				"description": "很適合用來作畫的畫布",
+				"display_name": "畫布"
+			},
+			"canvas_s": {
+				"description": "可以畫一幅小巧精美的畫",
+				"display_name": "小型畫布"
+			},
+			"frame_l": {
+				"description": "可以裝上大型畫布的畫框",
+				"display_name": "大型畫框"
+			},
+			"frame_m": {
+				"description": "可以裝上畫布的畫框",
+				"display_name": "畫框"
+			},
+			"frame_s": {
+				"description": "可以裝上小型畫布的畫框",
+				"display_name": "小型畫框"
+			},
+			"dye_black": {
+				"description": "一組深沉的黑色顏料",
+				"display_name": "黑色顏料組"
+			},
+			"dye_colour": {
+				"description": "一組具有各種基本色彩的顏料",
+				"display_name": "彩色顏料組"
+			},
+			"dye_exotic": {
+				"description": "一組具有各種異國色彩的顏料",
+				"display_name": "異國顏料組"
+			},
+			"bucket_paint": {
+				"description": "可以為各種物品上色",
+				"display_name": "桶裝顏料"
+			},
+			"dye_rare": {
+				"description": "只有在世界的角落才能找到的顏料",
+				"display_name": "稀有顏料"
+			},
+			"gold_nugget": {
+				"display_name": "金粒",
+				"description": "一粒黃金"
+			},
+			"silver_nugget": {
+				"display_name": "銀粒",
+				"description": "一粒銀"
+			},
+			"copper_nugget": {
+				"display_name": "銅粒",
+				"description": "一粒銅"
+			},
+			"bronze_nugget": {
+				"display_name": "青銅粒",
+				"description": "一粒青銅"
+			},
+			"iron_nugget": {
+				"display_name": "鐵粒",
+				"description": "一粒鐵"
+			},
+			"tin_nugget": {
+				"display_name": "錫粒",
+				"description": "一粒錫"
+			},
+			"steel_nugget": {
+				"display_name": "鋼粒",
+				"description": "一粒鋼"
+			},
+			"clock_gear": {
+				"display_name": "發條裝置",
+				"description": "小而精確"
+			},
+			"bronze_gear": {
+				"display_name": "基礎齒輪",
+				"description": "用於製作基礎裝置"
+			},
+			"iron_gear": {
+				"display_name": "中級齒輪",
+				"description": "用於製作中級裝置"
+			}
+		},
+		"furniture": {
+			"yellow_comfy_chair": {
+				"description": "這是用來坐的！",
+				"display_name": "黃色舒適座椅"
+			},
+			"yellow_comfy_sofa_2": {
+				"description": "兩個人剛剛好",
+				"display_name": "黃色雙人沙發"
+			},
+			"yellow_comfy_sofa_1": {
+				"description": "真舒服....",
+				"display_name": "黃色加大單人沙發"
+			},
+			"yellow_comfy_bed": {
+				"description": "我夢到...一隻會飛的羊",
+				"display_name": "黃色舒適睡床"
+			},
+			"yellow_comfy_clay_bed": {
+				"description": "好好睡一覺吧",
+				"display_name": "黃色舒適陶床"
+			},
+			"yellow_comfy_bunk_bed": {
+				"description": "空間利用！",
+				"display_name": "黃色舒適上層床"
+			},
+			"grey_comfy_chair": {
+				"description": "這是用來坐的！",
+				"display_name": "灰色舒適座椅"
+			},
+			"grey_comfy_sofa_2": {
+				"description": "兩個人剛剛好",
+				"display_name": "灰色雙人沙發"
+			},
+			"grey_comfy_sofa_1": {
+				"description": "真舒服....",
+				"display_name": "灰色加大單人沙發"
+			},
+			"grey_comfy_bed": {
+				"description": "我夢到...一隻會飛的羊",
+				"display_name": "灰色舒適睡床"
+			},
+			"grey_comfy_clay_bed": {
+				"description": "好好睡一覺吧",
+				"display_name": "灰色舒適陶床"
+			},
+			"grey_comfy_bunk_bed": {
+				"description": "空間利用！",
+				"display_name": "灰色舒適上層床"
+			},
+			"brown_comfy_chair": {
+				"description": "這是用來坐的！",
+				"display_name": "棕色舒適座椅"
+			},
+			"brown_comfy_sofa_2": {
+				"description": "兩個人剛剛好",
+				"display_name": "棕色雙人沙發"
+			},
+			"brown_comfy_sofa_1": {
+				"description": "真舒服....",
+				"display_name": "棕色加大單人沙發"
+			},
+			"brown_comfy_bed": {
+				"description": "我夢到...一隻會飛的羊",
+				"display_name": "棕色舒適睡床"
+			},
+			"brown_comfy_clay_bed": {
+				"description": "好好睡一覺吧",
+				"display_name": "棕色舒適陶床"
+			},
+			"brown_comfy_bunk_bed": {
+				"description": "空間利用！",
+				"display_name": "棕色舒適上層床"
+			},
+			"red_comfy_chair": {
+				"description": "這是用來坐的！",
+				"display_name": "紅色舒適座椅"
+			},
+			"red_comfy_sofa_2": {
+				"description": "兩個人剛剛好",
+				"display_name": "紅色雙人沙發"
+			},
+			"red_comfy_sofa_1": {
+				"description": "真舒服....",
+				"display_name": "紅色加大單人沙發"
+			},
+			"red_comfy_bed": {
+				"description": "我夢到...一隻會飛的羊",
+				"display_name": "紅色舒適睡床"
+			},
+			"red_comfy_clay_bed": {
+				"description": "好好睡一覺吧",
+				"display_name": "紅色舒適陶床"
+			},
+			"red_comfy_bunk_bed": {
+				"description": "空間利用！",
+				"display_name": "紅色舒適上層床"
+			},
+			"small_countertop": {
+				"description": "就是小一點的流理臺",
+				"display_name": "小流理臺"
+			},
+			"countertop": {
+				"description": "最適合在上面切菜了！",
+				"display_name": "流理臺"
+			},
+			"coffee_table": {
+				"description": "我的咖啡呢？",
+				"display_name": "咖啡桌"
+			},
+			"large_dining_table": {
+				"description": "終於有點空間了",
+				"display_name": "加大餐桌"
+			},
+			"wardrobe": {
+				"description": "掛衣服的地方，但是我只有身上這件...",
+				"display_name": "衣櫃"
+			},
+			"comfy_sofa_1": {
+				"comfy_sofa_1_iconic": {
+					"display_name": "加寬單人沙發",
+					"description": "真舒服..."
+				},
+				"display_name": "加寬單人沙發",
+				"description": "真舒服..."
+			},
+			"comfy_sofa_2": {
+				"comfy_sofa_2_iconic": {
+					"display_name": "雙人沙發",
+					"description": "兩個人剛剛好"
+				},
+				"display_name": "雙人沙發",
+				"description": "兩個人剛剛好"
+			},
+			"comfy_clay_bed": {
+				"comfy_clay_bed_iconic": {
+					"display_name": "舒適陶床",
+					"description": "好好睡一覺吧"
+				},
+				"display_name": "舒適陶床",
+				"description": "好好睡一覺吧"
+			},
+			"comfy_bunk_bed": {
+				"description": "空間利用！",
+				"display_name": "舒適上層床"
+			}
+		},
+		"armor": {
+			"gladiator_light": {
+				"description": "一件堅固輕便的皮甲",
+				"display_name": "角鬥士戰甲"
+			},
+			"hylian_shield": {
+				"description": "這個巨大厚重的盾牌就跟那些海利亞騎士用的盾牌一樣",
+				"display_name": "海利亞之盾"
+			}
+		},
+		"weapons": {
+			"malevo_lance": {
+				"description": "一把傳說可以擊退黑暗的長槍",
+				"display_name": "破邪之槍"
+			},
+			"mastersword": {
+				"description": "一把非常強大的劍",
+				"display_name": "大師之劍"
+			},
+			"ice_bow": {
+				"description": "用冰打造而成的弓",
+				"display_name": "冰結長弓"
+			},
+			"gravis_sword": {
+				"description": "一把非常大的雙手劍",
+				"display_name": "重劍"
+			},
+			"arrow_ice": {
+				"description": "用冰做成的箭",
+				"display_name": "冰箭"
+			},
+			"fire_arrow_ice": {
+				"description": "冰箭可以被火點燃！？",
+				"display_name": "燃燒冰箭"
+			},
+			"longbow": {
+				"description": "堅固而穩重，已經準備好投入戰鬥了",
+				"display_name": "長弓"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"_comment": "Weaver",
+				"canvas_l_recipe": {
+					"recipe_name": "大型畫布",
+					"description": "可以畫很大一幅畫！",
+					"flavor": "又白又大又乾淨，非常適合傑出的畫作！或是把它整個塗滿藍色，也可以稱為藝術品"
+				},
+				"canvas_m_recipe": {
+					"recipe_name": "畫布",
+					"description": "很適合用來作畫的畫布",
+					"flavor": "一般人最常使用的畫布，可是我想要當名人！"
+				},
+				"canvas_s_recipe": {
+					"recipe_name": "小型畫布",
+					"description": "可以畫一幅小巧精美的畫",
+					"flavor": "行遠自邇，登高自卑，循序漸進，你也可以成為大師！"
+				},
+				"curtains_wide_recipe": {
+					"recipe_name": "加寬窗簾",
+					"description": "用來點綴你的窗戶",
+					"flavor": "'把窗戶打開一點，好讓我品嚐這美好的一天。'- 伊迪絲・華頓"
+				},
+				"curtains_long_recipe": {
+					"recipe_name": "加長窗簾",
+					"description": "用來點綴你的窗戶",
+					"flavor": "'透過浴室又小又高的窗戶，那 12 月的庭院灰蒙粗糙，樹枝如草書般扭曲。' - 戴夫・埃格斯"
+				},
+				"gladiator_light_recipe": {
+					"recipe_name": "角鬥士戰甲",
+					"description": "一件堅固輕便的皮甲",
+					"flavor": "歡呼吧！"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"_comment": "Carpenter",
+				"clock_wall_recipe": {
+					"recipe_name": "掛鐘",
+					"description": "由上等木頭和精心製作的發條裝置製作而成，簡直就是件藝術品",
+					"flavor": "從此不會再遲到！"
+				},
+				"dog_house_recipe": {
+					"recipe_name": "狗屋",
+					"description": "你的狗會愛上你！",
+					"flavor": "你說牠已經很愛你了？噢...那牠會更加愛你！"
+				},
+				"small_countertop_recipe": {
+					"recipe_name": "小流理臺",
+					"description": "麻雀雖小五臟俱全",
+					"flavor": "即使是小星星也會在黑暗中閃耀"
+				},
+				"countertop_recipe": {
+					"recipe_name": "流理臺",
+					"description": "用來準備食材是再適合不過了",
+					"flavor": "看起來有很多櫥櫃，但是都是假的..."
+				},
+				"coffee_table_recipe": {
+					"recipe_name": "咖啡桌",
+					"description": "一張適合擺在火爐旁的矮桌，用來放飲料剛剛好",
+					"flavor": "這才是我說的咖啡！"
+				},
+				"large_dining_table_recipe": {
+					"recipe_name": "加大餐桌",
+					"description": "巨大又不失時尚，適合各種美味的餐點",
+					"flavor": "是普通餐桌的兩倍大"
+				},
+				"wardrobe_recipe": {
+					"recipe_name": "衣櫃",
+					"description": "一個可以塞進你所有衣服的大衣櫃",
+					"flavor": "什麼？你是說...我們有其他衣服可以換？"
+				},
+				"archery_target_recipe": {
+					"recipe_name": "箭靶",
+					"description": "為你個弓箭手準備幾個吧，你不想讓他們沒有練習過就上戰場吧？",
+					"flavor": "狩獵女神 阿耳忒彌斯，請讓我所瞄準的目標成真。請賜予我所追尋的目標，以及實現它的不懈決心。"
+				},
+				"mailbox_red_recipe": {
+					"recipe_name": "紅色郵箱",
+					"description": "紅色的經典郵箱",
+					"flavor": "我以前寫了許多你永遠收不到的信，但是現在你有郵箱了！"
+				},
+				"mailbox_green_recipe": {
+					"recipe_name": "綠色郵箱",
+					"description": "綠色的經典郵箱",
+					"flavor": "什麼是 E-mail？"
+				},
+				"mailbox_blue_recipe": {
+					"recipe_name": "藍色郵箱",
+					"description": "藍色的經典郵箱",
+					"flavor": "帳單比薪資條早來的時候總是令人惱怒"
+				},
+				"callendar_recipe": {
+					"recipe_name": "月曆",
+					"description": "用這個月曆來計算日子",
+					"flavor": "還有 2 天就是我的生日了！"
+				},
+				"house_number_1-5_recipe": {
+					"recipe_name": "1 到 5 號房標誌",
+					"description": "用來標註你的 1 到 5 號房！",
+					"flavor": "終於可以排順序了"
+				},
+				"house_number_6-10_recipe": {
+					"recipe_name": "6 到 10 號房標誌",
+					"description": "有了門牌才算是一座真正的城鎮",
+					"flavor": "我們的家到了！"
+				},
+				"piano_recipe": {
+					"recipe_name": "鋼琴",
+					"description": "精心製作調校的直立式鋼琴",
+					"flavor": "\"人生就像彈奏鋼琴。能從中獲得什麼，取決於你如何彈奏。\" - 湯姆・萊雷"
+				},
+				"comfy_bunk_bed_recipe": {
+					"recipe_name": "舒適上層床",
+					"description": "可以放在其他床上面的床。放在一起就可以變成上下舖！",
+					"flavor": "\"需要更多床，但是又沒有多餘的空間嗎？雙層床是你的絕佳選擇！\" - 銷售員 比利・邦加"
+				},
+				"piano_stool_recipe": {
+					"recipe_name": "鋼琴椅",
+					"description": "站著很難演奏鋼琴，就坐下吧",
+					"flavor": ""
+				},
+				"frame_l_recipe": {
+					"recipe_name": "大型畫框",
+					"description": "可以裝上大型畫布的畫框",
+					"flavor": ""
+				},
+				"frame_m_recipe": {
+					"recipe_name": "畫框",
+					"description": "可以裝上畫布的畫框",
+					"flavor": ""
+				},
+				"frame_s_recipe": {
+					"recipe_name": "小型畫框",
+					"description": "可以裝上小型畫布的畫框",
+					"flavor": ""
+				},
+				"painter_pallet_recipe": {
+					"recipe_name": "畫家的調色盤",
+					"description": "轉職為畫家的必要工具",
+					"flavor": "雖然不是什麼了不起的東西，但是這是身為一名畫家的必備物品！"
+				},
+				"comfy_sofa_2_recipe": {
+					"recipe_name": "雙人沙發",
+					"description": "可以容納 2 位爐民",
+					"flavor": "當你想要躺在沙發上的時候你還會讓別人坐嗎？"
+				},
+				"comfy_sofa_1_recipe": {
+					"recipe_name": "加寬單人沙發",
+					"description": "1 個人的時候很寬敞，2 個人的時候就有點擠了",
+					"flavor": "如果你想要緊貼對方，這張椅子可能很適合你"
+				},
+				"longbow_recipe": {
+					"recipe_name": "長弓",
+					"description": "拉弓需要更長的時間，但是提升了射程與攻擊力",
+					"flavor": "現在，拿走我的弓吧！"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"_comment": "Herbalist",
+				"dye_black_recipe": {
+					"recipe_name": "黑色顏料組",
+					"description": "一組深沉的黑色顏料",
+					"flavor": "就如我的靈魂一般幽暗"
+				},
+				"dye_colour_recipe": {
+					"recipe_name": "彩色顏料組",
+					"description": "一組具有各種基本色彩的顏料",
+					"flavor": "畫家必備！除非你只畫黑白畫"
+				},
+				"dye_exotic_recipe": {
+					"recipe_name": "異國顏料組",
+					"description": "一組具有各種異國色彩的顏料",
+					"flavor": "我覺得我好像來到了國外"
+				},
+				"bucket_paint_recipe": {
+					"recipe_name": "桶裝顏料 x4",
+					"description": "4 桶滿滿的顏料，可以為你的物品上色",
+					"flavor": "五彩繽紛！"
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"_comment": "Potter",
+				"comfy_clay_bed_recipe": {
+					"recipe_name": "舒適陶床",
+					"description": "在上面睡一覺可以讓你神采奕奕",
+					"flavor": "'起床！？一千年後再說吧！' - 維多利亞・畢罕"
+				}
+			}
+		},
+		"painter": {
+			"painter_description": {
+				"display_name": "畫家",
+				"description": "畫家可以創造各種美麗的藝術品",
+				"requirements": "由木匠所製作",
+				"workshop": {
+					"name": "畫家的畫架",
+					"description": "放置畫布的畫架",
+					"long_description": "放置畫布的畫架"
+				},
+				"level_1_data": {
+					"perk_000_name": "初出茅蘆",
+					"perk_000_description": "畫家現在有足夠的技巧來創作基本的藝術品"
+				},
+				"level_2_data": {
+					"perk_000_name": "藝術新知",
+					"perk_000_description": "畫家現在在藝術方面更有經驗，可以創作出更高級的繪畫和藝術品"
+				},
+				"level_3_data": {
+					"perk_000_name": "靈光乍現",
+					"perk_000_description": "突如其來的靈感能讓畫家有機會創作出精良物品"
+				},
+				"level_4_data": {
+					"perk_000_name": "揮灑自如",
+					"perk_000_description": "畫家開發了自己的風格，可以將他的所有感情表達出來，創作出美麗的藝術"
+				},
+				"level_5_data": {
+					"perk_000_name": "畫龍點睛",
+					"perk_000_description": "畫家現在可以創作出品質卓越的物品，並且更容易創作出精良物品"
+				},
+				"level_6_data": {
+					"title": "大師級畫家",
+					"perk_000_name": "妙手丹青",
+					"perk_000_description": "畫家的創作能力已經達到了巔峰，他的作品將會永世流傳"
+				}
+			},
+			"painter_outfit": {
+				"description": "上面沾滿了顏料",
+				"display_name": "畫家的工作套裝"
+			},
+			"painter_pallet": {
+				"description": "轉職為畫家的必要工具",
+				"display_name": "畫家的調色盤"
+			},
+			"painter_workbench": {
+				"description": "每位畫家的必備品！",
+				"display_name": "畫家的畫架"
+			},
+			"paint_tub": {
+				"description": "為各種物品上色的必需品",
+				"display_name": "畫家的顏料桶"
+			},
+			"recipes": {
+				"paintings_name": "畫作",
+				"framing_name": "框畫",
+				"colouring_name": "上色",
+				"sleeping_name": "床",
+				"sitting_name": "座椅",
+				"outdoor_name": "戶外裝飾品",
+				"indoor_name": "室內裝飾品",
+				"_comment": "Painter",
+				"yellow_comfy_bunk_bed_recipe": {
+					"recipe_name": "黃色舒適上層床",
+					"description": "染上了活潑的黃色",
+					"flavor": ""
+				},
+				"red_comfy_bunk_bed_recipe": {
+					"recipe_name": "紅色舒適上層床",
+					"description": "染上了動人的紅色",
+					"flavor": ""
+				},
+				"grey_comfy_bunk_bed_recipe": {
+					"recipe_name": "灰色舒適上層床",
+					"description": "染上了沉穩的灰色",
+					"flavor": ""
+				},
+				"brown_comfy_bunk_bed_recipe": {
+					"recipe_name": "棕色舒適上層床",
+					"description": "染上了迷人的棕色",
+					"flavor": ""
+				},
+				"red_dog_house_recipe": {
+					"recipe_name": "紅色狗屋",
+					"description": "有個漂亮的紅色屋頂",
+					"flavor": "犬，現代俗稱為狗，一種常見的犬科哺乳動物，與狼為同一種動物。"
+				},
+				"green_dog_house_recipe": {
+					"recipe_name": "綠色狗屋",
+					"description": "有個漂亮的綠色屋頂",
+					"flavor": "犬的壽命最多可達二十多年，平均則為十數年，與貓的平均壽命相近。"
+				},
+				"blue_dog_house_recipe": {
+					"recipe_name": "藍色狗屋",
+					"description": "有個漂亮的藍色屋頂",
+					"flavor": "犬在人類社會中扮演多重角色，有不同的工作犬之分。傳統上，犬類被用於放牧、守衛等，現在也用作導盲、搜救、偵緝等工作。"
+				},
+				"flame_dog_house_recipe": {
+					"recipe_name": "火焰狗屋",
+					"description": "側邊有著超棒的火焰！",
+					"flavor": "現如今在許多國家，家犬最普通和重要的社會角色是作為寵物。"
+				},
+				"pink_dog_house_recipe": {
+					"recipe_name": "粉紅狗屋",
+					"description": "特別適合貴賓狗！",
+					"flavor": "貴賓犬的性格活潑好動、機警、聰敏、友善，是犬類中智商排名第二的品種。"
+				},
+				"yellow_comfy_chair_recipe": {
+					"recipe_name": "黃色舒適座椅",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色是史前洞穴藝術中使用的第一種顏色之一"
+				},
+				"yellow_comfy_sofa_2_recipe": {
+					"recipe_name": "黃色雙人沙發",
+					"description": "妝點著活潑的黃色",
+					"flavor": "梵谷特別喜歡這如太陽一般的黃色"
+				},
+				"yellow_comfy_sofa_1_recipe": {
+					"recipe_name": "黃色加大單人沙發",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色是類似黃金的顏色，因此也有財富的含義"
+				},
+				"yellow_comfy_bed_recipe": {
+					"recipe_name": "黃色舒適睡床",
+					"description": "妝點著活潑的黃色",
+					"flavor": "中國朝代從宋朝以後，明黃色是皇帝專用顏色"
+				},
+				"yellow_comfy_clay_bed_recipe": {
+					"recipe_name": "黃色舒適陶床",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色是由波長介乎 565 -590 毫微米的光線所形成的顏色"
+				},
+				"yellow_throw_rug_recipe": {
+					"recipe_name": "黃色地毯",
+					"description": "妝點著活潑的黃色",
+					"flavor": "在美國若有人從危險的地方平安返鄉，會用黃絲帶來裝飾那個人的家"
+				},
+				"yellow_curtains_wide_recipe": {
+					"recipe_name": "黃色加寬窗簾",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色在京劇臉譜代表兇猛、殘暴的角色"
+				},
+				"yellow_curtains_long_recipe": {
+					"recipe_name": "黃色加長窗簾",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色是色彩的三原色之一，紅、綠色光混合可產生黃光"
+				},
+				"yellow_curtains_recipe": {
+					"recipe_name": "黃色窗簾",
+					"description": "妝點著活潑的黃色",
+					"flavor": "英語中黃色和妒忌、懦怯、敗壞有關聯"
+				},
+				"yellow_banner_wall_small_recipe": {
+					"recipe_name": "黃色壁掛旗幟",
+					"description": "妝點著活潑的黃色",
+					"flavor": "國際政治團體中，黃色代表自由主義者"
+				},
+				"yellow_banner_wall_big_recipe": {
+					"recipe_name": "大型黃色壁掛旗幟",
+					"description": "妝點著活潑的黃色",
+					"flavor": "黃色具有注意、提醒等醒目的作用，比如紅綠燈就用黃色來提醒行人和車輛注意"
+				},
+				"grey_comfy_chair_recipe": {
+					"recipe_name": "灰色舒適座椅",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "直到 19 世紀前，藝術家通常都是透過簡單地將黑與白相結合形成灰色"
+				},
+				"grey_comfy_sofa_2_recipe": {
+					"recipe_name": "灰色雙人沙發",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "灰質是一種神經組織，是中樞神經系統的重要組成部分"
+				},
+				"grey_comfy_sofa_1_recipe": {
+					"recipe_name": "灰色加大單人沙發",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "在古代和中世紀，灰色是未染色羊毛的顏色，因此是農民和窮人最常穿的顏色"
+				},
+				"grey_comfy_bed_recipe": {
+					"recipe_name": "灰色舒適睡床",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "在文藝復興時期和巴洛克時期，灰色開始在時尚和藝術中扮演重要角色。伴隨著灰色與白色，黑色成為貴族中最流行的顏色。"
+				},
+				"grey_comfy_clay_bed_recipe": {
+					"recipe_name": "灰色舒適陶床",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "就可見光譜而言，灰色是指所有波長的組合，並且灰度是根據給定物體反射的光量來測量的"
+				},
+				"grey_throw_rug_recipe": {
+					"recipe_name": "灰色地毯",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "在歐洲及北美，大部份人認為灰色是中性、一致性、無聊、不確定、老年、冷漠及謙虛有關的顏色"
+				},
+				"grey_curtains_wide_recipe": {
+					"recipe_name": "加寬灰色窗簾",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "只有 1% 的成年人認為灰色是他們最喜歡的顏色"
+				},
+				"grey_curtains_long_recipe": {
+					"recipe_name": "加長灰色窗簾",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "灰色是介於黑和白之間的一系列顏色，可以大致分為深灰和淺灰"
+				},
+				"grey_curtains_recipe": {
+					"recipe_name": "灰色窗簾",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "灰塵是大氣中一種固態懸浮物，常態存在於空氣之中，易伴隨風的吹拂而四散至各處"
+				},
+				"grey_banner_wall_small_recipe": {
+					"recipe_name": "灰色壁掛旗幟",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "灰姑娘是一本著名的童話，該故事在世界各地流傳廣泛，亦擁有許多不同版本，各版本之間有時差別很大"
+				},
+				"grey_banner_wall_big_recipe": {
+					"recipe_name": "大型灰色壁掛旗幟",
+					"description": "妝點著沉穩的灰色",
+					"flavor": "灰指甲是指甲或趾甲受黴菌感染，而引起的指甲變色、變形、增厚、脫屑、粗糙易碎、指甲分離等現象"
+				},
+				"brown_comfy_chair_recipe": {
+					"recipe_name": "棕色舒適座椅",
+					"description": "妝點著迷人的棕色",
+					"flavor": "古希臘人和羅馬人製作了一種棕紅色墨水，用烏賊墨與由各種墨魚墨水製成"
+				},
+				"brown_comfy_sofa_2_recipe": {
+					"recipe_name": "棕色雙人沙發",
+					"description": "妝點著迷人的棕色",
+					"flavor": "繼黑色之後，棕色是人類頭髮中第二常見的顏色"
+				},
+				"brown_comfy_sofa_1_recipe": {
+					"recipe_name": "棕色加大單人沙發",
+					"description": "妝點著迷人的棕色",
+					"flavor": "在南非的種族隔離時代，混血人種常常被叫做棕色人種或帶色人種"
+				},
+				"brown_comfy_bed_recipe": {
+					"recipe_name": "棕色舒適睡床",
+					"description": "妝點著迷人的棕色",
+					"flavor": "在古羅馬，棕色衣服與下層階級或野蠻人有關"
+				},
+				"brown_comfy_clay_bed_recipe": {
+					"recipe_name": "棕色舒適陶床",
+					"description": "妝點著迷人的棕色",
+					"flavor": "棕色在政治上象徵法西斯主義和極右翼，此意義源於德國納粹黨屬下武裝組織衝鋒隊制式襯衣的顏色"
+				},
+				"brown_throw_rug_recipe": {
+					"recipe_name": "棕色地毯",
+					"description": "妝點著迷人的棕色",
+					"flavor": "根據民意調查，棕色是公眾最不喜歡的顏色"
+				},
+				"brown_curtains_wide_recipe": {
+					"recipe_name": "加寬棕色窗簾",
+					"description": "妝點著迷人的棕色",
+					"flavor": "自史前時代以來，棕色一直在藝術中使用，可追朔至公元前 40,000 年"
+				},
+				"brown_curtains_long_recipe": {
+					"recipe_name": "加長棕色窗簾",
+					"description": "妝點著迷人的棕色",
+					"flavor": "棕色在自然界非常常見，舉凡木材、土壤、髮色、眼睛和膚色等"
+				},
+				"brown_curtains_recipe": {
+					"recipe_name": "棕色窗簾",
+					"description": "妝點著迷人的棕色",
+					"flavor": "棕色是一種複合顏色，通常由紅色和黃色混合而成"
+				},
+				"brown_banner_wall_small_recipe": {
+					"recipe_name": "棕色壁掛旗幟",
+					"description": "妝點著迷人的棕色",
+					"flavor": "棕色又稱為褐色或茶色"
+				},
+				"brown_banner_wall_big_recipe": {
+					"recipe_name": "大型棕色壁掛旗幟",
+					"description": "妝點著迷人的棕色",
+					"flavor": "世界中用來形容棕色的詞語大多來自於食物或飲料"
+				},
+				"red_comfy_chair_recipe": {
+					"recipe_name": "紅色舒適座椅",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色在中國、印度和許多亞洲國家是像徵幸福和幸運的顏色"
+				},
+				"red_comfy_sofa_2_recipe": {
+					"recipe_name": "紅色雙人沙發",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色，是以通過能量來激發觀察者的可見光譜中長波末端的顏色"
+				},
+				"red_comfy_sofa_1_recipe": {
+					"recipe_name": "紅色加大單人沙發",
+					"description": "妝點著動人的紅色",
+					"flavor": "由於紅色容易引起人們的注意，因此許多警告標記都用紅色的文字或圖像來表示"
+				},
+				"red_comfy_bed_recipe": {
+					"recipe_name": "紅色舒適睡床",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色在傳統西方神秘學中代表最具有男子氣概和勇氣的星座白羊座，火星或數字 1 與 9，代表純粹的陽剛"
+				},
+				"red_comfy_clay_bed_recipe": {
+					"recipe_name": "紅色舒適陶床",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅外線是波長介乎微波與可見光之間的電磁波，其波長在 760 奈米至 1 毫米之間，是波長比紅光長的非可見光"
+				},
+				"red_throw_rug_recipe": {
+					"recipe_name": "紅色地毯",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色通常是愛、勇氣、熱情、熱血、危險、男子氣概的顏色"
+				},
+				"red_curtains_wide_recipe": {
+					"recipe_name": "加寬紅色窗簾",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色是聖誕節常用的一種顏色"
+				},
+				"red_curtains_long_recipe": {
+					"recipe_name": "加長紅色窗簾",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色是戰爭的顏色，火星是紅色的星球，以羅馬戰神瑪爾斯的名字為名"
+				},
+				"red_curtains_recipe": {
+					"recipe_name": "紅色窗簾",
+					"description": "妝點著動人的紅色",
+					"flavor": "在戰略遊戲中，紅色通常用來表示敵軍，而綠色或藍色常代表友軍"
+				},
+				"red_banner_wall_small_recipe": {
+					"recipe_name": "紅色壁掛旗幟",
+					"description": "妝點著動人的紅色",
+					"flavor": "學生的作業中，老師大多用紅筆批改"
+				},
+				"red_banner_wall_big_recipe": {
+					"recipe_name": "大型紅色壁掛旗幟",
+					"description": "妝點著動人的紅色",
+					"flavor": "紅色在京劇臉譜中代表忠貞、英勇的角色"
+				},
+				"nachtwacht_recipe": {
+					"recipe_name": "夜巡",
+					"description": "17 世紀荷蘭黃金時代畫家林布蘭的名畫",
+					"flavor": "傑作！"
+				},
+				"nachtwacht_framed_recipe": {
+					"recipe_name": "夜巡（裱框）",
+					"description": "加了外框的'夜巡'",
+					"flavor": "依然是傑作！"
+				},
+				"frostfeast_painting_recipe": {
+					"recipe_name": "冬季盛宴",
+					"description": "一幅令人感到舒適的冬季畫作",
+					"flavor": "凜冬將至"
+				},
+				"frostfeast_painting_framed_recipe": {
+					"recipe_name": "冬季盛宴（裱框）",
+					"description": "加了外框的'冬季盛宴'",
+					"flavor": "拜託冬天不要再來了，所有東西都變白了！什麼...？我當然是在說雪啊！"
+				},
+				"i_fox_recipe": {
+					"recipe_name": "我是一隻狐狸",
+					"description": "一隻狐狸的畫像",
+					"flavor": "狐狸怎麼叫！"
+				},
+				"i_fox_framed_recipe": {
+					"recipe_name": "我是一隻狐狸（裱框）",
+					"description": "我是一隻在框框裡的狐狸",
+					"flavor": "鈴叮叮叮！哇啪啪啪！"
+				},
+				"sunset_recipe": {
+					"recipe_name": "落日",
+					"description": "一幅畫著落日的簡單畫作",
+					"flavor": ""
+				},
+				"sunset_framed_recipe": {
+					"recipe_name": "落日（裱框）",
+					"description": "加了外框的'落日'",
+					"flavor": ""
+				},
+				"mondriaan_recipe": {
+					"recipe_name": "紅，黃，藍的構成",
+					"description": "皮特・蒙德里安的創作",
+					"flavor": ""
+				},
+				"mondriaan_framed_recipe": {
+					"recipe_name": "紅，黃，藍的構成（裱框）",
+					"description": "加了外框的'紅，黃，藍的構成'",
+					"flavor": ""
+				},
+				"painter_workbench_recipe": {
+					"recipe_name": "畫家的畫架",
+					"description": "放置畫布的畫架",
+					"flavor": ""
+				},
+				"paint_tub_recipe": {
+					"recipe_name": "畫家的顏料桶",
+					"description": "一桶滿滿的顏料！",
+					"flavor": ""
+				}
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"_comment": "Engineer",
+				"clock_gear_recipe": {
+					"recipe_name": "發條裝置",
+					"description": "用於製作需要精確齒輪的鐘錶和小玩意",
+					"flavor": "其中一些齒輪比我的指尖還要小"
+				},
+				"iron_gear_recipe": {
+					"description": "用於製作中級裝置",
+					"recipe_name": "中級齒輪",
+					"flavor": "不要拿來當飛鏢玩"
+				},
+				"bronze_gear_recipe": {
+					"description": "用於製作基礎裝置",
+					"recipe_name": "基礎齒輪",
+					"flavor": "不用幫它刷牙！"
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"utility_name": "通用",
+				"_comment": "鐵匠",
+				"gold_nugget_recipe": {
+					"recipe_name": "金粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"silver_nugget_recipe": {
+					"recipe_name": "銀粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"copper_nugget_recipe": {
+					"recipe_name": "銅粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"bronze_nugget_recipe": {
+					"recipe_name": "青銅粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"iron_nugget_recipe": {
+					"recipe_name": "鐵粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"tin_nugget_recipe": {
+					"recipe_name": "錫粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"steel_nugget_recipe": {
+					"recipe_name": "鋼粒 x3",
+					"description": "一個金屬錠可以製作出 3 個金屬粒",
+					"flavor": ""
+				},
+				"malevo_lance_recipe": {
+					"recipe_name": "破邪之槍",
+					"description": "一把傳說可以擊退黑暗的長槍",
+					"flavor": "噢，好重！"
+				},
+				"hylian_shield_recipe": {
+					"recipe_name": "海利亞之盾",
+					"description": "這個巨大厚重的盾牌就跟那些海利亞騎士用的盾牌一樣",
+					"flavor": "用最上等的金屬鍛造而成，這個盾牌將永遠保護持用者。"
+				},
+				"mastersword_recipe": {
+					"recipe_name": "大師之劍",
+					"description": "一把非常強大的劍",
+					"flavor": "大師之劍是一把連惡魔都懼怕的劍...而且只有配有英雄稱號的人才能夠將它拔出來..."
+				},
+				"ice_bow_recipe": {
+					"recipe_name": "冰結長弓",
+					"description": "用冰打造而成的弓",
+					"flavor": "你問怎麼用鐵跟一些藥草做出一把冰結長弓？秘密。"
+				},
+				"gravis_sword_recipe": {
+					"recipe_name": "重劍",
+					"description": "一把非常大的雙手劍",
+					"flavor": "用黑鋼打造而成，是一般長劍的兩倍大。這是一把你所能打造最具殺傷力的雙手劍。只有一個缺點，它的重量會讓你的攻擊速度很慢。"
+				}
+			}
+		}
+	},
+	"ui": {
+		"painter": {
+			"display_name": "畫家",
+			"description": "創作美麗的圖畫",
+			"requirements": "需要至少一名畫家"
+		},
+		"stockpile": {
+			"tooltip_refined_painter": "圖畫，顏料，畫布，畫框"
+		}
+	},
+	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"paint_shop_1": {
+						"shop_info": {
+							"name": "達利的畫作與顏料",
+							"title": "旅行畫家達利來到了這個鎮上"
+						}
+					},
+					"paint_shop_2": {
+						"shop_info": {
+							"name": "梵谷畫匠之家",
+							"title": "名畫家梵谷帶著美麗的畫作與繪畫工具來到了這個鎮上"
+						}
+					},
+					"paint_shop_3": {
+						"shop_info": {
+							"name": "倫勃朗心血之作",
+							"title": "藝術大師倫勃朗帶著傑作與高品質的顏料來到了這個鎮上"
+						}
+					}
+				}
+			}
+		}
+	}
+}

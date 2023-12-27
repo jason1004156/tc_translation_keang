@@ -1,0 +1,25 @@
+{
+   "ui": {
+      "shell": {
+         "select_game_story": {
+            "game_modes": {
+               "easy": {
+                  "display_name": "簡單",
+                  "description": "在這個世界中你將面臨較少與較弱的敵人，讓你的城鎮以你想要的節奏成長",
+                  "post_selection_text": "不會太過危險，適合新手挑戰的地方。"
+               }
+            }
+         }
+      }
+   },
+   "data": {
+      "buffs": {
+         "game_modes": {
+            "game_mode_easy_buff": {
+               "display_name": "簡單模式",
+               "description": "降低敵人的攻擊、護甲以及血量"
+            }
+         }
+      }
+   }
+}

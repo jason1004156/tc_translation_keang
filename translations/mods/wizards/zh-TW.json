@@ -1,0 +1,555 @@
+{
+	"entities": {
+		"decorations": {
+			"owl_effigy": {
+				"display_name": "貓頭鷹塑像",
+				"description": "一尊用水晶製作而成的貓頭鷹塑像"
+			},
+			"poyocorpia": {
+				"display_name": "大地之恩",
+				"description": "一座用來感恩大地賜予萬物的紀念碑"
+			},
+			"rabbit_effigy": {
+				"display_name": "兔子塑像",
+				"description": "一尊用水晶製作而成的兔子塑像"
+			},
+			"wooden_sign_artificer": {
+				"display_name": "魔法技師招牌",
+				"description": "木牌上有魔法技師的標記"
+			}
+		},
+		"refined": {
+			"bronze_clasp": {
+				"display_name": "青銅扣",
+				"description": "用青銅製成的金屬扣，可以用於製作書本或是其他飾品上"
+			},
+			"charcoal": {
+				"display_name": "木炭",
+				"description": "木頭在經過高熱完全脫水後的產物",
+				"flavor": "聞起來有點燒焦的味道，參雜著一點木頭的氣味"
+			},
+			"crystal": {
+				"display_name": "水晶",
+				"description": "一種半透明的物質，很適合用來製作各種飾品",
+				"flavor": "既美麗又閃耀..."
+			},
+			"essence_earth": {
+				"display_name": "大地精華",
+				"description": "濃縮了大地的元素之力",
+				"flavor": "似乎透露著這片大地的歷史"
+			},
+			"essence_fire": {
+				"display_name": "火焰精華",
+				"description": "一團神奇的火球",
+				"flavor": "如同一股熱浪來襲的憤怒"
+			},
+			"essence_frost": {
+				"display_name": "寒霜精華",
+				"description": "如同極地的溫度集中在一處",
+				"flavor": "凜冬將至"
+			},
+			"gold_clasp": {
+				"display_name": "金扣",
+				"description": "用純金製成的金屬扣，可以用在書本或是其他飾品上"
+			},
+			"ink": {
+				"display_name": "墨水",
+				"description": "一罐用於書寫的墨水"
+			},
+			"leather_cover": {
+				"display_name": "皮革書封",
+				"description": "用皮革所製成的書封"
+			},
+			"sand": {
+				"display_name": "沙堆",
+				"description": "聚集成堆的沙子"
+			},
+			"silver_clasp": {
+				"display_name": "銀扣",
+				"description": "用純銀製成的金屬扣，可以用在書本或是其他飾品上"
+			},
+			"vellum": {
+				"display_name": "皮紙",
+				"description": "由動物的毛皮所製成的紙"
+			},
+			"writ_of_power": {
+				"display_name": "秘法文集",
+				"description": "寫滿了關於神秘魔法的各種符號"
+			}
+		},
+		"weapons": {
+			"ice_shot": {
+				"description": "一大塊冰",
+				"display_name": "冰礫"
+			},
+			"molten_rock": {
+				"description": "就是塊熔岩，不然呢？",
+				"display_name": "熔岩"
+			},
+			"wizard_green_hammer": {
+				"description": "一把鑲嵌著玉石的青銅戰錘",
+				"display_name": "玉石戰錘"
+			}
+		}
+	},
+	"jobs": {
+		"artificer": {
+			"artificer_description": {
+				"display_name": "魔法技師",
+				"description": "魔法技師利用神秘的力量創造各種神奇的物品",
+				"requirements": "由鐵匠所製造",
+				"level_1_data": {
+					"perk_000_name": "轉化",
+					"perk_000_description": "魔法技師現在可以利用魔法來執行最基本的物品轉化"
+				},
+				"level_2_data": {
+					"perk_000_name": "",
+					"perk_000_description": ""
+				},
+				"level_3_data": {
+					"perk_000_name": "",
+					"perk_000_description": ""
+				},
+				"level_4_data": {
+					"perk_000_name": "",
+					"perk_000_description": ""
+				},
+				"level_5_data": {
+					"perk_000_name": "",
+					"perk_000_description": ""
+				},
+				"level_6_data": {
+					"perk_000_name": "",
+
+					"perk_000_description": ""
+				}
+			},
+			"artificer_outfit": {
+				"display_name": "技師大衣",
+				"description": "Made from luxuriant cloth and leathers, the lovely blue shade of these robes let's others know that a frost wizard is in their midst and that they should probably turn up the heater."
+			},
+			"artificer_hat": {
+				"display_name": "技師護目鏡",
+				"description": "Blue and pointy. A must have for any real wizard."
+			},
+			"artificer_arcane_pedestal": {
+				"artificer_arcane_pedestal_ghost": {
+					"display_name": "奧術基座"
+				}
+			},
+			"artificer_staff": {
+				"description": "轉職為魔法技師的必要物品",
+				"display_name": "魔法技師的法杖",
+				"display_name": "魔法技師的法杖",
+				"artificer_staff_iconic": {
+					"description": "轉職為魔法技師的必要物品",
+					"display_name": "魔法技師的法杖"
+				},
+				"artificer_staff_talisman": {
+					"description": "轉職為魔法技師的必要物品",
+					"display_name": "魔法技師的法杖"
+				}
+			},
+			"artificer_workbench": {
+				"artificer_workbench_ghost": {
+					"display_name": "魔法技師的工作桌"
+				}
+			},
+			"recipes": {
+				"artificer_arcane_pedestal_recipe": {
+					"recipe_name": "奧術基座",
+					"description": "讓魔法技師可以汲取神秘的力量轉為己用",
+					"flavor": "至上奧法，聽我所喚，尊我所意 - 至上魔法技師 風暴·阿爾布雷希特"
+				},
+				"artificer_workbench_recipe": {
+					"recipe_name": "魔法技師的工作桌",
+					"description": "讓魔法技師可以製作各種物品",
+					"flavor": "文房四寶，樣樣具備"
+				},
+				"bronze_clasp_recipe": {
+					"recipe_name": "青銅扣",
+					"description": "用青銅製成的金屬扣，可以用在書本或是其他飾品上",
+					"flavor": ""
+				},
+				"essence_earth_recipe": {
+					"recipe_name": "大地精華",
+					"description": "濃縮了大地的元素之力",
+					"flavor": "似乎透露著這片大地的歷史"
+				},
+				"essence_fire_recipe": {
+					"recipe_name": "火焰精華",
+					"description": "一團神奇的火球",
+					"flavor": "如同一股熱浪來襲的憤怒"
+				},
+				"essence_frost_recipe": {
+					"recipe_name": "寒霜精華",
+					"description": "如同極地的溫度集中在一處",
+					"flavor": "凜冬將至"
+				},
+				"gold_clasp_recipe": {
+					"recipe_name": "金扣",
+					"description": "用純金製成的金屬扣，可以用在書本或是其他飾品上",
+					"flavor": "最好的金屬扣"
+				},
+				"ink_recipe": {
+					"recipe_name": "墨水",
+					"description": "一罐用於書寫的墨水",
+					"flavor": "文勝於武"
+				},
+				"leather_cover_recipe": {
+					"recipe_name": "皮革書封",
+					"description": "用皮革所製成的書封",
+					"flavor": "不要以貌取書"
+				},
+				"owl_effigy_recipe": {
+					"recipe_name": "貓頭鷹肖像",
+					"description": "一尊用水晶製作而成的貓頭鷹塑像",
+					"flavor": "智慧的象徵"
+				},
+				"poyocorpia_recipe": {
+					"recipe_name": "大地之恩",
+					"description": "一座用來感恩大地賜予萬物的紀念碑",
+					"flavor": "波！波波！波波波波波～"
+				},
+				"rabbit_effigy_recipe": {
+					"recipe_name": "兔子塑像",
+					"description": "一尊用水晶製作而成的兔子塑像",
+					"flavor": "敏捷的象徵"
+				},
+				"sand_recipe": {
+					"recipe_name": "沙堆",
+					"description": "聚集成堆的沙子",
+					"flavor": "味道不是很好..."
+				},
+				"silver_clasp_recipe": {
+					"recipe_name": "銀扣",
+					"description": "用純銀製成的金屬扣，可以用在書本或是其他飾品上",
+					"flavor": "銀匠之作"
+				},
+				"vellum_recipe": {
+					"recipe_name": "皮紙",
+					"description": "由動物的毛皮所製成的紙",
+					"flavor": "我還真不知道你看得懂字呢"
+				},
+				"wooden_sign_artificer_recipe": {
+					"recipe_name": "魔法技師招牌",
+					"description": "木牌上有魔法技師的標記"
+				},
+				"wizard_blue_tome_recipe": {
+					"recipe_name": "藍袍巫師的寶典",
+					"description": "轉職為藍袍巫師的必要物品",
+					"flavor": "摸起來冰冰涼涼的..."
+				},
+				"wizard_red_tome_recipe": {
+					"recipe_name": "紅袍巫師的寶典",
+					"description": "轉職為紅袍巫師的必要物品",
+					"flavor": "摸起來溫溫熱熱的..."
+				},
+				"wizard_green_tome_recipe": {
+					"recipe_name": "綠袍巫師的寶典",
+					"description": "轉職為綠袍巫師的必要物品",
+					"flavor": "拿起來意外地沉重..."
+				},
+				"writ_of_power_recipe": {
+					"recipe_name": "秘法文集",
+					"description": "寫滿了關於神秘魔法的各種符號",
+					"flavor": "只要我的筆輕輕一彈，世界便會隨我意轉"
+				},
+				"workbenches_name": "工作台",
+				"literary_name": "文學工藝品",
+				"metalworks_name": "金屬製品",
+				"transmutes_name": "轉化",
+				"tools_name": "職業工具",
+				"decorations_name": "裝飾品"
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"artificer_staff_recipe": {
+					"recipe_name": "Artificer's Staff",
+					"description": "Required to promote a Worker into an Artificer.",
+					"flavor": "There is no greater journey than the pursuit of magic. Especially the magic that goes bang. --Albrecht Storm, Grand Artificer"
+				},
+				"charcoal_recipe": {
+					"recipe_name": "木炭",
+					"description": "木頭在經過高熱完全脫水後的產物",
+					"flavor": "聞起來有點燒焦的味道，參雜著一點木頭的氣味"
+				},
+				"crystal_recipe": {
+					"recipe_name": "水晶",
+					"description": "一種半透明的物質，很適合用來製作各種飾品",
+					"flavor": "Beautiful and shiny. So shiny..."
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"wizard_blue_tome_recipe": {
+					"recipe_name": "藍袍巫師的寶典",
+					"description": "轉職為藍袍巫師的必要物品",
+					"flavor": "摸起來冰冰涼涼的..."
+				},
+				"wizard_red_tome_recipe": {
+					"recipe_name": "紅袍巫師的寶典",
+					"description": "轉職為紅袍巫師的必要物品",
+					"flavor": "摸起來溫溫熱熱的..."
+				},
+				"wizard_green_tome_recipe": {
+					"recipe_name": "綠袍巫師的寶典",
+					"description": "轉職為綠袍巫師的必要物品",
+					"flavor": "拿起來意外地沉重..."
+				}
+			}
+		},
+		"wizard_blue": {
+			"wizard_blue_description": {
+				"display_name": "藍袍巫師",
+				"description": "藍袍巫師可以從遠處支援他的隊友，運用寒冰魔法削弱敵人",
+				"requirements": "由魔法技師所製作",
+				"level_0_data": {
+					"perk_000_name": "冰礫",
+					"perk_000_description": "巫師向敵人投擲冰塊，削弱對方的速度與力量"
+				},
+				"level_1_data": {
+					"perk_000_name": "魔力增幅",
+					"perk_000_description": "透過大量的訓練提升魔力上限，可以使用更強力的魔法"
+				},
+				"level_2_data": {
+					"perk_000_name": "動能提升",
+					"perk_000_description": "攻擊距離增加"
+				},
+				"level_3_data": {
+					"perk_000_name": "動能滿點",
+					"perk_000_description": "攻擊距離大幅增加"
+				},
+				"level_4_data": {
+					"perk_000_name": "冰雹",
+					"perk_000_description": "巫師向敵人投擲大量冰塊"
+				},
+				"level_5_data": {
+					"perk_000_name": "循環不息",
+					"perk_000_description": "巫師掌握了自身氣血的循環，提高了生命上限與回復力"
+				},
+				"level_6_data": {
+					"perk_000_name": "絕對零度",
+					"perk_000_description": "巫師以最強力的冷凍魔法攻擊敵人，大幅削弱對方的行動力、力量以及回復力"
+				}
+			},
+			"wizard_blue_buffs": {
+				"damage_1_buff": {
+					"display_name": "傷害增幅 20%",
+					"description": "造成更多傷害"
+				},
+				"range_1_buff": {
+					"display_name": "動能提升",
+					"description": "攻擊距離提升"
+				},
+				"range_2_buff": {
+					"display_name": "動能滿點",
+					"description": "攻擊距離大幅提升"
+				},
+				"health_1_buff": {
+					"display_name": "循環不息",
+					"description": "提高生命上限與回復力"
+				},
+				"wizard_blue_slow_buff": {
+					"display_name": "寒冷",
+					"description": "受到藍袍巫師的攻擊"
+				},
+				"wizard_blue_freeze_buff": {
+					"display_name": "冷凍",
+					"description": "冷到幾乎要變成冰塊了"
+				}
+			},
+			"wizard_blue_outfit": {
+				"display_name": "藍色巫師袍",
+				"description": "由各種布料與皮革製成，藍色的陰影時刻提醒著大家他是名藍袍巫師，記得打開暖氣。"
+			},
+			"wizard_blue_hat": {
+				"display_name": "藍色巫師帽",
+				"description": "藍色的尖頂帽，巫師必備"
+			},
+			"wizard_blue_tome": {
+				"description": "轉職為藍袍巫師的必要物品",
+				"display_name": "藍袍巫師的寶典",
+				"wizard_blue_tome_iconic": {
+					"description": "轉職為藍袍巫師的必要物品",
+					"display_name": "藍袍巫師的寶典"
+				},
+				"wizard_blue_tome_talisman": {
+					"description": "轉職為藍袍巫師的必要物品",
+					"display_name": "藍袍巫師的寶典"
+				}
+			}
+		},
+		"wizard_red": {
+			"wizard_red_description": {
+				"display_name": "紅袍巫師",
+				"description": "紅袍巫師擅長使用火焰魔法讓敵人身陷火海",
+				"requirements": "由魔法技師所製作",
+				"level_0_data": {
+					"perk_000_name": "熔岩",
+					"perk_000_description": "向敵人投擲燃燒的岩石，部分傷害可以穿透敵人護甲，並有一定機率附加燃燒狀態"
+				},
+				"level_1_data": {
+					"perk_000_name": "心勝於物",
+					"perk_000_description": "犧牲部分生命力來增強法力"
+				},
+				"level_2_data": {
+					"perk_000_name": "拓荒者",
+					"perk_000_description": "提高移動速度"
+				},
+				"level_3_data": {
+					"perk_000_name": "心勝於物 II",
+					"perk_000_description": "犧牲更多生命力來大幅增強法力"
+				},
+				"level_4_data": {
+					"perk_000_name": "熔火盛焰",
+					"perk_000_description": "巫師的火焰變得更加灼熱，可以輕鬆熔化護甲"
+				},
+				"level_5_data": {
+					"perk_000_name": "煉獄",
+					"perk_000_description": "巫師可以用令人無法忍受的炙熱火焰點燃敵人"
+				},
+				"level_6_data": {
+					"perk_000_name": "心勝於物 III",
+					"perk_000_description": "犧牲所有生命力來獲得至高無上的法力"
+				}
+			},
+			"wizard_red_buffs": {
+				"armor_penetration_1_buff": {
+					"display_name": "護甲穿透 30%",
+					"description": "造成的傷害可以穿透敵人 30% 的護甲"
+				},
+				"armor_penetration_2_buff": {
+					"display_name": "護甲穿透 80%",
+					"description": "造成的傷害可以穿透敵人 80% 的護甲"
+				},
+				"inferno": {
+					"display_name": "煉獄",
+					"description": "被炙熱的火焰纏身，護甲降低"
+				},
+				"molten_rock": {
+					"display_name": "燃燒",
+					"description": "受到燃燒"
+				},
+				"mom_1_buff": {
+					"display_name": "心勝於物",
+					"description": "增加 25% 傷害，但身體變得較為虛弱"
+				},
+				"mom_2_buff": {
+					"display_name": "心勝於物 II",
+					"description": "增加 50% 傷害，但身體變得較為虛弱"
+				},
+				"mom_3_buff": {
+					"display_name": "心勝於物 III",
+					"description": "增加 75% 傷害，但身體變得較為虛弱"
+				},
+				"trail_blaze_1_buff": {
+					"display_name": "拓荒者",
+					"description": "移動速度提高 30%"
+				}
+			},
+			"wizard_red_outfit": {
+				"display_name": "紅色巫師袍",
+				"description": "紅黑相間的巫師袍被塑造成類似背心的樣式，以防止穿著者施展火焰魔法時身體過熱"
+			},
+			"wizard_red_hat": {
+				"display_name": "紅色巫師帽",
+				"description": "紅色的尖頂帽，巫師必備"
+			},
+			"wizard_red_tome": {
+				"description": "轉職為紅袍巫師的必要物品",
+				"display_name": "紅袍巫師的寶典",
+				"wizard_red_tome_iconic": {
+					"description": "轉職為紅袍巫師的必要物品",
+					"display_name": "紅袍巫師的寶典"
+				},
+				"wizard_red_tome_talisman": {
+					"description": "轉職為紅袍巫師的必要物品",
+					"display_name": "紅袍巫師的寶典"
+				}
+			}
+		},
+		"wizard_green": {
+			"wizard_green_description": {
+				"display_name": "綠袍巫師",
+				"description": "綠袍巫師汲取大地的魔力在前線戰鬥，揮動戰錘時能夠對附近的複數敵人造成傷害",
+				"requirements": "由魔法技師所製作",
+				"level_1_data": {
+					"perk_000_name": "大地加護 I",
+					"perk_000_description": "將大地之力灌注於體內，使耐力提升"
+				},
+				"level_2_data": {
+					"perk_000_name": "燧石祝福",
+					"perk_000_description": "使綠袍巫師的揮擊如同燧石一般堅硬，使攻擊力提升"
+				},
+				"level_3_data": {
+					"perk_000_name": "地震 (尚未實作)",
+					"perk_000_description": "綠袍巫師縱身一躍，藉下墜之力猛擊大地"
+				},
+				"level_4_data": {
+					"perk_000_name": "大地加護 II",
+					"perk_000_description": "將大地之力灌注於體內，使耐力提升"
+				},
+				"level_5_data": {
+					"perk_000_name": "岩石光環",
+					"perk_000_description": "位附近的爐民增加 30% 的護甲"
+				},
+				"level_6_data": {
+					"perk_000_name": "巨石魔像 (尚未實作)",
+					"perk_000_description": "綠袍巫師汲取大地之力，召喚巨石魔像協助戰鬥"
+				}
+			},
+			"wizard_green_buffs": {
+				"earth_blessing_1_buff": {
+					"display_name": "大地加護 I",
+					"description": "提升血量與回復力"
+				},
+				"earth_blessing_2_buff": {
+					"display_name": "大地加護 II",
+					"description": "大幅提升血量與回復力"
+				},
+				"flint_blessing_1_buff": {
+					"display_name": "燧石祝福",
+					"description": "提升 25% 攻擊力，同時提升移動速度"
+				},
+				"stone_aura_buff": {
+					"display_name": "岩石光環",
+					"description": "為自身與附近爐民提升 30% 由裝備所提供的護甲"
+				},
+				"stone_aura_effect_buff": {
+					"display_name": "石膚",
+					"description": "受惠於綠袍巫師，提升 30% 由裝備所提供的護甲"
+				}
+			},
+			"wizard_green_outfit": {
+				"display_name": "綠色巫師袍",
+				"description": "綠色的長袍嵌合青銅護甲，是大地的顏色"
+			},
+			"wizard_green_hat": {
+				"display_name": "綠色頭罩",
+				"description": "綠袍巫師專屬的綠色精美頭罩"
+			},
+			"wizard_green_tome": {
+				"description": "轉職為綠袍巫師的必要物品",
+				"display_name": "綠袍巫師的寶典",
+				"wizard_green_tome_iconic": {
+					"description": "轉職為綠袍巫師的必要物品",
+					"display_name": "綠袍巫師的寶典"
+				},
+				"wizard_green_tome_talisman": {
+					"description": "轉職為綠袍巫師的必要物品",
+					"display_name": "綠袍巫師的寶典"
+				}
+			}
+		}
+	},
+	"ui": {
+		"artificer": {
+			"display_name": "魔法技師",
+			"description": "專門製作與魔法相關的書籍、裝飾以及其他物品",
+			"requirements": "需要至少一名魔法技師"
+		}
+	}
+}

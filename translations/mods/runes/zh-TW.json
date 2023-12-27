@@ -1,0 +1,112 @@
+{
+   "entities": {
+      "decoration": {
+         "rune_stone_wall_brazier": {
+            "rune_stone_wall_brazier_ghost": {
+               "display_name": "壁式符文石火盆",
+               "description": "似乎有什麼藏在火焰中..."
+            }
+         },
+         "rune_stone_brazier": {
+            "rune_stone_brazier_ghost": {
+               "display_name": "符文石火盆",
+               "description": "似乎有什麼藏在火焰中..."
+            }
+         },
+         "rune_firepit": {
+            "rune_firepit_ghost": {
+               "display_name": "符文火坑",
+               "description": "傳說你可以在火焰中看到上古岩石的神靈..."
+            }
+         },
+         "rune_stone": {
+            "rune_stone_ghost": {
+               "display_name": "符文石",
+               "description": "上古岩石的神秘力量蘊含其中"
+            }
+         },
+         "rune_stone_small": {
+            "rune_stone_small_ghost": {
+               "display_name": "小符文石",
+               "description": "上古岩石的神秘力量蘊含其中"
+            }
+         },
+
+         "rune_wood_wall_lantern": {
+            "rune_wood_wall_lantern_ghost": {
+               "display_name": "森林符文牆燈",
+               "description": "似乎有什麼藏在微光中..."
+            }
+         },
+         "rune_wood_garden_lantern": {
+            "rune_wood_garden_lantern_ghost": {
+               "display_name": "森林符文燈",
+               "description": "似乎有什麼藏在微光中..."
+            }
+         },
+         "rune_wood": {
+            "rune_wood_ghost": {
+               "display_name": "森林符文",
+               "description": "古老森林的神秘力量蘊含其中"
+            }
+         },
+         "rune_wood_small": {
+            "rune_wood_small_ghost": {
+               "display_name": "小森林符文",
+               "description": "古老森林的神秘力量蘊含其中"
+            }
+         }
+      }
+   },
+
+   "jobs" : {
+
+      "mason": {
+
+         "recipes": {
+            "rune_stone_wall_brazier_recipe": {
+               "description": "燃燒著神祕的綠色火焰...",
+               "recipe_name": "壁式符文石火盆"
+            },
+            "rune_stone_brazier_recipe": {
+               "description": "燃燒著神祕的綠色火焰...",
+               "recipe_name": "符文石火盆"
+            },
+            "rune_firepit_recipe": {
+               "description": "燃燒著神祕的綠色火焰...",
+               "recipe_name": "符文火坑"
+            },
+            "rune_stone_recipe": {
+               "description": "刻有奇怪的符號",
+               "recipe_name": "符文石"
+            },
+            "rune_stone_small_recipe": {
+               "description": "刻有奇怪的符號",
+               "recipe_name": "小符文石"
+            }
+         }
+      },
+
+      "carpenter": {
+
+         "recipes": {
+            "rune_wood_wall_lantern_recipe": {
+               "description": "散發著神秘的綠色光芒...",
+               "recipe_name": "森林符文牆燈"
+            },
+            "rune_wood_garden_lantern_recipe": {
+               "description": "散發著神秘的綠色光芒...",
+               "recipe_name": "森林符文燈"
+            },
+            "rune_wood_recipe": {
+               "description": "刻有奇怪的符號",
+               "recipe_name": "森林符文"
+            },
+            "rune_wood_small_recipe": {
+               "description": "刻有奇怪的符號",
+               "recipe_name": "小森林符文"
+            }
+         }
+      }
+   }
+}

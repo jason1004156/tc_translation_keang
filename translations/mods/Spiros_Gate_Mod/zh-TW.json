@@ -1,0 +1,89 @@
+{
+   "jobs": {
+      "generic": {
+         "building_parts": "建築物件"
+      },
+      "carpenter": {
+         "recipes": {
+            "reinforced_double_gate_recipe": {
+               "recipe_name": "強化雙開木門",
+               "description": "比一般雙開木門更堅固",
+               "flavor": "不 準 過 ！"
+            },
+            "wooden_double_gate_recipe": {
+               "recipe_name": "木製雙開閘門",
+               "description": "一扇網格狀的門",
+               "flavor": "我是無辜的！"
+            },
+            "wooden_gate_recipe": {
+               "recipe_name": "木製閘門",
+               "description": "一扇網格狀的門",
+               "flavor": "我沒有罪！"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "stonegate_b_recipe": {
+               "recipe_name": "淺色石製雙開閘門",
+               "description": "一扇網格狀的門",
+               "flavor": "放我出去！"
+            },
+            "stonegate_a_recipe": {
+               "recipe_name": "石製雙開閘門",
+               "description": "一扇網格狀的門",
+               "flavor": "同情我一下吧！"
+            }
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "dragon_gate_recipe": {
+               "recipe_name": "龍門",
+               "description": "一扇超棒的門！",
+               "flavor": "它剛剛對我噴火！"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "dragon_gate": {
+            "dragon_gate_ghost": {
+               "description": "一扇超棒的門！",
+               "display_name": "龍門"
+            }
+         },
+         "reinforced_double_gate": {
+            "reinforced_double_gate_ghost": {
+               "description": "比一般雙開木門更堅固",
+               "display_name": "強化雙開木門"
+            }
+         },
+         "wooden_double_gate": {
+            "wooden_double_gate_ghost": {
+               "description": "一扇網格狀的門",
+               "display_name": "木製雙開閘門"
+            }
+         },
+         "wooden_gate": {
+            "wooden_gate_ghost": {
+               "description": "一扇網格狀的門",
+               "display_name": "木製閘門"
+            }
+         },
+         "stonegate_a": {
+            "stonegate_a_ghost": {
+               "description": "一扇網格狀的門",
+               "display_name": "石製雙開閘門"
+            }
+         },
+         "stonegate_b": {
+            "stonegate_b_ghost": {
+               "description": "一扇網格狀的門",
+               "display_name": "淺色石製雙開閘門"
+            }
+         }
+      }
+   }
+}

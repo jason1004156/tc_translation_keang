@@ -1,0 +1,12 @@
+{
+   "ui": {
+      "game": {
+         "entities": {
+            "item_categories": {
+               "drink": "飲料",
+               "quest_items": "任務物品"
+            }
+         }
+      }
+   }
+}

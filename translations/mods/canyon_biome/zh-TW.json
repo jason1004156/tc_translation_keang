@@ -1,0 +1,40 @@
+{
+	"data": {
+		"biome": {
+			"canyon": {
+				"display_name": "峽谷",
+				"description": "被峭壁所包圍的山谷，由河流長時間侵蝕而形成",
+				"random_location_names": {
+					"000": "雷霆山",
+					"001": "暴風之牆",
+					"002": "猩紅山脈",
+					"003": "鷹崖"
+				}
+			}
+		}
+	},
+	"entities":{
+		"decoration":{
+			"bones":{
+				"display_name":"骨頭",
+				"description":"曾經是動物的一部份，現已回歸大地"
+			},
+			"skull":{
+				"display_name":"頭骨",
+				"description":"曾經是動物的一部份，現已回歸大地"
+			}
+		}
+	},
+	"ui":{
+		"shell":{
+			"select_settlement":{
+				"terrain_codes":{
+					"water": "河流",
+					"plains_2": "山谷",
+					"mountains_wall": "山壁",
+					"mountains_top": "高原"
+				}
+			}
+		}
+	}
+}

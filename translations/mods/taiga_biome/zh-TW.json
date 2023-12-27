@@ -1,0 +1,47 @@
+{
+   "data": {
+      "biome": {
+         "taiga": {
+            "display_name": "北境針葉林",
+            "description": "位於寒冷北方的一片針葉林",
+            "random_location_names": {
+               "000": "迷霧之林",
+               "001": "雪景地幔",
+               "002": "寒氣木林"
+            }
+         }
+      }
+   },
+   "entities": {
+      "trees": {
+        "dark_pine": {
+        "small_dark_pine_tree": {
+             "display_name": "小松樹",
+             "description": "距離它長成世界之樹可還有一段非常遙遠的距離..."
+               },
+
+		   "medium_dark_pine_tree": {
+             "display_name": "松樹",
+             "description": "...一棵松樹"
+               },
+
+		   "large_dark_pine_tree": {
+             "display_name": "大松樹",
+             "description": "我會說，這是一顆很大的松樹"
+
+		      },
+
+		   "ancient_dark_pine_tree": {
+             "display_name" : "古老松樹",
+             "description"  : "這棵松樹看起來很古老...樹枝上有松鼠！"
+            }
+	     }
+      },
+      "terrain": {
+          "cloud_maker": {
+               "display_name": "枯燥的石頭",
+               "description": "就只是一顆石頭，沒什麼好看的！"
+         }
+      }
+   }
+}

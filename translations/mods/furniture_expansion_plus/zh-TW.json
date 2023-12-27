@@ -1,0 +1,388 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"rare_item_shop": {
+								"display_name": "帶著閃亮物品的商人",
+								"title": "一位藍眼且骨瘦如柴的商人接近中"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"decorations": {
+			"blue_awning": {
+				"blue_awning_ghost": {
+					"display_name": "藍色布棚",
+					"description": "專給那些不愛曬太陽的人遮陽用"
+				}
+			},
+			"red_awning": {
+				"red_awning_ghost": {
+					"display_name": "紅色布棚",
+					"description": "給那些不喜歡藍色布棚的人"
+				}
+			},
+			"red_curtains": {
+				"red_curtains_ghost": {
+					"display_name": "紅色窗簾",
+					"description": "就像藍色窗簾那樣，不過這是紅色的"
+				}
+			},
+			"trapdoor": {
+				"trapdoor_ghost": {
+					"display_name": "暗門",
+					"description": "好想知道這下面有些什麼...可是打不開"
+				}
+			}
+		},
+		"furniture": {
+			"bar_corner": {
+				"bar_corner_ghost": {
+					"display_name": "吧檯轉角",
+					"description": "誰會不喜歡坐在吧檯的角落呢"
+				}
+			},
+			"bar_section": {
+				"bar_section_ghost": {
+					"display_name": "吧檯",
+					"description": "喝醉的爐民有趣多了"
+				}
+			},
+			"barrel_chair": {
+				"barrel_chair_ghost": {
+					"display_name": "木桶椅",
+					"description": "可以坐在上面盡情的吃喝"
+				}
+			},
+			"barrel_for_one": {
+				"barrel_for_one_ghost": {
+					"display_name": "單人木桶桌",
+					"description": "才不想跟別人分享呢"
+				}
+			},
+			"barrel_table": {
+				"barrel_table_ghost": {
+					"display_name": "木桶桌",
+					"description": "給那些不喜歡一般桌子的人"
+				}
+			},
+			"bluecloth_wood_table": {
+				"bluecloth_wood_table_ghost": {
+					"display_name": "藍色餐桌",
+					"description": "有了顏色的餐桌"
+				}
+			},
+			"boiling_cabinet": {
+				"boiling_cabinet_ghost": {
+					"display_name": "火爐",
+					"description": "吃東西的時候就會想到它"
+				}
+			},
+			"bookcase_large": {
+				"bookcase_large_ghost": {
+					"display_name": "書櫃",
+					"description": "怎麼好像有一片火腿夾在書中間"
+				}
+			},
+			"bookcase_small": {
+				"bookcase_small_ghost": {
+					"display_name": "小書櫃",
+					"description": "有片培根夾在書裡"
+				}
+			},
+			"burning_logs": {
+				"burning_logs_ghost": {
+					"display_name": "火柴",
+					"description": "裝飾用的木頭，你以為真的可以拿來燒嗎"
+				}
+			},
+			"cart": {
+				"cart_ghost": {
+					"display_name": "推車",
+					"description": "可惜它不能真的拿來用"
+				}
+			},
+			"crate_chair": {
+				"crate_chair_ghost": {
+					"display_name": "木箱椅",
+					"description": "如果這原本是個用來裝貴重物品的箱子，表示你在工作上很有成就"
+				}
+			},
+			"linked_chest": {
+				"linked_chest_ghost": {
+					"display_name": "林克寶箱",
+					"description": "可以存放 70 個物品"
+				}
+			},
+			"piano": {
+				"piano_ghost": {
+					"display_name": "鋼琴",
+					"description": "充滿優雅的氣息"
+				}
+			},
+			"redcloth_wooden_table": {
+				"redcloth_wooden_table_ghost": {
+					"display_name": "紅色餐桌",
+					"description": "有了不同顏色的餐桌"
+				}
+			},
+			"scarecrow": {
+				"scarecrow_ghost": {
+					"display_name": "稻草人",
+					"description": "如果它有大腦就好了"
+				}
+			},
+			"shelf": {
+				"shelf_ghost": {
+					"display_name": "架子",
+					"description": "要是可以在上面放東西就好了"
+				}
+			},
+			"shopping_stall_blue": {
+				"shopping_stall_blue_ghost": {
+					"display_name": "藍色購物攤",
+					"description": "就像電影裡有人摔下來會砸壞的那種"
+				}
+			},
+			"shopping_stall_green": {
+				"shopping_stall_green_ghost": {
+					"display_name": "綠色購物攤",
+					"description": "就像電影裡有人摔下來會砸壞的那種"
+				}
+			},
+			"shopping_stall_pink": {
+				"shopping_stall_pink_ghost": {
+					"display_name": "粉紅購物攤",
+					"description": "就像電影裡有人摔下來會砸壞的那種"
+				}
+			},
+			"shopping_stall_purple": {
+				"shopping_stall_purple_ghost": {
+					"display_name": "紫色購物攤",
+					"description": "就像電影裡有人摔下來會砸壞的那種"
+				}
+			},
+			"simple_wooden_stool": {
+				"simple_wooden_stool_ghost": {
+					"display_name": "木凳",
+					"description": "小心蜘蛛"
+				}
+			},
+			"training_dummy": {
+				"training_dummy_ghost": {
+					"display_name": "訓練用假人",
+					"description": "裝飾用，讓你看起來很厲害"
+				}
+			},
+			"washing_cabinet": {
+				"washing_cabinet_ghost": {
+					"display_name": "洗手台",
+					"description": "勤洗手，遠離腸病毒"
+				}
+			},
+			"wooden_chest": {
+				"wooden_chest_ghost": {
+					"display_name": "木箱",
+					"description": "裝飾用，裡面絕對沒東西"
+				}
+			}
+		},
+		"toys": {
+			"plushie_toy_mudkip": {
+				"plushie_toy_mudkip_ghost": {
+					"display_name": "水躍魚娃娃",
+					"description": "身體雖小卻很有力氣"
+				}
+			},
+			"plushie_toy_snorlax": {
+				"plushie_toy_snorlax_ghost": {
+					"display_name": "卡比獸娃娃",
+					"description": "需要寶可夢之笛"
+				}
+			},
+			"plushie_toy_meowth": {
+				"plushie_toy_meowth_ghost": {
+					"display_name": "喵喵娃娃",
+					"description": "喵～"
+				}
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"plushie_toy_meowth_recipe": {
+					"recipe_name": "喵喵娃娃",
+					"description": "給小孩玩的玩具",
+					"flavor": "喵～"
+				},
+				"blue_awning_recipe": {
+					"recipe_name": "藍色布棚",
+					"description": "為窗戶帶來一點裝飾",
+					"flavor": "遮光技術為您帶來良好的睡眠"
+				},
+				"plushie_toy_mudkip_recipe": {
+					"recipe_name": "水躍魚娃娃",
+					"description": "給小孩玩的玩具",
+					"flavor": "身體雖小卻很有力氣"
+				},
+				"plushie_toy_snorlax_recipe": {
+					"recipe_name": "卡比獸娃娃",
+					"description": "給小孩玩的玩具",
+					"flavor": "需要寶可夢之笛"
+				},
+				"red_awning_recipe": {
+					"recipe_name": "紅色布棚",
+					"description": "為窗戶帶來一點裝飾",
+					"flavor": "遮光技術為您帶來良好的睡眠"
+				},
+				"red_curtains_recipe": {
+					"recipe_name": "紅色窗簾",
+					"description": "為窗戶帶來一點裝飾",
+					"flavor": "遮光技術為您帶來良好的睡眠"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"barrel_for_one_recipe": {
+					"recipe_name": "單人木桶桌",
+					"description": "總比站著吃要好，除非你想減肥",
+					"flavor": "才不想跟別人分享呢"
+				},
+				"bookcase_small_recipe": {
+					"recipe_name": "小書櫃",
+					"description": "有片培根夾在書裡",
+					"flavor": "我好像聞到了甚麼..."
+				},
+				"boiling_cabinet_recipe": {
+					"recipe_name": "火爐",
+					"description": "專門用來烹煮食物，當然，只是裝飾品",
+					"flavor": "吃東西的時候就會想到它"
+				},
+				"bar_corner_recipe": {
+					"recipe_name": "吧檯轉角",
+					"description": "可以放置於吧檯的轉角",
+					"flavor": "警告：小心碰撞"
+				},
+				"barrel_chair_recipe": {
+					"recipe_name": "木桶椅",
+					"description": "坐在上面用餐可以獲得額外 20% 的滿足感",
+					"flavor": "哈比人專用"
+				},
+				"barrel_table_recipe": {
+					"recipe_name": "木桶桌",
+					"description": "讓大家可以一塊吃東西，就像成人一樣",
+					"flavor": "給那些不喜歡一般桌子的人"
+				},
+				"bar_section_recipe": {
+					"recipe_name": "吧檯",
+					"description": "滿足你狂歡的需求",
+					"flavor": "警告：不要喝醉了"
+				},
+				"burning_logs_recipe": {
+					"recipe_name": "火柴",
+					"description": "裝飾用的木頭，你以為真的可以拿來燒嗎",
+					"flavor": ""
+				},
+				"cart_recipe": {
+					"recipe_name": "推車",
+					"description": "可惜它不能真的拿來用",
+					"flavor": ""
+				},
+				"bluecloth_wood_table_recipe": {
+					"recipe_name": "藍色餐桌",
+					"description": "有了顏色的餐桌",
+					"flavor": ""
+				},
+				"bookcase_large_recipe": {
+					"recipe_name": "書櫃",
+					"description": "怎麼好像有一片火腿夾在書中間",
+					"flavor": "怎麼聞起來有食物的味道..."
+				},
+				"linked_chest_recipe": {
+					"recipe_name": "林克寶箱",
+					"description": "可以存放 70 個物品",
+					"flavor": "這絕對不是從其他遊戲裡來的"
+				},
+				"crate_chair_recipe": {
+					"recipe_name": "木箱椅",
+					"description": "坐在上面用餐可以獲得額外 20% 的滿足感",
+					"flavor": "坐在木箱上其實還不錯，而且可以節省資源"
+				},
+				"piano_recipe": {
+					"recipe_name": "鋼琴",
+					"description": "充滿優雅的氣息",
+					"flavor": ""
+				},
+				"redcloth_wooden_table_recipe": {
+					"recipe_name": "紅色餐桌",
+					"description": "有了不同顏色的餐桌",
+					"flavor": ""
+				},
+				"scarecrow_recipe": {
+					"recipe_name": "稻草人",
+					"description": "守衛你的農作物，如果真的有用的話...",
+					"flavor": "如果它有大腦就好了"
+				},
+				"shelf_recipe": {
+					"recipe_name": "架子",
+					"description": "要是可以在上面放東西就好了",
+					"flavor": ""
+				},
+				"shopping_stall_blue_recipe": {
+					"recipe_name": "藍色購物攤",
+					"description": "是時候來做些買賣了",
+					"flavor": "就像電影裡有人摔下來會砸壞的那種"
+				},
+				"shopping_stall_green_recipe": {
+					"recipe_name": "綠色購物攤",
+					"description": "是時候來做些買賣了",
+					"flavor": "就像電影裡有人摔下來會砸壞的那種"
+				},
+				"shopping_stall_pink_recipe": {
+					"recipe_name": "粉紅購物攤",
+					"description": "是時候來做些買賣了",
+					"flavor": "就像電影裡有人摔下來會砸壞的那種"
+				},
+				"shopping_stall_purple_recipe": {
+					"recipe_name": "紫色購物攤",
+					"description": "是時候來做些買賣了",
+					"flavor": "就像電影裡有人摔下來會砸壞的那種"
+				},
+				"simple_wooden_stool_recipe": {
+					"recipe_name": "木凳",
+					"description": "坐在上面用餐可以獲得額外 20% 的滿足感",
+					"flavor": "小心蜘蛛"
+				},
+				"training_dummy_recipe": {
+					"recipe_name": "訓練用假人",
+					"description": "裝飾用，讓你看起來很厲害",
+					"flavor": ""
+				},
+				"trapdoor_recipe": {
+					"recipe_name": "暗門",
+					"description": "好想知道這下面有些什麼...可是打不開",
+					"flavor": ""
+				},
+				"washing_cabinet_recipe": {
+					"recipe_name": "洗手台",
+					"description": "勤洗手，遠離腸病毒",
+					"flavor": ""
+				},
+				"wooden_chest_recipe": {
+					"recipe_name": "木箱",
+					"description": "裝飾用，裡面絕對沒東西",
+					"flavor": ""
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"data": {
+		"biome": {
+			"swamp": {
+				"display_name": "沼澤",
+				"description": "平緩的地形，覆滿植被的溼地，在這裡你要小心你的腳步",
+				"random_location_names": {
+					"000": "蒙泊沼澤"
+				}
+			}
+		},
+		"happiness":{
+			"thoughts":{
+				"water":{
+					"values":{
+						"sticky_water":{
+							"display_name":"濃稠的泥水",
+							"tooltip":"噁！我不喜歡泡在這泥水裡"
+						}
+					}
+				}
+			}
+		},
+		"population": {
+			"firefly_clan": {
+				"display_name": "螢火蟲部族",
+				"quote": "",
+				"long_description": "開發中，不適合用來進行遊戲",
+				"post_selection_description": "，⚠️ 警告！ ⚠️ ☠️ 尚未完成！ ☠️ ⚡ 開發中！ ⚡"
+			}
+		}
+	},
+	"entities": {
+		"furniture": {
+			"hammock": {
+				"display_name": "吊床",
+				"description": "todo description"
+			}
+		},
+		"gizmos": {
+			"camp_standard": {
+				"display_name": "營地旗幟",
+				"description": "看到它你就知道你回家了"
+			}
+		},
+		"plants": {
+			"cattail": {
+				"display_name": "貓尾草",
+				"description": "一種可食用的植物，其纖維可以製成絲線",
+				"unripe_description": "尚未成熟"
+			},
+			"fern": {
+				"display_name": "蕨草",
+				"description": "這種植物的纖維可以製成絲線",
+				"unripe_description": "尚未成熟"
+			},
+			"giant_flower": {
+				"display_name": "沼花",
+				"description": "具有療效的一種植物，可以作為藥草使用",
+				"unripe_description": "尚未成熟"
+			},
+			"white_mushroom": {
+				"display_name": "白蘑菇",
+				"description": "收成後可以作為食物",
+				"unripe_description": "尚未成熟"
+			}
+		},
+		"resources": {
+			"cattail": {
+				"display_name": "貓尾草",
+				"description": "一種可食用的植物，其纖維可以製成絲線"
+			},
+			"giant_flower": {
+				"display_name": "沼花",
+				"description": "具有療效的一種植物，可以作為藥草使用"
+			},
+			"white_mushroom": {
+				"display_name": "白蘑菇",
+				"description": "可食用"
+			},
+			"fern": {
+				"display_name": "蕨草",
+				"description": "這種植物的纖維可以製成絲線"
+			}
+		},
+		"trees": {
+			"bogger": {
+				"display_name": "柏格樹",
+				"description": "隱約散發著一種神祕的光環"
+			},
+			"swirl": {
+				"display_name": "螺旋樹",
+				"description": "螺旋狀的紋路令人印象深刻"
+			}
+		}
+	},
+	"jobs": {
+		"bonesmith": {
+			"bonesmith_description": {
+				"display_name": "骨匠",
+				"description": "Bonesmith description",
+				"requirements": "Bonesmith requirements"
+			},
+			"bonesmith_workbench": {
+				"display_name": "Bonesmith Workbench",
+				"description": "Bonesmith will use to craft their stuff"
+			}
+		},
+		"shaman": {
+			"shaman_description": {
+				"display_name": "薩滿",
+				"description": "Shaman description",
+				"requirements": "Shaman requirements"
+			},
+			"shaman_workbench": {
+				"display_name": "Shaman Workbench",
+				"description": "Shamans will use to craft their stuff"
+			}
+		}
+	},
+	"ui":{
+		"game":{
+			"menu":{
+				"crafter_menu":{
+					"items":{
+						"bonesmith":{
+							"display_name": "Bonesmith Craft Menu",
+							"description": "Build furniture and decor.",
+							"required_job_text": "Requires a bonesmith"
+						},
+						"shaman":{
+							"display_name": "Shaman Craft Menu",
+							"description": "Shaman knowledge.",
+							"required_job_text": "Requires a shaman"
+						}
+					}
+				}
+			}
+		}
+	}
+}

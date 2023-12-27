@@ -1,0 +1,576 @@
+{
+	"jobs": {
+	  "blacksmith": {
+		"recipes": {
+		  "bronze_wall_candle_recipe": {
+			"recipe_name": "青銅燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "看這可愛的細節..."
+		  },
+		  "bronze_wall_double_candle_recipe": {
+			"recipe_name": "青銅雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "看這可愛的細節..."
+		  },
+		  "gold_wall_candle_recipe": {
+			"recipe_name": "黃金燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "小心獸人！"
+		  },
+		  "gold_wall_double_candle_recipe": {
+			"recipe_name": "黃金雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "小心獸人！"
+		  },
+		  "iron_brazier_recipe": {
+			"recipe_name": "鐵製火盆",
+			"description": "為黑夜帶來光明",
+			"flavor": "我喜歡那火焰跳動的感覺！"
+		  },
+		  "iron_brazier_patrol-point_recipe": {
+			"recipe_name": "巡邏鐵製火盆",
+			"description": "為巡邏的士兵帶來一些光亮",
+			"flavor": "同時也讓他們在寒冷的夜晚保持溫暖"
+		  },
+		  "oil_lamp_height_rayya_recipe": {
+			"recipe_name": "油火盆",
+			"description": "為黑夜帶來光明",
+			"flavor": "很適合放在我的客廳裡"
+		  },
+		  "oil_lamp_height_patrol-point_rayya_recipe": {
+			"recipe_name": "巡邏油火盆",
+			"description": "為巡邏的士兵帶來一些光亮",
+			"flavor": "同時也讓他們在寒冷的夜晚保持溫暖"
+		  },
+		  "oil_lamp_large_rayya_recipe": {
+			"recipe_name": "大油火盆",
+			"description": "為黑夜帶來光明",
+			"flavor": "噢...這個火盆好重..."
+		  },
+		  "silver_wall_candle_recipe": {
+			"recipe_name": "銀製燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "喔天啊！我喜歡它閃閃發亮的樣子！"
+		  },
+		  "silver_wall_double_candle_recipe": {
+			"recipe_name": "銀製雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "喔天啊！我喜歡它閃閃發亮的樣子！"
+		  },
+		  "utensils_recipe": {
+			"recipe_name": "青銅廚具",
+			"description": "烹飪時的好幫手",
+			"flavor": "噢！我喜歡這湯匙！"
+		  }
+		}
+	  },
+	  "cook": {
+		"recipes": {
+		  "storage_name": "儲存箱",
+		  "furniture_name": "家具",
+		  "corbel_cook_recipe": {
+			"recipe_name": "香料櫃",
+			"description": "添加一些香料可以讓食物變得更美味",
+			"flavor": "讓我來加一點香菜..."
+		  },
+		  "barrels_berrie_recipe": {
+			"recipe_name": "漿果汁保存桶",
+			"description": "可以存放 92 個物品，新鮮的漿果汁可以讓爐民們更開心",
+			"flavor": "朋友們，乾杯！"
+		  },
+		  "barrels_pear_rayya_recipe": {
+			"recipe_name": "仙人掌果汁保存桶",
+			"description": "可以存放 92 個物品，新鮮的仙人掌果汁可以讓爐民們更開心",
+			"flavor": "朋友們，乾杯！"
+		  },
+		  "dishes-cabinet_recipe": {
+			"recipe_name": "流理台",
+			"description": "讓廚師可以製作各種裝飾品",
+			"flavor": "為這面牆加點裝飾吧！"
+		  },
+		  "pantry_cook_recipe": {
+			"recipe_name": "食材儲藏架",
+			"description": "可以存放 64 個物品，讓你存放各種食材",
+			"flavor": "終於有地方可以放我的食材了！"
+		  },
+		  "shelf_cook_recipe": {
+			"recipe_name": "碗盤櫃",
+			"description": "放滿了各種瓷器及食譜",
+			"flavor": "你的盤子真漂亮"
+		  },
+		  "tavern_table_large_recipe": {
+			"recipe_name": "長桌",
+			"description": "可以讓大家一起吃飯的桌子",
+			"flavor": "這桌子可真大"
+		  },
+		  "tavern_table_large_cloth_recipe": {
+			"recipe_name": "長桌",
+			"description": "一張鋪有桌巾的大桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "tavern_table_large_fiber_recipe": {
+			"recipe_name": "長桌",
+			"description": "一張鋪有紡絲草桌巾的大桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "tavern_table_large_fur_recipe": {
+			"recipe_name": "長桌",
+			"description": "一張鋪有毛皮桌巾的大桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "tavern_table_small_cloth_recipe": {
+			"recipe_name": "方桌",
+			"description": "一張鋪有桌巾的小桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "tavern_table_small_fiber_recipe": {
+			"recipe_name": "方桌",
+			"description": "一張鋪有紡絲草桌巾的小桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "tavern_table_small_fur_recipe": {
+			"recipe_name": "方桌",
+			"description": "一張鋪有毛皮桌巾的小桌子",
+			"flavor": "我喜歡這個顏色的桌巾！"
+		  },
+		  "utensils_holder_cook_recipe": {
+			"recipe_name": "廚具架",
+			"description": "終於有可以地方可以放廚具了",
+			"flavor": "井井有條"
+		  },
+		  "wash_barrel_recipe": {
+			"recipe_name": "洗碗槽",
+			"description": "用完餐記得要把碗盤都洗乾淨",
+			"flavor": "閃亮亮～"
+		  }
+		}
+	  },
+	  "carpenter": {
+		"recipes": {
+		  "barrel_recipe": {
+			"recipe_name": "木桶",
+			"description": "可以存放 32 個物品",
+			"flavor": "我超愛漿果汁的！"
+		  },
+		  "case_small_recipe": {
+			"recipe_name": "小木箱",
+			"description": "可以存放 10 個物品",
+			"flavor": "小有小的好處"
+		  },
+		  "case_large_recipe": {
+			"recipe_name": "大木箱",
+			"description": "可以存放 48 個物品",
+			"flavor": "井井有條！"
+		  },
+		  "pantry_recipe": {
+			"recipe_name": "置物架",
+			"description": "木質置物架妝點你的生活空間",
+			"flavor": "好像可以放很多東西的樣子"
+		  },
+		  "shelf_carpenter_recipe": {
+			"recipe_name": "置物櫃",
+			"description": "木質置物櫃妝點你的生活空間",
+			"flavor": "很好！更多收納空間！"
+		  },
+		  "table_recipe": {
+			"recipe_name": "木桌",
+			"description": "可以放在工作室的一張大桌子",
+			"flavor": "既美觀又實用"
+		  },
+		  "wood_wall_candle_recipe": {
+			"recipe_name": "木製燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "我希望它的木頭台座不會被燒掉..."
+		  },
+		  "wood_wall_double_candle_recipe": {
+			"recipe_name": "木製雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "我希望它的木頭台座不會被燒掉..."
+		  }
+		}
+	  },
+	  "herbalist": {
+		"recipes": {
+		  "storage_name": "儲存箱",
+		  "plants_name": "植物",
+		  "gardener-bench_recipe": {
+			"recipe_name": "花園工作台",
+			"description": "藥草可不是只能拿來作為醫療用途",
+			"flavor": "還可以作為美麗的裝飾！"
+		  },
+		  "books_recipe": {
+			"recipe_name": "典籍",
+			"description": "記載著各種知識，讓附近充滿文學氣息",
+			"flavor": "希望我不需要把這些書全部看完"
+		  },
+		  "corbel_herbalist_recipe": {
+			"recipe_name": "藥草架",
+			"description": "用來陰乾各種藥草",
+			"flavor": "有一種迷人的味道"
+		  },
+		  "shelf_herbalist_library_recipe": {
+			"recipe_name": "藥草學書櫃",
+			"description": "所有跟藥草學有關的知識都集中在此處",
+			"flavor": "看來我該複習一下繃帶該怎麼做..."
+		  },
+		  "table_herbalist_recipe": {
+			"recipe_name": "藥草桌",
+			"description": "專業的書桌，給專業的草藥師",
+			"flavor": "讓我紀錄一下治療藥劑的製作方法..."
+		  },
+		  "case_large_herbs_recipe": {
+			"recipe_name": "藥草箱",
+			"description": "可以存放 48 個物品",
+			"flavor": "可以存放大量的藥草！"
+		  },
+		  "jar_small_recipe": {
+			"recipe_name": "小陶罐",
+			"description": "可以存放 8 個物品",
+			"flavor": "我怎麼好像聞到餅乾的味道？"
+		  },
+		  "jar_large_recipe": {
+			"recipe_name": "陶罐",
+			"description": "可以存放 32 個物品",
+			"flavor": "是個儲存藥品的好地方！"
+		  },
+		  "planter-box_small_brightbell_recipe": {
+			"recipe_name": "光鈴花植栽",
+			"description": "讓我們在工作室裡種些可以採收的藥草吧！",
+			"flavor": "觀察它們的成長總是令人著迷"
+		  },
+		  "planter-box_small_fostsnap_recipe": {
+			"recipe_name": "霜寒花植栽",
+			"description": "讓我們在工作室裡種些可以採收的藥草吧！",
+			"flavor": "觀察它們的成長總是令人著迷"
+		  },
+		  "planter-box_small_cactus_rayya_recipe": {
+			"recipe_name": "仙人掌花植栽",
+			"description": "讓我們在工作室裡種些可以採收的藥草吧！",
+			"flavor": "觀察它們的成長總是令人著迷"
+		  },
+		  "planter-box_large_recipe": {
+			"recipe_name": "大型植栽",
+			"description": "在大型植栽盆裡種更多可以採收的藥草吧！",
+			"flavor": "觀察它們的成長總是令人著迷"
+		  }
+		}
+	  },
+	  "mason": {
+		"recipes": {
+		  "monument_name": "雕像 & 紀念碑",
+		  "fireplace_stone_large_recipe": {
+			"recipe_name": "石造壁爐",
+			"description": "一個為你甜蜜的家所準備的壁爐",
+			"flavor": "放在我的客廳裡剛剛好！"
+		  },
+		  "sculpture_hamnisu_recipe": {
+			"recipe_name": "Hamnisu 紀念碑",
+			"description": "感謝 Hamnisu 為這個模組的更新提供了必要的協助！",
+			"flavor": "噢！看它一閃一閃的！"
+		  },
+		  "stone_wall_candle_recipe": {
+			"recipe_name": "石製燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "燃燒吧寶貝，燃燒吧..."
+		  },
+		  "stone_wall_double_candle_recipe": {
+			"recipe_name": "石製雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "燃燒吧寶貝，燃燒吧..."
+		  }
+		}
+	  },
+	  "potter": {
+		"recipes": {
+		  "decoration_name": "裝飾品",
+		  "monument_name": "雕像 & 紀念碑",
+		  "crockery_recipe": {
+			"recipe_name": "瓷器",
+			"description": "專為特別節日準備的美麗瓷器",
+			"flavor": "下午茶時間"
+		  },
+		  "clay_wall_candle_recipe": {
+			"recipe_name": "陶製燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "看這可愛的細節..."
+		  },
+		  "clay_wall_double_candle_recipe": {
+			"recipe_name": "陶製雙燭台",
+			"description": "為你的房間帶來一點光明的小裝飾品",
+			"flavor": "看這可愛的細節..."
+		  },
+		  "pantry_rayya_recipe": {
+			"recipe_name": "置物架",
+			"description": "陶製置物架妝點你的生活空間",
+			"flavor": "很好！更多收納空間！"
+		  },
+		  "shelf_rayya_recipe": {
+			"recipe_name": "置物櫃",
+			"description": "陶製置物櫃妝點你的生活空間",
+			"flavor": "很好！更多收納空間！"
+		  },
+		  "table_rayya_recipe": {
+			"recipe_name": "陶桌",
+			"description": "可以放在工作室的一張大桌子",
+			"flavor": "既美觀又實用"
+		  }
+		}
+	  }
+	},
+	"entities": {
+	  "workbenches": {
+		"dishes-cabinet_ghost": {
+		  "display_name": "流理台",
+		  "description": "讓廚師可以製作各種裝飾品"
+		},
+		"gardener-bench_ghost": {
+		  "display_name": "花園工作台",
+		  "description": "既實用又美觀"
+		}
+	  },
+	  "containers": {
+		"barrel_ghost": {
+		  "display_name": "木桶",
+		  "description": "可以存放 32 個物品"
+		},
+		"barrels_berrie_ghost": {
+		  "display_name": "漿果汁保存桶",
+		  "description": "可以存放 96 個物品"
+		},
+		"barrels_pear_rayya_ghost": {
+		  "display_name": "仙人掌果汁保存桶",
+		  "description": "可以存放 96 個物品"
+		},
+		"case_small_ghost": {
+		  "display_name": "小木箱",
+		  "description": "可以存放 10 個物品"
+		},
+		"case_large_ghost": {
+		  "display_name": "大木箱",
+		  "description": "可以存放 48 個物品"
+		},
+		"case_large_herbs_ghost": {
+		  "display_name": "藥草箱",
+		  "description": "可以存放 48 個物品"
+		},
+		"jar_large_ghost": {
+		  "display_name": "陶罐",
+		  "description": "可以存放 32 個物品"
+		},
+		"jar_small_ghost": {
+		  "display_name": "小陶罐",
+		  "description": "可以存放 8 個物品"
+		},
+		"pantry_cook_ghost": {
+		  "display_name": "食材儲藏架",
+		  "description": "可以存放 64 個物品"
+		}
+	  },
+	  "food": {
+		"honey": {
+		  "honey_basket": {
+			"display_name": "蜂蜜罐",
+			"description": "小罐子中填滿了美味的蜂蜜"
+		  },
+		  "honey_serving": {
+			"display_name": "美味蜂蜜",
+			"description": "甜甜的蜂蜜，大家都喜歡！"
+		  }
+		}
+	  },
+	  "furniture": {
+		"fireplace_stone_large_ghost": {
+		  "display_name": "石造壁爐",
+		  "description": "為你甜蜜的家所建造的壁爐"
+		},
+		"pantry_ghost": {
+		  "display_name": "置物架",
+		  "description": "木質置物架妝點你的生活空間"
+		},
+		"pantry_rayya_ghost": {
+		  "display_name": "置物架",
+		  "description": "陶製置物架妝點你的生活空間"
+		},
+		"shelf_carpenter_ghost": {
+		  "display_name": "置物櫃",
+		  "description": "或許有人需要更大的儲存空間..."
+		},
+		"shelf_rayya_ghost": {
+		  "display_name": "置物櫃",
+		  "description": "或許有人需要更大的儲存空間..."
+		},
+		"shelf_cook_ghost": {
+		  "display_name": "碗盤櫃",
+		  "description": "放滿了各種瓷器及食譜"
+		},
+		"shelf_herbalist_library_ghost": {
+		  "display_name": "藥草學書櫃",
+		  "description": "所有跟藥草學有關的知識都集中在此處"
+		},
+		"table_ghost": {
+		  "display_name": "木桌",
+		  "description": "可以放在工作室的一張大桌子"
+		},
+		"table_rayya_ghost": {
+		  "display_name": "陶桌",
+		  "description": "可以放在工作室的一張大桌子"
+		},
+		"table_herbalist_ghost": {
+		  "display_name": "藥草桌",
+		  "description": "讓草藥師有更寬廣的工作平台"
+		},
+		"tavern_table_large_ghost": {
+		  "display_name": "長桌",
+		  "description": "可以讓大家一起吃飯的桌子"
+		},
+		"tavern_table_large_cloth_ghost": {
+		  "display_name": "長桌",
+		  "description": "覆有桌巾的大桌子"
+		},
+		"tavern_table_large_fiber_ghost": {
+		  "display_name": "長桌",
+		  "description": "覆有紡絲草桌巾的大桌子"
+		},
+		"tavern_table_large_fur_ghost": {
+		  "display_name": "長桌",
+		  "description": "覆有毛皮桌巾的大桌子"
+		},
+		"tavern_table_small_cloth_ghost": {
+		  "display_name": "方桌",
+		  "description": "覆有桌巾的小桌子"
+		},
+		"tavern_table_small_fiber_ghost": {
+		  "display_name": "方桌",
+		  "description": "覆有紡絲草桌巾的小桌子"
+		},
+		"tavern_table_small_fur_ghost": {
+		  "display_name": "方桌",
+		  "description": "覆有毛皮桌巾的小桌子"
+		}
+	  },
+	  "decoration": {
+		"books_ghost": {
+		  "display_name": "典籍",
+		  "description": "讓附近充滿文學氣息"
+		},
+		"bronze_wall_candle_ghost": {
+		  "display_name": "青銅燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"bronze_wall_double_candle_ghost": {
+		  "display_name": "青銅雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"clay_wall_candle_ghost": {
+		  "display_name": "陶製燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"clay_wall_double_candle_ghost": {
+		  "display_name": "陶製雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"corbel_cook_ghost": {
+		  "display_name": "香料櫃",
+		  "description": "添加一些香料可以讓食物變得更美味"
+		},
+		"corbel_herbalist_ghost": {
+		  "display_name": "藥草架",
+		  "description": "用來陰乾各種藥草"
+		},
+		"crockery_ghost": {
+		  "display_name": "瓷器",
+		  "description": "美麗的瓷器，閃閃發亮"
+		},
+		"gold_wall_candle_ghost": {
+		  "display_name": "黃金燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"gold_wall_double_candle_ghost": {
+		  "display_name": "黃金雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"iron_brazier_ghost": {
+		  "display_name": "鐵製火盆",
+		  "description": "為黑夜帶來光明"
+		},
+		"oil_lamp_height_rayya_ghost": {
+		  "display_name": "油火盆",
+		  "description": "為黑夜帶來光明"
+		},
+		"oil_lamp_large_rayya_ghost": {
+		  "display_name": "大油火盆",
+		  "description": "為黑夜帶來光明"
+		},
+		"sculpture_hamnisu_ghost": {
+		  "display_name": "Hamnisu 紀念碑",
+		  "description": "感謝 Hamnisu 為這個模組的更新提供了必要的協助"
+		},
+		"silver_wall_candle_ghost": {
+		  "display_name": "銀製燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"silver_wall_double_candle_ghost": {
+		  "display_name": "銀製雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"stone_wall_candle_ghost": {
+		  "display_name": "石製燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"stone_wall_double_candle_ghost": {
+		  "display_name": "石製雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"utensils_ghost": {
+		  "display_name": "青銅廚具",
+		  "description": "烹飪時的好幫手"
+		},
+		"utensils_holder_cook_ghost": {
+		  "display_name": "廚具架",
+		  "description": "擺放整齊的廚具"
+		},
+		"wash_barrel_ghost": {
+		  "display_name": "洗碗槽",
+		  "description": "讓我們把瓷器洗得乾乾淨淨"
+		},
+		"wood_wall_candle_ghost": {
+		  "display_name": "木製燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		},
+		"wood_wall_double_candle_ghost": {
+		  "display_name": "木製雙燭台",
+		  "description": "可以帶來光源的小裝飾品"
+		}
+	  },
+	  "plants": {
+		"grass_large_ghost": {
+		  "display_name": "草叢",
+		  "description": "大型草叢"
+		},
+		"grass_medium_ghost": {
+		  "display_name": "草叢",
+		  "description": "中型草叢"
+		},
+		"grass_small_ghost": {
+		  "display_name": "草叢",
+		  "description": "小型草叢"
+		},
+		"planter-box_small_brightbell_ghost": {
+		  "display_name": "光鈴花植栽",
+		  "description": "讓我們在工作室裡種些可以採收的藥草吧！"
+		},
+		"planter-box_small_fostsnap_ghost": {
+		  "display_name": "霜寒花植栽",
+		  "description": "讓我們在工作室裡種些可以採收的藥草吧！"
+		},
+		"planter-box_small_cactus_rayya_ghost": {
+		  "display_name": "仙人掌花植栽",
+		  "description": "讓我們在工作室裡種些可以採收的藥草吧！"
+		},
+		"planter-box_large_ghost": {
+		  "display_name": "大型植栽",
+		  "description": "在大型植栽盆裡種更多可以採收的藥草吧！"
+		}
+	  }
+	}
+  }

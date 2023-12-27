@@ -1,0 +1,205 @@
+{
+	"buffs": {
+		"book_knowledge_buff": {
+			"description": "充滿了各種知識",
+			"display_name": "知識之書"
+		},
+		"book_inspiration_buff": {
+			"description": "充滿了各種靈感",
+			"display_name": "靈感之書"
+		},
+		"book_compassion_buff": {
+			"description": "充滿了憐憫之情",
+			"display_name": "憐憫之書"
+		}
+	},
+	"category": {
+		"trough": {
+			"animal_feed": "動物飼料"
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"blacksmith_workbench": {
+				"category_00": "零件"
+			}
+		},
+		"scholar": {
+			"scholar_description": {
+				"display_name": "學者",
+				"description": "學者可以將其豐富的學識謄寫於書中造福他人",
+				"requirements": "由木匠所製作",
+				"required_job_text": "需要至少一名學者"
+			},
+			"scholar_staff": {
+				"display_name": "學者的權杖",
+				"description": "轉職為學者的必要物品",
+				"flavor": "他用這個寫字嗎？"
+			},
+			"scholar_workbench": {
+				"display_name": "學者的工作台",
+				"description": "一張學者專用的書桌",
+				"flavor": "亂中有序，紊而不亂",
+				"category_00": "基本物品",
+				"category_01": "文書"
+			}
+		}
+	},
+	"entities": {
+		"consumables": {
+			"book_knowledge": {
+				"description": "充滿了各種知識的書",
+				"display_name": "知識之書",
+				"flavor": "不僅僅是一本教科書"
+			},
+			"book_inspiration": {
+				"description": "充滿了各種靈感的書",
+				"display_name": "靈感之書",
+				"flavor": "'我不知道該說什麼。' - 圖書管理員 葛溫"
+			},
+			"book_compassion": {
+				"description": "充滿了各種憐憫之情的書",
+				"display_name": "憐憫之書",
+				"flavor": "英雄的故事"
+			}
+		},
+		"construction": {
+			"drawbridge": {
+				"description": "用木頭打造的吊橋",
+				"display_name": "木製吊橋",
+				"flavor": "你一直以來想要的"
+			},
+			"hatch": {
+				"description": "下面有什麼呢？",
+				"display_name": "暗門",
+				"flavor": "跟著兔子走！"
+			},
+			"secretDoor": {
+				"description": "如果我拉出這本書會發生什麼事呢？",
+				"display_name": "奇怪的書櫃",
+				"flavor": "既美觀又實用！"
+			},
+			"stone_drawbridge": {
+				"description": "更加堅固的吊橋",
+				"display_name": "石製吊橋",
+				"flavor": "你一直以來想要的"
+			},
+			"stone_portcullis": {
+				"description": "用石頭打造的吊門",
+				"display_name": "石製吊門",
+				"flavor": "拉開閘門！"
+			},
+			"stone_portcullis_ornate": {
+				"description": "用石頭打造的華麗吊門",
+				"display_name": "華麗的石製吊門",
+				"flavor": "拉開閘門！"
+			},
+			"wood_portcullis": {
+				"description": "用木頭打造的吊門",
+				"display_name": "木製吊門",
+				"flavor": "拉開閘門！"
+			}
+		},
+		"decorative": {
+			"bookcase": {
+				"description": "用來放書的櫃子",
+				"display_name": "書櫃",
+				"flavor": "拿著書可以讓你看起來更聰明",
+				"category_written": "載有內容的書",
+				"category_unwritten": "空白的書"
+			},
+			"bridge": {
+				"description": "基本上沒有需要",
+				"display_name": "木橋",
+				"flavor": "連結你我的心靈"
+			},
+			"bridge_ornate": {
+				"description": "基本上沒有需要，但是很好看",
+				"display_name": "華麗的木橋",
+				"flavor": "連結你我的心靈"
+			},
+			"cids_sword": {
+				"description": "一把跟希德一樣偉大的劍",
+				"display_name": "希德之劍",
+				"flavor": "偉大的人，配上偉大的劍"
+			},
+			"fire_bowl": {
+				"description": "可以綻放更亮的火光",
+				"display_name": "木腳火盆",
+				"flavor": "照亮你的夜晚"
+			},
+			"palisade": {
+				"description": "低科技城鎮保護措施",
+				"display_name": "圍欄",
+				"flavor": "禁止進入"
+			},
+			"parapet": {
+				"description": "或是稱呼它為欄杆",
+				"display_name": "護欄",
+				"flavor": "不用再擔心會掉下去了"
+			},
+			"trough": {
+				"description": "讓環境看起來稍微整潔一點",
+				"display_name": "飼料槽",
+				"flavor": "這有滿的一天嗎？"
+			}
+		},
+		"equipment": {
+			"ancile": {
+				"description": "眾神所持之盾",
+				"display_name": "安賽爾盾",
+				"flavor": "'所以，打造這個盾牌會讓我充滿神力，對吧？' - 無知人士"
+			},
+			"entling_armor": {
+				"description": "希望沒有人會把你當作樹木砍倒",
+				"display_name": "樹精護甲",
+				"flavor": "不說笑，它就是這麼酷"
+			},
+			"entling_helmet": {
+				"description": "聞起來有苔癬的味道",
+				"display_name": "樹精頭盔",
+				"flavor": "'你要被斬首還是戴上這顆頭？' - 威爾森・雪蘭斯"
+			},
+			"stonegolem_armor": {
+				"description": "就像是第二層皮膚，只是非常非常硬",
+				"display_name": "石像護甲",
+				"flavor": "你應得的"
+			},
+			"stonegolem_helmet": {
+				"description": "比起一頂帽子更像是一顆頭",
+				"display_name": "石像頭盔",
+				"flavor": "出於石之心"
+			}
+		},
+		"resources": {
+			"book": {
+				"description": "勤奮好學！",
+				"display_name": "書",
+				"flavor": "'對我來說它們看起來全都一樣' - 圖書管理員 葛溫"
+			},
+			"chain": {
+				"description": "比繩子更加好用",
+				"display_name": "鎖鏈",
+				"flavor": "不是拿來穿的"
+			},
+			"living_stone": {
+				"description": "石頭人之心",
+				"display_name": "生息之石"
+			},
+			"living_wood": {
+				"description": "樹精的頭。等等，什麼？",
+				"display_name": "生息之木"
+			},
+			"paper": {
+				"description": "寫點東西吧",
+				"display_name": "紙",
+				"flavor": "這些字是誰寫的？"
+			},
+			"rope": {
+				"description": "介於絲線與鎖鏈之間的產物",
+				"display_name": "繩子",
+				"flavor": "你會跳繩嗎？"
+			}
+		}
+	}
+}

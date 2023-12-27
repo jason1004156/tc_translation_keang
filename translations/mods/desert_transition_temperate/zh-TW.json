@@ -1,0 +1,24 @@
+{
+   "ui": {
+      "shell": {
+         "select_settlement": {
+            "terrain_codes": {
+               "plains_2": "溫帶",
+               "foothills_1": "平原",
+               "foothills_2": "沙漠"
+            }
+         }
+      }
+   },
+   "data": {
+      "biome": {
+         "desert_transition_temperate": {
+            "display_name": "溫帶沙漠",
+            "description": "從綠色森林到土黃沙丘",
+            "random_location_names": {
+               "000": "溫帶沙漠"
+            }
+         }
+      }
+   }
+}
