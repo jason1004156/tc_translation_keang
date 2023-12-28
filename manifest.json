@@ -67,6 +67,7 @@
         "terrain_colors/locales/zh-TW.json": "file(translations/mods/terrain_colors/zh-TW.json)",
         "tuhalu/locales/zh-TW.json": "file(translations/mods/tuhalu/zh-TW.json)",
         "wizards/locales/zh-TW.json": "file(translations/mods/wizards/zh-TW.json)",
+		"creative_mode/locales/zh-TW.json": "file(translations/mods/creative_mode/zh-TW.json)",
 
         "stonehearth/ui/root/css/gui.less" : "file(less/gui.less)",
         "stonehearth/ui/root/css/tooltipster.less" : "file(less/tooltipster.less)",

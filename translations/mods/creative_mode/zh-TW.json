@@ -1,0 +1,219 @@
+{
+	"ui": {
+		"game": {
+			"creative_mode": {
+				"display_name": "創作模式",
+				"description": "創作工具和選項"
+			}
+		},
+		"window": {
+			"cover": {
+				"instructions": {
+					"header": "使用說明",
+					"menu": {
+						"title": "選單",
+						"description": "在左側有分類按鈕的選單。每個分類頁面都有自己的工具集。"
+					},
+					"ui": {
+						"title": "使用者介面",
+						"description": "您可以隱藏子分類。例如，點擊上方的 '使用說明' 標題以隱藏此部分。",
+						"description2": "子分類的狀態會自動保存。下次訪問時，它們仍然會被隱藏。"
+					},
+					"access": {
+						"title": "存取",
+						"description": "可以以三種不同方式打開此視窗。在底部工具列按鈕、頂部的偵錯工具（如果啟用了該模組），以及使用鍵盤快捷鍵 Ctrl+Shift+C。",
+						"description2": "您可以通過 '使用者介面' 分類來隱藏或顯示這些按鈕。快捷鍵可以在遊戲的 '設定' > '控制' > '選單' > '創意模式' 中更改。",
+						"description3": "按鈕的偏好設置會保存。下次運行遊戲時，應該仍然保持與之前相同。"
+					}
+				}
+			},
+			"menu": {
+				"categories": "分類",
+				"remove": "移除",
+				"other": "其他",
+				"data": "資料",
+				"entities": "實體",
+				"inventory": "庫存",
+				"jobs": "任務",
+				"ui": "使用者介面與視覺效果"
+			},
+			"resources": {
+				"title": "資源",
+				"wood": "新增木材",
+				"stone": "新增石頭",
+				"clay": "新增黏土"
+			},
+			"remove": {
+				"title": "從地圖上移除所有物品",
+				"trees": "樹木",
+				"plants": "植物",
+				"boulder": "巨石",
+				"water": "水"
+			},
+			"remove2": {
+				"title": "移除所選實體",
+				"entity": "移除實體"
+			},
+			"other": {
+				"load_manifest": "載入清單",
+				"unload_manifest": "重設清單"
+			},
+			"data": {
+				"calendar": {
+					"header": "行事曆",
+					"time": {
+						"title": "時間",
+						"description": "設定當前時間。"
+					},
+					"weather": {
+						"title": "天氣",
+						"description": "改變天氣。點兩次以跳過緩慢的過渡。"
+					},
+					"seasons": {
+						"title": "季節",
+						"description": "改變季節。"
+					}
+				},
+				"game_mode": {
+					"header": "遊戲模式",
+					"difficulty": {
+						"title": "難度",
+						"description": "這只會改變敵人的難度，而不會改變它們的原始生成規則。（例如，切換到和平模式不會停止它們的生成）"
+					}
+				}
+			},
+			"entities": {
+				"citizens": {
+					"header": "居民",
+					"attributes": {
+						"title": "屬性",
+						"description": "設定所選居民的心智、身體和精神。"
+					},
+					"add": {
+						"title": "新增居民",
+						"description": "從所選王國生成新的居民。"
+					},
+					"add_npc": {
+						"title": "新增NPC",
+						"description": "從所選NPC王國生成新的NPC。"
+					},
+					"turn_into_citizen": {
+						"title": "轉為居民",
+						"description": "使所選實體成為您城鎮的合法居民。對於NPC或怪物很有用。"
+					}
+				},
+				"manipulation": {
+					"header": "操作",
+					"teleport": {
+						"title": "傳送",
+						"description": "允許您選擇所選實體的新位置。"
+					},
+					"offset": {
+						"title": "偏移",
+						"description": "偏移實體，僅在視覺上。例如，如果您將其偏移到空中，遊戲仍將其視為位於地面上，即其真實位置。"
+					},
+					"scale": {
+						"title": "縮放",
+						"description": "改變其體素大小。1相當於一個完整的方塊，大多數實體從0.1開始。"
+					},
+					"rotate": {
+						"title": "旋轉",
+						"description": "將其旋轉到新的方向。"
+					},
+					"rename": {
+						"title": "重新命名",
+						"description": "更改名稱。"
+					}
+				}
+			},
+			"inventory": {
+				"money": {
+					"header": "金錢",
+					"gold": {
+						"title": "金幣",
+						"description": "新增金幣到您的城鎮。使用負數以移除金幣。"
+					},
+					"trader": {
+						"title": "交易商",
+						"description": "召喚一個隨機的交易商來到您的城鎮。"
+					},
+					"traveler": {
+						"title": "旅行者",
+						"description": "召喚一個旅行者來到您的城鎮。"
+					}
+				}
+			},
+			"jobs": {
+				"promote": {
+					"header": "晉升",
+					"job": {
+						"title": "晉升",
+						"description": "將所選居民晉升到所選工作。"
+					},
+					"talisman": {
+						"title": "護身符",
+						"description": "生成所有工作的護身符。"
+					}
+				},
+				"levelup": {
+					"header": "升級",
+					"levelup": {
+						"title": "工作者",
+						"description": "將所選居民的工作升級至最高等級。"
+					},
+					"town": {
+						"title": "整個城鎮",
+						"description": "將所有居民的當前工作升級至最高等級。"
+					},
+					"multijobs": {
+						"title": "多工作",
+						"description": "所選居民將在所有可能的工作中達到最高等級。"
+					}
+				},
+				"unlock": {
+					"header": "解鎖",
+					"crops": {
+						"title": "作物",
+						"description": "解鎖所有作物選項。"
+					},
+					"recipes": {
+						"title": "配方",
+						"description": "解鎖所有配方。"
+					}
+				}
+			},
+			"ui": {
+				"visibility": {
+					"header": "模組可見性",
+					"buttons": {
+						"title": "按鈕",
+						"description": "設定哪些按鈕將保持可見。如果沒有按鈕可見，您只能通過鍵盤快捷鍵 Ctrl+Shift+C 打開它。",
+						"taskbar": "在任務列",
+						"debugtools": "在偵錯工具"
+					}
+				},
+				"colors": {
+					"header": "顏色",
+					"contrast": {
+						"title": "相機對比度",
+						"description": "設定遊戲圖像的對比度/飽和度。"
+					}
+				},
+				"snow": {
+					"header": "雪",
+					"layer": {
+						"title": "雪層",
+						"description": "設定覆蓋世界的雪量。"
+					}
+				},
+				"trees": {
+					"header": "樹木",
+					"layer": {
+						"title": "樹木層",
+						"description": "暫時隱藏樹木和其他自然實體。"
+					}
+				}
+			}
+		}
+	}
+}
