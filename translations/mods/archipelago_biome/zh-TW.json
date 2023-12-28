@@ -8,6 +8,11 @@
 	},
 	"entities": {
 		"armor": {
+			"coconut_helmet": {
+				"display_name": "椰子頭盔",
+				"description": "又輕又硬，只是...有點兒緊",
+				"flavor": "在太陽下曬乾一會兒，然後用毛皮製作成適合某人頭部的形狀。"
+			},
 			"fish_quiver": {
 				"display_name": "鮮魚箭矢袋",
 				"description": "當敵人被天外飛來的魚擊中臉時會喪失勇氣"
@@ -32,7 +37,11 @@
 				"unripe_description": "殼裡空空如也"
 			},
 			"seaweed": {
-				"display_name": "海草"
+				"display_name": "海草",
+				"seed": {
+					"display_name": "海草種子",
+					"description": "生長後，可以收穫纖維。"
+				}
 			},
 			"starfish": {
 				"display_name": "海星",
@@ -55,6 +64,10 @@
 			"input_fish_rack": {
 				"display_name": "魚架",
 				"description": "用來掛波波魚"
+			},
+			"input_fish_stall": {
+				"display_name": "展示魚架",
+				"description": "用來存放和展示你的魚"
 			},
 			"input_food_bin": {
 				"display_name": "食物捐贈籃",
@@ -120,6 +133,10 @@
 				"display_name": "釣魚碼頭",
 				"description": "一個讓漁夫盡情釣魚的平台"
 			},
+			"fish_pond": {
+				"display_name": "魚池",
+				"description": "一個有無限魚的小池塘？"
+			},
 			"ice_dock": {
 				"display_name": "冰釣洞口",
 				"description": "在冰層上鑿出一個洞讓漁夫可以釣魚"
@@ -142,6 +159,14 @@
 					"flavor": "最好的漁獲就在這"
 				}
 			},
+			"fishing_net": {
+				"display_name": "漁網",
+				"description": "懸掛在支撐結構上的網子"
+			},
+			"wall_fishing_net": {
+				"display_name": "壁掛漁網",
+				"description": "掛在鉤子上的漁網"
+			},
 			"fruit_container": {
 				"display_name": "裝箱椰子",
 				"description": "可以存放 16 顆椰子",
@@ -160,7 +185,8 @@
 			},
 			"magma":{
 				"display_name":"熔岩",
-				"description":"超級燙，發著紅光，半固體，千萬不要碰"
+				"description":"超級燙，發著紅光，半固體，千萬不要碰",
+				"recipe_description": "召喚一個巨大（3x3x3）的岩漿方塊。"
 			},
 			"pearl_container": {
 				"display_name": "裝箱珍珠",
@@ -231,6 +257,11 @@
 			},
 			"crab_bisque_serving": {
 				"display_name": "一碗蟹肉濃湯"
+			},
+			"crab_boiled": {
+				"display_name": "清蒸蟹",
+				"description": "一種非常簡單和容易的煮螃蟹的方法。",
+				"flavor": "品嚐螃蟹最原始的風味"
 			},
 			"crab_cake": {
 				"display_name": "蟹肉餅",
@@ -340,6 +371,14 @@
 			}
 		},
 		"gizmos": {
+			"boat": {
+				"display_name": "小船",
+				"description": "將爐民從這岸送到...對岸?"
+			},
+			"boat_dock": {
+				"display_name": "船塢",
+				"description": "船隻的旅行從這裡開始，並在對岸的碼頭結束。"
+			},
 			"cocobomb": {
 				"display_name": "椰子炸彈",
 				"description": "不要玩你的食物！",
@@ -371,6 +410,14 @@
 				"display_name": "沙地覆地石",
 				"description": "生成一片 12x12 大小的沙地地形"
 			},
+			"summon_stone_crab_island":{
+				"display_name": "螃蟹島",
+				"description": "召喚一個都是螃蟹的熱帶小島"
+			},
+			"summon_stone_lake":{
+				"display_name": "熱帶湖泊",
+				"description": "召喚一個擁有熱帶植被的湖泊"
+			},
 			"summon_stone_volcano":{
 				"display_name": "火山",
 				"description": "召喚出一座小火山"
@@ -389,6 +436,10 @@
 				"display_name": "神秘的箱子",
 				"description": "打破它來看看裡面有甚麼"
 			},
+			"jellyfish": {
+				"display_name": "海蜇",
+				"description": "不要碰牠！"
+			},
 			"octopus": {
 				"display_name": "章魚",
 				"description": "黏呼呼的觸手"
@@ -401,6 +452,10 @@
 		"outfit": {
 			"visitor_outfit": {
 				"description": "來自另一座島嶼的普通工作服"
+			},
+			"hula": {
+				"display_name": "草裙",
+				"description": "草裙服裝準備好了，可以參加熱帶宴會了"
 			}
 		},
 		"plants": {
@@ -581,6 +636,10 @@
 					"display_name": "結苞的木瓜樹",
 					"description": "就快好了！你看它的葉苞！"
 				}
+			},
+			"stump":{
+				"display_name":"樹樁",
+				"description":"再也不是一棵樹了"
 			}
 		},
 		"weapons": {
@@ -613,6 +672,10 @@
 			}
 		},
 		"fisher": {
+			"field": {
+				"display_name":"垂釣區",
+				"description":"漁夫可以在這裡釣魚"
+			},
 			"fisher_description": {
 				"display_name": "漁夫",
 				"description": "漁夫可以捕捉螃蟹，收獲珍珠，做其他跟水有關的工作",
@@ -630,6 +693,10 @@
 					"perk_description": "漁夫現在可以用他的小火爐烹調一些基本的食物"
 				},
 				"level_4": {
+					"perk_name": "航行技術",
+					"perk_description": "放置船屋後，爐民可以利用它到岸的另一邊"
+				},
+				"level_5": {
 					"perk_name": "釣魚訣竅",
 					"perk_description": "現在漁夫每升一級，釣魚的時間都會縮點一點"
 				}
@@ -691,6 +758,11 @@
 					"description": "爐民會自動將波波魚掛上去，讓波波魚隨手可得",
 					"flavor": "總比放在地上好"
 				},
+				"input_fish_stall_recipe": {
+					"recipe_name": "漁獲架子",
+					"description": "一個放置漁獲的供應架",
+					"flavor": "比放在地板上來的更好"
+				},
 				"pearl_container_recipe": {
 					"recipe_name": "裝箱珍珠",
 					"description": "可以存放 16 顆珍珠",
@@ -706,10 +778,20 @@
 					"description": "噢！",
 					"flavor": "噁心的感覺大於疼痛的感覺"
 				},
+				"boat_dock_recipe": {
+					"recipe_name": "船塢",
+					"description": "將它放在靠近水面的位置，另一端馬頭會自動創建。爐民可以用船從這個碼頭到對岸。",
+					"flavor": "所以每個人都有自己的船嗎？ - 是的。"
+				},
 				"dock_recipe": {
 					"recipe_name": "釣魚碼頭",
 					"description": "把它放在水邊，並面向水的方向，漁夫就會自動去這裡釣魚",
 					"flavor": "波波魚喜歡待在它的陰影下"
+				},
+				"fish_pond_recipe": {
+					"recipe_name": "魚池",
+					"description": "漁夫會記得這是一個釣魚的好地方...",
+					"flavor": "這一定是被咒語什麼的影響了，因為魚永無止境..."
 				},
 				"ice_dock_recipe": {
 					"recipe_name": "冰釣洞口",
@@ -720,6 +802,17 @@
 		},
 		"geomancer": {
 			"recipes": {
+				"categories":{
+					"archipelago_landmarks":"群島地標"
+				},
+				"summon_stone_crab_island_recipe":{
+					"recipe_name": "螃蟹島",
+					"description": "召喚一個都是螃蟹的熱帶小島"
+				},
+				"summon_stone_lake_recipe":{
+					"recipe_name": "熱帶湖泊",
+					"description": "召喚一個擁有熱帶植被的湖泊"
+				},
 				"summon_stone_volcano_recipe":{
 					"recipe_name": "火山",
 					"description": "召喚出一座小火山"
@@ -741,6 +834,9 @@
 				},
 				"blue_hibiscus_transmute_recipe": {
 					"recipe_name": "藍色扶桑花種子 (x3)"
+				},
+				"seaweed_transmute_recipe": {
+					"recipe_name": "海帶種子 (x3)"
 				}
 			}
 		}
@@ -766,11 +862,33 @@
 						"small_beach_house": "海邊小屋",
 						"carpenter_house": "木匠小屋",
 						"tiki_bar": "堤基酒吧",
-						"small_boat": "小船",
-						"double_outrigger_boat": "雙舷帆船",
 						"explorer_ship": "探險者號",
 						"long_ship": "長船",
 						"trader_ship": "貿易商船"
+					}
+				}
+			},
+			"goblinpedia":{
+				"goblins":{
+					"jobs":{
+						"fisher":{
+							"menu_link":"漁夫",
+							"title":"漁夫",
+							"description1":"他們能調比自己還大的魚嗎？",
+							"topic1":{
+								"title":"描述:",
+								"desc1":"爐民轉職而成的工匠和食物的生產者"
+							},
+							"topic2":{
+								"title":"漁夫如何工作:",
+								"desc1":"放置一個碼頭或繪製一個區域，他們會在該區域釣魚。",
+								"desc2":"捕蟹籠必須放置在靠近水的地方。"
+							},
+							"topic3":{
+								"title":"製作選單:",
+								"desc1":"可以製作簡單的裝飾品，料理漁獲，甚至是一些特別的物品。"
+							}
+						}
 					}
 				}
 			},
@@ -781,6 +899,17 @@
 							"display_name": "漁夫",
 							"description": "製作各種跟漁夫相關的物品",
 							"required_job_text": "需要至少一名漁夫"
+						}
+					}
+				},
+				"zone_menu": {
+						"items": {
+							"create_fish": {
+								"display_name": "釣魚點",
+								"description": "標記釣魚的地方",
+								"required_job_text": "需要至少一名漁夫",
+								"tip_title": "點選並拖曳以標記為釣魚點",
+								"tip_description": "該區域將被視為有效的釣魚點，漁夫可以在這裡釣魚。<br/><br/>點擊右鍵可以退出此模式"
 						}
 					}
 				}
@@ -862,6 +991,9 @@
 		},
 		"monster_tuning": {
 			"forest": {
+				"insane_jellyfish": {
+					"description": "較小的水母往往會聚集在牠們身邊"
+				},
 				"insane_octopus": {
 					"description": "較小的章魚往往會聚集在牠們身邊"
 				},
@@ -874,6 +1006,7 @@
 			"anya": "恩雅",
 			"captain_miranda": "船長 米蘭達",
 			"goblin_bucket": "帶著一個桶子的哥布林",
+			"mermaid": "美人魚",
 			"campaigns": {
 				"archipelago_tutorial": {
 					"trigger": {
@@ -963,7 +1096,7 @@
 							"message_4": "謝謝你，米蘭達。謝謝你們大家，那我們要出發了。<br>祝你們好運，再見！",
 							"choice_end": "再見！"
 						}
-          }
+					}
 				},
 				"archipelago_free_bucket": {
 					"trigger": {
@@ -972,6 +1105,62 @@
 							"message_1": "嗨笨蛋，我找到了這個桶子，這個垃圾一定是你的。這沒辦法戴在我的頭上，看到了嗎？<br><br><font size=3>（指著自己的頭）</font>",
 							"message_2": "我不在乎你要對它做什麼，看你要燒了它還是什麼的我都無所謂！<br><br><font size=3>（把桶子丟在地上，踢了一腳，生氣地走掉了）</font>",
 							"answer": "謝謝？"
+						},
+						"firefly_goblin_donation": {
+							"title": "一隻綠色哥布林帶著一個桶子走了過來",
+							"message_1": "嗨笨蛋，我找到了這個桶子，這個垃圾一定是你的。這沒辦法戴在我的頭上，看到了嗎？<br><br><font size=3>（指著自己的頭）</font>",
+							"message_2": "我不在乎你要對它做什麼，看你要燒了它還是什麼的我都無所謂！<br><br><font size=3>（把桶子丟在地上，踢了一腳，生氣地走掉了）</font>",
+							"answer": "謝謝？"
+						}
+					}
+				},
+				"mermaid":{
+					"trigger":{
+						"mermaid_warning": {
+							"introduction": {
+								"bulletin_message": {
+									"000": "問候，[str(i18n_data.town_name)]。我前來警告你，這片海域的動盪正在加劇。",
+									"001": "我們一直在默默觀察...甚至在古老文明崩潰之前。為什麼？為了保護我們的海洋。"
+								},
+								"bulletin_title": "一隻美人魚慢慢靠近"
+							},
+							"collection_due": {
+								"bulletin_message": {
+									"000": "你可以讓水里的孩子們回家嗎？他們不應該被關在箱子和一堆小玩意裡。我會給你好東西當謝禮。",
+									"001": "為了滿足人類的貪婪，捕獲了數百條魚！我們的耐心正逐漸消失，我請求你，把牠們送回家。",
+									"002": "請送回孩子們並幫助恢復偉大水域的自然平衡。如果你拒絕...我將無法保證你的安全。",
+									"003": "我們的水域已經因為你們過度的貪婪而枯竭...這是最後幾次機會讓你將水裡的孩子們送回家。我希望你聽進我的警告..."
+								},
+								"bulletin_title": "美人魚的請求"
+							},
+							"collection_failed": {
+								"bulletin_message": {
+									"000": "我深感失望...建議你做好準備。大海的僕從即將入侵。"
+								},
+								"bulletin_title": "美人魚皺起眉頭"
+							},
+							"collection_success": {
+								"bulletin_title": "美人魚平靜地點點頭"
+							},
+							"revenge": {
+								"bulletin_title": "一群水生動物帶著你的魚逃走！"
+							}
+						},
+						"mermaid_wrath": {
+							"mission": {
+								"sighted_bulletin": {
+									"title": "憤怒的大海僕從大軍逼近！"
+								}
+							}
+						},
+						"mermaid_donation_dialog": {
+							"donation_dialog_info": {
+								"dialog_nodes": {
+									"simple_message": {
+										"bulletin_title": "大海僕從帶著掠奪而來！"
+									}
+								}
+							}
 						}
 					}
 				}
