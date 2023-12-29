@@ -31,26 +31,26 @@ ACE :
 ((前面有" ✔ "是被ACE列為相容，可以放心訂閱它))
 ((都沒標得就是尚未經過ACE認證，但我會先實裝測試))
 
-✔ 漁夫 Fisher Job + Archipelago Biome
-✘ 裝備 Armis Maximus
-  窗台 Bazaar
-✔ 自動收成 Autoharvest
-  弩砲塔 Ballista Turret
-  家具擴建 Furniture Expansion (Continuation)
-✘ Green Mesa Biome (地圖模組
-  自訂爐民 Hearthlings of Many Faces
-  家具模組 Home sweet home (此模組務必訂閱 "Mod Repairer"
-  Lorkis Biome (地圖模組
-✘ 礦工 Miner Profession
-  巡邏點 Patrol Points
-  更多裝備 Primitive Armory
-  Taiga Biome (地圖模組
-  寂靜的樹林 The Silent Woods
-  Sacred Grove Biome (地圖模組
-  路標 Signery (此模組務必訂閱 "Mod Repairer"
-  White Cliffs Biome (地圖模組
-  解鎖爐民狀態 Beam - Hearthling Stats Customization
-  創造模式 Creative Mod (想正常遊玩不建議使用這個，只是我遊戲內抓文本用這個比較快...
+✔ 漁夫 Fisher Job + Archipelago Biome <br />
+✘ 裝備 Armis Maximus <br />
+  窗台 Bazaar <br />
+✔ 自動收成 Autoharvest <br />
+  弩砲塔 Ballista Turret <br />
+  家具擴建 Furniture Expansion (Continuation) <br />
+✘ Green Mesa Biome (地圖模組 <br />
+  自訂爐民 Hearthlings of Many Faces <br />
+  家具模組 Home sweet home (此模組務必訂閱 "Mod Repairer" <br />
+  Lorkis Biome (地圖模組 <br />
+✘ 礦工 Miner Profession <br />
+  巡邏點 Patrol Points <br />
+  更多裝備 Primitive Armory <br />
+  Taiga Biome (地圖模組 <br />
+  寂靜的樹林 The Silent Woods <br />
+  Sacred Grove Biome (地圖模組 <br />
+  路標 Signery (此模組務必訂閱 "Mod Repairer" <br />
+  White Cliffs Biome (地圖模組 <br />
+  解鎖爐民狀態 Beam - Hearthling Stats Customization <br />
+  創造模式 Creative Mod (想正常遊玩不建議使用這個，只是我遊戲內抓文本用這個比較快... <br />
 
 -----以下校對完成，還未實裝-----
 
