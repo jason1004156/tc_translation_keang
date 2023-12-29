@@ -9056,10 +9056,10 @@
 			},
 			"herbalist_idol": {
 				"herbalist_idol_talisman": {
-					"display_name": "爐民的神像",
+					"display_name": "藥草師法杖",
 					"description": "晉升一名爐民所需。"
 				},
-				"display_name": "爐民的神像",
+				"display_name": "藥草師法杖",
 				"description": "用於儀式和儀式的小杖。"
 			},
 			"herbalist_staff_bone": {
