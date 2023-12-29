@@ -8916,71 +8916,6 @@
 					"description": "這種神奇的奧秘液體將有效治療多種類型的傷口，高度嚴重傷口也不在話下。",
 					"flavor": "爐心的力量也是唯一已知能治療被污染傷口的方法"
 				},
-				"potion_healing_small_recipe": {
-					"recipe_name": "小型治療藥水",
-					"description": "這個小瓶藥水將由戰士攜帶，當他們受傷時使用，恢復一些健康。",
-					"flavor": "一個爐心居民只能攜帶一瓶藥水"
-				},
-				"potion_healing_large_recipe": {
-					"recipe_name": "大型治療藥水",
-					"description": "這個大瓶藥水將由戰士攜帶，當他們受傷時使用，恢復大量健康。",
-					"flavor": ""
-				},
-				"potion_healing_hearth_recipe": {
-					"recipe_name": "爐心治療藥水",
-					"description": "這瓶神奇的藥水將由戰士攜帶，當他們受傷時使用，恢復大量健康。",
-					"flavor": ""
-				},
-				"potion_anti_toxin_small_recipe": {
-					"recipe_name": "弱抗毒藥水",
-					"description": "這小瓶藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受弱毒素影響一段時間並恢復一些健康。",
-					"flavor": ""
-				},
-				"potion_anti_toxin_large_recipe": {
-					"recipe_name": "抗毒藥水",
-					"description": "這藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受弱毒素和中等毒素影響一段時間並恢復大量健康。",
-					"flavor": ""
-				},
-				"potion_anti_toxin_strong_recipe": {
-					"recipe_name": "強力抗毒藥水",
-					"description": "這大瓶藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受所有毒素影響一段時間，但只恢復一點點健康。",
-					"flavor": ""
-				},
-				"potion_antidote_small_recipe": {
-					"recipe_name": "弱抗毒解藥",
-					"description": "這種解藥將由戰士攜帶，用於對抗有毒的敵人，保護他們免受弱毒素影響一段時間。",
-					"flavor": "一名爐民只能攜帶一瓶藥劑"
-				},
-				"potion_antidote_large_recipe": {
-					"recipe_name": "抗毒解藥",
-					"description": "這個解藥瓶將由戰士攜帶，用於對抗有毒的敵人，保護他們免受弱毒素和中等毒素影響一段時間。",
-					"flavor": "一名爐民只能攜帶一瓶藥劑"
-				},
-				"potion_antidote_strong_recipe": {
-					"recipe_name": "強力抗毒解藥",
-					"description": "這種解藥的大瓶將由戰士攜帶，用於對抗有毒的敵人，保護他們免受所有毒素影響一段時間。",
-					"flavor": "一名爐民只能攜帶一瓶藥劑"
-				},
-				"potion_last_stand_recipe": {
-					"recipe_name": "最後一擊藥水",
-					"description": "當健康極低時使用，它將大大增強他們的戰鬥能力... 但當效果結束時，他們將無法行動。準備好進行救援！",
-					"flavor": "絕望時的絕望措施..."
-				},
-				"gruit_recipe": {
-					"recipe_name": "苦味草藥包",
-					"description": "一捆苦味草藥和調味料。這個傳統食譜使用杜松子。",
-					"flavor": "釀酒師需要苦味草藥來釀造啤酒"
-				},
-				"rc_gruit_recipe": {
-					"recipe_name": "苦味草藥包",
-					"description": "一捆苦味草藥和調味料。沙漠地區通常使用蠟植物來製作苦味草藥。",
-					"flavor": "釀酒師需要苦味草藥來釀造啤酒"
-				},
-				"na_gruit_recipe": {
-					"recipe_name": "苦味草藥包",
-					"description": "一捆苦味草藥和調味料。北方人使用松果來調味。",
-					"flavor": "釀酒師需要苦味草藥來釀造啤酒"
-				},
 				"frostfeast": {
 					"decorated_frostfeast_tree_recipe": {
 						"recipe_name": "裝飾的冰霜節松樹",
@@ -9175,6 +9110,13 @@
 			"herbalist_exploration_garden_water": {
 				"display_name": "爐民探索水生盆",
 				"description": "用於發現新的水生植物，以供爐民種植。"
+			},
+			"frostfeast": {
+				"herbalist_candy_staff": {
+					"display_name": "霜節拐杖糖",
+					"description": "為藥草師的工作增加一點甜蜜。",
+					"iconic_description": "可以增加藥草師勤奮、速度，和製作速度"
+				}
 			}
 		},
 		"engineer": {
@@ -9885,6 +9827,11 @@
 				"earthbud_seeds_recipe": {
 					"recipe_name": "炙心種子 (x2)"
 				},
+				"golem_parts_recipe": {
+					"description": "用於製作地學師傀儡",
+					"recipe_name": "傀儡零件",
+					"flavor": "非常堅固，堅固到可以承受一頭牛的撞擊"
+				},
 				"hearthbud_flakes_recipe": {
 					"recipe_name": "炙心片",
 					"description": "將炙心花的特殊花朵乾燥並研磨成可食用的粉末，具有有趣的特性。",
@@ -9920,6 +9867,20 @@
 					"description": "將許多大理石塊合併成一個大型拋光磚塊。",
 					"flavor": "可收穫大理石石塊，或讓石匠雕刻它"
 				},
+				"golem_restocking_recipe": {
+					"flavor": "當他們執行任務時，你可以聽到他們可愛的小叫聲"
+				},
+				"golem_mining_recipe": {
+					"flavor": "沒有一座山能夠經得起鼴鼠的摧殘"
+				},
+				"golem_harvesting_recipe": {
+					"flavor": "溫柔到可以摘花而不破壞地面"
+				},
+				"golem_building_recipe": {
+					"recipe_name": "海狸石偶",
+					"description": "執行建置任務。",
+					"flavor": "他們可以很好地建造水壩"
+				},
 				"summon_stone_vein_marble_recipe": {
 					"recipe_name": "大理石岩脈石",
 					"description": "生長成大理石岩脈"
@@ -9928,7 +9889,8 @@
 					"recipe_name": "長石岩脈石",
 					"description": "生長成長石岩脈"
 				},
-				"decoration_name": "裝飾品"
+				"decoration_name": "裝飾品",
+				"refining_name": "細緻加工"
 			},
 			"geomancer_description": {
 				"description": "掌握大地魔法能夠塑造地形、創造礦石、壯觀的風景，甚至賦予岩石生命，以培養能夠為城鎮工作的魔像。"
@@ -11337,7 +11299,7 @@
 					"flavor": "鎮上的居民也需要高湯才能開始烹飪！"
 				},
 				"cook_table_recipe": {
-					"recipe_name": "廚師桌",
+					"recipe_name": "烹飪桌",
 					"description": "一個平整的好地方，用來揉麵和準備食材。",
 					"flavor": "弄髒那雙手吧！"
 				},
@@ -11775,7 +11737,7 @@
 					"flavor": "又甜又鹹，一次滿足！"
 				},
 				"melted_poyo_recipe": {
-					"recipe_name": "融化的啵啵雞",
+					"recipe_name": "起司啵啵雞",
 					"description": "一隻美味的烤啵啵雞，內有蔬菜，覆蓋著融化的芝士。",
 					"flavor": "嗯...融化的芝士"
 				},
@@ -11840,6 +11802,16 @@
 						"recipe_name": "烤霜食火腿",
 						"description": "非常嫩滑多汁的豬肉，調味後配以香料和水果。",
 						"flavor": "霜食餐必須在食用前放下"
+					},
+					"herbalist_candy_staff_recipe": {
+						"recipe_name": "霜節拐杖糖",
+						"description": "為草藥師提供勤奮、速度和製作速度。 更不用說還有一點點甜味了…",
+						"flavor": "但它不提供傷害加成"
+					},
+					"pudding_recipe": {
+						"recipe_name": "霜節布丁",
+						"description": "美味又大膽的甜點，由非常甜、果味和堅果味的奶油製成。 冬季經典！",
+						"flavor": "私藏好吃的我知道很有吸引力，但請嘗試分享，好嗎？"
 					}
 				},
 				"candledark": {
@@ -12362,69 +12334,99 @@
 				},
 				"frostfeast": {
 					"present_small_recipe": {
-						"recipe_name": "小型Frostfeast禮物",
+						"recipe_name": "小型霜節禮物",
 						"description": "為您的城鎮購買一份精緻的禮物。可用作裝飾或拆開。",
 						"flavor": "小禮物包含兩個隨機物品"
 					},
 					"present_recipe": {
-						"recipe_name": "Frostfeast禮物",
+						"recipe_name": "霜節禮物",
 						"description": "為您的城鎮購買一份美麗的禮物。可用作裝飾或拆開。",
-						"flavor": "禮物包含多達四個隨機物品。其中一個保證是特殊的Frostfeast物品！"
+						"flavor": "禮物包含多達四個隨機物品。其中一個保證是特殊的霜節物品！"
 					},
 					"present_large_recipe": {
-						"recipe_name": "大型Frostfeast禮物",
+						"recipe_name": "大型霜節禮物",
 						"description": "為您的城鎮購買一份令人驚嘆的大禮物。可用作裝飾或拆開。",
-						"flavor": "大禮物包含多達六個隨機物品。其中兩個保證是特殊的Frostfeast物品！"
+						"flavor": "大禮物包含多達六個隨機物品。其中兩個保證是特殊的霜節物品！"
 					},
 					"candles_recipe": {
-						"recipe_name": "裝飾性Frostfeast蠟燭",
+						"recipe_name": "裝飾性霜節蠟燭",
 						"description": "一套漂亮的季節性蠟燭，可放置在表面上或從牆上懸掛。",
-						"flavor": "'在冬夜中，火焰在燃燒，希望在Frostfeast的光線下得以更新'"
+						"flavor": "'在冬夜中，火焰在燃燒，希望在霜節的光線下得以更新'"
 					},
 					"wooden_door_wreath_recipe": {
-						"recipe_name": "Frostfeast木質門",
+						"recipe_name": "霜節木質門",
 						"description": "一個非常溫馨而華麗的方式來歡迎您的鄰居。",
 						"flavor": "歡迎來到我們的盛宴！"
 					},
 					"dining_table_blue_recipe": {
-						"recipe_name": "藍色Frostfeast餐桌",
+						"recipe_name": "藍色霜節餐桌",
 						"description": "為普通餐桌製作一些華麗的桌布！",
 						"flavor": "非常適合支撐食物並在寒冷的夜晚圍坐"
 					},
 					"dining_table_red_recipe": {
-						"recipe_name": "紅色Frostfeast餐桌",
+						"recipe_name": "紅色霜節餐桌",
 						"description": "為普通餐桌製作一些華麗的桌布！",
 						"flavor": "非常適合支撐食物並在寒冷的夜晚圍坐"
 					},
 					"dining_table_green_recipe": {
-						"recipe_name": "綠色Frostfeast餐桌",
+						"recipe_name": "綠色霜節餐桌",
 						"description": "為普通餐桌製作一些華麗的桌布！",
 						"flavor": "非常適合支撐食物並在寒冷的夜晚圍坐"
 					},
 					"dining_table_white_recipe": {
-						"recipe_name": "白色Frostfeast餐桌",
+						"recipe_name": "白色霜節餐桌",
 						"description": "為普通餐桌製作一些華麗的桌布！",
 						"flavor": "非常適合支撐食物並在寒冷的夜晚圍坐"
 					},
 					"end_table_blue_recipe": {
-						"recipe_name": "藍色Frostfeast角桌",
+						"recipe_name": "藍色霜節角桌",
 						"description": "一張漂亮而溫馨的小桌子，有漂亮的桌布！",
-						"flavor": "非常適合擺放Frostfeast樹..."
+						"flavor": "非常適合擺放霜節樹..."
 					},
 					"end_table_red_recipe": {
-						"recipe_name": "紅色Frostfeast角桌",
+						"recipe_name": "紅色霜節角桌",
 						"description": "一張漂亮而溫馨的小桌子，有漂亮的桌布！",
-						"flavor": "非常適合擺放Frostfeast樹..."
+						"flavor": "非常適合擺放霜節樹..."
 					},
 					"end_table_green_recipe": {
-						"recipe_name": "綠色Frostfeast角桌",
+						"recipe_name": "綠色霜節角桌",
 						"description": "一張漂亮而溫馨的小桌子，有漂亮的桌布！",
-						"flavor": "非常適合擺放Frostfeast樹..."
+						"flavor": "非常適合擺放霜節樹..."
 					},
 					"end_table_white_recipe": {
-						"recipe_name": "白色Frostfeast角桌",
+						"recipe_name": "白色霜節角桌",
 						"description": "一張漂亮而溫馨的小桌子，有漂亮的桌布！",
-						"flavor": "非常適合擺放Frostfeast樹..."
+						"flavor": "非常適合擺放霜節樹..."
+					},
+					"door_recipe": {
+						"recipe_name": "經典霜節門",
+						"description": "北方風格的霜節木門",
+						"flavor": "相當獨特的風格"
+					},
+					"double_door_recipe": {
+						"recipe_name": "經典雙開雙節木門",
+						"description": "北方風格的雙開霜節木門",
+						"flavor": ""
+					},
+					"door_wreath_recipe": {
+						"recipe_name": "經典霜節門 (花環)",
+						"description": "最經典的門，搭配最經典的裝飾",
+						"flavor": "敲門的時候要小心！"
+					},
+					"window_recipe": {
+						"recipe_name": "經典霜節窗",
+						"description": "一扇小窗戶，類似北方房屋的窗戶。",
+						"flavor": ""
+					},
+					"window_tall_recipe": {
+						"recipe_name": "經典霜節高窗",
+						"description": "一扇高高的窗戶，有著北方房屋的風格",
+						"flavor": "與霜節的星星裝飾非常相配！"
+					},
+					"window_wide_recipe": {
+						"recipe_name": "經典霜節寬窗",
+						"description": "一扇寬大的窗戶，具有北方房屋的風格。",
+						"flavor": ""
 					}
 				},
 				"candledark": {
@@ -12763,6 +12765,16 @@
 						"recipe_name": "工人節慶歡樂外套",
 						"description": "一件毛絨而溫暖的外套，非常適合參加季節性慶祝活動。",
 						"flavor": "'看，霜之父來拜訪我們了！'"
+					},
+					"crafter_outfit_freezing_recipe": {
+						"recipe_name": "霜節羊毛圍巾",
+						"description": "這款圍巾是冬季經典之作，可保護工匠免受寒冷天氣的影響，並為他們提供節日恩賜。",
+						"flavor": "霜節快樂！"
+					},
+					"window_star_recipe": {
+						"recipe_name": "霜節星星",
+						"description": "在窗戶上添加會發光的星星，讓每個人都知道您有多期待！",
+						"flavor": "非常傳統的裝飾"
 					}
 				},
 				"candledark": {
@@ -12956,12 +12968,12 @@
 					"flavor": "愛它或討厭它"
 				},
 				"pasture_bed_small_recipe": {
-					"recipe_name": "小型牧場鋪垫",
+					"recipe_name": "小型牧場鋪墊",
 					"description": "小型牧場動物在晚上或惡劣天氣時會躲在這些地方，放在遮蔽物下。",
 					"flavor": "必須放在牧場內。小型動物包括鴨子、啵啵雞 和兔子"
 				},
 				"pasture_bed_recipe": {
-					"recipe_name": "牧場鋪垫",
+					"recipe_name": "牧場鋪墊",
 					"description": "大型牧場動物在晚上或惡劣天氣時會躲在這些地方，放在遮蔽物下。",
 					"flavor": "必須放在牧場內。大型動物包括豬、羊、駝鳥和牛牛"
 				},
@@ -12970,7 +12982,7 @@
 					"description": "選擇的胡蘿蔔供兔子食用。提高動物產品的質量。"
 				},
 				"poyo_feed_recipe": {
-					"recipe_name": "poyo飼料（x3）",
+					"recipe_name": "啵啵雞飼料（x3）",
 					"description": "為啵啵雞精心研磨的食物。提高動物產品的質量。",
 					"flavor": "咕咕！"
 				},
@@ -13294,6 +13306,7 @@
 				"simple_drinks_name": "簡單飲品",
 				"prepared_drinks_name": "調製飲品",
 				"serving_vessels_name": "飲品容器",
+				"potions_name": "可裝備藥水",
 				"enhancements_name": "特製調酒",
 				"decoration_name": "裝飾品",
 				"wooden_sign_brewer_recipe": {
@@ -13341,8 +13354,62 @@
 					"description": "釀酒師可以使用這個玻璃桶來製作蜜酒或水果蜜酒，使用未發酵的蜜酒和成品醋。",
 					"flavor": "蜜酒受到許多人的喜愛，但會讓居民有些醉意"
 				},
+				"potion_healing_small_recipe": {
+					"recipe_name": "小型治療藥水",
+					"description": "這個小瓶藥水將由戰士攜帶，當他們受傷時使用，恢復一些健康。",
+					"flavor": "一位爐民只能攜帶一種藥劑"
+				},
+				"potion_healing_large_recipe": {
+					"recipe_name": "大型治療藥水",
+					"description": "這個大瓶藥水將由戰士攜帶，當他們受傷時使用，恢復大量健康。",
+					"flavor": "一位爐民只能攜帶一種藥劑"
+				},
+				"potion_healing_hearth_recipe": {
+					"recipe_name": "爐心治療藥水",
+					"description": "這瓶神奇的藥水將由戰士攜帶，當他們受傷時使用，恢復大量健康。",
+					"flavor": "一位爐民只能攜帶一種藥劑"
+				},
+				"potion_anti_toxin_small_recipe": {
+					"recipe_name": "弱抗毒藥水",
+					"description": "這小瓶藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受弱毒素影響一段時間並恢復一些健康。",
+					"flavor": ""
+				},
+				"potion_anti_toxin_large_recipe": {
+					"recipe_name": "抗毒藥水",
+					"description": "這藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受弱毒素和中等毒素影響一段時間並恢復大量健康。",
+					"flavor": ""
+				},
+				"potion_anti_toxin_strong_recipe": {
+					"recipe_name": "強力抗毒藥水",
+					"description": "這大瓶藥劑將由戰士攜帶，當受毒素影響時使用，保護他們免受所有毒素影響一段時間，但只恢復一點點健康。",
+					"flavor": ""
+				},
+				"potion_antidote_small_recipe": {
+					"recipe_name": "弱抗毒解藥",
+					"description": "這種解藥將由戰士攜帶，用於對抗有毒的敵人，保護他們免受弱毒素影響一段時間。",
+					"flavor": "一名爐民只能攜帶一瓶藥劑"
+				},
+				"potion_antidote_large_recipe": {
+					"recipe_name": "抗毒解藥",
+					"description": "這個解藥瓶將由戰士攜帶，用於對抗有毒的敵人，保護他們免受弱毒素和中等毒素影響一段時間。",
+					"flavor": "一名爐民只能攜帶一瓶藥劑"
+				},
+				"potion_antidote_strong_recipe": {
+					"recipe_name": "強力抗毒解藥",
+					"description": "這種解藥的大瓶將由戰士攜帶，用於對抗有毒的敵人，保護他們免受所有毒素影響一段時間。",
+					"flavor": "一名爐民只能攜帶一瓶藥劑"
+				},
+				"potion_last_stand_recipe": {
+					"recipe_name": "最後一擊藥水",
+					"description": "當健康極低時使用，它將大大增強他們的戰鬥能力... 但當效果結束時，他們將無法行動。準備好進行救援！",
+					"flavor": "絕望時的絕望措施..."
+				},
 				"gruit_recipe": {
 					"flavor": "釀酒師可以在藥草師的實驗室中使用此食譜！"
+					"description": "啤酒釀造所需的一捆辛辣香草和調味料。 這個傳統食譜使用杜松子。",
+					"rc_description": "啤酒釀造所需的一捆辛辣香草和調味料。 古魯特通常是用沙漠中的蠟質植物製成的。",
+					"na_description": "啤酒釀造所需的一捆辛辣香草和調味料。 北部人用松果來調味。",
+					"flavor": "'我是古魯特'"
 				},
 				"malted_grains_recipe": {
 					"recipe_name": "烤麥片袋",
@@ -13799,6 +13866,16 @@
 						"recipe_name": "霜宴熱可可",
 						"description": "溫暖、甜美且美味可口！來自異國的季節性飲品...",
 						"flavor": "霜宴飲料必須放下才能飲用"
+					},
+					"spirited_coffee_recipe": {
+						"recipe_name": "霜節烈酒咖啡",
+						"description": "它既是咖啡也是裂解，熱熱的，上面還有奶油。我們還需要什麼？",
+						"flavor": "在霜節時，我需要的就是你！"
+					},
+					"must_recipe": {
+						"recipe_name": "霜節必備",
+						"description": "一種古老而傳統的飲料，由麥芽製成，口感柔和、清爽。",
+						"flavor": "霜節期間北方聯盟唯一銷售超過地瓜汁的飲料"
 					}
 				},
 				"candledark": {
@@ -20771,7 +20848,7 @@
 			},
 			"melted_poyo": {
 				"melted_poyo": {
-					"display_name": "融化的啵啵雞",
+					"display_name": "起司啵啵雞",
 					"description": "一個美味的烤啵啵雞，充滿了蔬菜，並裹著乳酪。"
 				},
 				"melted_poyo_serving": {
@@ -20995,6 +21072,19 @@
 					"turkey_serving": {
 						"display_name": "一份冰雪盛宴火雞",
 						"description": "現在這才是冰雪盛宴！"
+					}
+				},
+				"pudding": {
+					"pudding_iconic": {
+						"description": "把它放在某個地方，這樣爐民就可以自己取用了！"
+					},
+					"pudding": {
+						"display_name": "霜節布丁",
+						"description": "霜節期間令人難以置信的傳統甜點！"
+					},
+					"pudding_serving": {
+						"display_name": "一片霜節布丁",
+						"description": "非常好吃！"
 					}
 				}
 			},
@@ -22099,6 +22189,12 @@
 				"witch": {
 					"display_name": "邪惡的Candledark 女巫",
 					"description": "別被她的奶奶樣子給騙了！"
+				}
+			},
+			"golems": {
+				"golem_building": {
+					"display_name": "海狸石偶",
+					"description": "建造傀儡，由石頭製作，並由古老的知識賦予力量。"
 				}
 			}
 		},
