@@ -9040,7 +9040,7 @@
 				"unripe_description": "尚未準備好收成，可憐的忙碌小蜜蜂！"
 			},
 			"herbalist_cauldron": {
-				"display_name": "爐民的石鍋",
+				"display_name": "藥草師的石鍋",
 				"description": "用於釀造和調配藥劑。需要較低等級的燃料。"
 			},
 			"herbalist_bee_skep_empty": {
