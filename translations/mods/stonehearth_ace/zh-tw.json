@@ -4224,8 +4224,8 @@
 				"frostfeast": {
 					"values": {
 						"celebration": {
-							"display_name": "Frostfeast 慶祝活動！",
-							"tooltip": "Frostfather來了，我們幫助了使這次Frostfeast特別！萬歲！"
+							"display_name": "霜節慶祝活動！",
+							"tooltip": "霜節之父來了，我們幫助了使這次霜節特別！萬歲！"
 						}
 					}
 				},
@@ -9040,7 +9040,7 @@
 				"unripe_description": "尚未準備好收成，可憐的忙碌小蜜蜂！"
 			},
 			"herbalist_cauldron": {
-				"display_name": "爐民的石鍋",
+				"display_name": "藥草師的石鍋",
 				"description": "用於釀造和調配藥劑。需要較低等級的燃料。"
 			},
 			"herbalist_bee_skep_empty": {
@@ -9056,10 +9056,10 @@
 			},
 			"herbalist_idol": {
 				"herbalist_idol_talisman": {
-					"display_name": "爐民的神像",
+					"display_name": "藥草師法杖",
 					"description": "晉升一名爐民所需。"
 				},
-				"display_name": "爐民的神像",
+				"display_name": "藥草師法杖",
 				"description": "用於儀式和儀式的小杖。"
 			},
 			"herbalist_staff_bone": {
@@ -11137,19 +11137,19 @@
 				},
 				"frostfeast": {
 					"candlestick_recipe": {
-						"recipe_name": "Frostfeast金燭台",
-						"description": "整個季節緩慢燃燒，保持Frostfeast的溫暖。",
+						"recipe_name": "霜節金燭台",
+						"description": "整個季節緩慢燃燒，保持霜節的溫暖。",
 						"flavor": ""
 					},
 					"candle_holder_recipe": {
-						"recipe_name": "Frostfeast金燭台座",
-						"description": "整個季節保持燃燒，以提醒Frostfeast的光芒！",
+						"recipe_name": "霜節金燭台座",
+						"description": "整個季節保持燃燒，以提醒霜節的光芒！",
 						"flavor": "這是傳統"
 					},
 					"light_circlet_recipe": {
-						"recipe_name": "Frostfeast光之頭飾",
+						"recipe_name": "霜節光之頭飾",
 						"description": "一個堅固的頭飾，發出光芒，並帶有牧師的小增益。",
-						"flavor": "那頂帶著Frostfeast之光的銀冠，帶來黑夜中的光明！"
+						"flavor": "那頂帶著霜節之光的銀冠，帶來黑夜中的光明！"
 					}
 				},
 				"candledark": {
