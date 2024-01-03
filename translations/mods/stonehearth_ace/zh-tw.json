@@ -20175,10 +20175,10 @@
 				"display_name_arctic": "雪牦牛",
 				"display_name_desert": "沙漠牦牛",
 				"display_name_highlands": "山谷野牛",
-				"description": "一種強壯而野性的反芻動物，是咩咩溫馴親切的長輩。",
+				"description": "一種強壯而野性的反芻動物。",
 				"moomoo_wild_young": {
-					"display_name": "野生小牛犢",
-					"description": "一隻可愛的小野牛犢。"
+					"display_name": "野生小牛",
+					"description": "一隻可愛的小野牛。"
 				}
 			},
 			"boar": {
