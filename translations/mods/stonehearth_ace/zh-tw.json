@@ -9048,7 +9048,7 @@
 				"description": "這個蜂巢是空的，需要有蜜蜂才能形成一個蜂群。"
 			},
 			"herbalist_metal_cauldron": {
-				"display_name": "爐民的金屬鍋",
+				"display_name": "草藥師金屬鍋",
 				"description": "用於釀造更高級的藥劑。需要任何普通的燃料。"
 			},
 			"herbalist_bee_skep_regrowing": {
