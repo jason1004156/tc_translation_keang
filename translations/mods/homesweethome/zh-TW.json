@@ -366,6 +366,12 @@
 		  "description": "可以存放 64 個物品"
 		}
 	  },
+	  "storage": {
+		"pantry_cook_ghost": {
+		  "display_name": "食材儲藏架",
+		  "description": "可以存放 64 個物品"
+		}
+	  },
 	  "food": {
 		"honey": {
 		  "honey_basket": {
