@@ -9048,7 +9048,7 @@
 				"description": "這個蜂巢是空的，需要有蜜蜂才能形成一個蜂群。"
 			},
 			"herbalist_metal_cauldron": {
-				"display_name": "爐民的金屬鍋",
+				"display_name": "草藥師金屬鍋",
 				"description": "用於釀造更高級的藥劑。需要任何普通的燃料。"
 			},
 			"herbalist_bee_skep_regrowing": {
@@ -12975,7 +12975,7 @@
 				"pasture_bed_recipe": {
 					"recipe_name": "牧場鋪墊",
 					"description": "大型牧場動物在晚上或惡劣天氣時會躲在這些地方，放在遮蔽物下。",
-					"flavor": "必須放在牧場內。大型動物包括豬、羊、駝鳥和牛牛"
+					"flavor": "必須放在牧場內。大型動物包括豬、羊、駝鳥和哞牛"
 				},
 				"rabbit_feed_recipe": {
 					"recipe_name": "兔子飼料（x3）",
@@ -13010,7 +13010,7 @@
 					"flavor": ""
 				},
 				"moomoo_feed_recipe": {
-					"recipe_name": "牛牛飼料（x3）",
+					"recipe_name": "哞牛飼料（x3）",
 					"description": "大型反芻動物喜歡的美味和健康食物。提高動物產品的質量。",
 					"flavor": ""
 				},
@@ -16485,7 +16485,7 @@
 					"display_name": "臭鼬皮毛"
 				},
 				"moomoo_pelt": {
-					"display_name": "牛牛皮毛",
+					"display_name": "哞牛皮毛",
 					"description": "來自一種寧靜而草食的巨大生物的皮毛。"
 				},
 				"wild_cattle_pelt": {
@@ -19371,9 +19371,9 @@
 					"description": "啜飲！如此清涼和甜美！整個城鎮都可以享受這種飲品。"
 				},
 				"mega_sweet_potato": {
-					"iconic_description": "放置它以收割一些牛牛的飼料或用作高級椅子。",
+					"iconic_description": "放置它以收割一些哞牛的飼料或用作高級椅子。",
 					"display_name": "巨型甘藍",
-					"description": "美味！收割以獲得一些牛牛的飼料，或用作高級椅子。"
+					"description": "美味！收割以獲得一些哞牛的飼料，或用作高級椅子。"
 				},
 				"mega_beetroot": {
 					"iconic_description": "放置它以收割巨型甜菜根糖漿或用作高級椅子。",
@@ -20136,10 +20136,10 @@
 			},
 			"poyo": {
 				"nest": {
-					"display_name": "波尤巢穴",
+					"display_name": "啵啵雞巢穴",
 					"description": "我相信他們不會介意少了一兩顆蛋... 對吧？"
 				},
-				"display_name": "波尤"
+				"display_name": "啵啵雞"
 			},
 			"big_bird": {
 				"nest": {
@@ -20159,15 +20159,15 @@
 			"moomoo": {
 				"renewable_harvest_status_text": "擠牛奶",
 				"unripe_description": "這隻動物現在沒有奶。",
-				"species": "咩咩",
-				"display_name": "咩咩",
-				"display_name_arctic": "北方咩咩",
-				"display_name_desert": "沙漠咩咩",
-				"display_name_highlands": "長角咩咩",
+				"species": "哞牛",
+				"display_name": "哞牛",
+				"display_name_arctic": "北方哞牛",
+				"display_name_desert": "沙漠哞牛",
+				"display_name_highlands": "長角哞牛",
 				"description": "一種喜歡吃草並提供牛奶的大型反芻動物！",
 				"moomoo_young": {
-					"display_name": "小咩咩",
-					"description": "一隻可愛的小咩咩。"
+					"display_name": "小哞牛",
+					"description": "一隻可愛的小哞牛。"
 				}
 			},
 			"wild_moomoo": {
@@ -20175,10 +20175,10 @@
 				"display_name_arctic": "雪牦牛",
 				"display_name_desert": "沙漠牦牛",
 				"display_name_highlands": "山谷野牛",
-				"description": "一種強壯而野性的反芻動物，是咩咩溫馴親切的長輩。",
+				"description": "一種強壯而野性的反芻動物。",
 				"moomoo_wild_young": {
-					"display_name": "野生小牛犢",
-					"description": "一隻可愛的小野牛犢。"
+					"display_name": "野生小牛",
+					"description": "一隻可愛的小野牛。"
 				}
 			},
 			"boar": {
@@ -20717,11 +20717,11 @@
 			},
 			"moomoo_feed": {
 				"moomoo_feed": {
-					"display_name": "牛牛飼料",
+					"display_name": "哞牛飼料",
 					"description": "用於餵養牛"
 				},
 				"moomoo_feed_ground": {
-					"display_name": "牛牛飼料",
+					"display_name": "哞牛飼料",
 					"description": "受大型反刍動物喜愛的美味和豐盛食物。"
 				}
 			},
@@ -22111,7 +22111,7 @@
 					"species": "螞蟻"
 				},
 				"drone": {
-					"display_name": "地底無人機",
+					"display_name": "沙漠紅火蟻",
 					"description": "一種攻擊性的巨大工蟻昆蟲。數量多時非常危險！"
 				}
 			},
@@ -23977,11 +23977,11 @@
 			},
 			"moomoo_milk": {
 				"moomoo_milk": {
-					"display_name": "牛牛奶",
-					"description": "溫暖而順滑，直接來自健康的牛牛！"
+					"display_name": "哞牛奶",
+					"description": "溫暖而順滑，直接來自健康的哞牛！"
 				},
 				"moomoo_milk_serving": {
-					"display_name": "一杯牛牛奶",
+					"display_name": "一杯哞牛奶",
 					"description": ""
 				}
 			},
